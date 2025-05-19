@@ -29,3 +29,4 @@ jobs:
           git add TeyZee_Visa-main-7/html/sitemap.html
           git commit -m "Update sitemap.html" || echo "No changes to commit"
           git push
+          print("Generated sitemap with X files")
