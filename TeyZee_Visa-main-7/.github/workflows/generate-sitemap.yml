@@ -1,38 +1,31 @@
-const fs = require('fs');
-const path = require('path');
+name: Generate Sitemap
 
-const baseDir = './html';
-const baseUrl = 'https://www.teyzeevisas.com/html/';
+on:
+  push:
+    paths:
+      - 'TeyZee_Visa-main-7/html/**'
+      - 'TeyZee_Visa-main-7/scripts/**'
 
-const scanDirectory = (dir, prefix = '') => {
-    const items = fs.readdirSync(dir, { withFileTypes: true });
-    let result = [];
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-    for (const item of items) {
-        const fullPath = path.join(dir, item.name);
-        const relativePath = path.join(prefix, item.name);
-        if (item.isDirectory()) {
-            result = result.concat(scanDirectory(fullPath, relativePath));
-        } else if (item.isFile() && item.name.endsWith('.html')) {
-            result.push(relativePath.replace(/\\/g, '/'));
-        }
-    }
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    return result;
-};
+      - name: Generate sitemap
+        run: |
+          python TeyZee_Visa-main-7/scripts/generate_sitemap.py
 
-const files = scanDirectory(baseDir);
-let html = `<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><title>Sitemap</title></head>
-<body><h1>Sitemap</h1>\n<ul>\n`;
-
-files.forEach(file => {
-    const label = path.basename(file, '.html').replace(/-/g, ' ');
-    html += <li><a href="${baseUrl}${file}">${label}</a></li>\n;
-});
-
-html += '</ul>\n</body></html>';
-
-fs.writeFileSync('./html/sitemap.html', html);
-console.log('sitemap.html generated.');
+      - name: Commit sitemap
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add TeyZee_Visa-main-7/html/sitemap.html
+          git commit -m "Update sitemap.html" || echo "No changes to commit"
+          git push
