@@ -3,7 +3,7 @@ name: Generate Sitemap
 on:
   push:
     paths:
-      - 'TeyZee_Visa-main-7/html/**'
+      - 'TeyZee_Visa-main-7/html/sitemap.html'
       - 'TeyZee_Visa-main-7/scripts/generate_sitemap.py'
 
 jobs:
