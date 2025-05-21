@@ -4,7 +4,7 @@ import os
 base_dir = 'html'
 
 # Define the base URL prefix
-base_url = 'https://www.teyzeevisas.com/html/'
+base_url = 'https://github.com/WebCoder02/ANUJ_Github/tree/main/TeyZee_Visa-main-7/'
 
 # Initialize a dictionary to hold country-wise HTML files
 sitemap_dict = {}
