@@ -1,3 +1,4 @@
+
 <footer>
     <div class="container">
         <div class="footer-grid">
@@ -9,7 +10,7 @@
                 </div>
                 <div class="address">
                     <p><i class="fas fa-map-marker-alt"></i>
-                        </i> Mumbai - WeWSork Platinum, Marol, Mumbai, Maharashtra, 400059
+                        </i> Mumbai - WeWork Platinum, Marol, Mumbai, Maharashtra, 400059
                     </p>
                 </div>
                 <a href="https://wa.me/919029027420" class="whatsapp-button"><i class="fab fa-whatsapp"></i> Chat
