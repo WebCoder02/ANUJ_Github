@@ -49,8 +49,8 @@
                 <tr>
                     <td>2</td>
                     <td>
-                        <strong>4 recent photograph Each :</strong><br>
-                        35*45 mm size, white background, Glossy finish & 80% face image, without specs & not used in previous visa.
+                        <strong>Photograph Specification:</strong><br>
+                        2 recent photographs, 50mm x 50mm, white background, must follow Indian Govt. norms, glued to form.
                     </td>
                 </tr>
                 <tr>
@@ -109,12 +109,21 @@
                 <tr>
                     <td>9</td>
                     <td>
+                         <strong>If applicant is unemployed :</strong></br>
+                        Applicants who are un-employed need to attach proof of financial support, no detailed bank/ITR requirements listed.
+                    </td>
+                   
+
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>
                         <strong>Overseas medical Policy :</strong><br>
                         Minimum coverage of 30,000 Euro per person. Insurance must cover entire stay in Schengen territory. Minimum 15 days insurance is mandatory from travel date.
                     </td>
                 </tr>
                 <tr>
-                    <td>10</td>
+                    <td>11</td>
                     <td>
                         <strong>Note :</strong><br>
                         For Schengen visa, all necessary documents should be in photocopy unless asked in original.<br>

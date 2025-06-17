@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netherlands Visa Checklist</title>
-    <link rel="stylesheet" href="document.css">
+    <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
-                    <img src="/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
+                    <img src="https://teyzeevisas.com/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
                 </a>
 
             </div>
@@ -307,6 +307,7 @@
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Netherlands or consulate in your country before
         applying.</p>
     </div>
+    <?php include 'footer.php'; ?>
     <!-- <footer>
         <div class="container">
             <div class="footer-grid">

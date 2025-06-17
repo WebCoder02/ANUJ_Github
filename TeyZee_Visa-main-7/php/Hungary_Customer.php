@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hungary Visa Checklist</title>
-    <link rel="stylesheet" href="document.css">
+    <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
-                    <img src="/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
+                    <img src="https://teyzeevisas.com/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
                 </a>
 
             </div>
@@ -371,7 +371,7 @@
                     </ul>
                 </div>
 
-                <!-- <div class="footer-col">
+                 <div class="footer-col">
                     <h3>Refund policy</h3>
                     <ul>
                         <li><a href="#">Pricing</a></li>

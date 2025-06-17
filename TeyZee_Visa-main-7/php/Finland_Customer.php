@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finland Visa Checklist</title>
-    <link rel="stylesheet" href="document.css">
+    <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
-                    <img src="/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
+                    <img src="https://teyzeevisas.com/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
                 </a>
 
             </div>
@@ -44,7 +44,7 @@
                     <td>
                         Original Passport with old passport:
                         <ul>
-                            <li>Note: Passport should be valid minimum 06 months from the date of travel</li>
+                            <li>Note: Passport should be valid minimum 3 months from the date of travel</li>
                             <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
                             <li>No handwritten passports will be accepted</li>
                             <li>At least 2 blank pages required</li>
@@ -54,37 +54,55 @@
                 <tr>
                     <td>2</td>
                     <td>
-                        2 recent photograph each:
+                        Schengen application form & recent photograph each:
                         <ul>
-                            <li>35×45 mm size</li>
                             <li>White background, matt finished</li>
-                            <li>80% face image, without specs</li>
-                            <li>Not used in previous visa</li>
+                            <li>Taken in past 6 months</li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>
-                        Evidence of Financial Documents:
+                        Flight Reservation
                         <ul>
-                            <li>Last 06 months Personal Updated Bank Statement with bank sign and stamp on each page with sufficient balance</li>
-                            <li>Last 03 years Personal Income Tax Returns Acknowledgement Page only</li>
+                            <li>Not paid ticket</li>
+                            <li>Paid ticket with e-ticket reference needed later</li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>
-                        If applicant is Employee:
+                        For Afghan applicant
                         <ul>
-                            <li>Last 06 months Pay Slips</li>
-                            <li>Original Leave Sanctioned letter should address to the consulate/Embassy</li>
+                            <li>National ID</li>
+                            <li>translation</li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>5</td>
+                    <td>
+                        Proof of sufficient funds:
+                        <ul>
+                            <li>Bank statement, Salary slip or ITR</li>
+                            <li>If a company, legal person or private person has provided the applicant with an invitation stating that they will bear all or part of the costs, the Embassy may check the validity of the statement</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        If applicant is Employee:
+                        <ul>
+                            <li>Employee Letter</li>
+                            <li>Employment Nature and Valid ID</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
                     <td>
                         If applicant is Self Employed:
                         <ul>
@@ -96,7 +114,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>6</td>
+                    <td>8</td>
                     <td>
                         If applicant is Retired:
                         <ul>
@@ -106,7 +124,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>7</td>
+                    <td>9</td>
                     <td>
                         If applicant is Student:
                         <ul>
@@ -116,7 +134,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>8</td>
+                    <td>10</td>
                     <td>
                         If visiting as a Tourist:
                         <ul>
@@ -127,7 +145,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>9</td>
+                    <td>11</td>
                     <td>
                         Overseas Medical Insurance Policy:
                         <ul>
@@ -137,24 +155,17 @@
                         </ul>
                     </td>
                 </tr>
-                <tr>
-                    <td>10</td>
+                 <tr>
+                    <td>12</td>
                     <td>
-                        <strong>Note:</strong>
+                        For Buisness invitation:
                         <ul>
-                            <li>All Documents required in A4 Size Paper and English Only</li>
-                            <li>All visa applicants irrespective of nationality who applied for Schengen visa should come personally at local VFS office to give mandatory fingerprint formality. During peak tourist season, this may be time-consuming.</li>
-                            <li>On the day of submission, fingers must be clear from HINA (Mehdi), cuts etc.</li>
-                            <li>If Biometric is given after 2nd November 2015, we can submit your Application on behalf of applicant. If data cannot be fetched by Embassy / Consulate, they may ask to give biometrics again. (Biometric is Valid for 05 Years Only)</li>
-                            <li>Granting Visas is the sole discretion of Consulates / Embassy, subject to the documents submitted. We are facilitators in the process. Best Voyage is not held responsible for rejection or delay in getting visas / passports from said Consulate / Embassy.</li>
-                            <li>No documents will be returned by Embassy/Consulate after visa process.</li>
-                            <li>Must declare rejection if rejected in any country in last 10 years and mention rejection year and category of visa of Rejected country.</li>
-                            <li>All applicants have to pay visa fees, VFS charge & courier charge in cash at local VFS-centre.</li>
-                            <li>You may be required to attend a personal interview with the visa officer at the Embassy of Finland before a decision is made.</li>
-                            <li><strong>Normal Process Time:</strong> 15 working days after submission in consulate/embassy.</li>
+                            <li>Free-form letter with contact info,purpose and date</li>
+                            <li>Mention multiple visits if needed</li>
                         </ul>
                     </td>
                 </tr>
+                
             </table>
         </div>
 
@@ -368,7 +379,7 @@
                     </ul>
                 </div>
 
-                <!-- <div class="footer-col">
+                 <div class="footer-col">
                     <h3>Refund policy</h3>
                     <ul>
                         <li><a href="#">Pricing</a></li>
