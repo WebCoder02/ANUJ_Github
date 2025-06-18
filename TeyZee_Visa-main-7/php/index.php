@@ -1,46 +1,5 @@
 <?php include 'header.php'; ?>
 
-<?php
-// Start the session
-session_start();
-
-// Check if user is already logged in and has a valid session
-if (isset($_SESSION['user']) && isset($_SESSION['session_token'])) {
-    $email = $_SESSION['user'];
-    $sessionToken = $_SESSION['session_token'];
-    
-    // If using database-based authentication, verify the session
-    try {
-        require_once 'database.php';
-        require_once 'User.php';
-        
-        $database = new Database();
-        $db = $database->getConnection();
-        $user = new User($db);
-        
-        // Verify session is still valid
-        $sessionData = $user->validateSession($sessionToken);
-        if ($sessionData && $sessionData['email'] === $email) {
-            // User is logged in with valid session, redirect to payment
-            header('Location: payment.php');
-            exit;
-        } else {
-            // Invalid session, clear it
-            session_destroy();
-            session_start();
-        }
-    } catch (Exception $e) {
-        // Error checking session, clear it to be safe
-        session_destroy();
-        session_start();
-    }
-}
-
-// Handle success messages from login redirects
-$loginSuccess = isset($_GET['login']) && $_GET['login'] === 'success';
-$registrationSuccess = isset($_GET['registration']) && $_GET['registration'] === 'success';
-?>
-
 <main>
     <section class="hero-section">
         <div class="container">
