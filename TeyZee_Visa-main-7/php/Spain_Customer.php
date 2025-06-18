@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spain   Visa Checklist</title>
     <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 </head>
 
 <body>
-    <header>
+    <?php include 'header.php'; ?>
+    <!--Completed Revision 18th June 2025-->
+    <!--<header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -19,10 +22,10 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <!-- <a href="#" class="login-btn">Login</a> -->
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>
+    </header>-->
     <h1>Spain   Schengen Visa Checklist</h1>
 
     <div class="tab-container">
@@ -43,7 +46,7 @@
                     <td>1</td>
                     <td>
                         <strong>Original Passport with old passport:</strong><br>
-                        • Note: Passport should be valid minimum 06 months from the date of travel, Passport has been issued within 10 years and validity must not exceed 10 years, No hand written passports will be accepted and at least 2 blank pages
+                        • Note: Passport should be valid minimum 03 months from the date of travel, Passport has been issued within 10 years and validity must not exceed 10 years, No hand written passports will be accepted and at least 2 blank pages
                     </td>
                 </tr>
                 <tr>
@@ -57,7 +60,7 @@
                     <td>3</td>
                     <td>
                         <strong>Evidence of Sufficient Funds:</strong><br>
-                        • Original 06 months Personal Bank Statement till date updated with bank sign and stamp on each page with sufficient balance in A4 Size only. (One Year)<br>
+                        • Original 03 months Personal Bank Statement till date updated with bank sign and stamp on each page with sufficient balance in A4 Size only. (One Year)<br>
                         • 03 years Personal Income Tax Returns Acknowledgement Page only<br>
                         • PAN Card
                     </td>
@@ -66,7 +69,7 @@
                     <td>4</td>
                     <td>
                         <strong>If applicant is Employee:</strong><br>
-                        • Pay Slip (last 6 months)<br>
+                        • Pay Slip (last 3 months)<br>
                         • Leave & NOC letter should address to the consulate/Embassy
                     </td>
                 </tr>

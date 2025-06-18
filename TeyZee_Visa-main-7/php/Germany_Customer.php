@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Germany Visa Checklist</title>
     <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 </head>
 
 <body>
-    <header>
+    <?php include 'header.php'; ?>
+    <!--Completed Revision 18th June 2025-->
+    <!--<header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -19,10 +22,10 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <!-- <a href="#" class="login-btn">Login</a> -->
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>
+    </header>-->
     <h1>Germany Schengen Visa Checklist</h1>
 
     <div class="tab-container">
@@ -40,104 +43,99 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>1</td>
+                    <td>Valid passport (issued within the last 10 years and with at least 3 months validity after the
+                    scheduled return; passports with observations regarding the front data page cannot be
+                    accepted) with at least two empty pages</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
+                    <td>2</td>
+                    <td>Application form & declarations duly signed
                     </td>
                 </tr>
                 <tr>
-                    <td>Photograph</td>
-                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
-                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
+                    <td>3</td>
+                    <td>1 copy of your passport’s data page (A4 size copy)</td>
                 </tr>
                 <tr>
-                    <td>Application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>4</td>
+                    <td>Travel health insurance (Kindly refer to www.india.diplo.de/visa to find out about the travel
+                    health insurances accepted)</td>
                 </tr>
                 <tr>
-                    <td>Appointment slip</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>5</td>
+                    <td>Flight reservation, rail tickets, others</td>
                 </tr>
                 <tr>
-                    <td>Flight tickets</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>6</td>
+                    <td>For Minors:
+                    If travelling unaccompanied by parent(s), consent letter signed by both parents & applicant
+                    Form signed by both parents
+                    Copy of the parent(s)’ passports data page</td>
                 </tr>
                 <tr>
-                    <td>Hotel Tickets</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>7</td>
+                    <td>Leave letter of your company (if employed)
+                    No-objection certificate of school or university (if student)</td>
                 </tr>
                 <tr>
-                    <td>Cover Letter</td>
+                    <td>8</td>
                     <td>Mentioning the purpose of the trip and itinerary <a href="/templates/cover_letter_template.doc"
                             class="doc-link" target="_blank">Download Template</a></td>
                 </tr>
                 <tr>
-                    <td>Travel Insurance</td>
-                    <td>Travel insurance covering not less than 30,000 Euros</td>
+                    <td>9</td>
+                    <td>Proof of accommodation for your entire stay in the Schengen area</td>
                 </tr>
                 <tr>
-                    <td>Bank statement</td>
-                    <td>Bank statements last 3 months, available balance should be at least 50-150 Euros per person per
-                        day of the trip. Advisable to transfer the money to maintain the balance 15 days before the
-                        appointment. Does not need to be signed by the bank</td>
+                    <td>10</td>
+                    <td><strong>Proof of sufficient funds for the visit:</strong>
+                    <ul>
+                    <li>If sponsored: Verpflichtungserklärung (formal obligation letter) of your sponsor</li>
+                    <li>If self-sponsored: Personal bank statements of the past 3 months with sufficient funds</li>
+                    </ul>
+                </td>
                 </tr>
                 <tr>
-                    <td>ITR</td>
-                    <td>Copy of income tax return + ITR V acknowledgment of last 02 financial year if available</td>
+                    <td>11</td>
+                    <td><strong>Proof of financial status:</strong>
+                    
+                    <li>If employed: Payslips of the past three months / employment contract</li>
+                    <li>If self-employed: Certificate of Proprietorship or other proof of ownership (proof of land title,
+                    proof of income from agriculture (sales form) etc.)</li>
+                    <li>Personal bank statement of the past three months with sufficient funds</li>
+                    <li>Income Tax Return (ITR) form or Form 17 (Certificate of Income Tax deducted at the source of
+                    salary)</li>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Sponsor Bank Statement and ITR</td>
-                    <td>If trip sponsored by someone else, copy of bank statements last 3 months and copy of income tax
-                        return + ITR V acknowledgment for previous financial year (signed by bank)</td>
+                    <td>12</td>
+                    <td><strong>Proof of civil status:</strong>
+                    Marriage certificate, birth certificate of children, death certificate of spouse, ration card
+                    if applicable</td>
                 </tr>
                 <tr>
-                    <td>Sponsorship Letter</td>
+                    <td>13</td>
                     <td>If sponsored, letter from sponsor stating the amount, relationship and source of funds <a
                             href="/templates/sponsorship_letter_template.doc" class="doc-link" target="_blank">Download
                             Template</a></td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a></td>
+                    <td>14</td>
+                    <td>2 passport pictures according to biometric specifications, not older than 6 months</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If Retired)</td>
-                    <td>
-                        <ul>
-                            <li>Proof of Retirement</li>
-                            <li>Proof of regular income generated by ownership of property or business</li>
-                        </ul>
+                    <td>15</td>
+                    <td> Note
+                    <ul>
+                    <li>• All documents need to be presented in the given order in original. Should you wish to keep any original,
+                    kindly provide a copy (A4 size). Please DO NOT staple any documents.</li>
+                    <li>• Please note that the German Missions reserve the right to ask for additional documents or personal
+                    appearance for an interview in special cases. Submission of the above-mentioned documents does not
+                    guarantee that a visa is granted. Submission of incomplete documentation or refusal to appear for a
+                    special visa interview may result in the rejection of your application.</li>
+                    </ul>
                     </td>
-                </tr>
-                <tr>
-                    <td>Marital status</td>
-                    <td>
-                        <ul>
-                            <li>If married, Marriage certificate</li>
-                            <li>If divorced, Divorce papers</li>
-                            <li>If single, Nothing required</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Minor documents</td>
-                    <td>Birth certificate, marksheet, consent letter from parents if minor is travelling alone or with
-                        only one parent</td>
                 </tr>
             </table>
         </div>

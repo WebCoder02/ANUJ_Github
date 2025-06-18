@@ -3,15 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slovenia  Visa Checklist</title>
+    <title>Hungary Visa Checklist</title>
     <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
 </head>
 
 <body>
     <?php include 'header.php'; ?>
-    <!--Completed Revision 18th June 2025-->
-    <!--<header>
+    <?php
+// Start the session
+session_start();
+
+// Check if user is already logged in and has a valid session
+if (isset($_SESSION['user']) && isset($_SESSION['session_token'])) {
+    $email = $_SESSION['user'];
+    $sessionToken = $_SESSION['session_token'];
+    
+    // If using database-based authentication, verify the session
+    try {
+        require_once 'database.php';
+        require_once 'User.php';
+        
+        $database = new Database();
+        $db = $database->getConnection();
+        $user = new User($db);
+        
+        // Verify session is still valid
+        $sessionData = $user->validateSession($sessionToken);
+        if ($sessionData && $sessionData['email'] === $email) {
+            // User is logged in with valid session, redirect to payment
+            header('Location: payment.php');
+            exit;
+        } else {
+            // Invalid session, clear it
+            session_destroy();
+            session_start();
+        }
+    } catch (Exception $e) {
+        // Error checking session, clear it to be safe
+        session_destroy();
+        session_start();
+    }
+}
+
+// Handle success messages from login redirects
+$loginSuccess = isset($_GET['login']) && $_GET['login'] === 'success';
+$registrationSuccess = isset($_GET['registration']) && $_GET['registration'] === 'success';
+?>
+    <!-- <header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -22,11 +61,11 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <a href="#" class="login-btn">Login</a>
+                 <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>-->
-    <h1>Slovenia  Schengen Visa Checklist</h1>
+    </header> -->
+    <h1>Hungary Schengen Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -36,144 +75,136 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>Slovenia  Tourist Visa Checklist </h2>
+            <h2>Hungary Tourist Visa Checklist </h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-                  <tr>
+                <tr>
                     <td>1</td>
-                    <td>Valid passport / travel document. Must be valid for minimum 3 months after the journey and issued within the previous 10 years and have at least 2 blank pages. A copy of passport/travel document</td>
-                  </tr>
-                  <tr>
+                    <td>
+                        Passport<br>
+                        • having at least 2 blank pages (without stamps)<br>
+                        • valid for at least 3 months after the expiry date of the requested visa / not older than 10 years<br>
+                        • non-Jordanian applicants must also provide a legal residence permit valid for at least 1 month after the return date of the intended trip
+                    </td>
+                </tr>
+                <tr>
                     <td>2</td>
-                    <td>1 application form duly completed, dated and signed by the applicant</td>
-                  </tr>
-                  <tr>
+                    <td>
+                        Application form duly completed and signed<br>
+                        • full address of the host/hotel must be written in the application<br>
+                        • minors:<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;• application form signed by both parents/legal representatives, copy of parent’s ID/passport<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;• if minor travels with one parent: signed authorization letter of the other parent duly legalised, copy of parent’s ID/passport<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;• if minor travels alone: both parents must provide a signed authorization duly legalised, copy of parent’s ID/passport
+                    </td>
+                </tr>
+                <tr>
                     <td>3</td>
-                    <td>1 recent photograph</td>
-                  </tr>
-                  <tr>
+                    <td>
+                        One recent passport-size photo not older than 6 months<br>
+                        • Photographs must be clear, well-defined and taken against a plain white background without glasses
+                    </td>
+                </tr>
+                <tr>
                     <td>4</td>
-                    <td>Travel medical insurance covering the entire duration of the trip valid in the whole Schengen area. The minimum coverage of 30,000 euros, covering: emergency medical expenses, hospital treatment, repatriation for medical reasons, or repatriation of remains. Multi-entry visa applicants must have insurance for the duration of the first trip and sign the section on the last page of the application form.</td>
-                  </tr>
-                  <tr>
+                    <td>
+                        Travel insurance<br>
+                        • covering all Schengen countries, for a minimum coverage of EUR 30.000
+                    </td>
+                </tr>
+                <tr>
                     <td>5</td>
-                    <td>Previous passports with Schengen visas (if any)</td>
-                  </tr>
-                  <tr>
+                    <td>
+                        Round-trip flight ticket reservations<br>
+                        • no confirmed booking requested
+                    </td>
+                </tr>
+                <tr>
                     <td>6</td>
-                    <td>Copy of the passport: pages concerning the applicant's biodata, foreign passport(s) issued to him/her, with marital status</td>
-                  </tr>
-                  <tr>
+                    <td>
+                        Hotel booking / proof of accommodation<br>
+                        • in case of staying in inviting person’s accommodation or a rented apartment, approval of landlord + passport/ID copy of landlord
+                    </td>
+                </tr>
+                <tr>
                     <td>7</td>
-                    <td>Proof of means of transport - Flight reservation of return or round ticket. If the applicant is travelling to several Schengen States: Proof of intra-Schengen flight reservation, train itinerary or car rental</td>
-                  </tr>
-                  <tr>
+                    <td>Employment letter / proof of business ownership (official English translation)</td>
+                </tr>
+                <tr>
                     <td>8</td>
-                    <td>Proof of lodging - proof of accommodation (e.g. an invitation/sponsorship form from the host – letter of guarantee or document from the establishment providing accommodation or any other appropriate document indicating the accommodation envisaged)</td>
-                  </tr>
-                  <tr>
+                    <td>Companies certificate of registration (official English translation)</td>
+                </tr>
+                <tr>
                     <td>9</td>
-                    <td>
-                      a) Original private bank statement showing movements in the last three months, duly stamped and signed by the bank<br>
-                      b) Indian income tax return acknowledgment for the last two assessment years<br>
-                      c) In addition:<br>
-                      &nbsp;&nbsp;&nbsp;&nbsp;If employed: payslips for the last three months, employment contract, employer's statement on approval for holidays<br>
-                      &nbsp;&nbsp;&nbsp;&nbsp;If self-employed: certificate of registration of the company<br>
-                      &nbsp;&nbsp;&nbsp;&nbsp;If retired: pension statements for the last three months, proof of regular income generated by ownership of property or business
-                    </td>
-                  </tr>
-                  <tr>
+                    <td>For students: school / university letter of enrolment (official English translation)</td>
+                </tr>
+                <tr>
                     <td>10</td>
-                    <td>
-                      a) If the minor is travelling with only one parent, written consent certified by a public notary from the other parent/guardian, unless one has sole custody<br>
-                      b) If travelling alone, written consent certified by a public notary from both parents/guardians<br>
-                      c) Copies of parents' passports. If not applicable, birth certificate of the applicant and copies of parents' ID cards
-                    </td>
-                  </tr>
-                  <tr>
+                    <td>Family booklet (if applicable, with official English translation)</td>
+                </tr>
+                <tr>
                     <td>11</td>
                     <td>
-                      a) Proof of legal residence in India or<br>
-                      b) Proof of legal presence in India with justification for submitting the application in India
+                        Business Invitation<br>
+                        • company, conference, cultural, sport events invitation letters, etc…<br>
+                        • full address, postal code, phone number, email address of inviting entity<br>
+                        • name of inviting person / signature and date of invitation<br>
+                        • expense and cost sponsor, if applicable<br><br>
+        
+                        Invitation from a family member/friend<br>
+                        • preferably official invitation letter obtained from Directorate-General for Aliens Policing / OR the following:<br>
+                        • ID/passport of the inviting family member or friend<br>
+                        • copy of lease contract AND approval letter from the landlord AND passport/ID copy of landlord<br>
+                        • copy of residency in Hungary / copy of address card<br>
+                        • copy of university ID / active student status / letter of acceptance / letter of award (Only required from students studying in Hungary)<br><br>
+        
+                        Inviting person is a holder of a Hungarian Passport<br>
+                        • official invitation letter obtained from Directorate-General for Aliens Policing<br>
+                        • ID/passport of the inviting family member or friend<br>
+                        • proof of accommodation / copy of lease contract / approval letter from the landlord and passport/ID copy of landlord<br><br>
+        
+                        Medical Invitation<br>
+                        • medical report from Jordan<br>
+                        • medical invitation from Hungary / doctor / hospital
                     </td>
-                  </tr>
-                  <tr>
-                    <td>I</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Proof of family/financial ties to home country</td>
+                </tr>
+                <tr>
+                    <td>13</td>
                     <td>
-                      BUSINESS TRIPS:<br>
-                      a) Invitation from the inviting company or organisation<br>
-                      b) Cover letter from the applicant's employer confirming identity, journey purpose, period and place of stay
+                        Proof of finance for all costs relating to the trip<br>
+                        • e.g. signed letter of guarantee<br>
+                        • Signed ID/passport copy of person financially responsible for the trip
                     </td>
-                  </tr>
-                  <tr>
-                    <td>II</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Bank statement<br>• original, from the last 6 months (in English)</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Copies of previous Schengen visas or any other visas (If applicable)</td>
+                </tr>
+                <tr>
+                    <td>16</td>
                     <td>
-                      STUDY, RESEARCH OR INTERNSHIP:<br>
-                      a) Certificate of admission or registration or cover letter from inviting company<br>
-                      b) Student cards or certificates from current institution
+                        Notes<br>
+                        • All documents must preferably be presented in ORIGINAL, preferably in English. If applicable, the originals are handed back to applicant after check of conformity of original and copy.<br>
+                        • Applications have to be submitted at least 14 working days before the expected date of departure.<br>
+                        • The Embassy of Hungary has the right at any time to ask for further supporting documents and/or call the applicant for an interview.
                     </td>
-                  </tr>
-                  <tr>
-                    <td>III</td>
-                    <td>
-                      TOURISM:<br>
-                      a) Certificate from travel agency or appropriate document indicating travel plans<br>
-                      b) Marriage certificate if applicable; ration card if applicable
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>IV</td>
-                    <td>
-                      VISITING FAMILY/FRIENDS:<br>
-                      a) Marriage certificate if applicable; ration card if applicable<br>
-                      b) Proof of family relationship
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>V</td>
-                    <td>
-                      SPORTS, CULTURAL, RELIGIOUS EVENTS, FILM CREWS:<br>
-                      a) Invitation, entry tickets, enrolments or programmes<br>
-                      b) For film crews: Letter from film company, crew list, host country permit confirmation, registration certificate
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>VI</td>
-                    <td>
-                      OFFICIAL DELEGATION:<br>
-                      a) Copy of the official invitation<br>
-                      b) Note verbale confirming identity, journey purpose, stay period, and location
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>VII</td>
-                    <td>
-                      MEDICAL TREATMENT:<br>
-                      a) Medical certificate confirming need for treatment<br>
-                      b) Confirmation from receiving institution<br>
-                      c) Proof of pre-payment<br>
-                      d) Correspondence between doctors/institutions
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>VIII</td>
-                    <td>
-                      SEAFARERS:<br>
-                      a) Employment contract / appointment letter<br>
-                      b) Seaman's book<br>
-                      c) Invitation from shipping company/agency with detailed crew and itinerary information<br>
-                      d) Flight reservation (if applicable)<br>
-                      e) Indian agency covering letter with seafarer list
-                    </td>
-                  </tr>
+                </tr>
             </table>
         </div>
 
         <div id="business" class="tabcontent">
-            <h2>Slovenia  Business Visa Checklist</h2>
+            <h2>Hungary Business Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Document</th>
@@ -287,16 +318,16 @@
                 </tr>
                 <tr>
                     <td>Are you visiting any other Schengen countries during your stay?</td>
-                    <td>Check list of Schengen countries: Slovenia , Slovenia , Slovenia , Croatia, Slovenia , Slovenia ,
-                        Slovenia , France, Germany, Greece, Slovenia , Slovenia , Italy, Slovenia , Liechtenstein, Slovenia ,
-                        Slovenia , Slovenia , Slovenia , Slovenia , Poland, Slovenia , Slovakia, Slovenia, Spain, Slovenia , and
+                    <td>Check list of Schengen countries: Hungary, Hungary, Hungary, Croatia, Hungary, Hungary,
+                        Hungary, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Hungary, and
                         Switzerland.</td>
                 </tr>
                 <tr>
                     <td>What is your first country of entry?</td>
-                    <td>Check list of Schengen countries: Slovenia , Slovenia , Slovenia , Croatia, Slovenia , Slovenia ,
-                        Slovenia , France, Germany, Greece, Slovenia , Slovenia , Italy, Slovenia , Liechtenstein, Slovenia ,
-                        Slovenia , Slovenia , Slovenia , Slovenia , Poland, Slovenia , Slovakia, Slovenia, Spain, Slovenia , and
+                    <td>Check list of Schengen countries: Hungary, Hungary, Hungary, Croatia, Hungary, Hungary,
+                        Hungary, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Hungary, and
                         Switzerland.</td>
                 </tr>
                 <tr>
@@ -349,10 +380,11 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.gov.si/assets/ministrstva/MZEZ/Dokumenti/konzularne-zadeve/oddelek-za-vize/vloge-za-vize-januar-2020/Application-form-C-SI.pdf">Click Here</a> </p> <br>
-        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Slovenia  or consulate in your country before
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.vfsglobal.com/hungary/uk/pdf/Vizumkerdoiv_151223.pdf">Click Here</a> </p> <br>
+        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hungary or consulate in your country before
         applying.</p>
     </div>
+
     <?php include 'footer.php'; ?>
     <!-- <footer>
         <div class="container">
@@ -381,7 +413,7 @@
                     </ul>
                 </div>
 
-                <!-- <div class="footer-col">
+                 <div class="footer-col">
                     <h3>Refund policy</h3>
                     <ul>
                         <li><a href="#">Pricing</a></li>
@@ -396,7 +428,7 @@
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div> --
+                </div> 
                 <div class="footer-col">
                     <h3>Support</h3>
                     <ul>
@@ -523,7 +555,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Slovenia - https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Hungary- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);
@@ -538,4 +570,3 @@
 </body>
 
 </html>
-</php>

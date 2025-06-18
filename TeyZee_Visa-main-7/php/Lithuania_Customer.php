@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lithuania Visa Checklist</title>
     <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 </head>
 
 <body>
-    <header>
+    <?php include 'header.php'; ?>
+    <!--Completed Revision 18th June 2025-->
+    <!--<header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -19,10 +22,10 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <!-- <a href="#" class="login-btn">Login</a> -->
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>
+    </header>-->
     <h1>Lithuania Schengen Visa Checklist</h1>
 
     <div class="tab-container">
@@ -57,7 +60,7 @@
                     <td>3</td>
                     <td>
                         Evidence of Financial Documents:<br>
-                        • Last 06 months Personal Updated Bank Statement with bank sign and stamp on each page with sufficient balance<br>
+                        • Last 03 months Personal Updated Bank Statement with bank sign and stamp on each page with sufficient balance<br>
                         • Last 03 years Personal Income Tax Returns Acknowledgement Page only
                     </td>
                 </tr>
@@ -65,7 +68,7 @@
                     <td>4</td>
                     <td>
                         If applicant is Employee:<br>
-                        • Last 06 months Pay Slips<br>
+                        • Last 03 months Pay Slips<br>
                         • Original Leave Sanctioned letter should address to the consulate/Embassy
                     </td>
                 </tr>
@@ -91,7 +94,7 @@
                     <td>7</td>
                     <td>
                         If applicant is Student:<br>
-                        • Bonafide Certificate from school / university<br>
+                        • Student Enrollment Certificate<br>
                         • ID Card Copy of School / College
                     </td>
                 </tr>
@@ -99,7 +102,7 @@
                     <td>8</td>
                     <td>
                         If visiting as a Tourist:<br>
-                        • Hotel Confirmation Voucher (From Supplier OR Directly from Hotel)<br>
+                        • Travel Agency Certificate<br>
                         • Confirmed Return Ticket<br>
                         • Day Wise Tour Itinerary
                     </td>

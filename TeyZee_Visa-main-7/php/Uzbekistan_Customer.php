@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uzbekistan Visa Checklist</title>
     <link rel="stylesheet" href="document.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 </head>
 
 <body>
-    <header>
+    <?php include 'header.php'; ?>
+    <!--Completed Revision 18th June 2025-->
+    <!--<header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -19,10 +22,10 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <!-- <a href="#" class="login-btn">Login</a> -->
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>
+    </header>-->
     <h1>Uzbekistan Visa Checklist (data is not updated)</h1>
 
     <div class="tab-container">

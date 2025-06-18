@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Switzerland Visa Checklist</title>
     <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 </head>
 
 <body>
-    <header>
+    <?php include 'header.php'; ?>
+    <!--Completed Revision 18th June 2025-->
+    <!--<header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -19,10 +22,10 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <!-- <a href="#" class="login-btn">Login</a> -->
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>
+    </header>-->
     <h1>Switzerland Schengen Visa Checklist</h1>
 
     <div class="tab-container">
@@ -55,8 +58,15 @@
                 </tr>
                 <tr>
                     <td>Photograph</td>
-                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
-                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
+                    <td>
+                        <ul>
+                            <li>White background, not older than 6 months (size 35 – 40 mm in
+                            width, not copied or scanned picture).</li>
+                            <li>1st picture should be pasted on the application</li>
+                            <li>2nd picture has to be clipped on the last page of the passport,
+                            stapled or pinned pictures cannot be accepted.</li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr>
                     <td>Application form</td>

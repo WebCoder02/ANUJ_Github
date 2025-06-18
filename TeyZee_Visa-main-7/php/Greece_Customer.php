@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greece Visa Checklist</title>
     <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 </head>
 
 <body>
-    <header>
+    <?php include 'header.php'; ?>
+    <!--Completed Revision 18th June 2025-->
+    <!--<header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -19,10 +22,10 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <!-- <a href="#" class="login-btn">Login</a> -->
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>
+    </header>-->
     <h1>Greece Schengen Visa Checklist</h1>
 
     <div class="tab-container">
@@ -55,12 +58,11 @@
                 </tr>
                 <tr>
                     <td>Photograph</td>
-                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
-                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
+                    <td>Recent passport-size colour photo with white background, per ICAO standards</td>
                 </tr>
                 <tr>
                     <td>Application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Fully filled in and signed application form required</td>
                 </tr>
                 <tr>
                     <td>Appointment slip</td>
@@ -82,13 +84,13 @@
                 </tr>
                 <tr>
                     <td>Travel Insurance</td>
-                    <td>Travel insurance covering not less than 30,000 Euros</td>
+                    <td>Travel insurance covering not less than 30,000 Euros. Must include medical/repatriation</td>
                 </tr>
                 <tr>
                     <td>Bank statement</td>
                     <td>Bank statements last 3 months, available balance should be at least 50-150 Euros per person per
                         day of the trip. Advisable to transfer the money to maintain the balance 15 days before the
-                        appointment. Does not need to be signed by the bank</td>
+                        appointment. It needs to be signed by the bank</td>
                 </tr>
                 <tr>
                     <td>ITR</td>
@@ -96,8 +98,7 @@
                 </tr>
                 <tr>
                     <td>Sponsor Bank Statement and ITR</td>
-                    <td>If trip sponsored by someone else, copy of bank statements last 3 months and copy of income tax
-                        return + ITR V acknowledgment for previous financial year (signed by bank)</td>
+                    <td>If trip sponsored by someone else, Proof of sponsorship via national form of concerned Schengen State</td>
                 </tr>
                 <tr>
                     <td>Sponsorship Letter</td>
@@ -113,7 +114,7 @@
                 </tr>
                 <tr>
                     <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
+                    <td>Pension statements (3 months), income proof from property/business</td>
                 </tr>
                 <tr>
                     <td>Proof of occupation (If Retired)</td>
