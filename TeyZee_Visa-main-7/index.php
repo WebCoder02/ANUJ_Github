@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include './php/header.php'; ?>
 
 <main>
     <section class="hero-section">
@@ -67,7 +67,7 @@
                     <div class="destination-info">
                         <div class="order">
                             <h3>France</h3>
-                            <button type="button" class="link-btn" onclick="window.location.href='../html/france.html';">Get Visa</button>
+                            <button type="button" class="link-btn" onclick="window.location.href='./php/France_Customer.php';">Get Visa</button>
                         </div>
                         <div class="visa-type">Sticker</div>
                         <div class="price-info">
@@ -94,7 +94,7 @@
                     <div class="destination-info">
                         <div class="order">
                             <h3>Italy</h3>
-                            <button type="button" class="link-btn" onclick="window.location.href='../html/italy.html';">Get Visa</button>
+                            <button type="button" class="link-btn" onclick="window.location.href='./php/Italy_Customer.php';">Get Visa</button>
                         </div>
                         <div class="visa-type">Sticker</div>
                         <div class="price-info">

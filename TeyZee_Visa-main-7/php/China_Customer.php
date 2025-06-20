@@ -44,8 +44,8 @@
                 </tr>
                 <tr>
                     <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Original passport valid for a minimum of 6 months (or for the validity requested, if greater) and having
+                    at least 3 blank visa pages (of which 2 must be side by side)</td>
                 </tr>
                 <tr>
                     <td>Copy of Passport Pages</td>
@@ -58,12 +58,13 @@
                 </tr>
                 <tr>
                     <td>Photograph</td>
-                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
-                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
+                    <td>Four photographs conforming to Indian Government norms as per specifications mentioned on our
+                    website</td>
                 </tr>
                 <tr>
                     <td>Application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Two Indian Government visa application forms duly filled in online.<br/>
+                    Two hand filled reference form for Chinese (in block letters, photocopies not accepted.)</td>
                 </tr>
                 <tr>
                     <td>Appointment slip</td>
@@ -139,8 +140,9 @@
                 </tr>
                 <tr>
                     <td>Minor documents</td>
-                    <td>Birth certificate, marksheet, consent letter from parents if minor is travelling alone or with
-                        only one parent</td>
+                    <td>Photocopy of the French “livret de famille” (pages: father, mother, relevant child) or birth certificate<br/>
+                        Photocopy of an ID proof of each parent<br/>
+                        Authorisation letter for a minor to travel signed by both parent</td>
                 </tr>
             </table>
         </div>

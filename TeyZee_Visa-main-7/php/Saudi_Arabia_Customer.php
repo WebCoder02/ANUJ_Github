@@ -47,111 +47,113 @@
           <tr>
             <td>1</td>
             <td>
-                Original Passport with old passport:
-                <ul>
-                    <li>Passport should be valid minimum 06 months from the date of travel</li>
-                    <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
-                    <li>No hand written passports will be accepted</li>
-                    <li>At least 2 blank pages</li>
-                </ul>
+                <strong>Application form</strong> duly filled and signed by the applicant
+                (For children registered in a parent’s passport a separate
+                application form has to be filled and all required documents to
+                be submitted)
             </td>
         </tr>
         <tr>
             <td>2</td>
-            <td>
-                04 recent photograph each:
-                <ul>
-                    <li>35*45 mm size</li>
-                    <li>White background</li>
-                    <li>Glossy finish & 80% face image</li>
-                    <li>Without specs & not used in previous visa</li>
-                </ul>
+            <td>Declaration form: signed by the applicant (under section 54
+                (6) AufenthG/ German Residence Act)
             </td>
         </tr>
         <tr>
             <td>3</td>
             <td>
-                The original tourist/hotel voucher issued by a Saudi Arabian tourist agency/hotel
+                In case of minors (below 18 years of age): Parental Authorization
                 <ul>
-                    <li>Must be with stamp and colour copy</li>
+                    <li>Both parents must sign the parental authorization and also have to sign the application and declaration forms. From 16 years of age also the minor has to sign the application and
+                    declaration forms. Passport copies of parents (with signatures!)
+                    have to be attached with the application.</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>4</td>
             <td>
-                The confirmation of booking an air ticket (e-ticket, itinerary) is required
+                Original passport duly signed and
+                1 copy of the data page and previous Schengen visas
+                (VFS: to be put as very last document in the visa application
+                file)
             </td>
         </tr>
         <tr>
             <td>5</td>
             <td>
-                Evidence of Sufficient Funds:
-                <ul>
-                    <li>Original 03 months Personal Bank Statement till date updated</li>
-                    <li>With bank sign and stamp on each page</li>
-                    <li>With sufficient balance</li>
-                    <li>In A4 Size only</li>
-                </ul>
+               Photographs: Two recent biometric photographs (35mm X 45mm) not older than 6 months (one fixed to the form, one loose) with white/bright background
             </td>
         </tr>
         <tr>
             <td>6</td>
             <td>
-                If applicant is Self Employed:
-                <ul>
-                    <li>Business letterhead with sign & Stamp & visiting card</li>
-                    <li>Business Registration Proof or Partnership Deed or Memorandum of Article</li>
-                </ul>
+               Proof of Travel Medical Insurance coverage (EUR 30.000):
+                The insurance must cover the entire period of intended stay,
+                valid for all Schengen States and covering any expenses which
+                may arise in connection with repatriation for medical reasons,
+                urgent medical attention, emergency hospital treatment or
+                death during the stay
+                (Travel Insurance certificate is compulsory)
             </td>
         </tr>
         <tr>
             <td>7</td>
             <td>
-                If applicant is Employed:
-                <ul>
-                    <li>Pay Slip (last 6 months)</li>
-                    <li>Leave & NOC letter should address to the consulate/Embassy</li>
-                </ul>
+                Hotel reservation
+                Confirmed hotel booking for all intended travel destinations in
+                Schengen states mentioning complete address of the hotel,
+                booking dates and costs.
             </td>
         </tr>
         <tr>
             <td>8</td>
             <td>
-                If applicant is Retired:
-                <ul>
-                    <li>Retirement letter from Employer</li>
-                    <li>Pension Payment Order</li>
-                    <li>Pension passbook</li>
-                    <li>Provident Funds slip</li>
-                </ul>
+                Flight reservation
+                Copy of the round trip airline reservation with passenger details
+                and the complete travel itinerary. The reservation should prove
+                that the stay in Schengen does not exceed 90 days.
             </td>
         </tr>
         <tr>
             <td>9</td>
             <td>
-                If applicant is Student:
-                <ul>
-                    <li>Evidence of enrolment at school</li>
-                    <li>College or University Photo ID Card Copy</li>
-                </ul>
+                Declaration letter and family Iqama if relevant
+                Letter from one family member stating/ explaining the
+                relationship with the applicant and declaring responsibility for
+                all the expenses of all family members which may incur during
+                the entire trip to the Schengen-area
             </td>
         </tr>
         <tr>
             <td>10</td>
             <td>
-                Note:
-                <ul>
-                    <li>We will take 3 to 4 days to prepare visa application to submit at High Commission.</li>
-                    <li>Visa issuance is sole responsibility of respected Consulate/Embassy; Best Voyage is not responsible for any rejection/refusal or delay in visa.</li>
-                    <li>We are not responsible for missing/damage of any documents during visa formalities.</li>
-                    <li>Please note that this is not an exhaustive list. If necessary, you may be requested to bring additional documents or to appear for a personal interview.</li>
-                    <li>An applicant can submit the documents for the Saudi Arabian visa at the Visa Section of the Consulate General of the Saudi Arabian Federation only during working hours: on Monday, Wednesday and Friday from 9:00 to 12:00 only.</li>
-                    <li>Documents from agents/representatives/authorized persons are not accepted under any circumstance.</li>
-                </ul>
+               For employed individuals and their spouses - Employment letter/ Sponsor letter addressed to the
+                German Embassy stating the purpose of the visit, date of
+                joining the company, job position and monthly salary and
+                allowances of the applicant/ head of the family. The letter has
+                to be attested by the Chamber of Commerce.
+                Cost coverage by employer/ sponsor if relevant.
+                In case of non-Saudi applicants also the duration of the
+                contract has to be mentioned and whether it will be renewed.
             </td>
         </tr>
-            </table>
+        <tr>
+            <td>11</td>
+            <td>
+               For self employed individuals/ businessman - Commercial Registration<br/>
+               Bank Statements:
+                Recent bank statements of the past 6 months proving the
+                monthly salary transfer (if salary is not paid cash) and with
+                sufficient funds available for the intended stay. If the salary is
+                paid cash, salary slips for the last 6 months have to be
+                submitted.
+                For Saudi nationals bank statements of the past 3 months or
+                even a copy of a credit card are/ is sufficient.<br/>
+                Photocopy of Saudi National ID Card / Residence Permit (Iqama)
+            </td>
+        </tr>
+    </table>
         </div>
 
         <div id="business" class="tabcontent">

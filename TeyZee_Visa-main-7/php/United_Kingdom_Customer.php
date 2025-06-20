@@ -26,7 +26,7 @@
             </div>
         </div>
     </header>-->
-    <h1>United Kingdom Visa Checklist (data is not updated)</h1>
+    <h1>United Kingdom Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -45,110 +45,33 @@
             </td>
           </tr>
           <tr>
-            <td>1</td>
-            <td>
-                Original Passport with old passport:
-                <ul>
-                    <li>Passport should be valid minimum 06 months from the date of travel</li>
-                    <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
-                    <li>No hand written passports will be accepted</li>
-                    <li>At least 2 blank pages</li>
-                </ul>
+            <td>Passport and Travel Information</td>
+            <td>a. Valid passport: Your current passport should be valid for the entirety of your stay, with at least one blank page for the visa. Include colour photocopies of the photo page and any previous visas.<br/>
+                b. Any previous passports: Submit all old passports you possess to provide evidence of your travel history.<br/>
+                c. Travel itinerary (if applicable): If applicable, include a detailed plan of your stay in the UK, including dates, locations, and purposes of travel. This is particularly relevant for tourist visas.
             </td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>
-                04 recent photograph each:
-                <ul>
-                    <li>35*45 mm size</li>
-                    <li>White background</li>
-                    <li>Glossy finish & 80% face image</li>
-                    <li>Without specs & not used in previous visa</li>
-                </ul>
-            </td>
+            <td>Financial Documents</td>
+            <td>a. Bank statements: Provide recent statements (typically the last 3-6 months) to prove you have sufficient funds for your visit. These should clearly show your name and the account balance.<br/>
+                b. Salary slips: Recent payslips (usually for the last 3-6 months) to demonstrate steady employment and income.<br/>
+                c. Proof of financial means to support stay in the UK: This could include additional documents like a letter from your employer stating your salary, financial dependency documents if someone is supporting you financially, or proof of pension if applicable.</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>
-                The original tourist/hotel voucher issued by a United Kingdomn tourist agency/hotel
-                <ul>
-                    <li>Must be with stamp and colour copy</li>
-                </ul>
-            </td>
+            <td>Employment and Academic Documents</td>
+            <td>a. Employment letters: An employment letter from your current employer that outlines your role, salary, length of employment, and the purpose of your visit to the UK (if related to your job).<br/>
+                b. Academic Records (for student visas): Admission letters, Confirmation of Acceptance for Studies (CAS) form, and transcripts or certificates from your current or previous educational institutions.</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>
-                The confirmation of booking an air ticket (e-ticket, itinerary) is required
-            </td>
+            <td>Accommodation Details</td>
+            <td>a. Address in the UK: Details of where you will stay throughout your visit. This could be a residential address, a hotel, or other temporary accommodation.<br/>
+                b. Booking Confirmations: If applicable, include reservations for hotels or rentals, which confirm your planned accommodations.</td>
         </tr>
         <tr>
-            <td>5</td>
-            <td>
-                Evidence of Sufficient Funds:
-                <ul>
-                    <li>Original 03 months Personal Bank Statement till date updated</li>
-                    <li>With bank sign and stamp on each page</li>
-                    <li>With sufficient balance</li>
-                    <li>In A4 Size only</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>
-                If applicant is Self Employed:
-                <ul>
-                    <li>Business letterhead with sign & Stamp & visiting card</li>
-                    <li>Business Registration Proof or Partnership Deed or Memorandum of Article</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>
-                If applicant is Employed:
-                <ul>
-                    <li>Pay Slip (last 6 months)</li>
-                    <li>Leave & NOC letter should address to the consulate/Embassy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>
-                If applicant is Retired:
-                <ul>
-                    <li>Retirement letter from Employer</li>
-                    <li>Pension Payment Order</li>
-                    <li>Pension passbook</li>
-                    <li>Provident Funds slip</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>
-                If applicant is Student:
-                <ul>
-                    <li>Evidence of enrolment at school</li>
-                    <li>College or University Photo ID Card Copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>
-                Note:
-                <ul>
-                    <li>We will take 3 to 4 days to prepare visa application to submit at High Commission.</li>
-                    <li>Visa issuance is sole responsibility of respected Consulate/Embassy; Best Voyage is not responsible for any rejection/refusal or delay in visa.</li>
-                    <li>We are not responsible for missing/damage of any documents during visa formalities.</li>
-                    <li>Please note that this is not an exhaustive list. If necessary, you may be requested to bring additional documents or to appear for a personal interview.</li>
-                    <li>An applicant can submit the documents for the United Kingdomn visa at the Visa Section of the Consulate General of the United Kingdomn Federation only during working hours: on Monday, Wednesday and Friday from 9:00 to 12:00 only.</li>
-                    <li>Documents from agents/representatives/authorized persons are not accepted under any circumstance.</li>
-                </ul>
+            <td>Additional Documents</td>
+            <td>a. Birth certificates: Needed primarily if you are applying for visas that involve family members, such as dependents or spouses.<br/>
+                b. Marriage certificates (if applicable): Required for those applying for visas based on their partnership or marriage to a UK citizen or resident.<br/>
+                c. Previous UK visas (if applicable): If you have previously been to the UK, include copies of your old visa stickers or stamps as proof of prior compliance with UK immigration laws.
             </td>
         </tr>
             </table>
@@ -156,7 +79,7 @@
 
         <div id="business" class="tabcontent">
             <h2>United Kingdom Business Visa Checklist</h2>
-            <table>
+            <table>        
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>

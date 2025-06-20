@@ -26,7 +26,7 @@
             </div>
         </div>
     </header>-->
-    <h1>United Arab Emirates Visa Checklist (data is not updated)</h1>
+    <h1>United Arab Emirates Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -47,108 +47,105 @@
           <tr>
             <td>1</td>
             <td>
-                Original Passport with old passport:
-                <ul>
-                    <li>Passport should be valid minimum 06 months from the date of travel</li>
-                    <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
-                    <li>No hand written passports will be accepted</li>
-                    <li>At least 2 blank pages</li>
-                </ul>
+                Application form duly completed and signed.
             </td>
         </tr>
         <tr>
             <td>2</td>
             <td>
-                04 recent photograph each:
-                <ul>
-                    <li>35*45 mm size</li>
-                    <li>White background</li>
-                    <li>Glossy finish & 80% face image</li>
-                    <li>Without specs & not used in previous visa</li>
-                </ul>
+                One passport size color photo, white background, maximum 6 months old 
             </td>
         </tr>
         <tr>
             <td>3</td>
             <td>
-                The original tourist/hotel voucher issued by a United Arab Emiratesn tourist agency/hotel
+                A valid passport (and a copy) satisfying the following criteria:
                 <ul>
-                    <li>Must be with stamp and colour copy</li>
+                    <li>one trip, the passport validity must be of at least 90 days from the last trip intended date</li>
+                    <li>it must contain at least two blank pages;</li>
+                    <li>it must have been issued within the previous 10 years;</li>
+                    <li>it must hold a valid UAE visa.</li>
                 </ul>
+                Damaged passports will not be accepted.
             </td>
         </tr>
         <tr>
             <td>4</td>
             <td>
-                The confirmation of booking an air ticket (e-ticket, itinerary) is required
+                Copy of UAE Residence Visa valid at least 90 days from the intended return date.
             </td>
         </tr>
         <tr>
             <td>5</td>
-            <td>
-                Evidence of Sufficient Funds:
-                <ul>
-                    <li>Original 03 months Personal Bank Statement till date updated</li>
-                    <li>With bank sign and stamp on each page</li>
-                    <li>With sufficient balance</li>
-                    <li>In A4 Size only</li>
-                </ul>
-            </td>
+            <td>Previous Schengen, USA, or UK visa copy.</td>
         </tr>
         <tr>
             <td>6</td>
             <td>
-                If applicant is Self Employed:
-                <ul>
-                    <li>Business letterhead with sign & Stamp & visiting card</li>
-                    <li>Business Registration Proof or Partnership Deed or Memorandum of Article</li>
-                </ul>
+                No Objection Certificate from local sponsor/employer mentioning:
+               <ul>
+                <li>Name and designation of the applicant;</li>
+                <li>Start of employment date;</li>
+                <li>Applicant's monthly salary;</li>
+                <li>No objection to travel to Italy;</li>
+                <li>Duration of leave;</li>
+                <li>Name and designation of the managerial signatory;</li>
+                <li>Direct phone number and e-mail of the signatory;</li>
+                <li>Provide copy of passport and UAE visa of the signatory</li>
+            </ul>
             </td>
         </tr>
         <tr>
             <td>7</td>
-            <td>
-                If applicant is Employed:
-                <ul>
-                    <li>Pay Slip (last 6 months)</li>
-                    <li>Leave & NOC letter should address to the consulate/Embassy</li>
-                </ul>
+            <td>Employment Labor Contract / agreement.
             </td>
         </tr>
         <tr>
             <td>8</td>
-            <td>
-                If applicant is Retired:
-                <ul>
-                    <li>Retirement letter from Employer</li>
-                    <li>Pension Payment Order</li>
-                    <li>Pension passbook</li>
-                    <li>Provident Funds slip</li>
-                </ul>
-            </td>
+            <td>Copy of a valid trade license.</td>
         </tr>
         <tr>
             <td>9</td>
-            <td>
-                If applicant is Student:
-                <ul>
-                    <li>Evidence of enrolment at school</li>
-                    <li>College or University Photo ID Card Copy</li>
-                </ul>
+            <td><strong>Verifiable evidence of sufficient means of subsistence during intended stay:</strong>
+            Last 3 months pay slips,
+            Last 3 months bank statements (foreign bank accounts will not be considered),
+            Last 3 months credit card statements,
+            Any other document that might help evaluate your financial situation in the UAE (i.e. other bank
+            accounts, personal properties, investments, etc...). Bank Statement should be on a bank letterhead. Photocopies or online statements must bear the
+            original bank stamp
             </td>
         </tr>
         <tr>
             <td>10</td>
-            <td>
-                Note:
-                <ul>
-                    <li>We will take 3 to 4 days to prepare visa application to submit at High Commission.</li>
-                    <li>Visa issuance is sole responsibility of respected Consulate/Embassy; Best Voyage is not responsible for any rejection/refusal or delay in visa.</li>
-                    <li>We are not responsible for missing/damage of any documents during visa formalities.</li>
-                    <li>Please note that this is not an exhaustive list. If necessary, you may be requested to bring additional documents or to appear for a personal interview.</li>
-                    <li>An applicant can submit the documents for the United Arab Emiratesn visa at the Visa Section of the Consulate General of the United Arab Emiratesn Federation only during working hours: on Monday, Wednesday and Friday from 9:00 to 12:00 only.</li>
-                    <li>Documents from agents/representatives/authorized persons are not accepted under any circumstance.</li>
-                </ul>
+            <td>An international medical insurance covering the entire stay with a minimum of 30.000 € coverage and
+                full and unlimited coverage for hospitalization. Emergency repatriation flight as well as repatriation of
+                mortal remains must be included. Detailed table of benefit must be provided.
+            </td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Confirmed hotel booking. If the applicant will stay in a private accommodation, a Letter of invitation must
+                be provided
+            </td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Confirmed flight reservation</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>If the applicant is a minor:<br/>
+                o A copy of both parents' (or legal guardians) passports;
+                o N.O.C.: Consent letter mentioning purpose of the trip, destination, exact dates. Letter must be
+                signed by both parents/legal guardians directly at our Visa Application Center. If one of the
+                parents is abroad, he/she will be asked by the Consulate to contact the nearest Italian
+                Consulate/Embassy in order to sign the consent letter in front of an officer;<br/>
+                o Birth certificate: No birth certificate is required if the full name of both parents/legal guardians
+                are mentioned (in English) in the applicant's passport; If not, an original or certified copy of the
+                birth certificate (translated in Italian or English), duly legalized by the Italian Embassy/Consulate
+                in the Country where the document has been issued, must be provided;<br/>
+                o Divorced parents: Original/legalized copy of the divorce sentence with clear mention of full
+                custody (translated in Italian or English)
             </td>
         </tr>
             </table>

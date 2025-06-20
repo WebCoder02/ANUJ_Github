@@ -43,104 +43,55 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>1</td>
+                    <td>Passport (Valid Passport + Old Passport/s)+ Photocopy of the Bio
+Data Page of the Current Passport (First and Last Page)</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
+                    <td>2</td>
+                    <td>Completely filled and signed Visa Application Form with Photograph
                     </td>
                 </tr>
                 <tr>
-                    <td>Photograph</td>
-                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
-                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
+                    <td>3</td>
+                    <td>Covering letter stating the purpose of visit and day to day details</td>
                 </tr>
                 <tr>
-                    <td>Application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>4</td>
+                    <td>Confirmed travel booking with day to day details</td>
                 </tr>
                 <tr>
-                    <td>Appointment slip</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>5</td>
+                    <td>Original saving bank statement / passbook of last six months</td>
                 </tr>
                 <tr>
-                    <td>Flight tickets</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>6</td>
+                    <td>Latest Income Tax Return</td>
                 </tr>
                 <tr>
-                    <td>Hotel Tickets</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>7</td>
+                    <td>Certificate of Employment from employer / NOC / Leave sanctioned</td>
                 </tr>
                 <tr>
-                    <td>Cover Letter</td>
-                    <td>Mentioning the purpose of the trip and itinerary <a href="/templates/cover_letter_template.doc"
-                            class="doc-link" target="_blank">Download Template</a></td>
+                    <td>8</td>
+                    <td>Salary bank statement for last six months</td>
                 </tr>
                 <tr>
-                    <td>Travel Insurance</td>
-                    <td>Travel insurance covering not less than 30,000 Euros</td>
+                    <td>9</td>
+                    <td>If student / dependant, consent from the parents / spouse and their
+bank statement</td>
                 </tr>
                 <tr>
-                    <td>Bank statement</td>
-                    <td>Bank statements last 3 months, available balance should be at least 50-150 Euros per person per
-                        day of the trip. Advisable to transfer the money to maintain the balance 15 days before the
-                        appointment. Does not need to be signed by the bank</td>
+                    <td>10</td>
+                    <td>If the applicant is owner of company, proof of ownership</td>
                 </tr>
                 <tr>
-                    <td>ITR</td>
-                    <td>Copy of income tax return + ITR V acknowledgment of last 02 financial year if available</td>
+                    <td>11</td>
+                    <td>If the applicant is owner of company, company bank statement</td>
                 </tr>
                 <tr>
-                    <td>Sponsor Bank Statement and ITR</td>
-                    <td>If trip sponsored by someone else, copy of bank statements last 3 months and copy of income tax
-                        return + ITR V acknowledgment for previous financial year (signed by bank)</td>
-                </tr>
-                <tr>
-                    <td>Sponsorship Letter</td>
-                    <td>If sponsored, letter from sponsor stating the amount, relationship and source of funds <a
-                            href="/templates/sponsorship_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a></td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a></td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If Retired)</td>
-                    <td>
-                        <ul>
-                            <li>Proof of Retirement</li>
-                            <li>Proof of regular income generated by ownership of property or business</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Marital status</td>
-                    <td>
-                        <ul>
-                            <li>If married, Marriage certificate</li>
-                            <li>If divorced, Divorce papers</li>
-                            <li>If single, Nothing required</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Minor documents</td>
-                    <td>Birth certificate, marksheet, consent letter from parents if minor is travelling alone or with
-                        only one parent</td>
+                    <td>12</td>
+                    <td>Proof of relationship, if the applicant is accompanied by dependant/s</td>
                 </tr>
             </table>
         </div>
