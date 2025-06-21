@@ -26,7 +26,7 @@
             </div>
         </div>
     </header>-->
-    <h1>Vietnam Visa Checklist (data is not updated)</h1>
+    <h1>Vietnam Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -36,7 +36,7 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>Vietnam Tourist Visa Checklist (not updated)</h2>
+            <h2>Vietnam Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
@@ -46,111 +46,79 @@
           </tr>
           <tr>
             <td>1</td>
-            <td>
-                Original Passport with old passport:
-                <ul>
-                    <li>Passport should be valid minimum 06 months from the date of travel</li>
-                    <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
-                    <li>No hand written passports will be accepted</li>
-                    <li>At least 2 blank pages</li>
-                </ul>
+            <td><strong>Ensure Passport Validity:</strong>
+              <ul>
+                <li>Passport must be valid for at least 6 months from the date of entry into Vietnam</li>
+                <li>Must have at least 2 blank pages</li>
+              </ul>
             </td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>2</td>
-            <td>
-                04 recent photograph each:
-                <ul>
-                    <li>35*45 mm size</li>
-                    <li>White background</li>
-                    <li>Glossy finish & 80% face image</li>
-                    <li>Without specs & not used in previous visa</li>
-                </ul>
+            <td><strong>Prepare Required Files:</strong>
+              <ul>
+                <li>Scanned passport data page (JPEG or PDF format)</li>
+                <li>Recent passport-style photo (4x6 cm, white background, no glasses)</li>
+              </ul>
             </td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>3</td>
-            <td>
-                The original tourist/hotel voucher issued by a Vietnamn tourist agency/hotel
-                <ul>
-                    <li>Must be with stamp and colour copy</li>
-                </ul>
+            <td><strong>Complete e‑Visa Form:</strong>
+              <ul>
+                <li>Visit <a href="https://evisa.gov.vn" target="_blank">https://evisa.gov.vn</a></li>
+                <li>Fill in personal details, passport info, travel dates, and <strong>select exact entry/exit ports</strong></li>
+              </ul>
             </td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>4</td>
-            <td>
-                The confirmation of booking an air ticket (e-ticket, itinerary) is required
+            <td><strong>Submit & Save Registration Code:</strong>
+              <ul>
+                <li>After submission, note the system-generated application code (required for tracking)</li>
+              </ul>
             </td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>5</td>
-            <td>
-                Evidence of Sufficient Funds:
-                <ul>
-                    <li>Original 03 months Personal Bank Statement till date updated</li>
-                    <li>With bank sign and stamp on each page</li>
-                    <li>With sufficient balance</li>
-                    <li>In A4 Size only</li>
-                </ul>
+            <td><strong>Pay Visa Fee:</strong>
+              <ul>
+                <li>USD 25 for single-entry or USD 50 for multiple-entry</li>
+                <li>Payment must be made online via international debit/credit card</li>
+                <li><strong>Fees are non-refundable</strong>, even if application is denied</li>
+              </ul>
             </td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>6</td>
-            <td>
-                If applicant is Self Employed:
-                <ul>
-                    <li>Business letterhead with sign & Stamp & visiting card</li>
-                    <li>Business Registration Proof or Partnership Deed or Memorandum of Article</li>
-                </ul>
+            <td><strong>Track Application Status:</strong>
+              <ul>
+                <li>Return to the e‑Visa portal and use your code, email, and date of birth to check progress</li>
+              </ul>
             </td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>7</td>
-            <td>
-                If applicant is Employed:
-                <ul>
-                    <li>Pay Slip (last 6 months)</li>
-                    <li>Leave & NOC letter should address to the consulate/Embassy</li>
-                </ul>
+            <td><strong>Download & Print Approved e‑Visa:</strong>
+              <ul>
+                <li>Approval typically takes 3–5 working days</li>
+                <li>Print and carry a physical copy of the e‑Visa for immigration checks</li>
+              </ul>
             </td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>8</td>
             <td>
-                If applicant is Retired:
+                <strong>Important Notes:</strong>
                 <ul>
-                    <li>Retirement letter from Employer</li>
-                    <li>Pension Payment Order</li>
-                    <li>Pension passbook</li>
-                    <li>Provident Funds slip</li>
+                     <li>You must enter Vietnam through the <strong>exact port specified</strong> in your e‑Visa</li>
+                     <li>Apply at least <strong>10–14 days before travel</strong> to avoid delays</li>
+                     <li>e‑Visa validity: maximum stay of 90 days (single or multiple entry)</li>
+                     <li>Extension is not possible – to stay longer, you must exit and reapply</li>
+                     <li>Only use the official portal: <a href="https://evisa.gov.vn" target="_blank">evisa.gov.vn</a></li>
                 </ul>
             </td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>
-                If applicant is Student:
-                <ul>
-                    <li>Evidence of enrolment at school</li>
-                    <li>College or University Photo ID Card Copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>
-                Note:
-                <ul>
-                    <li>We will take 3 to 4 days to prepare visa application to submit at High Commission.</li>
-                    <li>Visa issuance is sole responsibility of respected Consulate/Embassy; Best Voyage is not responsible for any rejection/refusal or delay in visa.</li>
-                    <li>We are not responsible for missing/damage of any documents during visa formalities.</li>
-                    <li>Please note that this is not an exhaustive list. If necessary, you may be requested to bring additional documents or to appear for a personal interview.</li>
-                    <li>An applicant can submit the documents for the Vietnamn visa at the Visa Section of the Consulate General of the Vietnamn Federation only during working hours: on Monday, Wednesday and Friday from 9:00 to 12:00 only.</li>
-                    <li>Documents from agents/representatives/authorized persons are not accepted under any circumstance.</li>
-                </ul>
-            </td>
-        </tr>
+          </tr>
             </table>
         </div>
 

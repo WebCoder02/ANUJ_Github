@@ -26,7 +26,7 @@
             </div>
         </div>
     </header>-->
-    <h1>Uzbekistan Visa Checklist (data is not updated)</h1>
+    <h1>Uzbekistan Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -36,121 +36,23 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>Uzbekistan Tourist Visa Checklist (not updated)</h2>
+            <h2>Uzbekistan Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-            </td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>
-                Original Passport with old passport:
-                <ul>
-                    <li>Passport should be valid minimum 06 months from the date of travel</li>
-                    <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
-                    <li>No hand written passports will be accepted</li>
-                    <li>At least 2 blank pages</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>
-                04 recent photograph each:
-                <ul>
-                    <li>35*45 mm size</li>
-                    <li>White background</li>
-                    <li>Glossy finish & 80% face image</li>
-                    <li>Without specs & not used in previous visa</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>
-                The original tourist/hotel voucher issued by a Uzbekistann tourist agency/hotel
-                <ul>
-                    <li>Must be with stamp and colour copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>
-                The confirmation of booking an air ticket (e-ticket, itinerary) is required
-            </td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>
-                Evidence of Sufficient Funds:
-                <ul>
-                    <li>Original 03 months Personal Bank Statement till date updated</li>
-                    <li>With bank sign and stamp on each page</li>
-                    <li>With sufficient balance</li>
-                    <li>In A4 Size only</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>
-                If applicant is Self Employed:
-                <ul>
-                    <li>Business letterhead with sign & Stamp & visiting card</li>
-                    <li>Business Registration Proof or Partnership Deed or Memorandum of Article</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>
-                If applicant is Employed:
-                <ul>
-                    <li>Pay Slip (last 6 months)</li>
-                    <li>Leave & NOC letter should address to the consulate/Embassy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>
-                If applicant is Retired:
-                <ul>
-                    <li>Retirement letter from Employer</li>
-                    <li>Pension Payment Order</li>
-                    <li>Pension passbook</li>
-                    <li>Provident Funds slip</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>
-                If applicant is Student:
-                <ul>
-                    <li>Evidence of enrolment at school</li>
-                    <li>College or University Photo ID Card Copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>
-                Note:
-                <ul>
-                    <li>We will take 3 to 4 days to prepare visa application to submit at High Commission.</li>
-                    <li>Visa issuance is sole responsibility of respected Consulate/Embassy; Best Voyage is not responsible for any rejection/refusal or delay in visa.</li>
-                    <li>We are not responsible for missing/damage of any documents during visa formalities.</li>
-                    <li>Please note that this is not an exhaustive list. If necessary, you may be requested to bring additional documents or to appear for a personal interview.</li>
-                    <li>An applicant can submit the documents for the Uzbekistann visa at the Visa Section of the Consulate General of the Uzbekistann Federation only during working hours: on Monday, Wednesday and Friday from 9:00 to 12:00 only.</li>
-                    <li>Documents from agents/representatives/authorized persons are not accepted under any circumstance.</li>
-                </ul>
-            </td>
-        </tr>
+                <tr><td>1. Eligible Countries</td><td>Check if your country is on the e‑Visa list—77 nationalities supported including India, USA, Vietnam, etc.</td></tr>
+                <tr><td>2. Passport</td><td>Scan of valid passport's data page (clear JPG/PDF, ≤500 KB). Must have ≥2 blank pages and ideally be valid ≥3 months beyond visa expiry.</td></tr>
+                <tr><td>3. Photo</td><td>Passport‑style photo (35×45 mm, 300 dpi, ≤1 MB, ICAO‑standard, JPG lowercase). Many users report needing lower‑case extensions and clean white backgrounds.</td></tr>
+                <tr><td>4. Portal Application</td><td>Go to <a href="https://e-visa.gov.uz" target="_blank">e‑visa.gov.uz</a>, select visa type, fill personal and travel info, and upload passport/photo.</td></tr>
+                <tr><td>5. Payment</td><td>Online payment via international Visa/MasterCard. Fees: USD 20 (single), 35 (double), 50 (multiple). Non‑refundable. Users report retrying payment after timeouts.</td></tr>
+                <tr><td>6. Processing Time</td><td>Typically issued within 2–3 working days. Some applicants report up to a week, especially around holidays.</td></tr>
+                <tr><td>7. Download e‑Visa</td><td>You’ll receive e‑Visa by email—print at least one hard copy; mobile screenshots are not accepted.</td></tr>
+                <tr><td>8. Entry Validity</td><td>e‑Visa valid for 90 days from issue. Single/multi entry as selected; max. 30 days stay per visit. </td></tr>
+                <tr><td>9. Border Entry</td><td>Accepted at all official ports. Present printed e‑Visa and passport. Keep copies with you.</td></tr>
+                <tr><td>10. Common Issues & Tips</td><td>– Ensure JPEG file extension is lowercase<br>– If the portal stalls at CAPTCHA or payment, wait 5+ hrs then retry<br>– Contact support via Telegram or email (mail@e-visa.gov.uz) with your application code<br>– Photo upload is the most frequent issue—certified guides helped users succeed</td></tr>
+
             </table>
         </div>
 

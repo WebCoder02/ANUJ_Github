@@ -26,7 +26,7 @@
             </div>
         </div>
     </header>-->
-    <h1>South Korea Visa Checklist (data is not updated)</h1>
+    <h1>South Korea Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -36,7 +36,7 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>South Korea Tourist Visa Checklist (data is not added)</h2>
+            <h2>South Korea Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
@@ -44,113 +44,17 @@
                 </tr>
             </td>
           </tr>
-          <tr>
-            <td>1</td>
-            <td>
-                Original Passport with old passport:
-                <ul>
-                    <li>Passport should be valid minimum 06 months from the date of travel</li>
-                    <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
-                    <li>No hand written passports will be accepted</li>
-                    <li>At least 2 blank pages</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>
-                04 recent photograph each:
-                <ul>
-                    <li>35*45 mm size</li>
-                    <li>White background</li>
-                    <li>Glossy finish & 80% face image</li>
-                    <li>Without specs & not used in previous visa</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>
-                The original tourist/hotel voucher issued by a South Korean tourist agency/hotel
-                <ul>
-                    <li>Must be with stamp and colour copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>
-                The confirmation of booking an air ticket (e-ticket, itinerary) is required
-            </td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>
-                Evidence of Sufficient Funds:
-                <ul>
-                    <li>Original 03 months Personal Bank Statement till date updated</li>
-                    <li>With bank sign and stamp on each page</li>
-                    <li>With sufficient balance</li>
-                    <li>In A4 Size only</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>
-                If applicant is Self Employed:
-                <ul>
-                    <li>Business letterhead with sign & Stamp & visiting card</li>
-                    <li>Business Registration Proof or Partnership Deed or Memorandum of Article</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>
-                If applicant is Employed:
-                <ul>
-                    <li>Pay Slip (last 6 months)</li>
-                    <li>Leave & NOC letter should address to the consulate/Embassy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>
-                If applicant is Retired:
-                <ul>
-                    <li>Retirement letter from Employer</li>
-                    <li>Pension Payment Order</li>
-                    <li>Pension passbook</li>
-                    <li>Provident Funds slip</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>
-                If applicant is Student:
-                <ul>
-                    <li>Evidence of enrolment at school</li>
-                    <li>College or University Photo ID Card Copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>
-                Note:
-                <ul>
-                    <li>We will take 3 to 4 days to prepare visa application to submit at High Commission.</li>
-                    <li>Visa issuance is sole responsibility of respected Consulate/Embassy; Best Voyage is not responsible for any rejection/refusal or delay in visa.</li>
-                    <li>We are not responsible for missing/damage of any documents during visa formalities.</li>
-                    <li>Please note that this is not an exhaustive list. If necessary, you may be requested to bring additional documents or to appear for a personal interview.</li>
-                    <li>An applicant can submit the documents for the South Korean visa at the Visa Section of the Consulate General of the South Korean Federation only during working hours: on Monday, Wednesday and Friday from 9:00 to 12:00 only.</li>
-                    <li>Documents from agents/representatives/authorized persons are not accepted under any circumstance.</li>
-                </ul>
-            </td>
-        </tr>
+          <tr><td>1</td><td>Online visa application form: Completed, signed by applicant. If applying via a 3rd person, include authorization form. For minors: form must be signed by legal guardian, and authorization provided if applicable.</td></tr>
+          <tr><td>2</td><td>Passport/travel document: Issued within last 10 years; valid ≥3 months beyond visa expiry; undamaged, no unofficial entries; ≥2 blank pages.</td></tr>
+          <tr><td>3</td><td>Visa fee payment proof (~20 USD).</td></tr>
+          <tr><td>4</td><td>Copy of travel tickets or confirmed booking (round-trip or onward).</td></tr>
+          <tr><td>5</td><td>Proof of accommodation in Korea: Hotel reservation, rental agreement, or host invitation confirming lodging.</td></tr>
+          <tr><td>6</td><td>Proof of sufficient funds: Bank statements (last 3 months, stamped & signed), scholarship/grant letters, or sponsor’s letter as applicable.</td></tr>
+          <tr><td>7</td><td>Travel & health insurance: Coverage for entire stay, valid across Korea, covering medical and repatriation.</td></tr>
+          <tr><td>8</td><td>Document confirming purpose of travel (e.g., tourism, visit, itinerary).</td></tr>
+          <tr><td>9</td><td>If applying as a legal guardian/custodian of a Georgian citizen (analogous: minors, pardon typo): Provide legal guardianship/custody documents.</td></tr>
+          <tr><td>10</td><td>If previously penalized for illegal stay: Provide proof of penalty payment.</td></tr>
+          <tr><td>11</td><td>For minors or persons with mental disorders: Legal representative consent + birth certificate.</td></tr>
             </table>
         </div>
 

@@ -116,15 +116,15 @@
                 <a href="Slovakia_Customer.php">Slovakia</a> •
                 <a href="Latvia_Customer.php">Latvia</a> •
                 <a href="Estonia_Customer.php">Estonia</a>
-                <a href="#">Azerbaijan</a> •
-                <a href="#">Bahrain</a> •
-                <a href="#">Brazil</a> •
-                <a href="#">Bulgaria</a> •
-                <a href="#">Cambodia</a> •
-                <a href="#">Croatia</a> •
-                <a href="#">Egypt</a> •
-                <a href="#">Georgia</a> •
-                <a href="#">Kenya</a> •
+                <a href="Azerbaijan_Customer_GPT.php">Azerbaijan</a> •
+                <a href="Bahrain_Customer_GPT.php">Bahrain</a> •
+                <a href="Brazil_Customer_GPT.php">Brazil</a> •
+                <a href="Bulgaria_Customer_GPT.php">Bulgaria</a> •
+                <a href="Cambodia_Customer_GPT.php">Cambodia</a> •
+                <a href="Croatia_Customer_GPT.php">Croatia</a> •
+                <a href="Egypt_Customer_GPT.php">Egypt</a> •
+                <a href="Georgia_Customer_GPT.php">Georgia</a> •
+                <a href="Kenya_Customer_GPT.php">Kenya</a> •
             </div>
         </div>
         <div class="copyright">
