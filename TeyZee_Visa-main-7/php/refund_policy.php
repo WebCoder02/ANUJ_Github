@@ -1,17 +1,15 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>South Korea Visa Checklist</title>
-    <link rel="stylesheet" href="https://teyzeevisas.com/document.css">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
+    <title>Refund Policy</title>
+    <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
 </head>
 
 <body>
     <?php include 'header.php'; ?>
-    <!--Completed Revision 18th June 2025-->
-    <!--<header>
+    <!-- <header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -22,44 +20,131 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <a href="#" class="login-btn">Login</a>
+                 <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>-->
-    <h1>South Korea Visa Checklist</h1>
+    </header> -->
+    <h1>Refund Policy</h1>
 
     <div class="tab-container">
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
-            <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
-            <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
+            <!-- <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button> -->
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>South Korea Tourist Visa Checklist</h2>
+            <h2>France Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-            </td>
-          </tr>
-          <tr><td>1</td><td>Online visa application form: Completed, signed by applicant. If applying via a 3rd person, include authorization form. For minors: form must be signed by legal guardian, and authorization provided if applicable.</td></tr>
-          <tr><td>2</td><td>Passport/travel document: Issued within last 10 years; valid ≥3 months beyond visa expiry; undamaged, no unofficial entries; ≥2 blank pages.</td></tr>
-          <tr><td>3</td><td>Visa fee payment proof (~20 USD).</td></tr>
-          <tr><td>4</td><td>Copy of travel tickets or confirmed booking (round-trip or onward).</td></tr>
-          <tr><td>5</td><td>Proof of accommodation in Korea: Hotel reservation, rental agreement, or host invitation confirming lodging.</td></tr>
-          <tr><td>6</td><td>Proof of sufficient funds: Bank statements (last 3 months, stamped & signed), scholarship/grant letters, or sponsor’s letter as applicable.</td></tr>
-          <tr><td>7</td><td>Travel & health insurance: Coverage for entire stay, valid across Korea, covering medical and repatriation.</td></tr>
-          <tr><td>8</td><td>Document confirming purpose of travel (e.g., tourism, visit, itinerary).</td></tr>
-          <tr><td>9</td><td>If applying as a legal guardian/custodian of a Georgian citizen (analogous: minors, pardon typo): Provide legal guardianship/custody documents.</td></tr>
-          <tr><td>10</td><td>If previously penalized for illegal stay: Provide proof of penalty payment.</td></tr>
-          <tr><td>11</td><td>For minors or persons with mental disorders: Legal representative consent + birth certificate.</td></tr>
+                <tr>
+                    <td>Original Passport</td>
+                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
+                        years</td>
+                </tr>
+                <tr>
+                    <td>Copy of Passport Pages</td>
+                    <td>
+                        <ul>
+                            <li>Clear photocopy of passport first and last page</li>
+                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Photograph</td>
+                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
+                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
+                </tr>
+                <tr>
+                    <td>Application form</td>
+                    <td>Put your signature and carry it on the day of appointment</td>
+                </tr>
+                <tr>
+                    <td>Appointment slip</td>
+                    <td>This needs be carried on the day of appointment</td>
+                </tr>
+                <tr>
+                    <td>Flight tickets</td>
+                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
+                        states (flight, train itinerary or car rental)</td>
+                </tr>
+                <tr>
+                    <td>Hotel Tickets</td>
+                    <td>Hotel bookings for complete stay in Schengen</td>
+                </tr>
+                <tr>
+                    <td>Cover Letter</td>
+                    <td>Mentioning the purpose of the trip and itinerary <a href="/templates/cover_letter_template.doc"
+                            class="doc-link" target="_blank">Download Template</a></td>
+                </tr>
+                <tr>
+                    <td>Travel Insurance</td>
+                    <td>Travel insurance covering not less than 30,000 Euros</td>
+                </tr>
+                <tr>
+                    <td>Bank statement</td>
+                    <td>Bank statements last 3 months, available balance should be at least 50-150 Euros per person per
+                        day of the trip. Advisable to transfer the money to maintain the balance 15 days before the
+                        appointment. Does not need to be signed by the bank</td>
+                </tr>
+                <tr>
+                    <td>ITR</td>
+                    <td>Copy of income tax return + ITR V acknowledgment of last 02 financial year if available</td>
+                </tr>
+                <tr>
+                    <td>Sponsor Bank Statement and ITR</td>
+                    <td>If trip sponsored by someone else, copy of bank statements last 3 months and copy of income tax
+                        return + ITR V acknowledgment for previous financial year (signed by bank)</td>
+                </tr>
+                <tr>
+                    <td>Sponsorship Letter</td>
+                    <td>If sponsored, letter from sponsor stating the amount, relationship and source of funds <a
+                            href="/templates/sponsorship_letter_template.doc" class="doc-link" target="_blank">Download
+                            Template</a></td>
+                </tr>
+                <tr>
+                    <td>Proof of occupation (If employed)</td>
+                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 <a
+                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
+                            Template</a></td>
+                </tr>
+                <tr>
+                    <td>Proof of occupation (If self employed)</td>
+                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
+                </tr>
+                <tr>
+                    <td>Proof of occupation (If Retired)</td>
+                    <td>
+                        <ul>
+                            <li>Proof of Retirement</li>
+                            <li>Proof of regular income generated by ownership of property or business</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marital status</td>
+                    <td>
+                        <ul>
+                            <li>If married, Marriage certificate</li>
+                            <li>If divorced, Divorce papers</li>
+                            <li>If single, Nothing required</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Minor documents</td>
+                    <td>Birth certificate, marksheet, consent letter from parents if minor is travelling alone or with
+                        only one parent</td>
+                </tr>
             </table>
         </div>
 
         <div id="business" class="tabcontent">
-            <h2>South Korea Business Visa Checklist</h2>
+            <h2>France Business Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Document</th>
@@ -159,7 +244,6 @@
                     <td>If the trip is sponsored by the Indian company please mention the details too <a
                             href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
                             Template</a></td>
-                    
                 </tr>
             </table>
         </div>
@@ -173,16 +257,16 @@
                 </tr>
                 <tr>
                     <td>Are you visiting any other Schengen countries during your stay?</td>
-                    <td>Check list of Schengen countries: South Korea, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: Austria, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, South Korea, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, and
                         Switzerland.</td>
                 </tr>
                 <tr>
                     <td>What is your first country of entry?</td>
-                    <td>Check list of Schengen countries: South Korea, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: Austria, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, South Korea, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, and
                         Switzerland.</td>
                 </tr>
                 <tr>
@@ -233,13 +317,12 @@
             </table>
         </div>
     </div>
-
-    <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://overseas.mofa.go.kr/upload/cntnts/in-en/Application-For-Visa-Korea-Latest.pdf">Click Here</a> </p> <br>
-        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of South Korea or consulate in your country before
-        applying.</p>
-    </div>
-    <?php include 'footer.php'; ?>
+    <?php include "footer.php" ?>
+    <!-- <div class="note">
+        <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
+        it's recommended to verify the current requirements with the French embassy or consulate in your country before
+        applying.
+    </div> -->
     <!-- <footer>
         <div class="container">
             <div class="footer-grid">
@@ -267,7 +350,7 @@
                     </ul>
                 </div>
 
-                <!-- <div class="footer-col">
+                <div class="footer-col">
                     <h3>Refund policy</h3>
                     <ul>
                         <li><a href="#">Pricing</a></li>
@@ -282,7 +365,7 @@
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div> --
+                </div> 
                 <div class="footer-col">
                     <h3>Support</h3>
                     <ul>
@@ -320,7 +403,7 @@
                     <a href="/html/france_customer.html">France</a> •
                     <a href="/html/italy_customer.html">Italy</a> •
                     <a href="/html/germany_customer.html">Germany</a> •
-                    <a href="/html/switzerland.html">Switzerland</a> •git 
+                    <a href="/html/switzerland.html">Switzerland</a> •
                     <a href="/html/greece_customer.html">Greece</a> •
                     <a href="/html/singapore_customer.html">Singapore</a> •
                     <a href="/html/turkey_customer.html">Turkey</a> •
@@ -344,7 +427,7 @@
                     <a href="#">Denmark</a> •
                     <a href="#">Uzbekistan</a> •
                     <a href="#">Cambodia</a> •
-                    <a href="#">Malaysia</a> •
+                    <a href="#">Morocco</a> •
                     <a href="#">Netherlands</a> •
                     <a href="#">Philippines</a> •
                     <a href="#">Brazil</a> •
@@ -354,10 +437,10 @@
                     <a href="#">Belgium</a> •
                     <a href="#">Croatia</a> •
                     <a href="#">Lithuania</a> •
-                    <a href="#">Morocco</a> •
+                    <a href="#">Ireland</a> •
                     <a href="#">Luxembourg</a> •
                     <a href="#">Hong Kong</a> •
-                    <a href="#">Ireland</a> •
+                    <a href="#">Malaysia</a> •
                     <a href="#">Japan</a> •
                     <a href="#">Bahrain</a> •
                     <a href="#">Czech Republic</a> •
@@ -409,7 +492,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for South Korea- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for France - https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);

@@ -46,7 +46,7 @@
     <header>
         <div class="container header-container">
             <div class="logo">
-                <a href="/">
+                <a href="https://www.teyzeevisas.com/">
                     <img src="https://www.teyzeevisas.com/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
                 </a>
             </div>

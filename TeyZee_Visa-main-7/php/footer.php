@@ -22,7 +22,7 @@
                 <ul>
                     <li><a href="mailto:business.tours@kalltrip.com">Email us</a></li>
                     <li><a href="#">Blogs</a></li>
-                    <li><a href="html\privacy.html">Privacy Policy</a></li>
+                    <li><a href="./privacy.php">Privacy Policy</a></li>
                 </ul>
             </div>
 
@@ -45,10 +45,10 @@
             <div class="footer-col">
                 <h3>Support</h3>
                 <ul>
-                    <li><a href="html\help_center.html">Help Center</a></li>
-                    <li><a href="html\terms_of_service.html">Terms of Service</a></li>
-                    <li><a href="html\refund_policy.html">Refund Policy</a></li>
-                    <li><a href="html\privacy.html">Privacy Policy</a></li>
+                    <li><a href="./help_center.php">Help Center</a></li>
+                    <li><a href="./terms_of_service.php">Terms of Service</a></li>
+                    <li><a href="./refund_policy.php">Refund Policy</a></li>
+                    <li><a href="./privacy.php">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -120,7 +120,7 @@
                 <a href="Bahrain_Customer_GPT.php">Bahrain</a> •
                 <a href="Brazil_Customer_GPT.php">Brazil</a> •
                 <a href="Bulgaria_Customer_GPT.php">Bulgaria</a> •
-                <a href="Cambodia_Customer_GPT.php">Cambodia</a> •
+                <a href="Cambodia_Customer.php">Cambodia</a> •
                 <a href="Croatia_Customer_GPT.php">Croatia</a> •
                 <a href="Egypt_Customer_GPT.php">Egypt</a> •
                 <a href="Georgia_Customer_GPT.php">Georgia</a> •
