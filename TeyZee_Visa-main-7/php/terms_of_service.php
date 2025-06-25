@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service</title>
-    <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
+    <link rel="stylesheet" href="document.css">
+    <link rel="stylesheet" href="Country_page.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -386,7 +388,7 @@ To help protect your information once it is in our systems, we have implemented 
             const downloadLinks = document.querySelectorAll('.doc-link');
 
             // WhatsApp number - Replace with your actual number
-            const whatsappNumber = "919876543210"; // Format: country code without + followed by number
+            const whatsappNumber = "919892527420"; // Format: country code without + followed by number
 
             // Loop through each download link and modify its behavior
             downloadLinks.forEach(function (link) {

@@ -167,7 +167,6 @@
         </div>
     </section>
 </main>
-
 <footer>
     <div class="container">
         <div class="footer-grid">

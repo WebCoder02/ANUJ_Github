@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeyZee Visa - Privacy Policy</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="document.css">
+    <link rel="stylesheet" href="Country_page.css">
+    <link rel="stylesheet" href="styles.css">
     <style>
         /* Global Styles */
         * {

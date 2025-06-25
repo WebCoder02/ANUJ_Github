@@ -48,3 +48,7 @@ United_Arab_Emirates_Customer.php
 United_Kingdom_Customer.php
 Uzbekistan_Customer.php
 Vietnam_Customer.php
+
+25 June 2025
+We have updated the Whatsapp phone number to 9892527420.
+Updated the googletagmanager linked to sureshgopalan@kalltrip.com

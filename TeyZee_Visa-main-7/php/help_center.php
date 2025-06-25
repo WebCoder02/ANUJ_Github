@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help Center</title>
-    <link rel="stylesheet" href="https:teyzeevisas.com/document.css">
+    <link rel="stylesheet" href="document.css">
+    <link rel="stylesheet" href="Country_page.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -294,27 +296,33 @@ Our mission is clear: to inform, support, and stay connected with you from appli
                             <li>If applicable. With contact details of the host and address</li>
                             <li>Invitation letter from the French company</li>
                         </ul>
-                        <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a>
+                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
+                            Template</a> -->
                     </td>
                 </tr>
                 <tr>
                     <td>Company Cover letter</td>
                     <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a></td>
+                        relationship between the Indian and French company 
+                        <!-- <a href="/templates/company_cover_letter.doc"
+                            class="doc-link" target="_blank">Download Template</a> -->
+                        </td>
                 </tr>
                 <tr>
                     <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip <a
+                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
+                        <!-- <a
                             href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a></td>
+                            Template</a> -->
+                        </td>
                 </tr>
                 <tr>
                     <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too <a
+                    <td>If the trip is sponsored by the Indian company please mention the details too 
+                        <!-- <a
                             href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a></td>
+                            Template</a> -->
+                        </td>
                 </tr>
             </table>
         </div>
@@ -535,7 +543,7 @@ Our mission is clear: to inform, support, and stay connected with you from appli
             const downloadLinks = document.querySelectorAll('.doc-link');
 
             // WhatsApp number - Replace with your actual number
-            const whatsappNumber = "919876543210"; // Format: country code without + followed by number
+            const whatsappNumber = "919892527420"; // Format: country code without + followed by number
 
             // Loop through each download link and modify its behavior
             downloadLinks.forEach(function (link) {
