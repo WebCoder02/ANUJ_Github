@@ -1,4 +1,5 @@
 <?php
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,7 +40,7 @@
         <div class="container header-container">
             <div class="logo">
                 <a href="#">
-                    <img src="/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
+                    <img src="../VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
                 </a>
                 <!--  -->
             </div>
@@ -140,7 +141,7 @@
                 <div class="destinations-grid">
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="/VisaImages/destinations/france.jpg" alt="France">
+                            <img src="../VisaImages/destinations/france.jpg" alt="France">
                             <div class="stats-badge">
                                 <i class="fas fa-bolt"></i> Get Visa in 30 days
                             </div>
@@ -167,7 +168,7 @@
 
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="/VisaImages/destinations/italy.jpg" alt="Italy">
+                            <img src="../VisaImages/destinations/italy.jpg" alt="Italy">
                             <div class="stats-badge">
                                 <i class="fas fa-bolt"></i> Get Visa in 30 days
                             </div>
@@ -194,7 +195,7 @@
 
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="/VisaImages/destinations/germany.jpg" alt="Germany">
+                            <img src="../VisaImages/destinations/germany.jpg" alt="Germany">
                             <div class="stats-badge">
                                 Get Visa in 30 days
                             </div>
@@ -220,7 +221,7 @@
                     </div>
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="/VisaImages/destinations/greece.jpg" alt="Greece">
+                            <img src="../VisaImages/destinations/greece.jpg" alt="Greece">
                             <div class="stats-badge">
                                 <i class="fas fa-bolt"></i> Get Visa in 30 days
                             </div>
@@ -248,7 +249,7 @@
 
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="/VisaImages/destinations/switzerland.jpg" alt="Switzerland">
+                            <img src="../VisaImages/destinations/switzerland.jpg" alt="Switzerland">
 
                             <div class="stats-badge">
                                 Get Visa in 30 days
@@ -275,7 +276,7 @@
 
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="/VisaImages/destinations/turkey.jpg" alt="Turkey">
+                            <img src="../VisaImages/destinations/turkey.jpg" alt="Turkey">
 
                             <div class="stats-badge">
                                 Get Visa in 30 days
@@ -303,7 +304,7 @@
 
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="/VisaImages/destinations/singapore.jpg" alt="Singapore">
+                            <img src="../VisaImages/destinations/singapore.jpg" alt="Singapore">
                             <div class="stats-badge">
                                 <i class="fas fa-bolt"></i> Get Visa in 15 days
                             </div>
@@ -330,7 +331,7 @@
 
                     <div class="destination-card">
                         <div class="destination-image">
-                            <img src="/VisaImages/destinations/china.jpg" alt="China">
+                            <img src="../VisaImages/destinations/china.jpg" alt="China">
                             <div class="stats-badge">
                                 Get Visa in 15 days
                             </div>
@@ -386,7 +387,7 @@
 
                 <div class="process-container">
                     <div class="process-image">
-                        <img src="/VisaImages/destinations/contact-form.png" alt="Application Form">
+                        <img src="../VisaImages/destinations/contact-form.png" alt="Application Form">
                     </div>
                     <div class="process-steps">
                         <div class="step">

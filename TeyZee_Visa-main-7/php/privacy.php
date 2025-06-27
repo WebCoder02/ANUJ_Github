@@ -286,7 +286,7 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <!-- php incnlude 'header.php'; -->
     <!-- <header>
          Google Tag Manager (noscript)
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGFW4FB" height="0" width="0"
@@ -295,7 +295,7 @@
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
-                    <img src="/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
+                    <img src="../VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
                 </a>
             </div>
             <div class="header-actions">

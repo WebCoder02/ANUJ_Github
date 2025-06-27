@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <!-- php incnlude 'header.php'; -->
     <?php
 // Start the session
 session_start();

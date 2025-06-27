@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="document.css">
     <link rel="stylesheet" href="Country_page.css">
     <link rel="stylesheet" href="styles.css">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -27,7 +27,11 @@
                  <a href="#" class="login-btn">Login</a>
             </div>
         </div>
+        
+
     </header>-->
+    <!-- php include 'header.php'; -->
+
     <h1>Austria Schengen Visa Checklist</h1>
 
     <div class="tab-container">

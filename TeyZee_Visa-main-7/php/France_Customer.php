@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <!-- php include 'header.php'; -->
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -332,7 +332,7 @@
                 </tr>
             </table>
         </div>
-    </div>
+    </div> 
 
     <div class="note">
         <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
