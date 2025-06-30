@@ -511,7 +511,7 @@
 
     </main>
       <?php include 'footer.php'; ?>
-    <footer>
+     <!--<footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
@@ -553,7 +553,7 @@
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div> -->
+                </div>
                 <div class="footer-col">
                     <h3>Support</h3>
                     <ul>
@@ -643,11 +643,11 @@
                 <p>© 2025 TeyZee Visas. All Rights Reserved.</p>
             </div>
         </div>
-    </footer>
+    </footer>-->
 
 
     <script src="/link.js"></script>
-    <script src="/scripts.js"></script>
+    <script src="../scripts.js"></script>
 </body>
 
 </html>

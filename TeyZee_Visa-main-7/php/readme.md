@@ -52,3 +52,7 @@ Vietnam_Customer.php
 25 June 2025
 We have updated the Whatsapp phone number to 9892527420.
 Updated the googletagmanager linked to sureshgopalan@kalltrip.com
+30 June 2025
+Created country.php files from country.html files
+Included header.php and footer.php 
+Created bahrain from uae and azerbaijan from russia
