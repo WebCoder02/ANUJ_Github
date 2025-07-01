@@ -286,7 +286,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <!-- <header>
          Google Tag Manager (noscript)
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGFW4FB" height="0" width="0"

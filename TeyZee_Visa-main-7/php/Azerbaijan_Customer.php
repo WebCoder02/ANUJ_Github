@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -210,7 +210,7 @@
             <h2>Additional Information Required</h2>
             <table>
                 <tr>
-                    <th width="40%">Info</th>
+                    <th width="40%">How to fill the Visa form</th>
                     <th width="60%">Details</th>
                 </tr>
                 <tr>

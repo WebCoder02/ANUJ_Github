@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <?php
 // Start the session
 session_start();

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <!-- <header>
         <div class="container header-container">
             <div class="logo">

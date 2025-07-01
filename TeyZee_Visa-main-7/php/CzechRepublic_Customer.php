@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -46,7 +46,14 @@
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Application form completely filled and duly signed by the applicant</td>
+                    <td>Application form completely filled and duly signed by the applicant.<br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if(isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visa.vfsglobal.com/one-pager/czechrepublic/india/pdf/new-form.pdf">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/czechrepublic/india/pdf/Embassy-of-the-Czech-Republic-in-New-Delhi-checklist.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -200,6 +207,16 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/index.html">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/czechrepublic/india/pdf/Embassy-of-the-Czech-Republic-in-New-Delhi-checklist.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
+                </tr>   
+                <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
                         years</td>
@@ -307,10 +324,13 @@
         </div>
 
         <div id="additional" class="tabcontent">
+            <h2>This Information is available only to users who have logged in.</h2>             
+            <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
                 <tr>
-                    <th width="40%">Info</th>
+                    <th width="40%">How to fill the Visa form</th>
                     <th width="60%">Details</th>
                 </tr>
                 <tr>
@@ -373,6 +393,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

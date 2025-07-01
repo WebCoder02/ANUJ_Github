@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -220,11 +220,12 @@
             </table>
         </div>
 
-        <div id="additional" class="tabcontent">
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
                 <tr>
-                    <th width="40%">Info</th>
+                    <th width="40%">How to fill the Visa form</th>
                     <th width="60%">Details</th>
                 </tr>
                 <tr>

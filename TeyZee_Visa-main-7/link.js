@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const callbackBtn = document.querySelector('.callback-btn');
 
     // 🔗 Add your WhatsApp links here:
-    const checkNowLink = '/html/visa-applicant.html';     // For CHECK NOW
-    const applyNowLink = '/html/visa-applicant.html';     // For APPLY NOW — Replace with actual number
+    // For CHECK NOW
+    const applyNowLink = '../html/visa-applicant.html';     // For APPLY NOW — Replace with actual number
     const callbackLink = 'https://wa.me/919029027420';     // For CALLBACK
 
     if (checkBtn) {

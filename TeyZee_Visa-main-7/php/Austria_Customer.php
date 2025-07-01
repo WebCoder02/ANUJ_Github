@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    
+    <?php include 'header.php' ?>
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -42,7 +42,8 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>Austria Tourist Visa Checklist</h2>
+            <h2>Austria Tourist Visa Checklist 
+            </h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
@@ -50,7 +51,14 @@
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Application form: fully completed in English or German language and signed by the applicant</td>
+                    <td>Application form: fully completed in English or German language and signed by the applicant.<br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visa.vfsglobal.com/one-pager/austria/india/english/pdf/new-application-form.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/austria/india/english/pdf/Tourist-Visa-2024.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -146,6 +154,15 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.bmeia.gv.at/fileadmin/user_upload/Vertretungen/New_Delhi/April_2025_Application_Form_C.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/austria/india/english/pdf/Tourist-Visa-2024.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
+                </tr>
+                <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
                         years</td>
@@ -166,7 +183,9 @@
                 </tr>
                 <tr>
                     <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Put your signature and carry it on the day of appointment<br>
+                        
+                    </td>
                 </tr>
                 <tr>
                     <td>Appointment letter</td>
@@ -252,11 +271,18 @@
             </table>
         </div>
 
+
+      
+                         
         <div id="additional" class="tabcontent">
+            <h2>This Information is available only to users who have logged in.</h2>
+             <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
+           
             <table>
                 <tr>
-                    <th width="40%">Info</th>
+                    <th width="40%">How to fill the Visa form</th>
                     <th width="60%">Details</th>
                 </tr>
                 <tr>
@@ -315,15 +341,18 @@
                             <li>Any other company</li>
                         </ol>
                         Also mention: Name of the person/org who will fund, relationship of the person/org who will
-                        fund, how much money they will be paying
+                        fund, how much money they will be paying.
                     </td>
                 </tr>
             </table>
+            <?php endif; ?> 
         </div>
+        
+        
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://visa.vfsglobal.com/one-pager/austria/india/english/pdf/new-application-form.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Austria or consulate in your country before
         applying.</p>
     </div>

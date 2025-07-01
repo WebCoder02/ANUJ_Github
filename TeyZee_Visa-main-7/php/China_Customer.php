@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -66,7 +66,15 @@
                 <tr>
                     <td>Application form</td>
                     <td>Two Indian Government visa application forms duly filled in online.<br/>
-                    Two hand filled reference form for Chinese (in block letters, photocopies not accepted.)</td>
+                    Two hand filled reference form for Chinese (in block letters, photocopies not accepted.)<br>
+                    Login to see the Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visaoffice.eu/media/uploads/document_examples/Order_forms/china/data_collect_form_china.pdf">Download Application Form</a>
+                        <a href="https://www.bestvoyage.in/china-tourist-visa-checklist">Download Document Checklist</a>
+                        <?php endif; ?>
+                
+                </td>
                 </tr>
                 <tr>
                     <td>Appointment slip</td>
@@ -162,6 +170,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visaoffice.eu/media/uploads/document_examples/Order_forms/china/data_collect_form_china.pdf">Download Application Form</a>
+                        <a href="https://www.bestvoyage.in/china-tourist-visa-checklist">Download Document Checklist</a>
+                        <?php endif; ?></td>
+                </tr>  
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -268,11 +285,12 @@
             </table>
         </div>
 
-        <div id="additional" class="tabcontent">
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
                 <tr>
-                    <th width="40%">Info</th>
+                    <th width="40%">How to fill the Visa form</th>
                     <th width="60%">Details</th>
                 </tr>
                 <tr>
@@ -335,6 +353,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

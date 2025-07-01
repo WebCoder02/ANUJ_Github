@@ -95,7 +95,7 @@
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for Rs 500 only</h2>
                 <p>Upload your basic documents now.</p>
-                <button class="check-btn">CHECK NOW</button>
+                <a href="Germany_Customer.php"><button class="check-btn">CHECK NOW</button></a>
             </div>
         </div>
     </section>

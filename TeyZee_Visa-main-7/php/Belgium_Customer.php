@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -47,8 +47,14 @@
                 <tr>
                     <td>1</td>
                     <td>
-                        <strong>Original Passport with old passport :</strong><br>
-                        Note: Passport should be valid minimum 06 months from the date of travel, issued within the last 10 years, validity must not exceed 10 years, no hand-written passports accepted, and at least 2 blank pages.
+                        <strong>Application form & Original Passport with old passport :</strong><br>
+                        Note: Passport should be valid minimum 06 months from the date of travel, issued within the last 10 years, validity must not exceed 10 years, no hand-written passports accepted, and at least 2 blank pages.<br>
+                        Login to see the Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visa.vfsglobal.com/one-pager/Belgium/Saudiarabia/english/pdf/Application-for-Schengen-Visa.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/india/belgium/english/pdf/tv-checklist-en-v2.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
                     </td>
                 </tr>
                 <tr>
@@ -150,6 +156,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visa.vfsglobal.com/one-pager/india/belgium/english/pdf/tv-checklist-en-v2.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/india/belgium/english/pdf/tv-checklist-en-v2.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>
@@ -258,10 +273,13 @@
         </div>
 
         <div id="additional" class="tabcontent">
+            <h2>This Information is available only to users who have logged in.</h2> 
+            <?php if(isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
                 <tr>
-                    <th width="40%">Info</th>
+                    <th width="40%">How to fill the Visa form</th>
                     <th width="60%">Details</th>
                 </tr>
                 <tr>
@@ -324,6 +342,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif;?>
         </div>
     </div>
 

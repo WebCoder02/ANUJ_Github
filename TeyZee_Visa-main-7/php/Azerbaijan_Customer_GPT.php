@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- php incnlude 'header.php'; -->
+    <?php include 'header.php'; ?>
     <!--Completed Revision 18th June 2025-->
     <!--<header>
         <div class="container header-container">
@@ -44,7 +44,16 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-                 <tr><td>1</td><td>Completed visa application via <a href="https://selfservice.udi.no/">Visa Portal Norway</a> with printed & signed Cover Letter</td></tr>
+                 <tr><td>1</td>
+                 <td>Completed visa application via Visa Portal Norway with printed & signed Cover Letter.<br>
+                    Login to see the Visa Application form & the Document Checklist.
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/norway/azerbaijan/azeri/pdf/pdf-to-word.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                 </td>
+                </tr>
                     <tr><td>2</td><td>1 recent color photograph (see <a href="http://www.norway.az/">photo requirements</a>)</td></tr>
                     <tr><td>3</td><td>Passport:
                         <ul>
@@ -95,6 +104,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/norway/azerbaijan/azeri/pdf/pdf-to-word.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>
@@ -202,12 +220,15 @@
                 </tr>
             </table>
         </div>
-
+                        
         <div id="additional" class="tabcontent">
+            <h2>This Information is available only to users who have logged in.</h2>
+             <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
                 <tr>
-                    <th width="40%">Info</th>
+                    <th width="40%">How to fill the Visa form</th>
                     <th width="60%">Details</th>
                 </tr>
                 <tr>
@@ -270,6 +291,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 
