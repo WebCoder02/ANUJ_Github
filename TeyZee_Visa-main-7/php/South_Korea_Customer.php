@@ -46,7 +46,15 @@
                 </tr>
             </td>
           </tr>
-          <tr><td>1</td><td>Online visa application form: Completed, signed by applicant. If applying via a 3rd person, include authorization form. For minors: form must be signed by legal guardian, and authorization provided if applicable.</td></tr>
+          <tr><td>1</td><td>Online visa application form: Completed, signed by applicant. If applying via a 3rd person, include authorization form. For minors: form must be signed by legal guardian, and authorization provided if applicable.
+             <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Application Form</a>
+                        <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Document Checklist</a>
+                        <?php endif; ?>
+          </td></tr>
           <tr><td>2</td><td>Passport/travel document: Issued within last 10 years; valid ≥3 months beyond visa expiry; undamaged, no unofficial entries; ≥2 blank pages.</td></tr>
           <tr><td>3</td><td>Visa fee payment proof (~20 USD).</td></tr>
           <tr><td>4</td><td>Copy of travel tickets or confirmed booking (round-trip or onward).</td></tr>
@@ -67,6 +75,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                 <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Application Form</a>
+                            <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -88,7 +105,9 @@
                 </tr>
                 <tr>
                     <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Put your signature and carry it on the day of appointment
+                       
+                    </td>
                 </tr>
                 <tr>
                     <td>Appointment letter</td>
@@ -242,6 +261,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

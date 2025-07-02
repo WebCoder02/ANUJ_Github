@@ -48,7 +48,14 @@
           </tr>
           <tr>
             <td>1</td>
-            <td><strong>Ensure Passport Validity:</strong>
+            <td><strong>Application Form should fully filled & Ensure Passport Validity:</strong>
+            <br>
+                Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://vietnamembassydelhi.in/important-notice-on-e-visa/">Download Application Form</a>
+                        <a href="https://evisa.gov.vn/instruction">Download Document Checklist</a>
+                        <?php endif; ?>
               <ul>
                 <li>Passport must be valid for at least 6 months from the date of entry into Vietnam</li>
                 <li>Must have at least 2 blank pages</li>
@@ -131,6 +138,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://vietnamembassydelhi.in/important-notice-on-e-visa/">Download Application Form</a>
+                            <a href="https://evisa.gov.vn/instruction">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -306,6 +322,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

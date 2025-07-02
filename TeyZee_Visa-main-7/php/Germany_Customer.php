@@ -52,7 +52,13 @@
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>Application form & declarations duly signed
+                    <td>Application form & declarations duly signed<br>
+                    Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://india.diplo.de/resource/blob/1866462/ade94bd7a05b747d483fb23dfbd05cd3/ac-antrag-data.pdf">Download Application Form</a>
+                        <a href="https://india.diplo.de/resource/blob/1866462/ade94bd7a05b747d483fb23dfbd05cd3/ac-antrag-data.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
                     </td>
                 </tr>
                 <tr>
@@ -153,6 +159,16 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.germany-visa.org/business-visa/#google_vignette">Download Application Form</a>
+                        <a href="https://india.diplo.de/resource/blob/1866462/ade94bd7a05b747d483fb23dfbd05cd3/ac-antrag-data.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
+                </tr>
+
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -327,6 +343,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

@@ -46,7 +46,15 @@
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Visa application form duly completed and signed</td>
+                    <td>Visa application form duly completed and signed
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.mzv.sk/en/web/dilli-en/services/visa-application-forms">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/slovakia/uae/pdf/medical-visa-checklist-final.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -109,6 +117,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.schengenvisas.com/business-schengen-visa/">Download Application Form</a>
+                            <a href="https://www.vfsglobal.com/slovakia/uae/pdf/medical-visa-checklist-final.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -284,6 +301,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

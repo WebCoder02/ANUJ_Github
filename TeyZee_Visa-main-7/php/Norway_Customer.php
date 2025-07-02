@@ -48,6 +48,12 @@
                     <td>1</td>
                     <td>
                         Schengen application form (<a href="https://www.udi.no/en/" target="_blank">https://www.udi.no/en/</a>)<br>
+                          Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/norway/cameroon/english/pdf/checklist-schengen-new.pdf">Download Document Checklist</a>
+                        <?php endif; ?><br>  
                         With one passport size photo not older than three months, white background, size 3.5x4.5 cm
                     </td>
                 </tr>
@@ -172,6 +178,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf">Download Application Form</a>
+                            <a href="https://visa.vfsglobal.com/one-pager/norway/cameroon/english/pdf/checklist-schengen-new.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -347,6 +362,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

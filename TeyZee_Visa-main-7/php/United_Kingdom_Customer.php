@@ -38,12 +38,24 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>United Kingdom Tourist Visa Checklist (not updated)</h2>
+            <h2>United Kingdom Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
+            </td>
+          </tr>
+          <tr>
+            <td>Application Form</td>
+            <td>
+                Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.mofa.gov.ae/en/Missions/Mumbai/Services/Visas">Download Application Form</a>
+                        <a href="https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk">Download Document Checklist</a>
+                        <?php endif; ?>
+
             </td>
           </tr>
           <tr>
@@ -85,6 +97,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.mofa.gov.ae/en/Missions/Mumbai/Services/Visas">Download Application Form</a>
+                            <a href="https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk">Download Document Checklist</a>
+                            <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>

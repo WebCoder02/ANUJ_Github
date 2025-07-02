@@ -64,6 +64,13 @@
                             <li>White background, matt finished</li>
                             <li>Taken in past 6 months</li>
                         </ul>
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://um.fi/documents/35732/0/31800048_UM_Viisumilomake_Schengen_taytettava_EN_22_01_14.pdf/31c11098-37e4-f4e1-7f87-b03318aed5b3?t=1642762548291">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/Finland/India/pdf/NDE-Business-Check-2016-010516.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
                     </td>
                 </tr>
                 <tr>
@@ -181,6 +188,16 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://um.fi/documents/35732/0/31800048_UM_Viisumilomake_Schengen_taytettava_EN_22_01_14.pdf/31c11098-37e4-f4e1-7f87-b03318aed5b3?t=1642762548291">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/Finland/India/pdf/NDE-Business-Check-2016-010516.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
+                </tr>
+
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -356,6 +373,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif;?>
         </div>
     </div>
 

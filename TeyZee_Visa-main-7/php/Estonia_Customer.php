@@ -50,7 +50,14 @@
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>Application form – completed, signed twice by the applicant. If the applicant is a minor, visa application signed twice by legal guardian (Proving the custody of a minor child, apostilled birth certificate, divorce papers etc)</td>
+                    <td>Application form – completed, signed twice by the applicant. If the applicant is a minor, visa application signed twice by legal guardian (Proving the custody of a minor child, apostilled birth certificate, divorce papers etc)
+                        <br>
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://eelviisataotlus.vm.ee/">Download Application Form</a>
+                        <a href="https://newdelhi.mfa.ee/wp-content/uploads/sites/41/2023/09/Checklist-Tourism-1.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -112,6 +119,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://newdelhi.mfa.ee/">Download Application Form</a>
+                        <a href="https://newdelhi.mfa.ee/wp-content/uploads/sites/41/2023/09/Checklist-Tourism-1.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>
@@ -288,6 +304,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif;?>
         </div>
     </div>
 

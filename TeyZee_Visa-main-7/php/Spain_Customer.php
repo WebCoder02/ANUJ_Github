@@ -28,7 +28,7 @@
             </div>
         </div>
     </header>-->
-    <h1>Spain   Schengen Visa Checklist</h1>
+    <h1>Spain Schengen Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -38,7 +38,7 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>Spain   Tourist Visa Checklist </h2>
+            <h2>Spain Tourist Visa Checklist </h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
@@ -47,8 +47,14 @@
                 <tr>
                     <td>1</td>
                     <td>
-                        <strong>Original Passport with old passport:</strong><br>
-                        • Note: Passport should be valid minimum 03 months from the date of travel, Passport has been issued within 10 years and validity must not exceed 10 years, No hand written passports will be accepted and at least 2 blank pages
+                        <strong>Application Form & Original Passport with old passport:</strong><br>
+                        • Note: Passport should be valid minimum 03 months from the date of travel, Passport has been issued within 10 years and validity must not exceed 10 years, No hand written passports will be accepted and at least 2 blank pages.<br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Documents/Impreso%20solicitud%20visado%20Schengen%20espa%c3%b1ol-ingl%c3%a9s.pdf">Download Application Form</a>
+                        <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visados-Schengen.aspx">Download Document Checklist</a>
+                        <?php endif; ?>
                     </td>
                 </tr>
                 <tr>
@@ -137,6 +143,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Documents/Impreso%20solicitud%20visado%20Schengen%20espa%c3%b1ol-ingl%c3%a9s.pdf">Download Application Form</a>
+                            <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visados-Schengen.aspx">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -312,6 +327,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

@@ -46,7 +46,17 @@
                 </tr>
                 <tr>
                     <td>1.1</td>
-                    <td>Print out of visa application summary sheet from <a href="http://www.visas.inis.gov.ie" target="_blank">www.visas.inis.gov.ie</a> - signed by applicant</td>
+                    <td>Print out of visa application summary sheet from <a href="http://www.visas.inis.gov.ie" target="_blank">www.visas.inis.gov.ie</a> - signed by applicant
+            
+                    <br>
+                    Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visa.vfsglobal.com/ind/en/irl/apply-visa">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/ind/en/irl/track-application">Download Document Checklist</a>
+                        <?php endif; ?>
+
+                    </td>
                 </tr>
                 <tr>
                     <td>1.2</td>
@@ -150,6 +160,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                 <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://visa.vfsglobal.com/ind/en/irl/apply-visa">Download Application Form</a>
+                            <a href="https://visa.vfsglobal.com/ind/en/irl/track-application">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -325,6 +344,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

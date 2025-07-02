@@ -50,7 +50,15 @@
                   </tr>
                   <tr>
                     <td>2</td>
-                    <td>1 application form duly completed, dated and signed by the applicant</td>
+                    <td>1 application form duly completed, dated and signed by the applicant
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.gov.si/assets/ministrstva/MZEZ/Dokumenti/konzularne-zadeve/oddelek-za-vize/vloge-za-vize-januar-2020/Application-form-C-SI.pdf">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/one-pager/slovenia/india/english/pdf/checklist-for-short-stay-visa.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                   </tr>
                   <tr>
                     <td>3</td>
@@ -181,6 +189,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                 <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.gov.si/en/representations/embassy-new-delhi/visa-information/">Download Application Form</a>
+                            <a href="https://www.vfsglobal.com/one-pager/slovenia/india/english/pdf/checklist-for-short-stay-visa.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -356,6 +373,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif;?>
         </div>
     </div>
 

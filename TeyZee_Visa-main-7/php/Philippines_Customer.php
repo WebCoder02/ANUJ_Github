@@ -44,11 +44,16 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-            </td>
-          </tr>
-          <tr>
+            <tr>
             <td>1</td>
             <td>
+                Application Form , <br>
+                Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://newdelhipe.dfa.gov.ph/images/2023/MAY2023/FA_Form_No_2_Standard_Visa_Application_Form_2021.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/netherlands/philippines/english/pdf/checklist-visa-visit-family-friends-sep-2021.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
                 Original Passport with old Passport:
                 <ul>
                     <li>Note: Passport should be valid minimum 06 months from the date of travel</li>
@@ -60,6 +65,8 @@
         <tr>
             <td>2</td>
             <td>
+                
+
                 02 recent photograph Each:
                 <ul>
                     <li>35*45 mm size</li>
@@ -154,6 +161,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://newdelhipe.dfa.gov.ph/images/2023/MAY2023/FA_Form_No_2_Standard_Visa_Application_Form_2021.pdf">Download Application Form</a>
+                            <a href="https://visa.vfsglobal.com/one-pager/netherlands/philippines/english/pdf/checklist-visa-visit-family-friends-sep-2021.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -329,6 +345,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

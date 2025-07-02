@@ -46,7 +46,15 @@
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Schengen visa application form duly completed, dated and signed by the applicant</td>
+                    <td>Schengen visa application form duly completed, dated and signed by the applicant.
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.immd.gov.hk/eng/services/index.html#tab_a_1">Download Application Form</a>
+                        <a href="https://www.immd.gov.hk/eng/service/travel_document/Application_for_HKSAR_Document_of_Identity_for_Visa_Purposes.html#a&secondTab">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -106,6 +114,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.immd.gov.hk/eng/services/index.html#tab_a_1">Download Application Form</a>
+                        <a href="https://www.immd.gov.hk/eng/service/travel_document/Application_for_HKSAR_Document_of_Identity_for_Visa_Purposes.html#a&secondTab">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>
@@ -282,6 +299,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

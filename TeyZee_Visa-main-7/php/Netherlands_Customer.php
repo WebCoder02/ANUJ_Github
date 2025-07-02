@@ -52,7 +52,12 @@
                 </tr>
                 <tr>
                     <td>Visa Application Form</td>
-                    <td></td>
+                    <td>Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.vfsglobal.com/Netherlands/UK/visa-services/pdf/Schengen_Application_Form.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/netherlands/indonesia/english/pdf/Checklist-tourist-or-visiting-family-friends.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>04 recent photograph each</td>
@@ -138,6 +143,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.government.nl/topics/immigration-to-the-netherlands/question-and-answer/how-do-i-apply-for-a-short-stay-schengen-visa-for-the-netherlands">Download Application Form</a>
+                            <a href="https://visa.vfsglobal.com/one-pager/netherlands/indonesia/english/pdf/Checklist-tourist-or-visiting-family-friends.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -313,6 +327,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

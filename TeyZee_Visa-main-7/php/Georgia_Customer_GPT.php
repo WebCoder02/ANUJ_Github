@@ -48,7 +48,14 @@
                         <td>1</td>
                         <td>Completed and signed visa application form by the applicant.<br>
                             <strong>Note:</strong> For minors, must be signed by a legal guardian.<br>
-                            If applicable, include authorization for a third person.
+                            If applicable, include authorization for a third person.<br>
+                            Login to see the Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.evisa.gov.ge/GeoVisa/en/VisaApp">Download Application Form</a>
+                            <a href="https://www.netherlandsworldwide.nl/binaries/content/assets/pdfs-engels/checklist-visa-application/georgia/tourism.pdf">Download Document Checklist</a>
+                            <?php endif; ?>
+
                         </td>
                     </tr>
                     <tr>
@@ -136,6 +143,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.evisa.gov.ge/GeoVisa/en/VisaApp">Download Application Form</a>
+                        <a href="https://www.netherlandsworldwide.nl/binaries/content/assets/pdfs-engels/checklist-visa-application/georgia/tourism.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>
@@ -312,6 +328,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif;?>
         </div>
     </div>
 

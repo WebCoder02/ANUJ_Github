@@ -52,7 +52,13 @@
                 <strong>Application form</strong> duly filled and signed by the applicant
                 (For children registered in a parent’s passport a separate
                 application form has to be filled and all required documents to
-                be submitted)
+                be submitted)<br>
+                Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visa.mofa.gov.sa/">Download Application Form</a>
+                        <a href="https://embassies.mofa.gov.sa/sites/india/EN/Services/Visa-Instructions/Pages/default.aspx">Download Document Checklist</a>
+                        <?php endif; ?>
             </td>
         </tr>
         <tr>
@@ -165,6 +171,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                 <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://visa.mofa.gov.sa/">Download Application Form</a>
+                            <a href="https://embassies.mofa.gov.sa/sites/india/EN/Services/Visa-Instructions/Pages/default.aspx">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -340,6 +355,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

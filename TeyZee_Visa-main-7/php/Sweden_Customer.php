@@ -46,7 +46,15 @@
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Application for Schengen Visa (No. 119031) attached with 1 photograph not older than six months with white background (3.5cm/4.5 cm). Please explain your plan for visit.</td>
+                    <td>Application for Schengen Visa (No. 119031) attached with 1 photograph not older than six months with white background (3.5cm/4.5 cm). Please explain your plan for visit.
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.migrationsverket.se/download/18.2cd2e409193b84c506a2f9dc/1738227829389/119031_blvisa_en.pdf">Download Application Form</a>
+                        <a href="https://www.swedenabroad.se/globalassets/ambassader/indien-new-delhi/documents/sweden-tourist-checklist.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -130,6 +138,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.migrationsverket.se/download/18.2cd2e409193b84c506a2f9dc/1738227829389/119031_blvisa_en.pdf">Download Application Form</a>
+                            <a href="https://www.swedenabroad.se/globalassets/ambassader/indien-new-delhi/documents/sweden-tourist-checklist.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -305,6 +322,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

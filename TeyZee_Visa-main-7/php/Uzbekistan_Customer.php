@@ -44,16 +44,22 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-                <tr><td>1. Eligible Countries</td><td>Check if your country is on the e‑Visa list—77 nationalities supported including India, USA, Vietnam, etc.</td></tr>
-                <tr><td>2. Passport</td><td>Scan of valid passport's data page (clear JPG/PDF, ≤500 KB). Must have ≥2 blank pages and ideally be valid ≥3 months beyond visa expiry.</td></tr>
-                <tr><td>3. Photo</td><td>Passport‑style photo (35×45 mm, 300 dpi, ≤1 MB, ICAO‑standard, JPG lowercase). Many users report needing lower‑case extensions and clean white backgrounds.</td></tr>
-                <tr><td>4. Portal Application</td><td>Go to <a href="https://e-visa.gov.uz" target="_blank">e‑visa.gov.uz</a>, select visa type, fill personal and travel info, and upload passport/photo.</td></tr>
-                <tr><td>5. Payment</td><td>Online payment via international Visa/MasterCard. Fees: USD 20 (single), 35 (double), 50 (multiple). Non‑refundable. Users report retrying payment after timeouts.</td></tr>
-                <tr><td>6. Processing Time</td><td>Typically issued within 2–3 working days. Some applicants report up to a week, especially around holidays.</td></tr>
-                <tr><td>7. Download e‑Visa</td><td>You’ll receive e‑Visa by email—print at least one hard copy; mobile screenshots are not accepted.</td></tr>
-                <tr><td>8. Entry Validity</td><td>e‑Visa valid for 90 days from issue. Single/multi entry as selected; max. 30 days stay per visit. </td></tr>
-                <tr><td>9. Border Entry</td><td>Accepted at all official ports. Present printed e‑Visa and passport. Keep copies with you.</td></tr>
-                <tr><td>10. Common Issues & Tips</td><td>– Ensure JPEG file extension is lowercase<br>– If the portal stalls at CAPTCHA or payment, wait 5+ hrs then retry<br>– Contact support via Telegram or email (mail@e-visa.gov.uz) with your application code<br>– Photo upload is the most frequent issue—certified guides helped users succeed</td></tr>
+                <tr><td>Application Form</td><td>Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://e-visa.gov.uz/application">Download Application Form</a>
+                        <a href="https://e-visa.gov.uz/main">Download Document Checklist</a>
+                        <?php endif; ?></td></tr>
+                <tr><td>Eligible Countries</td><td>Check if your country is on the e‑Visa list—77 nationalities supported including India, USA, Vietnam, etc.</td></tr>
+                <tr><td>Passport</td><td>Scan of valid passport's data page (clear JPG/PDF, ≤500 KB). Must have ≥2 blank pages and ideally be valid ≥3 months beyond visa expiry.</td></tr>
+                <tr><td>Photo</td><td>Passport‑style photo (35×45 mm, 300 dpi, ≤1 MB, ICAO‑standard, JPG lowercase). Many users report needing lower‑case extensions and clean white backgrounds.</td></tr>
+                <tr><td>Portal Application</td><td>Go to <a href="https://e-visa.gov.uz" target="_blank">e‑visa.gov.uz</a>, select visa type, fill personal and travel info, and upload passport/photo.</td></tr>
+                <tr><td>Payment</td><td>Online payment via international Visa/MasterCard. Fees: USD 20 (single), 35 (double), 50 (multiple). Non‑refundable. Users report retrying payment after timeouts.</td></tr>
+                <tr><td>Processing Time</td><td>Typically issued within 2–3 working days. Some applicants report up to a week, especially around holidays.</td></tr>
+                <tr><td>Download e‑Visa</td><td>You’ll receive e‑Visa by email—print at least one hard copy; mobile screenshots are not accepted.</td></tr>
+                <tr><td>Entry Validity</td><td>e‑Visa valid for 90 days from issue. Single/multi entry as selected; max. 30 days stay per visit. </td></tr>
+                <tr><td>Border Entry</td><td>Accepted at all official ports. Present printed e‑Visa and passport. Keep copies with you.</td></tr>
+                <tr><td> Common Issues & Tips</td><td>– Ensure JPEG file extension is lowercase<br>– If the portal stalls at CAPTCHA or payment, wait 5+ hrs then retry<br>– Contact support via Telegram or email (mail@e-visa.gov.uz) with your application code<br>– Photo upload is the most frequent issue—certified guides helped users succeed</td></tr>
 
             </table>
         </div>
@@ -65,6 +71,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://e-visa.gov.uz/application">Download Application Form</a>
+                            <a href="https://e-visa.gov.uz/main">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -240,6 +255,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

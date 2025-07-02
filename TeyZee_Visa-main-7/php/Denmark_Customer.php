@@ -46,7 +46,14 @@
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Application form completely filled on <a href="https:applyvisa.um.dk/" target="_blank">https:applyvisa.um.dk/</a>, printed and signed by the applicant</td>
+                    <td>Application form completely filled, printed and signed by the applicant <br>
+                    Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa-english-latest_1b0c5d59214f2452613dffed18ec6ebc6e4cfe5a97e1ddec3a4fb50bbff30729.pdf">Download Application Form</a>
+                        <a href="https://indien.um.dk/en/-/media/country-sites/indien-en/travel-and-residence/tourist-checklist-2024.ashx">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -135,6 +142,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://applyvisa.um.dk/NVP.App/frontpage/1">Download Application Form</a>
+                        <a href="https://indien.um.dk/en/-/media/country-sites/indien-en/travel-and-residence/tourist-checklist-2024.ashx">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>
@@ -243,7 +259,9 @@
             </table>
         </div>
 
-        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+        <div id="additional" class="tabcontent">
+            <h2>This Information is available only to users who have logged in.</h2>             
+            <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
@@ -311,6 +329,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 
@@ -472,20 +491,20 @@
             evt.currentTarget.className += " active";
         }
 
-         JavaScript to redirect users to WhatsApp with template request message
+         //JavaScript to redirect users to WhatsApp with template request message
         document.addEventListener('DOMContentLoaded', function () {
-             Select all download links with the class "doc-link"
+            // Select all download links with the class "doc-link"
             const downloadLinks = document.querySelectorAll('.doc-link');
 
-             WhatsApp number - Replace with your actual number
+            // WhatsApp number - Replace with your actual number
             const whatsappNumber = "919892527420";  Format: country code without + followed by number
 
-             Loop through each download link and modify its behavior
+             //Loop through each download link and modify its behavior
             downloadLinks.forEach(function (link) {
                 link.addEventListener('click', function (e) {
-                    e.preventDefault();  Prevent the default download behavior
+                    e.preventDefault(); // Prevent the default download behavior
 
-                     Get the template type from the link
+                    // Get the template type from the link
                     const templatePath = link.getAttribute('href').split('/').pop();
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 

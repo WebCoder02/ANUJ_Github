@@ -47,7 +47,15 @@
                 <tr>
             <td>1</td>
             <td>Duly completed Form 14A, signed by the applicant.<br>
-            Optional Form V39A (Letter of Introduction) from a Singapore SC/PR if available.</td>
+            Optional Form V39A (Letter of Introduction) from a Singapore SC/PR if available.
+            <br>
+            Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.ica.gov.sg/docs/default-source/ica/forms/form14a.pdf">Download Application Form</a>
+                        <a href="https://www.mfa.gov.sg/Overseas-Mission/New-Delhi/Consular-Services/Visa-Information#:~:text=India">Download Document Checklist</a>
+                        <?php endif; ?>
+            </td>
           </tr>
           <tr>
             <td>2</td>
@@ -103,6 +111,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.ica.gov.sg/docs/default-source/ica/forms/form14a.pdf">Download Application Form</a>
+                            <a href="https://www.mfa.gov.sg/Overseas-Mission/New-Delhi/Consular-Services/Visa-Information#:~:text=India">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -277,6 +294,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

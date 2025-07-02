@@ -64,7 +64,16 @@
                 </tr>
                 <tr>
                     <td>Application form</td>
-                    <td>Signature mandatory; for minors, both parents must sign</td>
+                    <td>Signature mandatory; for minors, both parents must sign
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visa.vfsglobal.com/one-pager/italy/india/new-delhi/english/pdf/visa-application-form-new.pdf">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/italy/india/mumbai/english/pdf/requisite_documents_for_tourist_visa.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+
+                    </td>
                 </tr>
                 <tr>
                     <td>Appointment slip</td>
@@ -157,6 +166,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                 <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://consmumbai.esteri.it/wp-content/uploads/2024/07/VISA-APPLICATION-FORM-ENGLISH.pdf">Download Application Form</a>
+                            <a href="https://visa.vfsglobal.com/one-pager/italy/india/mumbai/english/pdf/requisite_documents_for_tourist_visa.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -331,6 +349,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

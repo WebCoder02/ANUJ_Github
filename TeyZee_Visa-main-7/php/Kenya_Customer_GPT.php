@@ -54,6 +54,13 @@
                                 <li>No handwritten passports accepted</li>
                                 <li>Must have at least 2 blank pages</li>
                             </ul>
+                            <br>
+                            Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://evisa.go.ke/">Download Application Form</a>
+                        <a href="https://www.kenyaimmigration.org/faq/what-documents-do-i-need-at-the-airport-in-kenya?_gl=1*dhz6g3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwlMfABhCWARIsADGXdy90-v425odt6Za-T8XUDyCy2GEXPVIdVL8xpT6ZfUf9B09OXjr07awaAkdjEALw_wcB">Download Document Checklist</a>
+                        <?php endif; ?>
                         </td>
                     </tr>
                     <tr>
@@ -96,6 +103,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://evisa.go.ke/">Download Application Form</a>
+                            <a href="https://www.kenyaimmigration.org/faq/what-documents-do-i-need-at-the-airport-in-kenya?_gl=1*dhz6g3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwlMfABhCWARIsADGXdy90-v425odt6Za-T8XUDyCy2GEXPVIdVL8xpT6ZfUf9B09OXjr07awaAkdjEALw_wcB">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -271,6 +287,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

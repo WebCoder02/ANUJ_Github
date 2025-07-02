@@ -65,7 +65,15 @@
                 </tr>
                 <tr>
                     <td>Application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Put your signature and carry it on the day of appointment
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf">Download Application Form</a>
+                        <a href="">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>Appointment slip</td>
@@ -157,6 +165,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://france-visas.gouv.fr/en/india">Download Application Form</a>
+                        <a href="https://france-visas.gouv.fr/documents/d/france-visas/fv_com_tutoriel_portugais">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>
@@ -332,6 +349,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif;?>
         </div>
     </div> 
 

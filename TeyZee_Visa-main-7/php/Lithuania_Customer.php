@@ -46,7 +46,14 @@
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>
+                    <td>Application form fully filled<br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.migracija.lt/app/auth/login">Download Application Form</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/lithuania/india/english/pdf/Checklist-February-2025.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+
                         Original Passport with old passport:<br>
                         • Note: Passport should be valid minimum 06 months from the date of travel, Passport has been issued within 10 years and validity must not exceed 10 years, No hand written passports will be accepted and at least 2 blank pages.
                     </td>
@@ -140,6 +147,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                 <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.migracija.lt/app/auth/login">Download Application Form</a>
+                            <a href="https://visa.vfsglobal.com/one-pager/lithuania/india/english/pdf/Checklist-February-2025.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -315,6 +331,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

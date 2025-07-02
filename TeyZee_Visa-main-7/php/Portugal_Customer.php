@@ -46,11 +46,19 @@
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Valid national passport:<br>
+                    <td>Application Form & Valid national passport:<br>
                     • Issued within the last 10 years and with at least 3 months validity after the scheduled return.<br>
                     • Passports with observations regarding the front data page (biographical data) will not be accepted<br>
                     • Passports must have at least two empty pages to affix the visa.<br>
-                    • The Schengen states do not accept Indian handwritten passports or passports that contains a manual entry made after 01/04/2010 where the biographical data (name, place, date of birth and sex) were changed.</td>
+                    • The Schengen states do not accept Indian handwritten passports or passports that contains a manual entry made after 01/04/2010 where the biographical data (name, place, date of birth and sex) were changed.
+                    <br>
+                    Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/schengen_form_en_new_2024.pdf">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/checklist_for_schengen_visa_tourism_cg_new.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                   </tr>
                   <tr>
                     <td>2</td>
@@ -192,6 +200,15 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                 <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/checklist_for_schengen_visa_tourism_cg_new.pdf">Download Application Form</a>
+                            <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/schengen_form_en_new_2024.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -367,6 +384,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

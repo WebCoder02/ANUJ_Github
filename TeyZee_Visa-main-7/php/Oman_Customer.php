@@ -45,11 +45,17 @@
                     <th width="70%">Description</th>
                 </tr>
             </td>
-
           </tr>
           <tr>
             <td>1</td>
-            <td>Application form (available online, free of charge)</td>
+            <td>Application form (available online, free of charge)<br>
+            Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.fm.gov.om/citizens/visa-requirements/">Download Application Form</a>
+                        <a href="https://www.indemb-oman.gov.in/eoi.php?id=additional-checklists">Download Document Checklist</a>
+                        <?php endif; ?>
+            </td>
           </tr>
           <tr>
             <td>2</td>
@@ -161,6 +167,15 @@ For study visit:<br/>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                 <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.fm.gov.om/citizens/visa-requirements/">Download Application Form</a>
+                            <a href="https://www.indemb-oman.gov.in/eoi.php?id=additional-checklists">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -336,6 +351,7 @@ For study visit:<br/>
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

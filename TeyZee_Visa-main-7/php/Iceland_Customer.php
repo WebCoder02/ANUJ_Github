@@ -49,6 +49,14 @@
                     <td>
                         Application form<br>
                         - Fully completed application form and signed by the applicant. Please note that any incomplete information or false statements could result in delay in the processing of the application. The application form can be downloaded in English on the following page: Link to the Iceland Application form.
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://home-affairs.ec.europa.eu/system/files/2020-02/schengen_visa_application_form_en.pdf">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/Iceland/Malaysia/pdf/Tourist-Visa-Application-Checklist.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+
                     </td>
                 </tr>
                 <tr>
@@ -184,6 +192,15 @@
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
+                </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.government.is/diplomatic-missions/embassy-of-iceland-in-new-delhi/visa-to-iceland/">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/Iceland/Malaysia/pdf/Tourist-Visa-Application-Checklist.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
                 <tr>
                     <td>Original Passport</td>
@@ -360,6 +377,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 

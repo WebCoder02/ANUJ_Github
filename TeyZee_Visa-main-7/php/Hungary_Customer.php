@@ -60,9 +60,15 @@
                         Application form duly completed and signed<br>
                         • full address of the host/hotel must be written in the application<br>
                         • minors:<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;• application form signed by both parents/legal representatives, copy of parent’s ID/passport<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;• if minor travels with one parent: signed authorization letter of the other parent duly legalised, copy of parent’s ID/passport<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;• if minor travels alone: both parents must provide a signed authorization duly legalised, copy of parent’s ID/passport
+                        • application form signed by both parents/legal representatives, copy of parent’s ID/passport<br>
+                        • if minor travels with one parent: signed authorization letter of the other parent duly legalised, copy of parent’s ID/passport<br>
+                        • if minor travels alone: both parents must provide a signed authorization duly legalised, copy of parent’s ID/passport<br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.vfsglobal.com/hungary/uk/pdf/Vizumkerdoiv_151223.pdf">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/Hungary/Jordan/pdf/hungry-checklist-new.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
                     </td>
                 </tr>
                 <tr>
@@ -174,6 +180,16 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
+                <tr>
+                    <td>Official Document Links </td>
+                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.vfsglobal.com/hungary/uk/pdf/Vizumkerdoiv_151223.pdf">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/Hungary/Jordan/pdf/hungry-checklist-new.pdf">Download Document Checklist</a>
+                        <?php endif; ?></td>
+                </tr>
+
                 <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
@@ -349,6 +365,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 
