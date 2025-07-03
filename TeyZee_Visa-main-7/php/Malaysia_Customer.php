@@ -56,8 +56,8 @@
                         Login to see the Visa Application form & the Document Checklist.
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://indianvisaonline.gov.in/evisa/tvoa.html">Download Application Form</a>
-                        <a href="https://hcikl.gov.in/home/Visa-Consular/VISA-Information-Visa-Services/Employment-Visa">Download Document Checklist</a>
+                        <a href="https://www.imi.gov.my/index.php/en/main-services/visa/elementor-4396/">Download Application Form</a>
+                        <a href="https://www.imi.gov.my/index.php/en/main-services/pass/required-documents/">Download Document Checklist</a>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -123,8 +123,8 @@
                         <td>Login to see the Business Visa Application form & the Document Checklist.
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
-                            <a href="https://indianvisaonline.gov.in/evisa/tvoa.html">Download Application Form</a>
-                            <a href="https://hcikl.gov.in/home/Visa-Consular/VISA-Information-Visa-Services/Employment-Visa">Download Document Checklist</a>
+                            <a href="https://www.imi.gov.my/index.php/en/main-services/visa/elementor-4396/">Download Application Form</a>
+                            <a href="https://www.imi.gov.my/index.php/en/main-services/pass/required-documents/">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

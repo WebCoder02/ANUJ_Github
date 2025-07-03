@@ -56,3 +56,6 @@ Updated the googletagmanager linked to sureshgopalan@kalltrip.com
 Created country.php files from country.html files
 Included header.php and footer.php 
 Created bahrain from uae and azerbaijan from russia
+
+3 July 
+We have created new files and updated the visa document links

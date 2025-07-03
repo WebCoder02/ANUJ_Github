@@ -71,7 +71,7 @@
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://visaoffice.eu/media/uploads/document_examples/Order_forms/china/data_collect_form_china.pdf">Download Application Form</a>
-                        <a href="https://www.bestvoyage.in/china-tourist-visa-checklist">Download Document Checklist</a>
+                        <a href="https://www.visaforchina.cn/YYC3_EN/qianzhengyewu/jichuzhishi/changjianwenti/336247379642683392.html">Download Document Checklist</a>
                         <?php endif; ?>
                 
                 </td>
@@ -176,7 +176,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://visaoffice.eu/media/uploads/document_examples/Order_forms/china/data_collect_form_china.pdf">Download Application Form</a>
-                        <a href="https://www.bestvoyage.in/china-tourist-visa-checklist">Download Document Checklist</a>
+                        <a href="https://www.visaforchina.cn/YYC3_EN/qianzhengyewu/jichuzhishi/changjianwenti/336247379642683392.html">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>  
                 <tr>

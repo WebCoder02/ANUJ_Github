@@ -53,7 +53,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://newdelhi.mae.ro/en/node/873">Download Application Form</a>
-                        <a href="https://www.eoibucharest.gov.in/docs/1605192177Visa_Information.pdf">Download Document Checklist</a>
+                        <a href="https://eviza.mae.ro/SupportingDocuments">Download Document Checklist</a>
                         <?php endif; ?>
                 Original Passport with old passport:
                 <ul>
@@ -183,7 +183,7 @@
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="https://newdelhi.mae.ro/en/node/873">Download Application Form</a>
-                            <a href="https://www.eoibucharest.gov.in/docs/1605192177Visa_Information.pdf">Download Document Checklist</a>
+                            <a href="https://eviza.mae.ro/SupportingDocuments">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

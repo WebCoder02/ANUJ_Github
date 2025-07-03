@@ -51,7 +51,7 @@
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://apvi-drive.s3.us-east-2.amazonaws.com/files/forms/Brazil_E-Visa_Application.pdf">Download Application Form</a>
-                        <a href="https://bestvoyage.in/brazil-tourist-visa-checklist">Download Document Checklist</a>
+                        <a href="https://www.gov.br/mre/pt-br/embaixada-nova-delhi/embassy-of-brazil-in-new-delhi/visas/visa-application-requirements-all-visas-types">Download Document Checklist</a>
                         <?php endif; ?>
                         </td>
                     </tr>
@@ -118,7 +118,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://apvi-drive.s3.us-east-2.amazonaws.com/files/forms/Brazil_E-Visa_Application.pdf">Download Application Form</a>
-                        <a href="https://bestvoyage.in/brazil-tourist-visa-checklist">Download Document Checklist</a>
+                        <a href="https://www.gov.br/mre/pt-br/embaixada-nova-delhi/embassy-of-brazil-in-new-delhi/visas/visa-application-requirements-all-visas-types">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>
                 <tr>

@@ -56,7 +56,7 @@
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="http://admin.mfa.gov.eg/arabic/embassies/Egyptian_Embassy_India/Pages/Default.aspx">Download Application Form</a>
-                            <a href="https://visa.vfsglobal.com/one-pager/egypt/india/english/">Download Document Checklist</a>
+                            <a href="https://www.egyptembassy.org/travel/visa-requirements/">Download Document Checklist</a>
                             <?php endif; ?>
                         </td>
                     </tr>
@@ -164,7 +164,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="http://admin.mfa.gov.eg/arabic/embassies/Egyptian_Embassy_India/Pages/Default.aspx">Download Application Form</a>
-                        <a href="https://visa.vfsglobal.com/one-pager/egypt/india/english/">Download Document Checklist</a>
+                        <a href="https://www.egyptembassy.org/travel/visa-requirements/">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>
                 <tr>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeyZee Visas - Bulgaria Visa Services</title>
+    <title>TeyZee Visas - Egypt Visa Services</title>
     <link rel="stylesheet" href="../Country_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Tag Manager -->
@@ -65,7 +65,7 @@
                     <p>Start now and get your appointment booked in 2 days</p>
                 </div>
                 <div class="hero-text">
-                    <h1>Get your Bulgaria visa</h1>
+                    <h1>Get your Egypt visa</h1>
                     <div class="recent-applications">
                         <!-- <span class="avatars">
                             <img src="https://via.placeholder.com/30" alt="User">
@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../VisaImages/destinations/belgium.jpg" alt="Bulgaria">
+                <img src="https://i.natgeofe.com/k/109a4e08-5ebc-48a5-99ab-3fbfc1bbd611/Giza_Egypt_KIDS_0123_16x9.jpg" alt="Egypt">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
@@ -105,7 +105,7 @@
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for Rs 500 only</h2>
                 <p>Upload your basic documents now.</p>
-                <a href="/payments/payment_visas.php?country=bulgaria&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <a href="/payments/payment_visas.php?country=azerbaijan&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>
@@ -113,11 +113,11 @@
         <div class="container">
             <div class="label-container">
                 <h2>Save time and hassle with our document checklist</h2>
-                <a href="Bulgaria_Customer.html" target="_blank">Download the Documentation</a>
+                <a href="Egypt_Customer.html" target="_blank">Download the Documentation</a>
             </div>
             <!-- <div class="label-container">
                 <h2 class="document-checklist">Document Checklist</h2>
-                <a href="Belgium_Customer.html" target="_blank">Download the Documentation</a>
+                <a href="Egypt_Customer.html" target="_blank">Download the Documentation</a>
             </div> -->
 
             <!-- Cascading dropdown -->
@@ -341,7 +341,7 @@
 
     <section class="visa-types">
         <div class="container">
-            <h2>Types of Bulgaria Visa</h2>
+            <h2>Types of Egypt Visa</h2>
             <section class="next-appointment">
                 <div class="container appointment-container">
                     <div class="appointment-info">
@@ -539,12 +539,12 @@
     </section>
     <section class="info-cards" id="info-section">
         <div class="container">
-            <h2>Know more about Bulgaria Visa</h2>
-            <p class="subtitle">Curated resources for Bulgaria visa</p>
+            <h2>Know more about Egypt Visa</h2>
+            <p class="subtitle">Curated resources for Egypt visa</p>
             <div class="info-grid">
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Bulgaria Visa Rejection Rates & Prevention Tips</h3>
+                        <h3>Egypt Visa Rejection Rates & Prevention Tips</h3>
                         <p>Around 1% rejection rate with TeyZee Visas, 10-20% with other agents. <span
                                 class="hidden-content">Learn how proper documentation, financial stability proof, and
                                 clear travel plans can improve your chances.</span></p>
@@ -553,14 +553,14 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>How do I prevent my Bulgaria visa application from being denied?</h3>
+                        <h3>How do I prevent my Egypt visa application from being denied?</h3>
                         <p>Check eligibility with TeyZee Visas before you apply. </p>
                         <!-- <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>When to Apply for a Bulgaria Visa: Optimal Timing</h3>
+                        <h3>When to Apply for a Egypt Visa: Optimal Timing</h3>
                         <p>Apply up to 90 days before your planned travel date. <span class="hidden-content">We highly
                                 recommend applying at the earliest opportunity to avoid delays and complications.</span>
                         </p>
@@ -569,8 +569,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Bulgaria Transit Visa Requirements for Indian Citizens</h3>
-                        <p>Indian citizens need a transit visa for all layovers in Bulgaria. <span
+                        <h3>Egypt Transit Visa Requirements for Indian Citizens</h3>
+                        <p>Indian citizens need a transit visa for all layovers in Egypt. <span
                                 class="hidden-content">This visa only allows airport stays - for city visits, apply for
                                 a regular Schengen visa.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
@@ -578,7 +578,7 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Reapplying After Bulgaria Visa Rejection: Next Steps</h3>
+                        <h3>Reapplying After Egypt Visa Rejection: Next Steps</h3>
                         <p>Address the specific rejection reasons and reapply with TeyZee Visas' expert guidance. <span
                                 class="hidden-content">Most rejections are due to financial documentation or
                                 insufficient ties to India.</span></p>
@@ -587,8 +587,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Single vs. Multiple-Entry Schengen Visas for Bulgaria</h3>
-                        <p>Both single and multiple-entry visas available for Bulgaria travel. <span
+                        <h3>Single vs. Multiple-Entry Schengen Visas for Egypt</h3>
+                        <p>Both single and multiple-entry visas available for Egypt travel. <span
                                 class="hidden-content">First-time visitors should apply for single-entry, while
                                 multiple-entry allows unlimited visits within the validity period.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>

@@ -53,7 +53,7 @@
                 Login to see the Visa Application form & the Document Checklist.
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://vietnamembassydelhi.in/important-notice-on-e-visa/">Download Application Form</a>
+                        <a href="https://evisa.gov.vn/">Download Application Form</a>
                         <a href="https://evisa.gov.vn/instruction">Download Document Checklist</a>
                         <?php endif; ?>
               <ul>
@@ -143,7 +143,7 @@
                         <td>Login to see the Business Visa Application form & the Document Checklist.
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
-                            <a href="https://vietnamembassydelhi.in/important-notice-on-e-visa/">Download Application Form</a>
+                            <a href="https://evisa.gov.vn/">Download Application Form</a>
                             <a href="https://evisa.gov.vn/instruction">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>

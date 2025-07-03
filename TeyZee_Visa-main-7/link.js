@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 🔗 Add your WhatsApp links here:
     // For CHECK NOW
-    const applyNowLink = '../html/visa-applicant.html';     // For APPLY NOW — Replace with actual number
+    const applyNowLink = '/payments/payment.php';     // For APPLY NOW — Replace with actual number
     const callbackLink = 'https://wa.me/919029027420';     // For CALLBACK
 
     if (checkBtn) {

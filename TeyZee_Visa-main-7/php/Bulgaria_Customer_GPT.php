@@ -56,7 +56,7 @@
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/Bulgaria/India/pdf/application-form.pdf">Download Application Form</a>
-                        <a href="https://www.bestvoyage.in/visa-pdf.php?id=34">Download Document Checklist</a>
+                        <a href="https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria">Download Document Checklist</a>
                         <?php endif; ?>
                         </td>
                     </tr>
@@ -159,7 +159,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/Bulgaria/India/pdf/application-form.pdf">Download Application Form</a>
-                        <a href="https://www.bestvoyage.in/visa-pdf.php?id=34">Download Document Checklist</a>
+                        <a href="https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>   
                 <tr>

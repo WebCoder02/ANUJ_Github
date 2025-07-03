@@ -52,7 +52,7 @@
                     Login to see the Visa Application form & the Document Checklist.
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://visa.vfsglobal.com/ind/en/irl/apply-visa">Download Application Form</a>
+                        <a href="https://www.visas.inis.gov.ie/avats/OnlineHome2.aspx">Download Application Form</a>
                         <a href="https://visa.vfsglobal.com/ind/en/irl/track-application">Download Document Checklist</a>
                         <?php endif; ?>
 
@@ -165,8 +165,8 @@
                         <td>Login to see the Business Visa Application form & the Document Checklist.
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
-                            <a href="https://visa.vfsglobal.com/ind/en/irl/apply-visa">Download Application Form</a>
-                            <a href="https://visa.vfsglobal.com/ind/en/irl/track-application">Download Document Checklist</a>
+                            <a href="https://www.visas.inis.gov.ie/avats/OnlineHome2.aspx">Download Application Form</a>
+                            <a href="https://assets.ireland.ie/documents/NDVO_2025_IRL_Visa_checklist_Business_Conference_Event.pdf">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

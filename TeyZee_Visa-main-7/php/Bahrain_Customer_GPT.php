@@ -52,7 +52,7 @@
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.npra.gov.bh/services/visa-and-residence-permit/visa-services/">Download Application Form</a>
-                        <a href="https://visa.vfsglobal.com/one-pager/norway/azerbaijan/azeri/pdf/pdf-to-word.pdf">Download Document Checklist</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/singapore/bahrain/english/pdf/tourism-checklist-nov-2021.pdf">Download Document Checklist</a>
                         <?php endif; ?>
                         </td>
                     </tr>
@@ -124,7 +124,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.npra.gov.bh/services/visa-and-residence-permit/visa-services/">Download Application Form</a>
-                        <a href="https://visa.vfsglobal.com/one-pager/norway/azerbaijan/azeri/pdf/pdf-to-word.pdf">Download Document Checklist</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/singapore/bahrain/english/pdf/tourism-checklist-nov-2021.pdf">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>
                 <tr>

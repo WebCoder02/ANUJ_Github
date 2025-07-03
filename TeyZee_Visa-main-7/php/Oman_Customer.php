@@ -53,7 +53,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.fm.gov.om/citizens/visa-requirements/">Download Application Form</a>
-                        <a href="https://www.indemb-oman.gov.in/eoi.php?id=additional-checklists">Download Document Checklist</a>
+                        <a href="https://evisa.rop.gov.om/visa-eligibility?p_p_id=visawizard_WAR_visaeligibilitywizardportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_visawizard_WAR_visaeligibilitywizardportlet_myaction=selectedVisa">Download Document Checklist</a>
                         <?php endif; ?>
             </td>
           </tr>
@@ -173,7 +173,7 @@ For study visit:<br/>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="https://www.fm.gov.om/citizens/visa-requirements/">Download Application Form</a>
-                            <a href="https://www.indemb-oman.gov.in/eoi.php?id=additional-checklists">Download Document Checklist</a>
+                            <a href="https://evisa.rop.gov.om/visa-eligibility?p_p_id=visawizard_WAR_visaeligibilitywizardportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_visawizard_WAR_visaeligibilitywizardportlet_myaction=selectedVisa">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

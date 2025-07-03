@@ -50,7 +50,7 @@
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
-                        <a href="https://visa.vfsglobal.com/one-pager/norway/azerbaijan/azeri/pdf/pdf-to-word.pdf">Download Document Checklist</a>
+                        <a href="https://www.mfa.gov.az/index.php/en/category/visa/documents-required-for-visa-issuance">Download Document Checklist</a>
                         <?php endif; ?>
                  </td>
                 </tr>
@@ -111,7 +111,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
-                        <a href="https://visa.vfsglobal.com/one-pager/norway/azerbaijan/azeri/pdf/pdf-to-word.pdf">Download Document Checklist</a>
+                        <a href="https://www.mfa.gov.az/index.php/en/category/visa/documents-required-for-visa-issuance">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>
                 <tr>

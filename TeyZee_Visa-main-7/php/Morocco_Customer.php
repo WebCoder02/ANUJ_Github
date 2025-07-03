@@ -51,8 +51,8 @@
                         Login to see the Visa Application form & the Document Checklist.
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://indianvisaonline.gov.in/evisa/tvoa.html">Download Application Form</a>
-                        <a href="https://indianvisaonline.gov.in/evisa/StatusEnquiry">Download Document Checklist</a>
+                        <a href="https://www.consulat.ma/sites/default/files/inline-files/English-francais-formulaireVisa_1.pdf">Download Application Form</a>
+                        <a href="https://www.acces-maroc.ma/assets/docs/Guide%20eVisa.pdf">Download Document Checklist</a>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -118,8 +118,8 @@
                         <td>Login to see the Business Visa Application form & the Document Checklist.
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
-                            <a href="https://indianvisaonline.gov.in/evisa/tvoa.html">Download Application Form</a>
-                            <a href="https://indianvisaonline.gov.in/evisa/StatusEnquiry">Download Document Checklist</a>
+                            <a href="https://www.consulat.ma/sites/default/files/inline-files/English-francais-formulaireVisa_1.pdf">Download Application Form</a>
+                            <a href="https://www.acces-maroc.ma/assets/docs/Guide%20eVisa.pdf">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

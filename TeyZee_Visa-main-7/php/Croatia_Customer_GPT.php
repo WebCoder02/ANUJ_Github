@@ -56,7 +56,7 @@
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/Croatia/India/pdf/Visa_Application_Form_060515.pdf">Download Application Form</a>
-                        <a href="https://visa.vfsglobal.com/one-pager/croatia/saudiarabia/english/pdf/tourist-checklist.pdf">Download Document Checklist</a>
+                        <a href="https://mvep.gov.hr/services-for-citizens/consular-information-22802/visas-22807/issuance-procedure/enclosed-documents/22821">Download Document Checklist</a>
                         <?php endif; ?>
                             
                         </td>
@@ -160,7 +160,7 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/Croatia/India/pdf/Visa_Application_Form_060515.pdf">Download Application Form</a>
-                        <a href="https://visa.vfsglobal.com/one-pager/croatia/saudiarabia/english/pdf/tourist-checklist.pdf">Download Document Checklist</a>
+                        <a href="https://mvep.gov.hr/services-for-citizens/consular-information-22802/visas-22807/issuance-procedure/enclosed-documents/22821">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>   
                 <tr>
