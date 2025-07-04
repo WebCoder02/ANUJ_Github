@@ -92,7 +92,7 @@
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for Rs 500 only</h2>
                 <p>Upload your basic documents now.</p>
-                <a href="/payments/payment_visas.php?country=saudiArabia&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <a href="/payments/payment.php?country=saudiArabia&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>

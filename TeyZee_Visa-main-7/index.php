@@ -1,5 +1,48 @@
 <?php include './php/header.php'; ?>
 
+<?php
+// Start the session
+
+// Check if user is already logged in and has a valid session
+if (isset($_SESSION['user']) && isset($_SESSION['session_token'])) {
+    $email = $_SESSION['user'];
+    $sessionToken = $_SESSION['session_token'];
+    
+    // If using database-based authentication, verify the session
+    try {
+       require_once __DIR__ . '/payments/database.php';
+       require_once __DIR__ . '/payments/User.php';
+
+        
+        $database = new Database();
+        $db = $database->getConnection();
+        $user = new User($db);
+        
+        // Verify session is still valid
+        $sessionData = $user->validateSession($sessionToken);
+        if ($sessionData && isset($sessionData['email']) && $sessionData['email'] === $email) {
+        //if ($sessionData && $sessionData['email'] === $email) {
+            // User is logged in with valid session, redirect to payment
+            header('Location: payments/payment.php');
+
+            exit;
+        } else {
+            // Invalid session, clear it
+            session_destroy();
+            session_start();
+        }
+    } catch (Exception $e) {
+        // Error checking session, clear it to be safe
+        session_destroy();
+        session_start();
+    }
+}
+
+// Handle success messages from login redirects
+$loginSuccess = isset($_GET['login']) && $_GET['login'] === 'success';
+$registrationSuccess = isset($_GET['registration']) && $_GET['registration'] === 'success';
+?>
+
 <main>
     <section class="hero-section">
         <div class="container">
@@ -67,7 +110,7 @@
                     <div class="destination-info">
                         <div class="order">
                             <h3>France</h3>
-                            <button type="button" class="link-btn" onclick="window.location.href='./php/France_Customer.php';">Get Visa</button>
+                            <button type="button" class="link-btn" onclick="window.location.href='/php/france.php';">Get Visa</button>
                         </div>
                         <div class="visa-type">Sticker</div>
                         <div class="price-info">
@@ -94,7 +137,7 @@
                     <div class="destination-info">
                         <div class="order">
                             <h3>Italy</h3>
-                            <button type="button" class="link-btn" onclick="window.location.href='./php/Italy_Customer.php';">Get Visa</button>
+                            <button type="button" class="link-btn" onclick="window.location.href='/php/italy.php';">Get Visa</button>
                         </div>
                         <div class="visa-type">Sticker</div>
                         <div class="price-info">
@@ -162,11 +205,12 @@
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for Rs 500 only</h2>
                 <p>Upload your basic documents now.</p>
-                <a href="_Customer.php"><button class="check-btn">CHECK NOW</button></a>
+                <button class="check-btn">CHECK NOW</button>
             </div>
         </div>
     </section>
 </main>
+
 <footer>
     <div class="container">
         <div class="footer-grid">
@@ -186,7 +230,7 @@
                 <ul>
                     <li><a href="mailto:business.tours@kalltrip.com">Email us</a></li>
                     <li><a href="#">Blogs</a></li>
-                    <li><a href="/html/privacy.html">Privacy Policy</a></li>
+                    <li><a href="/php/privacy.php">Privacy Policy</a></li>
                 </ul>
             </div>
 
@@ -196,7 +240,7 @@
                     <li><a href="#">Help Center</a></li>
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Refund Policy</a></li>
-                    <li><a href="/html/privacy.html">Privacy Policy</a></li>
+                    <li><a href="/php/privacy.php">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -217,55 +261,55 @@
         <div class="footer-countries">
             <h3>Read more about visas</h3>
             <div class="country-links">
-                <a href="https://www.teyzeevisas.com/html/france.html">France</a> •
-                <a href="/html/italy_customer.html">Italy</a> •
-                <a href="/html/germany_customer.html">Germany</a> •
-                <a href="/html/switzerland.html">Switzerland</a> •
-                <a href="/html/greece_customer.html">Greece</a> •
-                <a href="/html/singapore_customer.html">Singapore</a> •
-                <a href="/html/turkey_customer.html">Turkey</a> •
-                <a href="/html/china_customer.html">China</a> •
-                <a href="#">Russia</a> •
-                <a href="#">United Arab Emirates</a> •
-                <a href="#">Indonesia</a> •
-                <a href="#">Vietnam</a> •
-                <a href="#">Azerbaijan</a> •
-                <a href="#">United Kingdom</a> •
-                <a href="#">Spain</a> •
-                <a href="#">South Korea</a> •
-                <a href="#">Georgia</a> •
-                <a href="#">Hungary</a> •
-                <a href="#">Finland</a> •
-                <a href="#">Norway</a> •
-                <a href="#">Egypt</a> •
-                <a href="#">Oman</a> •
-                <a href="#">Sweden</a> •
-                <a href="#">Austria</a> •
-                <a href="#">Denmark</a> •
-                <a href="#">Uzbekistan</a> •
-                <a href="#">Cambodia</a> •
-                <a href="#">Morocco</a> •
-                <a href="#">Netherlands</a> •
-                <a href="#">Philippines</a> •
-                <a href="#">Brazil</a> •
-                <a href="#">Saudi Arabia</a> •
-                <a href="#">Kenya</a> •
-                <a href="#">Portugal</a> •
-                <a href="#">Belgium</a> •
-                <a href="#">Croatia</a> •
-                <a href="#">Lithuania</a> •
-                <a href="#">Ireland</a> •
-                <a href="#">Luxembourg</a> •
-                <a href="#">Hong Kong</a> •
-                <a href="#">Malaysia</a> •
-                <a href="#">Japan</a> •
-                <a href="#">Bahrain</a> •
-                <a href="#">Czech Republic</a> •
-                <a href="#">Romania</a> •
-                <a href="#">Bulgaria</a> •
-                <a href="#">Slovakia</a> •
-                <a href="#">Latvia</a> •
-                <a href="#">Estonia</a>
+                <a href="https://www.teyzeevisas.com/php/france.php">France</a> •
+                <a href="/php/italy_customer.php">Italy</a> •
+                <a href="/php/germany_customer.php">Germany</a> •
+                <a href="/php/switzerland.php">Switzerland</a> •
+                <a href="/php/greece_customer.php">Greece</a> •
+                <a href="/php/singapore_customer.php">Singapore</a> •
+                <a href="/php/turkey_customer.php">Turkey</a> •
+                <a href="/php/china_customer.php">China</a> •
+                <a href="/php/russia_customer.php">Russia</a> •
+                <a href="/php/united_arab_emirates.php">United Arab Emirates</a> •
+                <a href="/php/indonesia_customer.php">Indonesia</a> •
+                <a href="/php/vietnam_customer.php">Vietnam</a> •
+                <a href="/php/azerbaijan_customer.php">Azerbaijan</a> •
+                <a href="/php/united_kingdom.php">United Kingdom</a> •
+                <a href="/php/spain_customer.php">Spain</a> •
+                <a href="/php/south_korea_customer.php">South Korea</a> •
+                <a href="/php/georgia_customer.php">Georgia</a> •
+                <a href="/php/hungary_customer.php">Hungary</a> •
+                <a href="/php/finland_customer.php">Finland</a> •
+                <a href="/php/norway_customer.php">Norway</a> •
+                <a href="/php/egypt_customer.php">Egypt</a> •
+                <a href="/php/oman_customer.php">Oman</a> •
+                <a href="/php/sweden_customer.php">Sweden</a> •
+                <a href="/php/austria_customer.php">Austria</a> •
+                <a href="/php/denmark_customer.php">Denmark</a> •
+                <a href="/php/uzbekistan_customer.php">Uzbekistan</a> •
+                <a href="/php/cambodia_customer.php">Cambodia</a> •
+                <a href="/php/morocco_customer.php">Morocco</a> •
+                <a href="/php/netherlands_customer.php">Netherlands</a> •
+                <a href="/php/philippines_customer.php">Philippines</a> •
+                <a href="/php/brazil_customer.php">Brazil</a> •
+                <a href="/php/saudi_arabia_customer.php">Saudi Arabia</a> •
+                <a href="/php/kenya_customer.php">Kenya</a> •
+                <a href="/php/portugal_customer.php">Portugal</a> •
+                <a href="/php/belgium_customer.php">Belgium</a> •
+                <a href="/php/croatia_customer.php">Croatia</a> •
+                <a href="/php/lithuania_customer.php">Lithuania</a> •
+                <a href="/php/ireland_customer.php">Ireland</a> •
+                <a href="/php/luxembourg_customer.php">Luxembourg</a> •
+                <a href="/php/Hong Kong_customer.php">Hong Kong</a> •
+                <a href="/php/malaysia_customer.php">Malaysia</a> •
+                <a href="/php/japan_customer.php">Japan</a> •
+                <a href="/php/bahrain_customer.php">Bahrain</a> •
+                <a href="/php/czech_republic_customer.php">Czech Republic</a> •
+                <a href="/php/romania_customer.php">Romania</a> •
+                <a href="/php/bulgaria_customer.php">Bulgaria</a> •
+                <a href="/php/slovakia_customer.php">Slovakia</a> •
+                <a href="/php/latvia_customer.php">Latvia</a> •
+                <a href="/php/estonia_customer.php">Estonia</a>
             </div>
         </div>
         <div class="copyright">
@@ -277,4 +321,4 @@
 <script src="/link.js"></script>
 <script src="/scripts.js"></script>
 </body>
-</html>
+</php>
