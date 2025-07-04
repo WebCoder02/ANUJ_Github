@@ -1,162 +1,153 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refund Policy</title>
+    <title>Sweden Visa Checklist</title>
     <link rel="stylesheet" href="document.css">
     <link rel="stylesheet" href="Country_page.css">
     <link rel="stylesheet" href="styles.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 </head>
 
 <body>
     <?php include 'header.php'; ?>
-    <!-- <header>
+    <!--Completed Revision 18th June 2025-->
+    <!--<header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
-                    <img src="../VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
+                    <img src="https://teyzeevisas.com/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
                 </a>
 
             </div>
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:+919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                 <a href="#" class="login-btn">Login</a>
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header> -->
-    <h1>Refund Policy</h1>
+    </header>-->
+    <h1>Sweden Schengen Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
-            <!-- <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
-            <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button> -->
+            <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>France Tourist Visa Checklist</h2>
+            <h2>Sweden Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>1</td>
+                    <td>Application for Schengen Visa (No. 119031) attached with 1 photograph not older than six months with white background (3.5cm/4.5 cm). Please explain your plan for visit.
+                        <br>
+                        Login to see the Visa Application form & the Document Checklist.
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.migrationsverket.se/download/18.2cd2e409193b84c506a2f9dc/1738227829389/119031_blvisa_en.pdf">Download Application Form</a>
+                        <a href="https://www.swedenabroad.se/globalassets/ambassader/indien-new-delhi/documents/sweden-tourist-checklist.pdf">Download Document Checklist</a>
+                        <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
+                    <td>2</td>
                     <td>
+                        Original and copy of passport or some other valid travel document. If passport has been extended please enclose a copy of this page & copy of the observation page (if any).<br>
+                        <em>*The Schengen states does not accept Indian handwritten passport or passport that contains a manual entry made after 01/04/2010 where the biographical data (name, place, date of birth and sex) were changed.</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Previous Passports available — irrespective of their condition (In case lost — a note is required)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Proof of lodging such as Hotel reservation, rental document of holiday home or campus residence reservation for the entire duration of the planned stay in the Schengen area. For applicants who plan to stay in several Schengen countries, proof of travel itinerary (e.g. ticket bookings for transport between different countries in addition to hotel reservations).</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Certificate from the travel agency confirming booking of an organized trip or any other appropriate document indicating the travel plans.</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Copy of original Marriage Certificate and Birth Certificates of children</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Flight reservation of return ticket. If travelling to several Schengen states, proof of intra-Schengen flight reservation, train itinerary or car rental.</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Overseas travel medical insurance valid for all Schengen-countries. The insurance has to cover the applicant for at least 30,000 Euros or equivalent, for all risks e.g. accident, illness, medical emergency evacuation etc. The policy has to clearly specify the period of validity and has to cover the entire duration of the trip including the date of arrival & departure.</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>
+                        Documentary evidence of the applicant's professional activity:<br>
                         <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
+                            <li><strong>Employees:</strong> pay slips for the last three months, employment contract and employer's statement on approval of holidays</li>
+                            <li><strong>Student:</strong> letter confirming enrolment in the college/university</li>
+                            <li><strong>Self-Employed:</strong> PAN registration and bank statements covering the last 3 months / Company Registration proof</li>
+                            <li><strong>Pension:</strong> Pension statement for the last three months or proof of regular income generated by ownership of property or business</li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
-                    <td>Photograph</td>
-                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
-                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment slip</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight tickets</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel Tickets</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Cover Letter</td>
-                    <td>Mentioning the purpose of the trip and itinerary <a href="/templates/cover_letter_template.doc"
-                            class="doc-link" target="_blank">Download Template</a></td>
-                </tr>
-                <tr>
-                    <td>Travel Insurance</td>
-                    <td>Travel insurance covering not less than 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Bank statements last 3 months, available balance should be at least 50-150 Euros per person per
-                        day of the trip. Advisable to transfer the money to maintain the balance 15 days before the
-                        appointment. Does not need to be signed by the bank</td>
-                </tr>
-                <tr>
-                    <td>ITR</td>
-                    <td>Copy of income tax return + ITR V acknowledgment of last 02 financial year if available</td>
-                </tr>
-                <tr>
-                    <td>Sponsor Bank Statement and ITR</td>
-                    <td>If trip sponsored by someone else, copy of bank statements last 3 months and copy of income tax
-                        return + ITR V acknowledgment for previous financial year (signed by bank)</td>
-                </tr>
-                <tr>
-                    <td>Sponsorship Letter</td>
-                    <td>If sponsored, letter from sponsor stating the amount, relationship and source of funds 
-                        <!-- <a
-                            href="/templates/sponsorship_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If Retired)</td>
+                    <td>10</td>
                     <td>
+                        Proof of financial means:<br>
                         <ul>
-                            <li>Proof of Retirement</li>
-                            <li>Proof of regular income generated by ownership of property or business</li>
+                            <li>Copy of bank statements covering the last 3 months and any other document that may provide information about the applicant's solvency</li>
+                            <li>Income tax declaration for the last two assessment years</li>
+                            <li>If Sponsored: Proof of Sponsorship</li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
-                    <td>Marital status</td>
-                    <td>
-                        <ul>
-                            <li>If married, Marriage certificate</li>
-                            <li>If divorced, Divorce papers</li>
-                            <li>If single, Nothing required</li>
-                        </ul>
-                    </td>
+                    <td>11</td>
+                    <td>The consent of the parental authority or legal guardian should be required only if the minor travels alone or only with one parent</td>
                 </tr>
                 <tr>
-                    <td>Minor documents</td>
-                    <td>Birth certificate, marksheet, consent letter from parents if minor is travelling alone or with
-                        only one parent</td>
+                    <td>12</td>
+                    <td>Is applicant’s travel accompanied? If Yes, mention number and names of co-travelers.</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>
+                        <strong>Note:</strong><br>
+                        Applicant might be asked for additional documents or might be called for an interview if required by The Embassy of Sweden, New Delhi.<br>
+                        • The visa fee, according to the Schengen regulations, is non-refundable.<br>
+                        • Affidavit will not be considered as a document of evidence by the Embassy of Sweden.
+                         <br>
+                    </td>
                 </tr>
             </table>
         </div>
 
         <div id="business" class="tabcontent">
-            <h2>France Business Visa Checklist</h2>
+            <h2>Sweden Business Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
-                <tr><?php
+                <tr>
+                        <td>Official Document Links </td>
+                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.migrationsverket.se/download/18.2cd2e409193b84c506a2f9dc/1738227829389/119031_blvisa_en.pdf">Download Application Form</a>
+                            <a href="https://www.swedenabroad.se/globalassets/ambassader/indien-new-delhi/documents/sweden-tourist-checklist.pdf">Download Document Checklist</a>
+                            <?php endif; ?></td>
+                    </tr>
+                <tr>
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
                         years</td>
@@ -194,9 +185,11 @@
                 </tr>
                 <tr>
                     <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 <a
+                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
+                        <!-- <a
                             href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a></td>
+                            Template</a> -->
+                        </td>
                 </tr>
                 <tr>
                     <td>Proof of occupation (If self employed)</td>
@@ -229,27 +222,34 @@
                             <li>If applicable. With contact details of the host and address</li>
                             <li>Invitation letter from the French company</li>
                         </ul>
-                        <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a>
+                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
+                            Template</a> -->
                     </td>
                 </tr>
                 <tr>
                     <td>Company Cover letter</td>
                     <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a></td>
+                        relationship between the Indian and French company 
+                        <!-- <a href="/templates/company_cover_letter.doc"
+                            class="doc-link" target="_blank">Download Template</a> -->
+                        </td>
                 </tr>
                 <tr>
                     <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip <a
+                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
+                        <!-- <a
                             href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a></td>
+                            Template</a> -->
+                        </td>
                 </tr>
                 <tr>
                     <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too <a
+                    <td>If the trip is sponsored by the Indian company please mention the details too 
+                        <!-- <a
                             href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a></td>
+                            Template</a> -->
+                        </td>
+                    
                 </tr>
             </table>
         </div>
@@ -325,12 +325,14 @@
             <?php endif; ?>
         </div>
     </div>
-    <?php include "footer.php" ?>
-    <!-- <div class="note">
-        <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
-        it's recommended to verify the current requirements with the French embassy or consulate in your country before
-        applying.
-    </div> -->
+
+    <div class="note">
+        <strong>Note:</strong> <p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.swedenabroad.se/globalassets/ambassader/indien-new-delhi/documents/sweden-tourist-checklist.pdf">Click Here</a> </p> <br>
+        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Swedish embassy or consulate in your country before
+        applying.</p>
+        
+    </div>
+    <?php include 'footer.php'; ?>
     <!-- <footer>
         <div class="container">
             <div class="footer-grid">
@@ -358,7 +360,7 @@
                     </ul>
                 </div>
 
-                <div class="footer-col">
+                <!-- <div class="footer-col">
                     <h3>Refund policy</h3>
                     <ul>
                         <li><a href="#">Pricing</a></li>
@@ -373,7 +375,7 @@
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div> 
+                </div> --
                 <div class="footer-col">
                     <h3>Support</h3>
                     <ul>
@@ -500,7 +502,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for France - https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Sweden- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);
