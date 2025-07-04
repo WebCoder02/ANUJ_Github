@@ -98,64 +98,234 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
     </section>
 
     <section class="featured-destinations">
-        <div class="container">
-            <div class="destinations-grid">
-                <div class="destination-card">
-                    <div class="destination-image">
-                        <img src="https://www.teyzeevisas.com/VisaImages/destinations/france.jpg" alt="France" onerror="this.onerror=null; this.src='path/to/default-image.jpg';">
-                        <div class="stats-badge">
-                            <i class="fas fa-bolt"></i> Get Visa in 30 days
+            <div class="container">
+                <div class="destinations-grid">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="./VisaImages/destinations/france.jpg" alt="France">
+                            <div class="stats-badge">
+                                <i class="fas fa-bolt"></i> Get Visa in 30 days
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="order">
+                                <h3>France</h3>
+                                <button type="button" class="link-btn"
+                                    onclick="window.location.href='./html/france.html';">Get
+                                    Visa</button>
+                            </div>
+                            <div class="visa-type">Sticker</div>
+                            <div class="price-info">
+                                <div class="price">₹8500</div>
+                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="details">
+                                    <div class="visa-time">
+                                        <span>52 issued in past few weeks</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="destination-info">
-                        <div class="order">
-                            <h3>France</h3>
-                            <button type="button" class="link-btn" onclick="window.location.href='/php/france.php';">Get Visa</button>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="./VisaImages/destinations/italy.jpg" alt="Italy">
+                            <div class="stats-badge">
+                                <i class="fas fa-bolt"></i> Get Visa in 30 days
+                            </div>
                         </div>
-                        <div class="visa-type">Sticker</div>
-                        <div class="price-info">
-                            <div class="price">₹8500</div>
-                            <div class="tax">+₹3500 (Fees+Tax 18%)</div>
-                            <div class="details">
-                                <div class="visa-time">
-                                    <span>52 issued in past few weeks</span>
+                        <div class="destination-info">
+                            <div class="order">
+                                <h3>Italy</h3>
+                                <button type="button" class="link-btn"
+                                    onclick="window.location.href='./html/italy.html';">Get
+                                    Visa</button>
+                            </div>
+                            <div class="visa-type">Sticker</div>
+                            <div class="price-info">
+                                <div class="price">₹8500</div>
+                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="details">
+                                    <div class="visa-time">
+                                        <span>97 issued in past few weeks</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="./VisaImages/destinations/germany.jpg" alt="Germany">
+                            <div class="stats-badge">
+                                Get Visa in 30 days
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="order">
+                                <h3>Germany</h3>
+                                <button type="button" class="link-btn"
+                                    onclick="window.location.href='./html/germany.html';">Get
+                                    Visa</button>
+                            </div>
+                            <div class="visa-type">Sticker</div>
+                            <div class="price-info">
+                                <div class="price">₹8500</div>
+                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="details">
+                                    <div class="visa-time">
+                                        <span>16 issued in past few weeks</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="./VisaImages/destinations/greece.jpg" alt="Greece">
+                            <div class="stats-badge">
+                                <i class="fas fa-bolt"></i> Get Visa in 30 days
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="order">
+                                <h3>Greece</h3>
+                                <button type="button" class="link-btn"
+                                    onclick="window.location.href='./html/greece.html';">Get
+                                    Visa</button>
+                            </div>
+
+                            <div class="visa-type">Sticker</div>
+                            <div class="price-info">
+                                <div class="price">₹8500</div>
+                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="details">
+                                    <div class="visa-time">
+                                        <span>22 issued in past few weeks</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="./VisaImages/destinations/switzerland.jpg" alt="Switzerland">
+
+                            <div class="stats-badge">
+                                Get Visa in 30 days
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="order">
+                                <h3>Switzerland</h3>
+                                <button type="button" class="link-btn"
+                                    onclick="window.location.href='./html/switzerland.html';">Get Visa</button>
+                            </div>
+                            <div class="visa-type">Sticker</div>
+                            <div class="price-info">
+                                <div class="price">₹8500</div>
+                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="details">
+                                    <div class="visa-time">
+                                        <span>22 issued in past few weeks</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="./VisaImages/destinations/turkey.jpg" alt="Turkey">
+
+                            <div class="stats-badge">
+                                Get Visa in 30 days
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="order">
+                                <h3>Turkey</h3>
+                                <button type="button" class="link-btn"
+                                    onclick="window.location.href='./html/turkey.html';">Get
+                                    Visa</button>
+                            </div>
+                            <div class="visa-type">eVisa/ Sticker</div>
+                            <div class="price-info">
+                                <div class="price">₹17800</div>
+                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="details">
+                                    <div class="visa-time">
+                                        <span>Last issued 3 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="./VisaImages/destinations/singapore.jpg" alt="Singapore">
+                            <div class="stats-badge">
+                                <i class="fas fa-bolt"></i> Get Visa in 15 days
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="order">
+                                <h3>Singapore</h3>
+                                <button type="button" class="link-btn"
+                                    onclick="window.location.href='./html/singapore.html';">Get
+                                    Visa</button>
+                            </div>
+                            <div class="visa-type">Sticker</div>
+                            <div class="price-info">
+                                <div class="price">₹1900-6400</div>
+                                <div class="tax">+₹2499 (Fees+Tax)</div>
+                                <div class="details">
+                                    <div class="visa-time">
+                                        <span>338 issued recently</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="./VisaImages/destinations/china.jpg" alt="China">
+                            <div class="stats-badge">
+                                Get Visa in 15 days
+                            </div>
+                        </div>
+
+                        <div class="destination-info">
+                            <div class="order">
+                                <h3>China</h3>
+                                <button type="button" class="link-btn"
+                                    onclick="window.location.href='./html/china.html';">Get
+                                    Visa</button>
+                            </div>
+                            <div class="visa-type">Sticker</div>
+                            <div class="price-info">
+                                <div class="price">₹4500-10500</div>
+                                <div class="tax">+₹2499 (Fees+Tax)</div>
+                                <div class="details">
+                                    <div class="visa-time">
+                                        <span>338 issued recently</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Repeat similar structure for other destination cards -->
-                <!-- Example for Italy -->
-                <div class="destination-card">
-                    <div class="destination-image">
-                        <img src="https://www.teyzeevisas.com/VisaImages/destinations/italy.jpg" alt="Italy" onerror="this.onerror=null; this.src='path/to/default-image.jpg';">
-                        <div class="stats-badge">
-                            <i class="fas fa-bolt"></i> Get Visa in 30 days
-                        </div>
-                    </div>
-                    <div class="destination-info">
-                        <div class="order">
-                            <h3>Italy</h3>
-                            <button type="button" class="link-btn" onclick="window.location.href='/php/italy.php';">Get Visa</button>
-                        </div>
-                        <div class="visa-type">Sticker</div>
-                        <div class="price-info">
-                            <div class="price">₹8500</div>
-                            <div class="tax">+₹3500 (Fees+Tax 18%)</div>
-                            <div class="details">
-                                <div class="visa-time">
-                                    <span>97 issued in past few weeks</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="load-more">
+                    <button class="btn btn-secondary" id="loadMoreBtn">Load more <i
+                            class="fas fa-chevron-down"></i></button>
                 </div>
 
-                <!-- Add more destination cards as needed -->
             </div>
-        </div>
-    </section>
+        </section>
 
     <section class="visa-process">
         <div class="container">
@@ -210,8 +380,9 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
         </div>
     </section>
 </main>
+<?php include './php/footer.php'; ?>
 
-<footer>
+<!-- <footer>
     <div class="container">
         <div class="footer-grid">
             <div class="footer-col">
@@ -316,9 +487,9 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
             <p>© 2025 TeyZee Visas. All Rights Reserved.</p>
         </div>
     </div>
-</footer>
+</footer> -->
 
-<script src="/link.js"></script>
-<script src="/scripts.js"></script>
+<script src="./link.js"></script>
+<script src="./scripts.js"></script>
 </body>
 </php>
