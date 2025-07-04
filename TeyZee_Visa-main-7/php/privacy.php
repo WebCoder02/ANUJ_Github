@@ -312,7 +312,7 @@
     <main>
         <div class="container">
             <div class="privacy-container">
-                <h1 class="privacy-title">Data & Privacy Policy</h1>
+                <h1 class="privacy-title">Privacy Policy</h1>
 
                 <div class="privacy-section">
                     <h2>Privacy Policy</h2>

@@ -18,11 +18,12 @@
             </div>
 
             <div class="footer-col">
-                <h3>About us</h3>
+                <h3><a href="./about_us.php">About us</a></h3>
                 <ul>
-                    <li><a href="mailto:business.tours@kalltrip.com">Email us</a></li>
-                    <li><a href="#">Blogs</a></li>
+                    <li><a href="./contact_us.php">Contact Us</a></li>
+                    <li><a href="./terms_of_service.php">Terms & Conditions</a></li>
                     <li><a href="./privacy.php">Privacy Policy</a></li>
+
                 </ul>
             </div>
 
@@ -45,10 +46,10 @@
             <div class="footer-col">
                 <h3>Support</h3>
                 <ul>
+                    <li><a href="mailto:business.tours@kalltrip.com">Email us</a></li>
+                    <li><a href="./refunds_cancellations.php">Refunds & Cancellations</a></li>
                     <li><a href="./help_center.php">Help Center</a></li>
-                    <li><a href="./terms_of_service.php">Terms of Service</a></li>
-                    <li><a href="./refund_policy.php">Refund Policy</a></li>
-                    <li><a href="./privacy.php">Privacy Policy</a></li>
+
                 </ul>
             </div>
             <div class="footer-col">

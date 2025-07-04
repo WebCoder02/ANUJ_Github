@@ -26,7 +26,7 @@
             </div>
         </div>
     </header> -->
-    <h1>Terms of Service (to be checked)</h1>
+    <h1>Terms & Conditions</h1>
 
     <div class="tab-container">
         <div class="tab">
