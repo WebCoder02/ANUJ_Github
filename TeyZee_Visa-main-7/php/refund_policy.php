@@ -156,7 +156,7 @@
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
-                <tr>
+                <tr><?php
                     <td>Original Passport</td>
                     <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
                         years</td>
@@ -322,6 +322,7 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
     <?php include "footer.php" ?>

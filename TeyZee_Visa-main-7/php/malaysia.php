@@ -98,9 +98,10 @@
     </section>
     <section class="document-checklist">
         <div class="container">
-            <div class="label-container">
-                <h2>Save time and hassle with our document checklist</h2>
-                <a href="Malaysia_Customer.html" target="_blank">Download the Documentation</a>
+             <div class="label-container">
+                <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
+                <a href="/payments/payment.php?country=malaysia&amp;amount=499" class="check-btn">Download Documents</a>
+                <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
             <!-- <div class="label-container">
                 <h2 class="document-checklist">Document Checklist</h2>
@@ -744,6 +745,7 @@
         });
 
     </script>
+    <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq4e31759c72faf117d54e41692276fce110fbe6e6e6d715a6aaac7a0c47204f0c" defer></script>
 
 </body>
 
