@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../VisaImages/destinations/vietnam.jpg" alt="Lithuania">
+                <img src="../VisaImages/destinations/lithuania.jpg" alt="Lithuania">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do

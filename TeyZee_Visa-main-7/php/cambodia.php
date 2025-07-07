@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://static.toiimg.com/photo/54443614.cms" alt="Cambodia">
+                <img src="../VisaImages/destinations/cambodia.jpg" alt="Cambodia">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do

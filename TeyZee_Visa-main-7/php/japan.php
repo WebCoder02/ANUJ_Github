@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../VisaImages/destinations/japan.jpg" alt="Paris cityscape">
+                <img src="../VisaImages/destinations/japan.jpg" alt="Japan">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades,  so naturally we asked them to do our personal visas as well.  Flawless service.👍"</p>

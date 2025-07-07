@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://cdn.britannica.com/59/153459-050-BC7B5FD8/Herd-zebras-Kenya-Maasai-Mara-National-Reserve.jpg" alt="Kenya">
+                <img src="../VisaImages/destinations/kenya.jpg" alt="Kenya">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do

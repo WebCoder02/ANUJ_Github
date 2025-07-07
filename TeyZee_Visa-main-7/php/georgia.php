@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://media.istockphoto.com/id/805156212/photo/atlanta-georgia-usa-skyline.jpg?s=612x612&w=0&k=20&c=U0F90MfYP6NAE9OD7YmpmmC5zBzpvqiEJ_7UePHJg2c=" alt="Georgia">
+                <img src="../VisaImages/destinations/georgia.jpg" alt="Georgia">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do

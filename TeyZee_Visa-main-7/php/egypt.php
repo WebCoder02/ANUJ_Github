@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://i.natgeofe.com/k/109a4e08-5ebc-48a5-99ab-3fbfc1bbd611/Giza_Egypt_KIDS_0123_16x9.jpg" alt="Egypt">
+                <img src="../VisaImages/destinations/japan.jpg" alt="Egypt">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do

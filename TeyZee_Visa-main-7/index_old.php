@@ -11,7 +11,6 @@ if (isset($_SESSION['user']) && isset($_SESSION['session_token'])) {
     // If using database-based authentication, verify the session
     try {
        require_once __DIR__ . '/payments/database.php';
-        // require_once __DIR__ . '/../config/database.php';
        require_once __DIR__ . '/payments/User.php';
 
         
@@ -50,9 +49,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
             <div class="hero-content">
                 <div class="left">
                     <h3>TeyZee Visas, The Fast visa platform ❤️</h3>
-                    <h2>From application to approval,<br><span class="highlight">TeyZee Visas</span> makes visa applications simple and successful.</h2>
-                    <h3>Free Registration❤️ on Check Visa Eligibility @499 only <br> Choose from any of the visa countries below & click <b>Get Visa </b> (More Countries in footer)</h3>
-
+                    <h2>From application to approval,<br><span class="highlight">TeyZee Visas</span> makes visa applications simple and successful</h2>
                 </div>
             </div>
         </div>
@@ -99,8 +96,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
             </div>
         </div>
     </section>
-</main>
-<body>
+
     <section class="featured-destinations">
             <div class="container">
                 <div class="destinations-grid">
@@ -322,7 +318,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="load-more">
                     <button class="btn btn-secondary" id="loadMoreBtn">Load more <i
                             class="fas fa-chevron-down"></i></button>
@@ -338,7 +334,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
 
             <div class="process-container">
                 <div class="process-image">
-                    <img src="https://www.teyzeevisas.com/VisaImages/destinations/visa4stepprocess.jpg" alt="Application Form">
+                    <img src="https://www.teyzeevisas.com/VisaImages/destinations/contact-form.png" alt="Application Form">
                 </div>
                 <div class="process-steps">
                     <div class="step">
@@ -383,10 +379,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
             </div>
         </div>
     </section>
-     <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq4e31759c72faf117d54e41692276fce110fbe6e6e6d715a6aaac7a0c47204f0c" defer></script> 
-</body>
-
-
+</main>
 <?php include './php/footer.php'; ?>
 
 <!-- <footer>

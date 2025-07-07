@@ -92,7 +92,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://aebc975c.delivery.rocketcdn.me/wp-content/uploads/2021/01/la-une-1-croatie.jpg" alt="Croatia">
+                <img src="../VisaImages/destinations/croatia.jpg" alt="Croatia">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
