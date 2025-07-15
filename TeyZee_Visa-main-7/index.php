@@ -115,7 +115,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                             <div class="order">
                                 <h3>France</h3>
                                 <button type="button" class="link-btn"
-                                    onclick="window.location.href='./html/france.html';">Get
+                                    onclick="window.location.href='./php/france.php';">Get
                                     Visa</button>
                             </div>
                             <div class="visa-type">Sticker</div>
@@ -142,7 +142,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                             <div class="order">
                                 <h3>Italy</h3>
                                 <button type="button" class="link-btn"
-                                    onclick="window.location.href='./html/italy.html';">Get
+                                    onclick="window.location.href='./php/italy.php';">Get
                                     Visa</button>
                             </div>
                             <div class="visa-type">Sticker</div>
@@ -169,7 +169,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                             <div class="order">
                                 <h3>Germany</h3>
                                 <button type="button" class="link-btn"
-                                    onclick="window.location.href='./html/germany.html';">Get
+                                    onclick="window.location.href='./php/germany.php';">Get
                                     Visa</button>
                             </div>
                             <div class="visa-type">Sticker</div>
@@ -195,7 +195,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                             <div class="order">
                                 <h3>Greece</h3>
                                 <button type="button" class="link-btn"
-                                    onclick="window.location.href='./html/greece.html';">Get
+                                    onclick="window.location.href='./php/greece.php';">Get
                                     Visa</button>
                             </div>
 
@@ -224,7 +224,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                             <div class="order">
                                 <h3>Switzerland</h3>
                                 <button type="button" class="link-btn"
-                                    onclick="window.location.href='./html/switzerland.html';">Get Visa</button>
+                                    onclick="window.location.href='./php/switzerland.php';">Get Visa</button>
                             </div>
                             <div class="visa-type">Sticker</div>
                             <div class="price-info">
@@ -251,7 +251,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                             <div class="order">
                                 <h3>Turkey</h3>
                                 <button type="button" class="link-btn"
-                                    onclick="window.location.href='./html/turkey.html';">Get
+                                    onclick="window.location.href='./php/turkey.php';">Get
                                     Visa</button>
                             </div>
                             <div class="visa-type">eVisa/ Sticker</div>
@@ -278,7 +278,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                             <div class="order">
                                 <h3>Singapore</h3>
                                 <button type="button" class="link-btn"
-                                    onclick="window.location.href='./html/singapore.html';">Get
+                                    onclick="window.location.href='./php/singapore.php';">Get
                                     Visa</button>
                             </div>
                             <div class="visa-type">Sticker</div>
@@ -306,7 +306,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                             <div class="order">
                                 <h3>China</h3>
                                 <button type="button" class="link-btn"
-                                    onclick="window.location.href='./html/china.html';">Get
+                                    onclick="window.location.href='./php/china.php';">Get
                                     Visa</button>
                             </div>
                             <div class="visa-type">Sticker</div>
@@ -379,7 +379,9 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for Rs 500 only</h2>
                 <p>Upload your basic documents now.</p>
-                <button id="check-now" class="check-btn">CHECK NOW</button>
+             <a href="/payments/payment.php?country=All&amount=499"><button class="check-btn">Check Now</button></a>
+               <!-- <button id="check-btn2" class="check-btn">CHECK NOW</button> -->
+                <!-- <button class="check-btn">CHECK NOW</button> -->
             </div>
         </div>
     </section>
@@ -410,7 +412,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                     <li><a href="#">Blogs</a></li>
                     <li><a href="/php/privacy.php">Privacy Policy</a></li>
                 </ul>
-            </div>
+            </div>html
 
             <div class="footer-col">
                 <h3>Support</h3>
@@ -496,7 +498,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
     </div>
 </footer> -->
 
-<script src="./link.js"></script>
-<script src="./scripts.js"></script>
+<script src="/link.js"></script>
+<script src="/scripts.js"></script>
 </body>
 </php>

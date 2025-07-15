@@ -336,7 +336,7 @@ header {
 }
 
 .signup-btn:hover {
-    background-color:  #5648ce;;
+    background-color:  #5648ce;
 }
 
 .stats {
@@ -751,6 +751,81 @@ header {
     .detail {
         width: 100%;
     }
+}
+/* eVisa Section Exculsive for Worldwide visa  */
+.txt-center {
+            text-align: center;
+            color: white;
+            margin:0;
+        }
+
+        .visa-cards-wrapper {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.visa-information-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.visa-cards-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
+}
+
+.visa-cards {
+  background: #9089f7;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.visa-cards:hover {
+  transform: translateY(-4px);
+}
+
+.visa-title {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  color: #ffffff;
+}
+
+.visa-information div {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.apply-button {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #5648ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.apply-button:hover {
+  background-color:rgb(115, 104, 207);
+  transform: translateY(-2px);
+}
+
+.apply-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(94, 26, 110, 0.3);
 }
 /* Process Section */
   /* Process Timeline Styling */
