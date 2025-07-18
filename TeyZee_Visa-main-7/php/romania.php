@@ -1,4 +1,5 @@
-<?php include 'header.php'; ?>  <!DOCTYPE html>
+<?php include 'header.php'; ?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,15 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Tag Manager -->
 
-    
-
     <!-- End Google Tag Manager -->
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
 
-    
     <!-- End Google Tag Manager (noscript) -->
     <!--<header>
         <div class="container header-container">
@@ -100,12 +98,12 @@
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="/payments/payment.php?country=romania&amp;amount=499" class="check-btn">Download Documents</a>
+                <a href="/payments/payment.php?country=Romania&amp;amount=499" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
             <!-- <div class="label-container">
                 <h2 class="document-checklist">Document Checklist</h2>
-                <a href="Romania_Customer.html" target="_blank">Download the Documentation</a>
+                <a href="Bulgaria_Customer.html" target="_blank">Download the Documentation</a>
             </div> -->
 
             <!-- Cascading dropdown -->
@@ -377,7 +375,7 @@
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹3500 Plus Tax</small>
+                        <small>+₹499 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                         <!-- <a href="#">View details</a> -->
                     </div>
@@ -421,7 +419,7 @@
                 <div class="visa-action">
                     <div class="price">
                         <p>Pay now</p>
-                        <small>+₹3500 Plus Tax</small>
+                        <small>+₹499 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                     </div>
                     <button class="start-btn">Apply Now</button>
@@ -585,7 +583,7 @@
             </div>
         </div>
     </section>
-    <?php include 'footer.php'; ?>
+        <?php include 'footer.php'; ?>
      <!-- <footer>
         <div class="container">
             <div class="footer-grid">
@@ -686,13 +684,13 @@
                     <a href="#">Egypt</a> •
                     <a href="#">Oman</a> •
                     <a href="#">Sweden</a> •
-                    <a href="#">Austria</a> •
+                    <a href="#">Bulgaria</a> •
                     <a href="#">Denmark</a> •
                     <a href="#">Uzbekistan</a> •
                     <a href="#">Cambodia</a> •
-                    <a href="#">Malaysia</a> •
+                    <a href="#">Morocco</a> •
                     <a href="#">Netherlands</a> •
-                    <a href="#">Romania</a> •
+                    <a href="#">Philippines</a> •
                     <a href="#">Brazil</a> •
                     <a href="#">Saudi Arabia</a> •
                     <a href="#">Kenya</a> •
@@ -700,14 +698,14 @@
                     <a href="#">Belgium</a> •
                     <a href="#">Croatia</a> •
                     <a href="#">Lithuania</a> •
-                    <a href="#">Morocco</a> •
+                    <a href="#">Ireland</a> •
                     <a href="#">Luxembourg</a> •
                     <a href="#">Hong Kong</a> •
-                    <a href="#">Ireland</a> •
+                    <a href="#">Malaysia</a> •
                     <a href="#">Japan</a> •
                     <a href="#">Bahrain</a> •
                     <a href="#">Czech Republic</a> •
-                    <a href="#">Philippines</a> •
+                    <a href="#">Romania</a> •
                     <a href="#">Bulgaria</a> •
                     <a href="#">Slovakia</a> •
                     <a href="#">Latvia</a> •
@@ -730,6 +728,17 @@
     pointer-events: none;
     z-index: 1000;
 "></div>
+<?php
+// Visa type-based offsets
+$dateOffsets = [
+    'business' => 3,
+    'tourist' => 5,
+    'student' => 7
+];
+?>
+<script>
+    const visaOffsets = <?php echo json_encode($dateOffsets); ?>;
+</script>
 
     <script src="../link.js"></script>
     <script src="../scripts.js"></script>

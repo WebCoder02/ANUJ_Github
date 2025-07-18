@@ -271,7 +271,7 @@ event of repatriation) and ensure that he/ she boards the ship.<br/>
                 </tr>
                 <tr>
                     <td>Official Document Links </td>
-                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.mfa.gr/missionsabroad/en/india-en/visas">Download Application Form</a>

@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>  
+<?php include 'header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,27 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Tag Manager -->
 
-    <!-- <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-
-        })(window, document, 'script', 'dataLayer', 'GTM-TZGFW4FB');</script> -->
-
     <!-- End Google Tag Manager -->
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
 
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGFW4FB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
     <!--<header>
         <div class="container header-container">
@@ -82,7 +67,6 @@
                         <input type="text" placeholder="Enter mobile number">
                         <button class="signup-btn">Sign up <i class="fas fa-arrow-right"></i></button>
                     </div>
-                    
                 </div> -->
                 <div class="stats">
                     <div class="stat">
@@ -114,12 +98,12 @@
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="Croatia_/payments/payment.php?country=croatia&amp;amount=499" class="check-btn">Download Documents</a>
+                <a href="/payments/payment.php?country=croatia&amp;amount=499" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
             <!-- <div class="label-container">
                 <h2 class="document-checklist">Document Checklist</h2>
-                <a href="Croatia_Customer.html" target="_blank">Download the Documentation</a>
+                <a href="Bulgaria_Customer.html" target="_blank">Download the Documentation</a>
             </div> -->
 
             <!-- Cascading dropdown -->
@@ -391,7 +375,7 @@
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹3500 Plus Tax</small>
+                        <small>+₹499 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                         <!-- <a href="#">View details</a> -->
                     </div>
@@ -435,7 +419,7 @@
                 <div class="visa-action">
                     <div class="price">
                         <p>Pay now</p>
-                        <small>+₹3500 Plus Tax</small>
+                        <small>+₹499 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                     </div>
                     <button class="start-btn">Apply Now</button>
@@ -599,9 +583,8 @@
             </div>
         </div>
     </section>
-
-    <?php include 'footer.php'?>
-    <!--<footer>
+        <?php include 'footer.php'; ?>
+     <!-- <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
@@ -701,7 +684,7 @@
                     <a href="#">Egypt</a> •
                     <a href="#">Oman</a> •
                     <a href="#">Sweden</a> •
-                    <a href="#">Austria</a> •
+                    <a href="#">Bulgaria</a> •
                     <a href="#">Denmark</a> •
                     <a href="#">Uzbekistan</a> •
                     <a href="#">Cambodia</a> •
@@ -733,7 +716,7 @@
                 <p>© 2025 TeyZee Visas. All Rights Reserved.</p>
             </div>
         </div>
-    </footer>-->
+    </footer> -->
     <div id="custom-tooltip" style="
     position: absolute;
     background: #333;

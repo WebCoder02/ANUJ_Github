@@ -145,7 +145,7 @@
                 </tr>
                 <tr>
                         <td>Official Document Links </td>
-                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Documents/Impreso%20solicitud%20visado%20Schengen%20espa%c3%b1ol-ingl%c3%a9s.pdf">Download Application Form</a>

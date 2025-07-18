@@ -156,7 +156,7 @@
                             <div class="visa-type">Sticker</div>
                             <div class="price-info">
                                 <div class="price">₹8500</div>
-                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="tax">+₹499 (Fees+Tax 18%)</div>
                                 <div class="details">
                                     <div class="visa-time">
                                         <span>52 issued in past few weeks</span>
@@ -183,7 +183,7 @@
                             <div class="visa-type">Sticker</div>
                             <div class="price-info">
                                 <div class="price">₹8500</div>
-                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="tax">+₹499 (Fees+Tax 18%)</div>
                                 <div class="details">
                                     <div class="visa-time">
                                         <span>97 issued in past few weeks</span>
@@ -210,7 +210,7 @@
                             <div class="visa-type">Sticker</div>
                             <div class="price-info">
                                 <div class="price">₹8500</div>
-                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="tax">+₹499 (Fees+Tax 18%)</div>
                                 <div class="details">
                                     <div class="visa-time">
                                         <span>16 issued in past few weeks</span>
@@ -237,7 +237,7 @@
                             <div class="visa-type">Sticker</div>
                             <div class="price-info">
                                 <div class="price">₹8500</div>
-                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="tax">+₹499 (Fees+Tax 18%)</div>
                                 <div class="details">
                                     <div class="visa-time">
                                         <span>22 issued in past few weeks</span>
@@ -264,7 +264,7 @@
                             <div class="visa-type">Sticker</div>
                             <div class="price-info">
                                 <div class="price">₹8500</div>
-                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="tax">+₹499 (Fees+Tax 18%)</div>
                                 <div class="details">
                                     <div class="visa-time">
                                         <span>22 issued in past few weeks</span>
@@ -292,7 +292,7 @@
                             <div class="visa-type">eVisa/ Sticker</div>
                             <div class="price-info">
                                 <div class="price">₹17800</div>
-                                <div class="tax">+₹3500 (Fees+Tax 18%)</div>
+                                <div class="tax">+₹499 (Fees+Tax 18%)</div>
                                 <div class="details">
                                     <div class="visa-time">
                                         <span>Last issued 3 hours ago</span>

@@ -172,7 +172,7 @@
                 </tr>
                 <tr>
                     <td>Official Document Links </td>
-                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://visaoffice.eu/media/uploads/document_examples/Order_forms/china/data_collect_form_china.pdf">Download Application Form</a>

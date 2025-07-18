@@ -190,7 +190,7 @@
                 </tr>
                 <tr>
                     <td>Official Document Links </td>
-                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://um.fi/documents/35732/0/31800048_UM_Viisumilomake_Schengen_taytettava_EN_22_01_14.pdf/31c11098-37e4-f4e1-7f87-b03318aed5b3?t=1642762548291">Download Application Form</a>

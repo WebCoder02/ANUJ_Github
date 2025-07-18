@@ -168,7 +168,7 @@
                 </tr>
                 <tr>
                     <td>Official Document Links </td>
-                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://france-visas.gouv.fr/en/india">Download Application Form</a>
@@ -281,7 +281,8 @@
             </table>
         </div>
 
-        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>            
+         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>

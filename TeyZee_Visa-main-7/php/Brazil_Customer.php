@@ -114,7 +114,7 @@
                 </tr>
                 <tr>
                     <td>Official Document Links </td>
-                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://apvi-drive.s3.us-east-2.amazonaws.com/files/forms/Brazil_E-Visa_Application.pdf">Download Application Form</a>

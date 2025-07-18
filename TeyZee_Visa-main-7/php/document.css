@@ -114,21 +114,20 @@ tr:hover {
   border-radius: 0 var(--border-radius) var(--border-radius) 0;
 }
 
+.special-doc {
+  color: #5648ce;
+  font-weight: bold;
+}
+
 .doc-link {
   display: inline-block;
-  background-color: var(--secondary-color);
+  background-color: #078c1e;
   color: white;
   padding: 8px 16px;
   border-radius: var(--border-radius);
   margin-left: 10px;
   font-weight: 500;
   transition: var(--transition);
-}
-
-.doc-link:hover {
-  background-color: #078c1e;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow);
 }
 
 /* Tab System */

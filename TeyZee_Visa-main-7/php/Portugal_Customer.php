@@ -202,7 +202,7 @@
                 </tr>
                  <tr>
                         <td>Official Document Links </td>
-                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/checklist_for_schengen_visa_tourism_cg_new.pdf">Download Application Form</a>

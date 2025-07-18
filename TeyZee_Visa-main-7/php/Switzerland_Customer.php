@@ -175,7 +175,7 @@
                 </tr>
                 <tr>
                         <td>Official Document Links </td>
-                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="https://www.sem.admin.ch/dam/sem/fr/data/einreise/visumantragsformulare/visumantrag-schen-en-fr.pdf.download.pdf/visumantrag-schen-en-fr.pdf">Download Application Form</a>

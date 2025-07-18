@@ -180,7 +180,7 @@
                 </tr>
                 <tr>
                         <td>Official Document Links </td>
-                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf">Download Application Form</a>

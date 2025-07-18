@@ -114,7 +114,7 @@
                 </tr>
                 <tr>
                     <td>Official Document Links </td>
-                    <td>Login to see the Business Visa Application form & the Document Checklist.
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://kemlu.go.id/files-service/storage/childmenu/additional_file/17291570886710d7e0c2e4b_Visa_Application_Form.pdf">Download Application Form</a>

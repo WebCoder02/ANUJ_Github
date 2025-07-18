@@ -76,24 +76,24 @@
             </div>
         </div>
     </section>
-    <section class="visa-eligibility">
+    <section class="visa-eligibility" id="document-checklist">
         <div class="container eligibility-container">
             <div class="eligibility-content">
-                <h2>Check your Visa Eligibility for Rs 500 only</h2>
-                <p>Upload your basic documents now.</p>
-                <a href="/payments/payment.php?country=china&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <h2>Visa Assistance for Rs 499/- only</h2>
+                <p>Upload your basic documents after payment.</p>
+                <a href="/payments/payment.php?country=china&amount=499"><button class="check-btn">Visa Service Fee - Pay Rs 499</button></a>
             </div>
         </div>
     </section>
-   <section class="document-checklist">
+   <!-- <section class="document-checklist">
         <div class="container">
              <div class="label-container">
-                <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
+                <h2>Visa Assistance for Rs 499/- only</h2>
                 <a href="/payments/payment.php?country=china&amp;amount=499" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
 
-            <!-- Cascading dropdown -->
+            <!-- Cascading dropdown 
             <div class="dropdown-container">
                 <div class="dropdown-group">
                     <label class="dropdown-label" for="primary-category">Select Visa Category:</label>
@@ -105,7 +105,7 @@
                     </select>
                 </div>
 
-                <!-- Sub-category dropdown (initially hidden) -->
+                <!-- Sub-category dropdown (initially hidden) 
                 <div class="dropdown-group" id="subcategory-container" style="display: none;">
                     <label class="dropdown-label" for="sub-category">Select Service/Business/Others:</label>
                     <select id="sub-category">
@@ -115,7 +115,7 @@
             </div>
 
             <div class="document-checklist">
-                <!-- Tourist Category Selectors -->
+                <!-- Tourist Category Selectors 
                 <div class="checklist-selector" data-category="Tourist" data-subcategory="Employed">
                     <p>Showing documents for <span>Tourist - Employed <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -127,7 +127,7 @@
                     <p>Showing documents for <span>Tourist - Sponsored <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Business Category Selectors -->
+                <!-- Business Category Selectors 
                 <div class="checklist-selector" data-category="Business" data-subcategory="Meeting">
                     <p>Showing documents for <span>Business - Meeting <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -135,7 +135,7 @@
                     <p>Showing documents for <span>Business - Conference <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Other Category Selectors -->
+                <!-- Other Category Selectors 
                 <div class="checklist-selector" data-category="Other" data-subcategory="Student">
                     <p>Showing documents for <span>Student <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -146,8 +146,8 @@
                     <p>Showing documents for <span>Seaman <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Document sections -->
-                <!-- Tourist - Employed -->
+                <!-- Document sections 
+                <!-- Tourist - Employed 
                 <div id="checklist-section1" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Employed</h4>
@@ -172,7 +172,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Self-Employed -->
+                <!-- Tourist - Self-Employed 
                 <div id="checklist-section2" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Self-Employed</h4>
@@ -198,7 +198,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Spounser -->
+                <!-- Tourist - Spounser 
                 <div id="checklist-section3" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Sponsored</h4>
@@ -226,8 +226,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Add more checklist sections for other categories and subcategories -->
-                <!-- Business - Meeting -->
+                <!-- Add more checklist sections for other categories and subcategories 
+                <!-- Business - Meeting 
                 <div id="checklist-section4" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Business - Meeting</h4>
@@ -283,7 +283,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Student -->
+                <!-- Student 
                 <div id="checklist-section6" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Student</h4>
@@ -307,15 +307,12 @@
                     </div>
                 </div>
 
-                <!-- Additional sections would go here for the remaining categories -->
+                <!-- Additional sections would go here for the remaining categories 
             </div>
         </div>
-    </section>
+    </section>-->
 
-    <section class="visa-types">
-        <div class="container">
-            <h2>Types of China Visa</h2>
-            <section class="next-appointment">
+    <section class="next-appointment">
                 <div class="container appointment-container">
                     <div class="appointment-info">
                         <h2>Next Appointment Date</h2>
@@ -325,13 +322,16 @@
                         </p>
                     </div>
                 </div>
-            </section>
-            <div class="visa-card">
+    </section> 
+    <section class="visa-types">
+        <div class="container">
+            <h2>Types of China Visa</h2>
+            <div class="visa-card" id="tourist-visa">
                 <div class="visa-info">
                     <div class="visa-type">
-                        <span class="heading">Tourist</span>
-                        <h3>1-6 Months</h3>
-                        <p>Single/Multiple Entry</p>
+                        <span class="heading">Tourist/Business</span>
+                        <h3>30 Days</h3>
+                        <p>Single Entry</p>
                     </div>
 
                     <div class="visa-details">
@@ -348,12 +348,12 @@
                         <div class="detail">
                             <i class="fas fa-calendar-check"></i>
                             <span>Visa validity</span>
-                            <strong>30-180 Days</strong>
+                            <strong>90 Days</strong>
                         </div>
                         <div class="detail">
                             <i class="fas fa-clock"></i>
                             <span>Processing time</span>
-                            <strong>15 Working Days</strong>
+                            <strong>14 Working Days</strong>
                         </div>
                     </div>
                 </div>
@@ -362,19 +362,20 @@
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹3500 Plus Tax</small>
-                        <h3>90 Euros per adult</h3>
+                        <small>+₹1500 Plus Tax</small>
+                        <h3>$34 per adult</h3>
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <button class="start-btn">Apply Now</button>
+                    <a href="/payments/payment.php?country=china&amount=4399"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
-            <div class="visa-card business">
+
+            <div class="visa-card" id="tourist-visa">
                 <div class="visa-info">
                     <div class="visa-type">
-                        <span class="heading">Business</span>
-                        <h3>1-3 Months</h3>
-                        <p>Single/Multiple Entry</p>
+                        <span class="heading">Tourist/Business</span>
+                        <h3>30 Days</h3>
+                        <p>Double Entry</p>
                     </div>
 
                     <div class="visa-details">
@@ -391,22 +392,113 @@
                         <div class="detail">
                             <i class="fas fa-calendar-check"></i>
                             <span>Visa validity</span>
-                            <strong>30-180 Days</strong>
+                            <strong>90 Days</strong>
                         </div>
                         <div class="detail">
                             <i class="fas fa-clock"></i>
                             <span>Processing time</span>
-                            <strong>15 Working Days</strong>
+                            <strong>14 Working Days</strong>
                         </div>
                     </div>
                 </div>
+
                 <div class="visa-action">
                     <div class="price">
+                        <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹3500 Plus Tax</small>
-                        <h3>90 Euros per adult</h3>
+                        <small>+₹1500 Plus Tax</small>
+                        <h3>51$ per adult</h3>
+                        <!-- <a href="#">View details</a> -->
                     </div>
-                    <button class="start-btn">Apply Now</button>
+                    <a href="/payments/payment.php?country=china&amount=5899"><button class="start-btn">Apply Now</button></a>
+                </div>
+            </div>
+            
+            <div class="visa-card" id="tourist-visa">
+                <div class="visa-info">
+                    <div class="visa-type">
+                        <span class="heading">Tourist/Business</span>
+                        <h3>6 Months</h3>
+                        <p>Multiple Entry</p>
+                    </div>
+
+                    <div class="visa-details">
+                        <div class="detail">
+                            <i class="fas fa-passport"></i>
+                            <span>Visa Types</span>
+                            <strong>Sticker</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>Stay duration</span>
+                            <strong>180 Days</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Visa validity</span>
+                            <strong>180 Days</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Processing time</span>
+                            <strong>14 Working Days</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visa-action">
+                    <div class="price">
+                        <!-- add any tag -->
+                        <p>Pay now</p>
+                        <small>+₹1500 Plus Tax</small>
+                        <h3>70$ per adult</h3>
+                        <!-- <a href="#">View details</a> -->
+                    </div>
+                    <a href="/payments/payment.php?country=china&amount=7399"><button class="start-btn">Apply Now</button></a>
+                </div>
+            </div>
+
+            <div class="visa-card" id="#Business-visa">
+                <div class="visa-info">
+                    <div class="visa-type">
+                        <span class="heading">Tourist/Business</span>
+                        <h3>12 Months</h3>
+                        <p>Multiple Entry</p>
+                    </div>
+
+                    <div class="visa-details">
+                        <div class="detail">
+                            <i class="fas fa-passport"></i>
+                            <span>Visa Types</span>
+                            <strong>Sticker</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>Stay duration</span>
+                            <strong>12 months</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Visa validity</span>
+                            <strong>12 months</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Processing time</span>
+                            <strong>14 Working Days</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visa-action">
+                    <div class="price">
+                        <!-- add any tag -->
+                        <p>Pay now</p>
+                        <small>+₹1500 Plus Tax</small>
+                        <h3>103$ per adult</h3>
+                        <!-- <a href="#">View details</a> -->
+                    </div>
+                    <a href="/payments/payment.php?country=china&amount=10299"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
 
@@ -417,12 +509,13 @@
             </div>
         </div>
     </section>
-    <section class="process">
+
+    <section class="process" id="visa-process">
         <div class="container">
             <div class="process-timeline">
                 <h3>Expert Visa Assistance in Just a Few Steps</h3>
                 <div class="process-selector">
-                    <p>Showing steps for <span>Sticker visa</span></p>
+                    <p>Showing steps for <span>Sticker Visa</span></p>
                 </div>
                 <div class="process-steps">
                     <div class="timeline-line"></div>
@@ -483,7 +576,7 @@
                         </div>
                         <div class="step-content result">
                             <h3>Step 5: Visa received</h3>
-                            <p>From the appointment date, get your visa in <span class="highlight">4 weeks</span>.</p>
+                            <p>From the appointment date, get your visa in <span class="highlight">14 Working Days</span>.</p>
                         </div>
                     </div>
                 </div>
@@ -542,7 +635,7 @@
                         <h3>China Transit Visa Requirements for Indian Citizens</h3>
                         <p>Indian citizens need a transit visa for all layovers in China. <span
                                 class="hidden-content">This visa only allows airport stays - for city visits, apply for
-                                a regular Schengen visa.</span></p>
+                                a regular  visa.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -557,7 +650,7 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Single vs. Multiple-Entry Schengen Visas for China</h3>
+                        <h3>Single vs. Multiple-Entry  Visas for China</h3>
                         <p>Both single and multiple-entry visas available for China travel. <span
                                 class="hidden-content">First-time visitors should apply for single-entry, while
                                 multiple-entry allows unlimited visits within the validity period.</span></p>
@@ -712,6 +805,17 @@
     pointer-events: none;
     z-index: 1000;
 "></div>
+<?php
+// Visa type-based offsets
+$dateOffsets = [
+    'business' => 3,
+    'tourist' => 5,
+    'student' => 7
+];
+?>
+<script>
+    const visaOffsets = <?php echo json_encode($dateOffsets); ?>;
+</script>
 
     <script src="../link.js"></script>
     <script src="../scripts.js"></script>

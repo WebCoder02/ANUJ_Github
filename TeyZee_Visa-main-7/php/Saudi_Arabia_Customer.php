@@ -173,7 +173,7 @@
                 </tr>
                  <tr>
                         <td>Official Document Links </td>
-                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="https://visa.mofa.gov.sa/">Download Application Form</a>

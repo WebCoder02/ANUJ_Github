@@ -163,7 +163,7 @@
                 </tr>
                 <tr>
                         <td>Official Document Links </td>
-                        <td>Login to see the Business Visa Application form & the Document Checklist.
+                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="https://newdelhipe.dfa.gov.ph/images/2023/MAY2023/FA_Form_No_2_Standard_Visa_Application_Form_2021.pdf">Download Application Form</a>
