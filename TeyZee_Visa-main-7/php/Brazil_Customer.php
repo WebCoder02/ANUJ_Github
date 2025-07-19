@@ -45,9 +45,9 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                        <td>1</td>
+                        <td>Visa Application Form</td>
                         <td>Fill out application visa form<br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://apvi-drive.s3.us-east-2.amazonaws.com/files/forms/Brazil_E-Visa_Application.pdf">Download Application Form</a>
@@ -56,51 +56,44 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Upload scanned copies of:
-                            <ul>
-                                <li>Passport photo</li>
-                                <li>Passport identification page</li>
-                                <li>Identity card (both sides)</li>
-                                <li>Proof of financial means (last 3 months): paycheques, employer dispatch letter, or bank statement</li>
-                                <li>For third-party sponsors: notarized financial commitment letter</li>
-                                <li>Round trip flight reservation</li>
-                            </ul>
-                        </td>
+                        <td>Passport</td>
+                        <td>Original and copy of a valid passport (signed, valid for at least 6 months, with at least 2 blank pages).</td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>Print and sign application delivery receipt (RER). Glue a 3x4 cm recent passport photo and write your full name and phone number.<br>
-                        <strong>Note:</strong> For minors, both parents must sign the RER.</td>
+                        <td>Financial Proof</td>
+                        <td>Bank statements for the past 3 months, income tax returns, and salary slips.</td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>Present the following at your appointment:
-                            <ul>
-                                <li>Copy of identity document (ID)</li>
-                                <li>Copy of passport ID page</li>
-                                <li>Round trip reservation between Brazil and Angola</li>
-                                <li>Proof of accommodation (hotel reservation or invitation letter notarized in Brazil)</li>
-                                <li>Travel insurance valid for stay in Brazil</li>
-                                <li>Passport valid for at least 6 months and with at least 3 blank pages</li>
-                                <li>Bank statements for the last 2 months</li>
-                                <li>Payroll (paycheque)</li>
-                                <li>Original dispatch letter from employer with job title and salary, notarized</li>
-                                <li>Or notarized term of financial commitment from sponsor with their employer letter and ID copy</li>
-                                <li>If applicable: Copy of business license for private sector workers</li>
-                            </ul>
-                        </td>
+                        <td>Photograph</td>
+                        <td>Recent passport-style photo taken in the last 6 months, compliant with ICAO standards.</td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td>
-                            <strong>Important Notes:</strong>
-                             <ul>
-                                <li>All documents must be clear and translated into Portuguese or English if necessary.</li>
-                                <li>Notarization required for financial commitment letters and employer dispatch letters.</li>
-                                <li>Possession of a visa does not guarantee entry to Brazil.</li>
-                            </ul>
-                        </td>
+                        <td>Flight Itinerary</td>
+                        <td>Booked tickets showing entry into and exit from Brazil.</td>
+                    </tr>
+                    <tr>
+                        <td>Consular Fees</td>
+                        <td>Proof of payment of the applicable consular visa fees.</td>
+                    </tr>
+                    <tr>
+                        <td>Cover Letter</td>
+                        <td>Personal cover letter with details about the applicant and the purpose of the trip.</td>
+                    </tr>
+                    <tr>
+                        <td>Accommodation Proof</td>
+                        <td>Hotel reservation or similar supporting document showing accommodation during the stay.</td>
+                    </tr>
+                    <tr>
+                        <td>Invitation Letter</td>
+                        <td>Where applicable, an invitation letter from the inviting company or event organizer in Brazil.</td>
+                    </tr>
+                    <tr>
+                        <td>Minors: Visa Authorization</td>
+                        <td>Signed by both parents and notarized. If traveling alone or with one parent, also a notarized and apostilled Travel Authorization Form signed by both parents.</td>
+                    </tr>
+                    <tr>
+                        <td>Note</td>
+                        <td>Additional documents may be requested depending on the type of visa being applied for.</td>
                     </tr>
             </table>
         </div>
@@ -122,109 +115,46 @@
                         <?php endif; ?></td>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16
-                         <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip
-                         <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                        <td>Passport</td>
+                        <td>Original and copy of a valid passport (signed, valid for at least 6 months, with at least 2 blank pages).</td>
+                    </tr>
+                    <tr>
+                        <td>Financial Proof</td>
+                        <td>Bank statements for the past 3 months, income tax returns, and salary slips.</td>
+                    </tr>
+                    <tr>
+                        <td>Photograph</td>
+                        <td>Recent passport-style photo taken in the last 6 months, compliant with ICAO standards.</td>
+                    </tr>
+                    <tr>
+                        <td>Flight Itinerary</td>
+                        <td>Booked tickets showing entry into and exit from Brazil.</td>
+                    </tr>
+                    <tr>
+                        <td>Consular Fees</td>
+                        <td>Proof of payment of the applicable consular visa fees.</td>
+                    </tr>
+                    <tr>
+                        <td>Cover Letter</td>
+                        <td>Personal cover letter with details about the applicant and the purpose of the trip.</td>
+                    </tr>
+                    <tr>
+                        <td>Accommodation Proof</td>
+                        <td>Hotel reservation or similar supporting document showing accommodation during the stay.</td>
+                    </tr>
+                    <tr>
+                        <td>Invitation Letter</td>
+                        <td>Where applicable, an invitation letter from the inviting company or event organizer in Brazil.</td>
+                    </tr>
+                    <tr>
+                        <td>Minors: Visa Authorization</td>
+                        <td>Signed by both parents and notarized. If traveling alone or with one parent, also a notarized and apostilled Travel Authorization Form signed by both parents.</td>
+                    </tr>
+                    <tr>
+                        <td>Note</td>
+                        <td>Additional documents may be requested depending on the type of visa being applied for.</td>
+                    </tr>
+                
             </table>
         </div>
 
@@ -303,7 +233,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.traveldocument.com/forms/hongkong.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
         applying.</p>
     </div>

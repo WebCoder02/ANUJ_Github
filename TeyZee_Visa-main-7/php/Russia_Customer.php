@@ -44,121 +44,30 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-            </td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Application Form <br>
-              Login to see the Visa Application form & the Document Checklist.
-                        <?php if (isset($_SESSION['user_id'])): ?>
-                        <!-- Special links for logged-in users -->
-                        <a href="https://india.mid.ru/en/consular-affairs/visa/">Download Application Form</a>
-                        <a href="https://evisacheck.kdmid.ru/">Download Document Checklist</a>
-                        <?php endif; ?>  
-                Original Passport with old passport:
-                <ul>
-                    <li>Passport should be valid minimum 06 months from the date of travel</li>
-                    <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
-                    <li>No hand written passports will be accepted</li>
-                    <li>At least 2 blank pages</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>
-                04 recent photograph each:
-                <ul>
-                    <li>35*45 mm size</li>
-                    <li>White background</li>
-                    <li>Glossy finish & 80% face image</li>
-                    <li>Without specs & not used in previous visa</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>
-                The original tourist/hotel voucher issued by a Russian tourist agency/hotel
-                <ul>
-                    <li>Must be with stamp and colour copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>
-                The confirmation of booking an air ticket (e-ticket, itinerary) is required
-            </td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>
-                Evidence of Sufficient Funds:
-                <ul>
-                    <li>Original 03 months Personal Bank Statement till date updated</li>
-                    <li>With bank sign and stamp on each page</li>
-                    <li>With sufficient balance</li>
-                    <li>In A4 Size only</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>
-                If applicant is Self Employed:
-                <ul>
-                    <li>Business letterhead with sign & Stamp & visiting card</li>
-                    <li>Business Registration Proof or Partnership Deed or Memorandum of Article</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>
-                If applicant is Employed:
-                <ul>
-                    <li>Pay Slip (last 6 months)</li>
-                    <li>Leave & NOC letter should address to the consulate/Embassy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>
-                If applicant is Retired:
-                <ul>
-                    <li>Retirement letter from Employer</li>
-                    <li>Pension Payment Order</li>
-                    <li>Pension passbook</li>
-                    <li>Provident Funds slip</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>
-                If applicant is Student:
-                <ul>
-                    <li>Evidence of enrolment at school</li>
-                    <li>College or University Photo ID Card Copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>
-                Note:
-                <ul>
-                    <li>We will take 3 to 4 days to prepare visa application to submit at High Commission.</li>
-                    <li>Visa issuance is sole responsibility of respected Consulate/Embassy; Best Voyage is not responsible for any rejection/refusal or delay in visa.</li>
-                    <li>We are not responsible for missing/damage of any documents during visa formalities.</li>
-                    <li>Please note that this is not an exhaustive list. If necessary, you may be requested to bring additional documents or to appear for a personal interview.</li>
-                    <li>An applicant can submit the documents for the Russian visa at the Visa Section of the Consulate General of the Russian Federation only during working hours: on Monday, Wednesday and Friday from 9:00 to 12:00 only.</li>
-                    <li>Documents from agents/representatives/authorized persons are not accepted under any circumstance.</li>
-                </ul>
-            </td>
-        </tr>
+                </tr>
+                <tr>
+                  <td>Appication Form</td>
+                  <td>Duly filled application form <br>
+                    <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                              <?php if (isset($_SESSION['user_id'])): ?>
+                              <!-- Special links for logged-in users -->
+                              <a href="https://india.mid.ru/en/consular-affairs/visa/">Download Application Form</a>
+                              <a href="https://evisacheck.kdmid.ru/">Download Document Checklist</a>
+                              <?php endif; ?>  
+                  </td>
+                </tr>
+                <tr><td>Passport</td><td>Valid for at least 6 months beyond intended stay with 2+ blank pages.</td></tr>
+                <tr><td>Visa Application Form</td><td>Fully completed and signed as required.</td></tr>
+                <tr><td>Photograph</td><td>Recent passport-size color photo with white background.</td></tr>
+                <tr><td>e‑Visa Option</td><td>Single-entry, valid 60 days, allows up to 16-day stay, no invitation needed.</td></tr>
+                <tr><td>Traditional Visa</td><td>Invitation letter from registered Russian tour operator or host organization.</td></tr>
+                <tr><td>Flight Itinerary</td><td>Confirmed return ticket showing travel dates.</td></tr>
+                <tr><td>Accommodation Confirmation</td><td>Hotel booking or host address details.</td></tr>
+                <tr><td>Proof of Funds</td><td>Recent bank statements, salary slips, or income tax returns.</td></tr>
+                <tr><td>Travel Insurance</td><td>Recommended/required for the duration of stay.</td></tr>
+                <tr><td>Visa Fee</td><td>traditional visa fee varies by processing time and entries.</td></tr>
+                <tr><td>Processing Time</td><td>e‑Visa: ~4 calendar days; Traditional tourist/business visa: ~7–15 working days.</td></tr>
+                <tr><td>Entry Regulations</td><td>Upon arrival, must fill immigration card; registration required if staying >7 days at one address.</td></tr>
             </table>
         </div>
 
@@ -178,110 +87,18 @@
                             <a href="https://evisacheck.kdmid.ru/">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                    <tr><td>Passport</td><td>Valid for at least 6 months beyond stay, with 2+ blank pages.</td></tr>
+                    <tr><td>Visa Application Form</td><td>Completed, signed, and matching photo specifications.</td></tr>
+                    <tr><td>Photographs</td><td>Two color passport-size photos with white background.</td></tr>
+                    <tr><td>Invitation Letter</td><td>Official invitation certified by Russian Ministry, stating business visit purpose.</td></tr>
+                    <tr><td>Letter from Employer</td><td>Letter from Indian employer or company introducing applicant and travel purpose.</td></tr>
+                    <tr><td>Flight Itinerary</td><td>Confirmed return flight booking showing entry and exit.</td></tr>
+                    <tr><td>Accommodation Proof</td><td>Hotel booking or lodging confirmation for stay duration.</td></tr>
+                    <tr><td>Proof of Funds</td><td>Recent bank statements or salary slips evidencing financial capability.</td></tr>
+                    <tr><td>Travel Insurance</td><td>Recommended to cover medical emergencies during visit.</td></tr>
+                    <tr><td>Visa Fee</td><td>Pay the fees through the online eVisa portal of Russia. The price may vary depending upon processing time and </td></tr>
+                    <tr><td>Processing Time</td><td>Typically 7–15 working days depending on jurisdiction and priority request.</td></tr>
+                    <tr><td>Follow‑up</td><td>Biometric collection or in-person submission at visa center may be required.</td></tr>
             </table>
         </div>
 
@@ -358,7 +175,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="#">Click Here (Link not add)</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Russia or consulate in your country before
         applying.</p>
     </div>

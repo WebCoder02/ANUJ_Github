@@ -46,10 +46,10 @@
                 </tr>
                 <tr>
             <td>1</td>
-            <td>Duly completed Form 14A, signed by the applicant.<br>
+            <td>Duly completed Form, signed by the applicant.<br>
             Optional Form V39A (Letter of Introduction) from a Singapore SC/PR if available.
             <br>
-            Login to see the Visa Application form & the Document Checklist.
+            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.ica.gov.sg/docs/default-source/ica/forms/form14a.pdf">Download Application Form</a>
@@ -97,7 +97,7 @@
                     <li>Only authorised visa agents or Singaporean contacts (SC/PR with SingPass) can submit your application.</li>
                     <li>Possession of a visa doesn't guarantee entry—Immigration & Checkpoint Authority (ICA) grants final entry and Visit Pass.</li>
                     <li>Ensure documents in English; translations may be required.</li>
-                    <li>All visa and service charges (e.g. INR 1,900 + INR 650 agent fee) are non-refundable.</li>
+                    <li>All visa and service charges are non-refundable.</li>
                 </ul>
             </td>
           </tr>
@@ -112,117 +112,23 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                        <td>Official Document Links </td>
-                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
-                            <?php if (isset($_SESSION['user_id'])): ?>
-                            <!-- Special links for logged-in users -->
-                            <a href="https://www.ica.gov.sg/docs/default-source/ica/forms/form14a.pdf">Download Application Form</a>
-                            <a href="https://www.mfa.gov.sg/Overseas-Mission/New-Delhi/Consular-Services/Visa-Information#:~:text=India">Download Document Checklist</a>
-                            <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Official Document Links </td>
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.ica.gov.sg/docs/default-source/ica/forms/form14a.pdf">Download Application Form</a>
+                        <a href="https://www.mfa.gov.sg/Overseas-Mission/New-Delhi/Consular-Services/Visa-Information#:~:text=India">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
+                <tr><td>Visa Application Form</td><td>Duly completed and signed Form 14A.</td></tr>
+                <tr><td>Passport</td><td>Valid for at least 6 months from date of entry, with at least two blank pages.</td></tr>
+                <tr><td>Photograph</td><td>Two recent passport-size photos (35 × 45 mm), white background.</td></tr>
+                <tr><td>Letter of Introduction (LOI)</td><td>Form V39A from local sponsor representing Singapore business entity.</td></tr>
+                <tr><td>Host Invitation</td><td>Letter from Singapore-registered company confirming purpose and schedule of visit.</td></tr>
+                <tr><td>Proof of Employment or Business</td><td>Employment letter or company documents from India-side.</td></tr>
+                <tr><td>Travel Itinerary</td><td>Return or onward flight bookings.</td></tr>
+                <tr><td>SG Arrival Card</td><td>Submit electronically within 72 hours before entry.</td></tr>
+                
             </table>
         </div>
 
@@ -300,7 +206,7 @@
 
     <div class="note">
         <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
-        it's recommended to verify the current requirements with the French embassy or consulate in your country before
+        it's recommended to verify the current requirements with the  embassy or consulate in your country before
         applying.
     </div>
     <?php include 'footer.php'; ?>

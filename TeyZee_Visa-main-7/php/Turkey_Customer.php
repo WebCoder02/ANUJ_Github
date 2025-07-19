@@ -45,119 +45,23 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Photograph</td>
-                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
-                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Application form</td>
-                    <td>Put your signature and carry it on the day of appointment
-                        <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                    <td>Official Document Links </td>
+                    <td><span class="special-doc">Login to see the Tourist Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://newdelhi-emb.mfa.gov.tr/Mission/ShowAnnouncement/361514">Download Application Form</a>
                         <a href="http://www.evisa.gov.tr/en/status/">Download Document Checklist</a>
-                        <?php endif; ?>
-                    </td>
+                        <?php endif; ?></td>
                 </tr>
-                <tr>
-                    <td>Appointment slip</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight tickets</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel Tickets</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Cover Letter</td>
-                    <td>Mentioning the purpose of the trip and itinerary 
-                        <!-- <a href="/templates/cover_letter_template.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Travel Insurance</td>
-                    <td>Travel insurance covering not less than 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Bank statements last 3 months, available balance should be at least 50-150 Euros per person per
-                        day of the trip. Advisable to transfer the money to maintain the balance 15 days before the
-                        appointment. Does not need to be signed by the bank</td>
-                </tr>
-                <tr>
-                    <td>ITR</td>
-                    <td>Copy of income tax return + ITR V acknowledgment of last 02 financial year if available</td>
-                </tr>
-                <tr>
-                    <td>Sponsor Bank Statement and ITR</td>
-                    <td>If trip sponsored by someone else, copy of bank statements last 3 months and copy of income tax
-                        return + ITR V acknowledgment for previous financial year (signed by bank)</td>
-                </tr>
-                <tr>
-                    <td>Sponsorship Letter</td>
-                    <td>If sponsored, letter from sponsor stating the amount, relationship and source of funds 
-                        <!-- <a
-                            href="/templates/sponsorship_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If Retired)</td>
-                    <td>
-                        <ul>
-                            <li>Proof of Retirement</li>
-                            <li>Proof of regular income generated by ownership of property or business</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Marital status</td>
-                    <td>
-                        <ul>
-                            <li>If married, Marriage certificate</li>
-                            <li>If divorced, Divorce papers</li>
-                            <li>If single, Nothing required</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Minor documents</td>
-                    <td>Birth certificate, marksheet, consent letter from parents if minor is travelling alone or with
-                        only one parent</td>
-                </tr>
+                <tr><td>Passport</td><td>Must be valid for at least 60 days beyond your approved stay and have at least two blank pages.</td></tr>
+                <tr><td>Online Application</td><td>Complete e‑Visa application via official portal; includes personal and travel details.</td></tr>
+                <tr><td>Photo</td><td>Digital passport-style photo upload during application, current and clear.</td></tr>
+                <tr><td>Flight Itinerary</td><td>Return or onward ticket confirmation for travel dates.</td></tr>
+                <tr><td>Hotel Booking</td><td>Proof of accommodation in Türkiye for the intended duration of stay.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements or other documents showing you can finance your stay.</td></tr>
+                <tr><td>Travel Insurance</td><td>Valid travel insurance covering your stay in Türkiye.</td></tr>
+                <tr><td>Visa Fee</td><td>Online payment completed to receive e‑Visa link and PDF approval.</td></tr>
+                <tr><td>Entry</td><td>Printable e‑Visa must be presented along with passport upon arrival.</td></tr>
             </table>
         </div>
 
@@ -169,117 +73,25 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                        <td>Official Document Links </td>
-                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
-                            <?php if (isset($_SESSION['user_id'])): ?>
-                            <!-- Special links for logged-in users -->
-                            <a href="https://newdelhi-emb.mfa.gov.tr/Mission/ShowAnnouncement/361514">Download Application Form</a>
-                            <a href="http://www.evisa.gov.tr/en/status/">Download Document Checklist</a>
-                            <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Official Document Links </td>
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://newdelhi-emb.mfa.gov.tr/Mission/ShowAnnouncement/361514">Download Application Form</a>
+                        <a href="http://www.evisa.gov.tr/en/status/">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
+                <tr><td>Passport</td><td>Valid for at least 60 days beyond entry and with two blank pages.</td></tr>
+                <tr><td>Pre‑Application</td><td>Completed via Turkish Sticker Visa Pre‑Application System.</td></tr>
+                <tr><td>Visa Form</td><td>Printed, filled and signed application form submitted in person.</td></tr>
+                <tr><td>Passport Photo</td><td>Recent passport-size photo attached to the form.</td></tr>
+                <tr><td>Invitation / Work Permit</td><td>Official invitation from Turkish host company or approved work permit documentation.</td></tr>
+                <tr><td>Employer Letter</td><td>Letter from Indian employer confirming business purpose and duration.</td></tr>
+                <tr><td>Flight & Accommodation</td><td>Return ticket itinerary and proof of place of stay (hotel or company provided).</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements or salary slips showing ability to finance stay.</td></tr>
+                <tr><td>Travel Insurance</td><td>Recommended or required travel insurance for the trip.</td></tr>
+                <tr><td>Visa Fee</td><td>Paid at consulate or designated agency during application.</td></tr>
+                <tr><td>Submission</td><td>Submit application and documents at Turkish embassy, consulate or visa application centre.</td></tr>
             </table>
         </div>
 
@@ -357,7 +169,7 @@
 
     <div class="note">
         <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
-        it's recommended to verify the current requirements with the French embassy or consulate in your country before
+        it's recommended to verify the current requirements with the  embassy or consulate in your country before
         applying.
     </div>
     <?php include 'footer.php'; ?>

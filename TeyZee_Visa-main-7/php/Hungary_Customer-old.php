@@ -285,7 +285,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                     <td>
                         <ul>
                             <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
+                            <li>Invitation letter from the  company</li>
                         </ul>
                         <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
                             Template</a> -->
@@ -294,7 +294,7 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                 <tr>
                     <td>Company Cover letter</td>
                     <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
+                        relationship between the Indian and  company 
                         <!-- <a href="/templates/company_cover_letter.doc"
                             class="doc-link" target="_blank">Download Template</a> -->
                         </td>

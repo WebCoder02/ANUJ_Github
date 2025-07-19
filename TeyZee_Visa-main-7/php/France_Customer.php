@@ -67,7 +67,7 @@
                     <td>Application form</td>
                     <td>Put your signature and carry it on the day of appointment
                         <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf">Download Application Form</a>
@@ -248,7 +248,7 @@
                     <td>
                         <ul>
                             <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
+                            <li>Invitation letter from the  company</li>
                         </ul>
                         <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
                             Template</a> -->
@@ -257,7 +257,7 @@
                 <tr>
                     <td>Company Cover letter</td>
                     <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
+                        relationship between the Indian and the French company 
                         <!-- <a href="/templates/company_cover_letter.doc"
                             class="doc-link" target="_blank">Download Template</a> -->
                         </td>
@@ -356,7 +356,7 @@
 
     <div class="note">
         <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
-        it's recommended to verify the current requirements with the French embassy or consulate in your country before
+        it's recommended to verify the current requirements with the  embassy or consulate in your country before
         applying.
     </div>
     <?php include 'footer.php'; ?>

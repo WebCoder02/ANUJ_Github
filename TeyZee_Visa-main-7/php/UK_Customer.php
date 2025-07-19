@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>United Arab Emirates Visa Checklist</title>
+    <title>United Kingdom Visa Checklist</title>
     <link rel="stylesheet" href="document.css">
     <link rel="stylesheet" href="Country_page.css">
     <link rel="stylesheet" href="styles.css">
@@ -28,7 +28,7 @@
             </div>
         </div>
     </header>-->
-    <h1>United Arab Emirates Visa Checklist</h1>
+    <h1>United Kingdom Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -38,7 +38,7 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>United Arab Emirates Tourist Visa Checklist </h2>
+            <h2>United Kingdom Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
@@ -47,239 +47,79 @@
             </td>
           </tr>
           <tr>
-            <td>1</td>
+            <td>Application Form</td>
             <td>
-                Application form duly completed and signed.<br>
-                Login to see the Visa Application form & the Document Checklist.
+                <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://www.mofa.gov.ae/en/Missions/New-Delhi/Services/Visas">Download Application Form</a>
-                        <a href="https://u.ae/en/information-and-services/visa-and-emirates-id/tourist-visa">Download Document Checklist</a>
+                        <a href="https://www.mofa.gov.ae/en/Missions/Mumbai/Services/Visas">Download Application Form</a>
+                        <a href="https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk">Download Document Checklist</a>
                         <?php endif; ?>
 
             </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>
-                One passport size color photo, white background, maximum 6 months old 
+          </tr>
+          <tr>
+            <td>Passport and Travel Information</td>
+            <td>a. Valid passport: Your current passport should be valid for the entirety of your stay, with at least one blank page for the visa. Include colour photocopies of the photo page and any previous visas.<br/>
+                b. Any previous passports: Submit all old passports you possess to provide evidence of your travel history.<br/>
+                c. Travel itinerary (if applicable): If applicable, include a detailed plan of your stay in the UK, including dates, locations, and purposes of travel. This is particularly relevant for tourist visas.
             </td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>
-                A valid passport (and a copy) satisfying the following criteria:
-                <ul>
-                    <li>one trip, the passport validity must be of at least 90 days from the last trip intended date</li>
-                    <li>it must contain at least two blank pages;</li>
-                    <li>it must have been issued within the previous 10 years;</li>
-                    <li>it must hold a valid UAE visa.</li>
-                </ul>
-                Damaged passports will not be accepted.
-            </td>
+            <td>Financial Documents</td>
+            <td>a. Bank statements: Provide recent statements (typically the last 3-6 months) to prove you have sufficient funds for your visit. These should clearly show your name and the account balance.<br/>
+                b. Salary slips: Recent payslips (usually for the last 3-6 months) to demonstrate steady employment and income.<br/>
+                c. Proof of financial means to support stay in the UK: This could include additional documents like a letter from your employer stating your salary, financial dependency documents if someone is supporting you financially, or proof of pension if applicable.</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>
-                Copy of UAE Residence Visa valid at least 90 days from the intended return date.
-            </td>
+            <td>Employment and Academic Documents</td>
+            <td>a. Employment letters: An employment letter from your current employer that outlines your role, salary, length of employment, and the purpose of your visit to the UK (if related to your job).<br/>
+                b. Academic Records (for student visas): Admission letters, Confirmation of Acceptance for Studies (CAS) form, and transcripts or certificates from your current or previous educational institutions.</td>
         </tr>
         <tr>
-            <td>5</td>
-            <td>Previous Schengen, USA, or UK visa copy.</td>
+            <td>Accommodation Details</td>
+            <td>a. Address in the UK: Details of where you will stay throughout your visit. This could be a residential address, a hotel, or other temporary accommodation.<br/>
+                b. Booking Confirmations: If applicable, include reservations for hotels or rentals, which confirm your planned accommodations.</td>
         </tr>
         <tr>
-            <td>6</td>
-            <td>
-                No Objection Certificate from local sponsor/employer mentioning:
-               <ul>
-                <li>Name and designation of the applicant;</li>
-                <li>Start of employment date;</li>
-                <li>Applicant's monthly salary;</li>
-                <li>No objection to travel to Italy;</li>
-                <li>Duration of leave;</li>
-                <li>Name and designation of the managerial signatory;</li>
-                <li>Direct phone number and e-mail of the signatory;</li>
-                <li>Provide copy of passport and UAE visa of the signatory</li>
-            </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>Employment Labor Contract / agreement.
-            </td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Copy of a valid trade license.</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td><strong>Verifiable evidence of sufficient means of subsistence during intended stay:</strong>
-            Last 3 months pay slips,
-            Last 3 months bank statements (foreign bank accounts will not be considered),
-            Last 3 months credit card statements,
-            Any other document that might help evaluate your financial situation in the UAE (i.e. other bank
-            accounts, personal properties, investments, etc...). Bank Statement should be on a bank letterhead. Photocopies or online statements must bear the
-            original bank stamp
-            </td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>An international medical insurance covering the entire stay with a minimum of 30.000 € coverage and
-                full and unlimited coverage for hospitalization. Emergency repatriation flight as well as repatriation of
-                mortal remains must be included. Detailed table of benefit must be provided.
-            </td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>Confirmed hotel booking. If the applicant will stay in a private accommodation, a Letter of invitation must
-                be provided
-            </td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>Confirmed flight reservation</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>If the applicant is a minor:<br/>
-                o A copy of both parents' (or legal guardians) passports;
-                o N.O.C.: Consent letter mentioning purpose of the trip, destination, exact dates. Letter must be
-                signed by both parents/legal guardians directly at our Visa Application Center. If one of the
-                parents is abroad, he/she will be asked by the Consulate to contact the nearest Italian
-                Consulate/Embassy in order to sign the consent letter in front of an officer;<br/>
-                o Birth certificate: No birth certificate is required if the full name of both parents/legal guardians
-                are mentioned (in English) in the applicant's passport; If not, an original or certified copy of the
-                birth certificate (translated in Italian or English), duly legalized by the Italian Embassy/Consulate
-                in the Country where the document has been issued, must be provided;<br/>
-                o Divorced parents: Original/legalized copy of the divorce sentence with clear mention of full
-                custody (translated in Italian or English)
+            <td>Additional Documents</td>
+            <td>a. Birth certificates: Needed primarily if you are applying for visas that involve family members, such as dependents or spouses.<br/>
+                b. Marriage certificates (if applicable): Required for those applying for visas based on their partnership or marriage to a UK citizen or resident.<br/>
+                c. Previous UK visas (if applicable): If you have previously been to the UK, include copies of your old visa stickers or stamps as proof of prior compliance with UK immigration laws.
             </td>
         </tr>
             </table>
         </div>
 
         <div id="business" class="tabcontent">
-            <h2>United Arab Emirates Business Visa Checklist</h2>
-            <table>
+            <h2>United Kingdom Business Visa Checklist</h2>
+            <table>        
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
-                 <tr>
+                <tr>
                         <td>Official Document Links </td>
                         <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
-                            <a href="https://www.mofa.gov.ae/en/Missions/New-Delhi/Services/Visas">Download Application Form</a>
-                            <a href="https://u.ae/en/information-and-services/visa-and-emirates-id/tourist-visa">Download Document Checklist</a>
+                            <a href="https://www.mofa.gov.ae/en/Missions/Mumbai/Services/Visas">Download Application Form</a>
+                            <a href="https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk">Download Document Checklist</a>
                             <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company
-                         <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>Passport & Travel History</td><td>Valid passport with at least one blank page; include previous passports if available.</td></tr>
+                <tr><td>Visa Application Form</td><td>Completed online form signed and dated by applicant.</td></tr>
+                <tr><td>Photographs</td><td>Two recent passport-size colour photos meeting UK biometric standards.</td></tr>
+                <tr><td>Invitation Letter</td><td>From UK company detailing business purpose, duration, host contact and scheduled activities.</td></tr>
+                <tr><td>Employer Letter</td><td>Letter from Indian employer confirming role, salary, leave approval and business reason.</td></tr>
+                <tr><td>Proof of Business Activities</td><td>Correspondence, contracts, registration documents showing business relations.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements (last 3–6 months), payslips or financial documents proving affordability.</td></tr>
+                <tr><td>Accommodation & Travel Itinerary</td><td>Details of where you will stay and flight bookings or planned itinerary.</td></tr>
+                <tr><td>Cover Letter</td><td>Personal letter explaining purpose of visit, itinerary, financial plans and intent to return.</td></tr>
+                <tr><td>Ties to Home Country</td><td>Evidence such as employment letter, family, property, or business to show return intent.</td></tr>
+                <tr><td>Translation</td><td>Certified English/Welsh translations with translator's statement for any non-English documents.</td></tr>
+                <tr><td>Biometric Appointment</td><td>Attend local Visa Application Centre for fingerprint and photo submission.</td></tr>
+                <tr><td>Visa Fee</td><td>Pay application fee ; healthcare surcharge if staying longer.</td></tr>
             </table>
         </div>
 
@@ -293,16 +133,16 @@
                 </tr>
                 <tr>
                     <td>Are you visiting any other Schengen countries during your stay?</td>
-                    <td>Check list of Schengen countries: United Arab Emirates, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: United Kingdom, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, United Arab Emirates, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, United Kingdom, and
                         Switzerland.</td>
                 </tr>
                 <tr>
                     <td>What is your first country of entry?</td>
-                    <td>Check list of Schengen countries: United Arab Emirates, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: United Kingdom, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, United Arab Emirates, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, United Kingdom, and
                         Switzerland.</td>
                 </tr>
                 <tr>
@@ -351,16 +191,15 @@
                     </td>
                 </tr>
             </table>
-            <?php endif; ?>
+            <?php endif;?>
         </div>
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.vfsglobal.com/one-pager/uae/uae/english/pdf/DVPC-UAE-VAF-Latest.pdf">Click Here</a> </p> <br>
-        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of United Arab Emirates or consulate in your country before
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates. </p> <br>
+        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of United Kingdom or consulate in your country before
         applying.</p>
     </div>
-    <?php include 'footer.php'; ?>
     <!-- <footer>
         <div class="container">
             <div class="footer-grid">
@@ -447,11 +286,11 @@
                     <a href="/html/turkey_customer.html">Turkey</a> •
                     <a href="/html/France_customer.html">France</a> •
                     <a href="#">Russia</a> •
-                    <a href="#">United Arab Emirates</a> •
+                    <a href="#">United Kingdom</a> •
                     <a href="#">Indonesia</a> •
                     <a href="#">Vietnam</a> •
                     <a href="#">Azerbaijan</a> •
-                    <a href="#">United Kingdom</a> •
+                    <a href="#">United Arab Emirates/a> •
                     <a href="#">Spain</a> •
                     <a href="#">South Korea</a> •
                     <a href="#">Georgia</a> •
@@ -530,7 +369,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for United Arab Emirates- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for United Kingdom- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);

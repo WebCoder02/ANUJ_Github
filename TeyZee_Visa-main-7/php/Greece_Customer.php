@@ -48,7 +48,7 @@
                     <td>1</td>
                     <td>Application form for a Schengen visa, fully filled in and signed by the applicant.
                         <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://in-gr.gvcworld.eu/sites/default/files/paragraphs/quicklinks/202407/vaf-en_v8-240716.pdf">Download Application Form</a>
@@ -352,7 +352,7 @@ event of repatriation) and ensure that he/ she boards the ship.<br/>
                     <td>
                         <ul>
                             <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
+                            <li>Invitation letter from the  company</li>
                         </ul>
                         <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
                             Template</a> -->
@@ -361,7 +361,7 @@ event of repatriation) and ensure that he/ she boards the ship.<br/>
                 <tr>
                     <td>Company Cover letter</td>
                     <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
+                        relationship between the Indian and the Greek company 
                         <!-- <a href="/templates/company_cover_letter.doc"
                             class="doc-link" target="_blank">Download Template</a> -->
                         </td>
@@ -459,7 +459,7 @@ event of repatriation) and ensure that he/ she boards the ship.<br/>
 
     <div class="note">
         <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
-        it's recommended to verify the current requirements with the French embassy or consulate in your country before
+        it's recommended to verify the current requirements with the  embassy or consulate in your country before
         applying.
     </div>
     <?php include 'footer.php'; ?>

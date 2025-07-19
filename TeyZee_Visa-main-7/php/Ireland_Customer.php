@@ -45,11 +45,11 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>1.1</td>
-                    <td>Print out of visa application summary sheet from <a href="http://www.visas.inis.gov.ie" target="_blank">www.visas.inis.gov.ie</a> - signed by applicant
+                    <td>Application</td>
+                    <td>Print out of visa application summary sheet- signed by applicant
             
                     <br>
-                    Login to see the Visa Application form & the Document Checklist.
+                    <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.visas.inis.gov.ie/avats/OnlineHome2.aspx">Download Application Form</a>
@@ -57,99 +57,51 @@
                         <?php endif; ?>
 
                     </td>
-                </tr>
-                <tr>
-                    <td>1.2</td>
-                    <td>2 pcs. identical, good quality, passport size photographs, taken within recent 3 months, with white background</td>
-                </tr>
-                <tr>
-                    <td>1.3</td>
-                    <td>Non-refundable Visa Fee<br>
-                        <em>Note:</em> Visa fees for Spouses & minor children of Irish/EU Nationals and Official Passport holders with TPN are waived<br>
-                        *Fees may change without prior notice<br>
-                        *Fees are non-refundable
-                    </td>
-                </tr>
-                <tr>
-                    <td>2.1</td>
-                    <td>Original Passport - valid only if signed, must have validity of 6 months after the date of RETURN from Ireland for short stay visas OR at least 1 year validity for long stay visas</td>
-                </tr>
-                <tr>
-                    <td>2.2</td>
-                    <td>Original Previous Passport</td>
-                </tr>
-                <tr>
-                    <td>2.3</td>
-                    <td>Birth and Marriage Certificate (If applicable) - original PSA copy</td>
-                </tr>
-                <tr>
-                    <td>2.4</td>
-                    <td>Non-Filipino passport holders must show evidence of long stay permissions for the Philippines, i.e. Visa & ACR with permission to stay for at least 3 months upon return from Ireland</td>
-                </tr>
-                <tr>
-                    <td>3.1</td>
-                    <td>Application letter - A signed undertaking stating your full name, address, dates and purpose of your visit to Ireland. If applicable, list names, addresses, and relationship to family members residing in Ireland. State compliance with visa conditions and exit before visa expiry.</td>
-                </tr>
-                <tr>
-                    <td>3.2</td>
-                    <td>Evidence of Flight & Hotel Booking OR Letter of Invitation & Support/Assurance from host with full details, proof of accommodation, support costs, and assurance that guest will not be a burden on the state. Include host’s ID and proof of address.</td>
-                </tr>
-                <tr>
-                    <td>3.3</td>
-                    <td>Cruise or Land Tour Booking - if applicable, showing name, travel dates, itinerary, and deposit status</td>
-                </tr>
-                <tr>
-                    <td>4.1</td>
-                    <td>Evidence of Business or Profession, i.e., ITR, BIR Registration, Mayor's Permit, SEC, Professional License</td>
-                </tr>
-                <tr>
-                    <td>4.2</td>
-                    <td>Certificate of Employment/Enrollment stating tenure, leave, and return assurance, on letterhead with contact details. Include last 3 months' payslips.</td>
-                </tr>
-                <tr>
-                    <td>4.3</td>
-                    <td>Evidence of residence - Copy of property ownership or lease agreement or statement confirming living with family</td>
-                </tr>
-                <tr>
-                    <td>4.4</td>
-                    <td>Dependent Family Members (if applicable) - original PSA birth certificate</td>
-                </tr>
-                <tr>
-                    <td>5.1</td>
-                    <td>Evidence of funds – bank certificate (name, type, date opened, ADB, and available funds) & most recent 6 months' bank statements or passbook. Explain irregular lump sum deposits.</td>
-                </tr>
-                <tr>
-                    <td>5.2</td>
-                    <td>Travel Insurance – minimum coverage of €30,000, ensure it covers Ireland for the duration of your stay</td>
-                </tr>
-                <tr>
-                    <td>5.3</td>
-                    <td>Where expenses are shouldered by another – signed support letter with sponsor details, relationship proof, and reason, plus evidence of sponsor’s funds</td>
-                </tr>
-                <tr>
-                    <td>6.1</td>
-                    <td>Letter of invitation/confirmation from Irish company/counterpart stating visit reason, duration, and responsibility for applicant's accommodation/maintenance costs. Must be on company letterhead with contact details.</td>
-                </tr>
-                <tr>
-                    <td>6.2</td>
-                    <td>Letter from local company stating reason and duration of visit and cost responsibilities, on letterhead with contact info</td>
-                </tr>
-                <tr>
-                    <td>6.3</td>
-                    <td>Letter from conference host with details, duration, program, cost responsibility, and confirmation of registration (for conference applicants)</td>
-                </tr>
-                <tr>
-                    <td>6.4</td>
-                    <td>Explanation of relevance of conference to profession or studies if not detailed in invitation</td>
-                </tr>
-                <tr>
-                    <td>6.5</td>
-                    <td>Evidence of funds if company does not cover expenses, with explanation</td>
-                </tr>
-                <tr>
-                    <td>6.6</td>
-                    <td>Government officials (using official passports) must have DFA endorsement/TPN</td>
-                </tr>
+                    </tr>
+                    <tr>
+                        <td>Passport</td>
+                        <td>Original passport valid at least 6 months beyond departure, with minimum two blank visa pages.</td>
+                    </tr>
+                    <tr>
+                        <td>Passport Copy</td>
+                        <td>Complete print of bio page, plus all previous visas and stamps.</td>
+                    </tr>
+                    <tr>
+                        <td>Photographs</td>
+                        <td>Two recent passport-size photos (45–50 mm × 35–38 mm) on white background.</td>
+                    </tr>
+                    <tr>
+                        <td>Proof of Residence</td>
+                        <td>If applying outside home country: original and copy of valid residence permit (min. 3 months validity post-departure).</td>
+                    </tr>
+                    <tr>
+                        <td>Proof of Funds</td>
+                        <td>Bank statements (last 6 months), employment letter or pay slips; sponsor documents if applicable.</td>
+                    </tr>
+                    <tr>
+                        <td>Accommodation</td>
+                        <td>Confirmed hotel bookings or host invitation plus proof of host’s address and status.</td>
+                    </tr>
+                    <tr>
+                        <td>Travel Itinerary & Insurance</td>
+                        <td>Confirmed flights and travel/medical insurance covering the stay.</td>
+                    </tr>
+                    <tr>
+                        <td>Purpose Letter</td>
+                        <td>Cover letter outlining purpose, itinerary, and evidence of intent to return.</td>
+                    </tr>
+                    <tr>
+                        <td>Additional Documents</td>
+                        <td>Previous passports, visa refusal details, child consent letter (if minor), letter explaining missing docs.</td>
+                    </tr>
+                    <tr>
+                        <td>Fee Payment</td>
+                        <td>Visa fee plus service charges.</td>
+                    </tr>
+                    <tr>
+                        <td>Biometrics</td>
+                        <td>Provided at Visa Application Centre if required.</td>
+                    </tr>
             </table>
         </div>
 
@@ -170,108 +122,52 @@
                             <?php endif; ?></td>
                     </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Application Summary Sheet</td>
+                    <td>Printed, signed and dated application summary from AVATS in portrait format.</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
+                    <td>Passport</td>
+                    <td>Original passport valid for at least 6 months after departure, with blank pages and copies of all previous passports.</td>
                 </tr>
                 <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
+                    <td>Photographs</td>
+                    <td>Two identical passport-size photos (45-50mm × 35-38mm), recent, on white background.</td>
                 </tr>
                 <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Application Letter</td>
+                    <td>Signed letter explaining purpose, dates, obligations to return home, and details of who is funding the trip.</td>
                 </tr>
                 <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>Invitation Letter</td>
+                    <td>Host’s invitation on official letterhead detailing event purpose, dates, registration status, and level of support.</td>
                 </tr>
                 <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>Travel Itinerary / Accommodation</td>
+                    <td>Confirmed travel bookings and hotel reservations OR invitation with host’s address and utility bill copy.</td>
                 </tr>
                 <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>Travel & Medical Insurance</td>
+                    <td>Valid insurance covering entire stay, minimum €30,000 coverage required.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
+                    <td>Proof of Funds</td>
+                    <td>Bank statements (6 months), payslips, credit-funded employee host/organizer letters if applicable.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
+                    <td>Evidence of Ties to Home Country</td>
+                    <td>Employment certificate, payslips, business proof, property ownership, and/or family status documentation.</td>
                 </tr>
                 <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
+                    <td>Fee Payment</td>
+                    <td>Visa fee payment receipt plus any service charges.</td>
                 </tr>
                 <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
+                    <td>Previous Visa Refusals</td>
+                    <td>Original refusal letter(s) and explanation if previously refused entry or visas.</td>
                 </tr>
                 <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
+                    <td>Additional Documents</td>
+                    <td>Biometrics if required; translations for non-English documents; other documents based on personal circumstances.</td>
                 </tr>
             </table>
         </div>
@@ -349,7 +245,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://visa.vfsglobal.com/ind/en/irl/apply-visa">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Ireland or consulate in your country before
         applying.</p>
     </div>

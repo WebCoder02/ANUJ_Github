@@ -48,7 +48,7 @@
                     <td>1</td>
                     <td>Application Form duly filled in and signed by the applicant
                         <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://visa.vfsglobal.com/one-pager/malta/uk/english/pdf/application-form-new-malta.pdf">Download Application Form</a>
@@ -56,100 +56,16 @@
                         <?php endif; ?>
                     </td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>One recent Passport size photograph in colour with white background (3.5cm by 4.5cm). Please do not staple the photographs to the Application Form.</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>
-                        Passport/Travel document must:<br>
-                        a) Be valid for at least 3 months after the intended stay;<br>
-                        b) Be issued within the previous 10 years and not valid for more than 10 years;<br>
-                        c) Have at least 3 blank pages.
-                    </td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>
-                        Overseas Travel Medical Insurance valid for all Schengen countries. The insurance must cover the applicant for at least 30,000 Euros or equivalent for all risks (accident, illness, medical emergency, evacuation, etc). The policy must clearly specify the period of validity and must cover at least 91 days from date of travel to Malta.
-                    </td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Confirmed Travel Itinerary. If applicant is travelling to several Schengen States – Proof of Intra-Schengen Flight reservation.</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Invitation Letter from Employer stating professional status of applicant and details of work to be carried out in Malta. The letter must be signed by authorised person, whose name and designation must be stated.</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Applicant’s Curriculum Vitae (CV).</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Signed Reference Letter from past Employer.</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Original bank statement showing movements in the last six months, duly stamped and signed by the bank.</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Signed employment contract, certified true copy by a Maltese Public Notary.</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>Approval in Principle Letter of the single work permit issued by Identita` - confirming that the request for work permit has been acceded to.</td>
-                </tr>
-                <tr>
-                    <td>12</td>
-                    <td>
-                        Possession of skills/qualifications if employment so requires and a IELTS level 3;<br>
-                        Proof of Board Membership for liberal professionals; or Letter from Medical Institutions in case of doctors, must be submitted in originals (Apostilled) together with photocopies.<br>
-                        Proof of skills of the job applied for.
-                    </td>
-                </tr>
-                <tr>
-                    <td>13</td>
-                    <td>
-                        Proof of Accommodation (any of the following):<br>
-                        (i) Confirmed hotel booking<br>
-                        (ii) Signed lease contract, or;<br>
-                        (iii) ‘Declaration of Proof’ completely filled in, signed by the Invitee and photocopy of invitee’s Malta ID card or Passport and relative supporting documents as mentioned in the same declaration.<br>
-                        All in original, witnessed by (Maltese) Public Notary.<br><br>
-                        If the applicant is travelling to several Member States, proof of accommodation in each of them.<br><br>
-                        Documents to be attached:<br>
-                        - Copy of the Host’s ID Card and of the bio-data page of the Invitee’s Passport;<br>
-                        - Proof of residence (i.e., property title deeds, rental agreement, energy bills);<br>
-                        - Proof of income (salary slip, receipt of pension, official document stating the amount of income);<br>
-                        - If applicant, health insurance policy for the invited person(s).
-                    </td>
-                </tr>
-                <tr>
-                    <td>14</td>
-                    <td>Original and Photocopy of the passport bio page only.</td>
-                </tr>
-                <tr>
-                    <td>15</td>
-                    <td>Adhaar Card.</td>
-                </tr>
-                <tr>
-                    <td>16</td>
-                    <td>
-                        General Rules:<br>
-                        • Submission of the above documentation does not guarantee that a visa is granted.<br>
-                        • The application form and all documents (original + copy) are to be submitted in person.<br>
-                        • Applications will be refused by the High Commission if accompanied by forged documents.<br>
-                        • The Visa fee will not be refunded in case of refusal unless application is inadmissible.<br>
-                        • Visa applications should be submitted at least 15 days prior to date of travel.<br>
-                        • The High Commission reserves the right to request further documentation and/or personal interview.<br>
-                        • Should you wish to keep original documents, kindly include also A4 photocopies together with the originals when submitting applications.<br>
-                        • A 5-day limit for submission of missing documents via VFS.<br>
-                        • Failure to comply with the above may lead to outright refusal.
-                    </td>
-                </tr>
+                <tr><td>Visa Application Form</td><td>Fully completed and signed form (by both parents for minors).</td></tr>
+                <tr><td>Passport</td><td>Not older than 10 years; must be valid at least 3 months beyond stay; at least 2 blank pages.</td></tr>
+                <tr><td>Passport Copies</td><td>Copy of bio-data page and copies matching number of applications.</td></tr>
+                <tr><td>Photograph & Biometrics</td><td>VFS captures biometrics; carry one passport photo, two for children under 1 year.</td></tr>
+                <tr><td>Travel Itinerary</td><td>Dates of departure/arrival and check-in/out for all countries if visiting multiple Schengen states.</td></tr>
+                <tr><td>Travel Insurance</td><td>Must cover entire duration with mandatory minimum cover.</td></tr>
+                <tr><td>Proof of Residence</td><td>Aadhaar card copy (and other local proof where applicable).</td></tr>
+                <tr><td>Visa Fee & VFS</td><td>Visa fee (at exchange rate) + service charges; specifics apply.</td></tr>
+                <tr><td>Optional Services</td><td>Courier, SMS, premium lounge, form help available for extra fee.</td></tr>
+                <tr><td>Timeline</td><td>Apply up to 6 months in advance; ideally at least 4 weeks prior to travel.</td></tr>
             </table>
         </div>
 
@@ -169,109 +85,17 @@
                             <a href="https://visa.vfsglobal.com/one-pager/malta/india/english/pdf/Mt-EMPLOYMENT-VISA-CHECKLIST.pdf">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>Visa Application Form</td><td>Fully completed and signed form.</td></tr>
+                <tr><td>Passport</td><td>Not older than 10 years; valid at least 3 months after return; at least 2 blank pages.</td></tr>
+                <tr><td>Passport Copies</td><td>Copy of bio-data page and duplicates matching number of applicants.</td></tr>
+                <tr><td>Photograph & Biometrics</td><td>One passport photo; biometrics captured at VFS center.</td></tr>
+                <tr><td>Invitation Letter</td><td>From conference organizer or host company, with details of event/business purpose.</td></tr>
+                <tr><td>Travel Itinerary & Accommodation</td><td>Confirmed travel bookings and hotel reservation OR host address and utility bill.</td></tr>
+                <tr><td>Proof of Funds and Employment</td><td>Bank statements, payslips, employer letter or business proof.</td></tr>
+                <tr><td>Travel Insurance</td><td>Must have valid coverage for the entire stay.</td></tr>
+                <tr><td>Visa Fee</td><td>Visa fee  + services including optional add‑ons.</td></tr>
+                <tr><td>Additional Services</td><td>Court fees, premium lounge, form help, courier options are available.</td></tr>
+                <tr><td>Timeline</td><td>Apply up to 6 months ahead; recommended at least 4 weeks prior to travel.</td></tr>
             </table>
         </div>
 
@@ -348,7 +172,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://visa.vfsglobal.com/one-pager/malta/uk/english/pdf/application-form-new-malta.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates. </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Malta or consulate in your country before
         applying.</p>
     </div>

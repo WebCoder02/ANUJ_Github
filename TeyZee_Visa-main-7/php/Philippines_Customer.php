@@ -44,113 +44,24 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-            <tr>
-            <td>1</td>
-            <td>
-                Application Form , <br>
-                Login to see the Visa Application form & the Document Checklist.
-                        <?php if (isset($_SESSION['user_id'])): ?>
-                        <!-- Special links for logged-in users -->
-                        <a href="https://newdelhipe.dfa.gov.ph/images/2023/MAY2023/FA_Form_No_2_Standard_Visa_Application_Form_2021.pdf">Download Application Form</a>
-                        <a href="https://visa.vfsglobal.com/one-pager/netherlands/philippines/english/pdf/checklist-visa-visit-family-friends-sep-2021.pdf">Download Document Checklist</a>
-                        <?php endif; ?>
-                Original Passport with old Passport:
-                <ul>
-                    <li>Note: Passport should be valid minimum 06 months from the date of travel</li>
-                    <li>Passport has been issued within 10 years and validity must not exceed 10 years</li>
-                    <li>No handwritten passports will be accepted</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>
-                
-
-                02 recent photograph Each:
-                <ul>
-                    <li>35*45 mm size</li>
-                    <li>White background, matt finish</li>
-                    <li>80% face image & not used in previous visa</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>
-                Evidence of Sufficient Funds:
-                <ul>
-                    <li>03 years Personal Income Tax Returns with computation of Total Income Page</li>
-                    <li>06 months Personal original Bank Statement updated with sufficient balance and Bank seal and signature</li>
-                    <li>Copy of Credit cards and/or travellers checks or foreign exchange endorsement of the passport</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>National ID proof (PAN Card, AADHAR Card)</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>
-                If applicant is Employee:
-                <ul>
-                    <li>Certificate of Current Employment including employer’s name, address, telephone number, length of service and salary details</li>
-                    <li>Pay Slip (last 6 months)</li>
-                    <li>Leave sanction letter and N.O.C.</li>
-                    <li>G.P.F (for Government Employee)</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>
-                If applicant is Self Employee:
-                <ul>
-                    <li>Business letterhead with sign & stamp & visiting card</li>
-                    <li>Business Proof (Shop & Establishment, G.S.T., C.S.T., etc)</li>
-                    <li>Partnership Deed</li>
-                    <li>Memorandum of Article</li>
-                    <li>03 Years Income Tax Return with computation of Total Income Page</li>
-                    <li>06 months Personal original Bank Statement with Bank seal and signature</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>
-                If applicant is Retired:
-                <ul>
-                    <li>Retirement letter from Employer</li>
-                    <li>Pension passbook copy</li>
-                    <li>Provident Funds copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>
-                If applicant is Student:
-                <ul>
-                    <li>Certificate of Enrolment or Letter of Acceptance from School</li>
-                    <li>College and university or photo I.D. Card copy</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>
-                Note:
-                <ul>
-                    <li>Indian nationals who wish to visit the Philippines for tourism purposes may be granted visa-free entry into the country at major international airports, secondary international hubs, and seaports (for cruise passengers) for up to 14 days, provided they have:</li>
-                    <li>Either a valid (used or unused) American (US), Japanese, Australian, Canadian, Schengen, United Kingdom, or Singaporean multiple-entry visa or permanent residence permit</li>
-                    <li>An Indian passport valid at least six (6) months beyond the date of departure from the Philippines</li>
-                    <li>Return or onward ticket to the next country of destination</li>
-                    <li>No derogatory record with the Philippine Bureau of Immigration</li>
-                </ul>
-            </td>
-        </tr>
-          
+                <tr>
+                    <td>Application Form</td>
+                    <td>Duly filled Application Form <br>
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                                <?php if (isset($_SESSION['user_id'])): ?>
+                                <!-- Special links for logged-in users -->
+                                <a href="https://newdelhipe.dfa.gov.ph/images/2023/MAY2023/FA_Form_No_2_Standard_Visa_Application_Form_2021.pdf">Download Application Form</a>
+                                <a href="https://visa.vfsglobal.com/one-pager/netherlands/philippines/english/pdf/checklist-visa-visit-family-friends-sep-2021.pdf">Download Document Checklist</a>
+                                <?php endif; ?>
+                    </td>
+                </tr>
+                 <tr><td>Passport</td><td>Valid ≥ 6 months beyond intended stay.</td></tr>
+                  <tr><td>Accommodation</td><td>Confirmed hotel booking or host address.</td></tr>
+                  <tr><td>Return / Onward Ticket</td><td>Travel itinerary beyond Philippines.</td></tr>
+                  <tr><td>Proof of Funds</td><td>Bank statements or equivalent.</td></tr>
+                  <tr><td>Photo</td><td>Passport-size photo (e‑Visa only).</td></tr>
+                  <tr><td>Application Form</td><td>Completed and signed (e‑Visa only).</td></tr>
+                  <tr><td>Fee Payment</td><td>Demand draft or online payment proof (e‑Visa only).</td></tr>
             </table>
         </div>
 
@@ -169,111 +80,14 @@
                             <a href="https://newdelhipe.dfa.gov.ph/images/2023/MAY2023/FA_Form_No_2_Standard_Visa_Application_Form_2021.pdf">Download Application Form</a>
                             <a href="https://visa.vfsglobal.com/one-pager/netherlands/philippines/english/pdf/checklist-visa-visit-family-friends-sep-2021.pdf">Download Document Checklist</a>
                             <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>Passport</td><td>Valid ≥ 6 months beyond stay.</td></tr>
+                <tr><td>Photo</td><td>Recent passport-size photograph.</td></tr>
+                <tr><td>Application Form</td><td>Fully completed and signed.</td></tr>
+                <tr><td>Invitation Letter</td><td>From Philippine host business or organizer.</td></tr>
+                <tr><td>Bank Statements</td><td>Last 6 months, stamped and signed.</td></tr>
+                <tr><td>Flight & Hotel Details</td><td>Confirmed tickets and accommodation.</td></tr>
+                <tr><td>Payment</td><td>Visa fee via demand draft (India) or online.</td></tr>
             </table>
         </div>
 
@@ -350,7 +164,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://newdelhipe.dfa.gov.ph/images/2023/MAY2023/FA_Form_No_2_Standard_Visa_Application_Form_2021.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Philippines or consulate in your country before
         applying.</p>
     </div>

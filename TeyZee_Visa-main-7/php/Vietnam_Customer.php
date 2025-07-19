@@ -47,87 +47,26 @@
             </td>
           </tr>
           <tr>
-            <td>1</td>
-            <td><strong>Application Form should fully filled & Ensure Passport Validity:</strong>
+            <td>Application Form</td>
+            <td><strong>Application Form should fully filled & Ensure Passport Validity.</strong>
             <br>
-                Login to see the Visa Application form & the Document Checklist.
+                <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://evisa.gov.vn/">Download Application Form</a>
                         <a href="https://evisa.gov.vn/instruction">Download Document Checklist</a>
                         <?php endif; ?>
-              <ul>
-                <li>Passport must be valid for at least 6 months from the date of entry into Vietnam</li>
-                <li>Must have at least 2 blank pages</li>
-              </ul>
+              
             </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td><strong>Prepare Required Files:</strong>
-              <ul>
-                <li>Scanned passport data page (JPEG or PDF format)</li>
-                <li>Recent passport-style photo (4x6 cm, white background, no glasses)</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td><strong>Complete e‑Visa Form:</strong>
-              <ul>
-                <li>Visit <a href="https://evisa.gov.vn" target="_blank">https://evisa.gov.vn</a></li>
-                <li>Fill in personal details, passport info, travel dates, and <strong>select exact entry/exit ports</strong></li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td><strong>Submit & Save Registration Code:</strong>
-              <ul>
-                <li>After submission, note the system-generated application code (required for tracking)</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td><strong>Pay Visa Fee:</strong>
-              <ul>
-                <li>USD 25 for single-entry or USD 50 for multiple-entry</li>
-                <li>Payment must be made online via international debit/credit card</li>
-                <li><strong>Fees are non-refundable</strong>, even if application is denied</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td><strong>Track Application Status:</strong>
-              <ul>
-                <li>Return to the e‑Visa portal and use your code, email, and date of birth to check progress</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td><strong>Download & Print Approved e‑Visa:</strong>
-              <ul>
-                <li>Approval typically takes 3–5 working days</li>
-                <li>Print and carry a physical copy of the e‑Visa for immigration checks</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>
-                <strong>Important Notes:</strong>
-                <ul>
-                     <li>You must enter Vietnam through the <strong>exact port specified</strong> in your e‑Visa</li>
-                     <li>Apply at least <strong>10–14 days before travel</strong> to avoid delays</li>
-                     <li>e‑Visa validity: maximum stay of 90 days (single or multiple entry)</li>
-                     <li>Extension is not possible – to stay longer, you must exit and reapply</li>
-                     <li>Only use the official portal: <a href="https://evisa.gov.vn" target="_blank">evisa.gov.vn</a></li>
-                </ul>
-            </td>
-          </tr>
+             </tr>
+             <tr><td>Passport</td><td>Valid for at least 6 months beyond entry with ≥2 blank pages; no alterations.</td></tr>
+            <tr><td>Photographs</td><td>Two recent passport-size color photos (4×6 cm) on white background.</td></tr>
+            <tr><td>Passport Copy</td><td>Scanned biodata page.</td></tr>
+            <tr><td>Flight Tickets</td><td>Confirmed return or onward flight bookings.</td></tr>
+            <tr><td>Accommodation Proof</td><td>Hotel reservation or host address details.</td></tr>
+            <tr><td>Proof of Funds</td><td>Bank statement for last 3–6 months.</td></tr>
+            <tr><td>Processing Time</td><td>Typically 3–7 working days.</td></tr>
+            <tr><td>Validity & Stay</td><td>e‑Visa valid up to 90 days; stay up to 30 days per entry.</td></tr>
             </table>
         </div>
 
@@ -146,111 +85,19 @@
                             <a href="https://evisa.gov.vn/">Download Application Form</a>
                             <a href="https://evisa.gov.vn/instruction">Download Document Checklist</a>
                             <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>Passport</td><td>Valid for at least 6 months beyond arrival with ≥2 blank pages; no handwritten changes.</td></tr>
+                <tr><td>Application Form</td><td>Completed online or embassy form, printed and signed.</td></tr>
+                <tr><td>Photographs</td><td>Two recent passport-size color photos (4×6 cm) on white background.</td></tr>
+                <tr><td>Invitation Letter</td><td>Formal letter from Vietnam host company or organization.</td></tr>
+                <tr><td>Flight Tickets</td><td>Confirmed return or onward flights.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Hotel booking or host-arranged stay details.</td></tr>
+                <tr><td>Proof of Funds</td><td>Recent bank statement or financial records.</td></tr>
+                <tr><td>Cover Letter</td><td>Explanation of business purpose and itinerary.</td></tr>
+                <tr><td>Visa Fee</td><td>E‑Visa: similar to tourist; Stamp visa fees vary by entries and duration.</td></tr>
+                <tr><td>Processing Time</td><td>e‑Visa: 3–5 days; stamp visa: 10–12 working days.</td></tr>
+                <tr><td>Validity & Stay</td><td>Single or multiple entry; stays up to 30 or 90 days per visit depending on visa.</td></tr>
+
             </table>
         </div>
 
@@ -327,7 +174,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://evisa.gov.vn/">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Vietnam or consulate in your country before
         applying.</p>
     </div>

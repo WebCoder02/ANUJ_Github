@@ -45,29 +45,10 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>Original passport valid for a minimum of 6 months (or for the validity requested, if greater) and having
-                    at least 3 blank visa pages (of which 2 must be side by side)</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Photograph</td>
-                    <td>Four photographs conforming to Indian Government norms as per specifications mentioned on our
-                    website</td>
-                </tr>
-                <tr>
                     <td>Application form</td>
                     <td>Two Indian Government visa application forms duly filled in online.<br/>
                     Two hand filled reference form for Chinese (in block letters, photocopies not accepted.)<br>
-                    Login to see the Visa Application form & the Document Checklist.
+                    <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://visaoffice.eu/media/uploads/document_examples/Order_forms/china/data_collect_form_china.pdf">Download Application Form</a>
@@ -77,88 +58,53 @@
                 </td>
                 </tr>
                 <tr>
-                    <td>Appointment slip</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>Passport</td>
+                    <td>Original passport valid for at least 6 months from entry, with a minimum of two blank visa pages.</td>
                 </tr>
                 <tr>
-                    <td>Flight tickets</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>Passport Copies</td>
+                    <td>Photocopy of the passport’s information page and any previous Chinese visa pages (if applicable).</td>
+                </tr>
+                
+                <tr>
+                    <td>Photographs</td>
+                    <td>Two recent colour passport-size photos (48 × 33 mm), full-face, bare-head, white background.</td>
                 </tr>
                 <tr>
-                    <td>Hotel Tickets</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>Travel Tickets & Itinerary</td>
+                    <td>Confirmed round-trip flight bookings and a brief travel itinerary in China.</td>
+                </tr>
+                <tr>
+                    <td>Accommodation Proof</td>
+                    <td>Hotel reservation confirmation for the duration of the stay, or an invitation letter if staying with a host.</td>
                 </tr>
                 <tr>
                     <td>Cover Letter</td>
-                    <td>Mentioning the purpose of the trip and itinerary 
-                        <!-- <a href="/templates/cover_letter_template.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
+                    <td>Personal letter stating purpose of visit, intended travel dates and travel plan.</td>
                 </tr>
                 <tr>
-                    <td>Travel Insurance</td>
-                    <td>Travel insurance covering not less than 30,000 Euros</td>
+                    <td>Proof of Funds</td>
+                    <td>Evidence of financial capability such as bank statements or salary slips.</td>
                 </tr>
                 <tr>
-                    <td>Bank statement</td>
-                    <td>Bank statements last 3 months, available balance should be at least 50-150 Euros per person per
-                        day of the trip. Advisable to transfer the money to maintain the balance 15 days before the
-                        appointment. Does not need to be signed by the bank</td>
+                    <td>Legal Stay Proof (if applicable)</td>
+                    <td>Original and copy of valid residence permit or visa if applying while residing in a third country.</td>
                 </tr>
                 <tr>
-                    <td>ITR</td>
-                    <td>Copy of income tax return + ITR V acknowledgment of last 02 financial year if available</td>
+                    <td>Previous Passports (if applicable)</td>
+                    <td>Copies of expired passports or previously issued Chinese passports/visas from within the last five years.</td>
                 </tr>
                 <tr>
-                    <td>Sponsor Bank Statement and ITR</td>
-                    <td>If trip sponsored by someone else, copy of bank statements last 3 months and copy of income tax
-                        return + ITR V acknowledgment for previous financial year (signed by bank)</td>
+                    <td>Fingerprint Scan</td>
+                    <td>Ten-finger biometric data collection at the visa centre (exemptions for ages under 14 or over 70 or recent scan).</td>
                 </tr>
                 <tr>
-                    <td>Sponsorship Letter</td>
-                    <td>If sponsored, letter from sponsor stating the amount, relationship and source of funds
-                         <!-- <a
-                            href="/templates/sponsorship_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
+                    <td>Visa Fee</td>
+                    <td>Payment of visa fee and service charge in cash at the visa centre; fees vary by entry type.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If Retired)</td>
-                    <td>
-                        <ul>
-                            <li>Proof of Retirement</li>
-                            <li>Proof of regular income generated by ownership of property or business</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Marital status</td>
-                    <td>
-                        <ul>
-                            <li>If married, Marriage certificate</li>
-                            <li>If divorced, Divorce papers</li>
-                            <li>If single, Nothing required</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Minor documents</td>
-                    <td>Photocopy of the French “livret de famille” (pages: father, mother, relevant child) or birth certificate<br/>
-                        Photocopy of an ID proof of each parent<br/>
-                        Authorisation letter for a minor to travel signed by both parent</td>
+                    <td>Additional Requirements</td>
+                    <td>Authorities may request extra documents or a personal interview based on applicant’s circumstances.</td>
                 </tr>
             </table>
         </div>
@@ -180,112 +126,77 @@
                         <?php endif; ?></td>
                 </tr>  
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Passport</td>
+                    <td>Original passport valid for at least 6 months beyond intended stay with at least two blank visa pages.</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
+                    <td>Passport Copy</td>
+                    <td>Photocopy of the passport's data page (signed).</td>
+                </tr>
+                <tr>
+                    <td>Visa Application Form</td>
+                    <td>Fully completed, printed, and signed visa application form (COVA).</td>
+                </tr>
+                <tr>
+                    <td>Photograph</td>
+                    <td>One recent passport-style photo (48 × 33 mm) on white background; full-face, no glasses/headwear.</td>
+                </tr>
+                <tr>
+                    <td>Invitation Letter</td>
+                    <td>Official invitation from a registered Chinese company or trade fair organizer, stating details of visit, host information, etc.</td>
+                </tr>
+                <tr>
+                    <td>Business Cover Letter</td>
+                    <td>Letter from your employer or company on letterhead introducing the applicant and purpose of travel.</td>
+                </tr>
+                <tr>
+                    <td>Proof of Residency</td>
+                    <td>Copy of current address — e.g., driver’s license, utility bill, or government-issued ID.</td>
+                </tr>
+                <tr>
+                    <td>Company Documents</td>
+                    <td>Copy of inviting company’s business license or registration certificate.</td>
+                </tr>
+                <tr>
+                    <td>Flight Itinerary</td>
+                    <td>Confirmed round-trip flight bookings showing entry and exit from China.</td>
+                </tr>
+                <tr>
+                    <td>Accommodation Booking</td>
+                    <td>Hotel reservation or accommodation confirmation for the duration of the stay.</td>
+                </tr>
+                <tr>
+                    <td>Proof of Financial Means</td>
+                    <td>Recent bank statements or salary slips to demonstrate financial capability.</td>
+                </tr>
+                <tr>
+                    <td>Visa Fee</td>
+                    <td>Payment of applicable visa application fee, as per nationality and entry type.</td>
+                </tr>
+                <tr>
+                    <td>Special Cases</td>
                     <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
+                    Additional documents may be required for specific categories, such as:
+                    <ul>
+                        <li>Former Chinese nationals or those of Chinese descent</li>
+                        <li>NGO/non-profit employees</li>
+                        <li>Applicants with previous Chinese visas</li>
+                    </ul>
                     </td>
                 </tr>
                 <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
+                    <td>Optional Extensions</td>
+                    <td>Business visa can be extended inside China if longer stay is needed.</td>
                 </tr>
                 <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
+                    <td>Disclaimer</td>
+                    <td>Authorities may request further documents or interviews as needed, and determine visa validity and number of entries.</td>
                 </tr>
             </table>
         </div>
 
-        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             
+        <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
@@ -359,7 +270,7 @@
 
     <div class="note">
         <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
-        it's recommended to verify the current requirements with the French embassy or consulate in your country before
+        it's recommended to verify the current requirements with the  embassy or consulate in your country before
         applying.
     </div>
 
@@ -517,18 +428,18 @@
 
          JavaScript to redirect users to WhatsApp with template request message
         document.addEventListener('DOMContentLoaded', function () {
-             Select all download links with the class "doc-link"
+             //Select all download links with the class "doc-link"
             const downloadLinks = document.querySelectorAll('.doc-link');
 
-             WhatsApp number - Replace with your actual number
-            const whatsappNumber = "919892527420";  Format: country code without + followed by number
-
-             Loop through each download link and modify its behavior
+            // WhatsApp number - Replace with your actual number
+            const whatsappNumber = "919892527420";  //Format: country code without + followed by number
+               
+            // Loop through each download link and modify its behavior
             downloadLinks.forEach(function (link) {
                 link.addEventListener('click', function (e) {
-                    e.preventDefault();  Prevent the default download behavior
+                    e.preventDefault(); // Prevent the default download behavior
 
-                     Get the template type from the link
+                     //Get the template type from the link
                     const templatePath = link.getAttribute('href').split('/').pop();
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 

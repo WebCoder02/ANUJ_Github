@@ -48,7 +48,7 @@
                         <td>1</td>
                         <td>Completed and signed application form.
                             <br><strong>Note:</strong> For applicants under 18, parents must sign and attach copies of both parents' passports.<br>
-                            Login to see the Visa Application form & the Document Checklist.
+                            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.npra.gov.bh/services/visa-and-residence-permit/visa-services/">Download Application Form</a>
@@ -57,56 +57,95 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Original passport + 1 photocopy of the bio-data page, including visas (if any).
-                            <br><strong>Note:</strong> Passport must be valid for at least 6 months with minimum 3 blank pages.
-                        </td>
+                        <td>Passport Copy</td>
+                        <td>Scanned copy of the first and last page of your passport.</td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>2 recent passport-size photographs (4.5 cm x 3.5 cm, plain white background, not older than 3 months).</td>
+                        <td>Photograph</td>
+                        <td>Scanned recent colour photograph as per photo specification.</td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>Original letter of identification from employer/sponsor with qualification, income, and employment start date.
-                            <br>If self-employed: translated trade license stamped by Bahrain Chamber of Commerce.
-                        </td>
+                        <td>Flight Ticket</td>
+                        <td>Confirmed return flight ticket.</td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td>Letter of Introduction (LOI) V39A from a Singapore contact including NRIC number.
-                            <br><strong>Note:</strong> Invitation letters from hotels, agencies, or airlines are not accepted.
-                        </td>
+                        <td>Invitation Documents</td>
+                        <td>Invitation letter, Smart Card, and visa copy of the invitee (if visiting relative or friend in Bahrain).</td>
                     </tr>
                     <tr>
-                        <td>6</td>
-                        <td>Flight and hotel reservations (confirm only after visa approval).</td>
+                        <td>Employed: Leave Certificate</td>
+                        <td>Leave sanctioned certificate with company seal and approval for leave.</td>
                     </tr>
                     <tr>
-                        <td>7</td>
-                        <td>If family applying together: Provide marriage certificate (spouse) and birth certificates (children under 21).</td>
+                        <td>Employed: Salary Slips</td>
+                        <td>Salary slips for the last 3 months.</td>
                     </tr>
                     <tr>
-                        <td>8</td>
-                        <td>Non-Bahraini applicants: Valid Bahrain residence permit.</td>
+                        <td>Self-Employed: Business Proof</td>
+                        <td>Business registration license, Memorandum of Association, or partnership deed.</td>
                     </tr>
                     <tr>
-                        <td>9</td>
-                        <td>Non-Bahraini applicants: Signature in the designated area of original passport.</td>
+                        <td>Self-Employed: Company Bank Statement</td>
+                        <td>Stamped and updated bank statement for the last 6 months with bank seal.</td>
                     </tr>
                     <tr>
-                        <td>10</td>
+                        <td>Self-Employed: ITR</td>
+                        <td>Company’s income tax returns for the last 3 years.</td>
+                    </tr>
+                    <tr>
+                        <td>Retired: Retirement Proof</td>
+                        <td>Pension book or statement showing retirement status.</td>
+                    </tr>
+                    <tr>
+                        <td>Student: ID Card</td>
+                        <td>Student ID card issued by school, college, or institute.</td>
+                    </tr>
+                    <tr>
+                        <td>Minor: Birth Certificate</td>
+                        <td>Birth certificate showing names of both parents.</td>
+                    </tr>
+                    <tr>
+                        <td>Minor: Letter of Consent (NOC)</td>
                         <td>
-                            <strong>Important Notes:</strong>
-                            <ul>
-                                <li>All Arabic documents must be translated into English.</li>
-                                <li>Visa applications may require additional documents or be delayed/rejected if incomplete.</li>
-                                <li>Visa possession does not guarantee entry; travelers must meet immigration requirements.</li>
-                                <li>All documents must be printed on A4 size paper.</li>
-                                <li>LOI (V39A) is mandatory; applications without it will be rejected.</li>
-                                <li>Visa applications are accepted only within 29 days prior to travel to Singapore.</li>
-                            </ul>
+                        If traveling with one parent: legalized letter of consent from the other parent.<br>
+                        If traveling alone or without either parent: notarized letter of consent from both parents permitting travel.
                         </td>
+                    </tr>
+                    <tr>
+                        <td>Minor: Death Certificate</td>
+                        <td>Required if one or both parents are deceased.</td>
+                    </tr>
+                    <tr>
+                        <td>Minor: Parent's ID Proof</td>
+                        <td>ID proof of both parents.</td>
+                    </tr>
+                    <tr>
+                        <td>Visiting Friend or Relative: Invitation Letter</td>
+                        <td>Letter stating relationship, purpose of visit, and assumption of responsibility for stay.</td>
+                    </tr>
+                    <tr>
+                        <td>Visiting Friend or Relative: ID Proof</td>
+                        <td>Copy of inviter’s passport or resident permit.</td>
+                    </tr>
+                    <tr>
+                        <td>Visiting Friend or Relative: Address Proof</td>
+                        <td>Utility bill of inviter showing address.</td>
+                    </tr>
+                    <tr>
+                        <td>Sponsored Visit: Sponsorship Letter</td>
+                        <td>Letter detailing visitor’s name, purpose of visit, relationship, travel dates, and additional info.</td>
+                    </tr>
+                    <tr>
+                        <td>Sponsored Visit: ID Proof</td>
+                        <td>Copy of sponsor’s passport or resident permit.</td>
+                    </tr>
+                    <tr>
+                        <td>Sponsored Visit: Address Proof</td>
+                        <td>Utility bill showing sponsor’s address.</td>
+                    </tr>
+                    <tr>
+                        <td>Sponsored Visit: Financial Proof</td>
+                        <td>Updated bank statement and pay slips as proof of financial support.</td>
                     </tr>
             </table>
         </div>
@@ -127,109 +166,53 @@
                         <a href="https://visa.vfsglobal.com/one-pager/singapore/bahrain/english/pdf/tourism-checklist-nov-2021.pdf">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+               <tr>
+                    <td>Passport Copy</td>
+                    <td>Scanned copy of the first and last page of your passport.</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
+                    <td>Photograph</td>
+                    <td>Scanned recent colour photograph as per photo specification.</td>
+                </tr>
+                <tr>
+                    <td>Flight Ticket</td>
+                    <td>Confirmed return flight ticket.</td>
+                </tr>
+                <tr>
+                    <td>Recommendation Letter</td>
                     <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
+                    Introduction/recommendation letter from one of the following:
+                    <ul>
+                        <li>Chambers of Commerce and Industries, Government of India</li>
+                        <li>Ministry of Commerce and Industry of India</li>
+                        <li>Export Promotion Council of India</li>
+                        <li>Or reference number from Ministry of Foreign Affairs, Bahrain</li>
+                    </ul>
                     </td>
                 </tr>
                 <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
+                    <td>Company Registration Certificate</td>
+                    <td>Issued by the Ministry of Commerce and Industry of India.</td>
                 </tr>
                 <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Income Tax Documents</td>
+                    <td>Copies of income tax returns for the last three years.</td>
                 </tr>
                 <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>Company Letter</td>
+                    <td>Letter from the company addressed to the embassy introducing the businessman for visa issuance.</td>
                 </tr>
                 <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>Invitation Letter</td>
+                    <td>From the local partner or prospective partner company in Bahrain.</td>
                 </tr>
                 <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>Partner License (JAWAZ)</td>
+                    <td>Copy of the license (JAWAZ) of the local partner or prospective partner company in Bahrain.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16
-                         <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
+                    <td>Note</td>
+                    <td>The Embassy/Consul General reserves the right to request additional documents or conduct a personal interview with the applicant.</td>
                 </tr>
             </table>
         </div>
@@ -308,7 +291,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.traveldocument.com/forms/hongkong.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
         applying.</p>
     </div>

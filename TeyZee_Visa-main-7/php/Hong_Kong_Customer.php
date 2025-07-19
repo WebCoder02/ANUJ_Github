@@ -45,10 +45,10 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>Schengen visa application form duly completed, dated and signed by the applicant.
+                    <td>Visa Application Form</td>
+                    <td>Application form duly completed, dated and signed by the applicant.
                         <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.immd.gov.hk/eng/services/index.html#tab_a_1">Download Application Form</a>
@@ -56,55 +56,14 @@
                         <?php endif; ?>
                     </td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Colour photograph according to ICAO standards (maximum 6 months old, with neutral facial expression and light background). The photo must not be edited.</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Passport/travel document, must be valid for a minimum of 3 months after the planned journey, issued within the previous 10 years and have at least 2 blank pages.</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Valid Hong Kong or Macau ID-card and residence permit (if not a permanent resident) must be valid at least 3 months after the departure from the Schengen area.</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Travel insurance covering the entire duration of the trip to Schengen area. Minimum coverage 30 000 euros non-deductible; must cover emergency medical expenses, hospital treatment and repatriation for medical reasons or death. Name in Latin letters. Validity: Schengen/Worldwide.</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Travel plan/itinerary including all the destinations of the journey.</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Flight reservation (roundtrip) including possible third countries & all the Schengen countries. Please note, that it is not recommended to purchase the tickets before receiving a visa decision.</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Proof of accommodation for the whole stay in Schengen area.</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>
-                        Letter of employment/studies on official letterhead, stamped and dated; containing contact information (address, email, telephone number) as well as name, position and signature of the countersigning officer. The letter must state the name and position of the applicant, salary, years of employment/studies and approval of absence/position after leave; As well as:<br>
-                        • For retired: Proof of pension or other regular income.<br>
-                        • For domestic helpers: Original employment contract, letter from employer confirming the leave and return after leave, ID copy of the employer.
-                    </td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Proof of sufficient means of subsistence, e.g. previous 3 months bank statement.</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>
-                        For Minors:<br>
-                        • Passport and ID copies of custodian(s). (From both parents, if applicable).<br>
-                        • Birth certificate / court decision of custody (notarized).<br>
-                        • Permission to travel from the guardian(s), if not travelling together with the child (notarized).
-                    </td>
-                </tr>
+                 <tr><td>Pre‑Arrival Registration</td><td>Indian nationals may enter visa‑free for up to 14 days after completing online Pre‑Arrival Registration.</td></tr>
+                <tr><td>Passport</td><td>Valid Indian passport with at least 6 months validity and two blank pages.</td></tr>
+                <tr><td>Photo</td><td>Recent digital passport‑style photo.</td></tr>
+                <tr><td>Proof of Travel</td><td>Confirmed return or onward flight tickets.</td></tr>
+                <tr><td>Proof of Stay</td><td>Hotel booking or invitation letter from contacts in Hong Kong.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements, savings passbook or salary slips demonstrating financial ability.</td></tr>
+                <tr><td>Proof of Purpose</td><td>Travel itinerary or details of holiday, transit, or tour plan.</td></tr>
+                <tr><td>Additional Documents</td><td>Embassy may request extra documents or interviews if necessary.</td></tr>
             </table>
         </div>
 
@@ -124,110 +83,18 @@
                         <a href="https://www.immd.gov.hk/eng/service/travel_document/Application_for_HKSAR_Document_of_Identity_for_Visa_Purposes.html#a&secondTab">Download Document Checklist</a>
                         <?php endif; ?></td>
                 </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>Pre‑Arrival Registration</td><td>Indian nationals can enter as business visitors (up to 14 days) with PAR.</td></tr>
+                <tr><td>Passport</td><td>Valid Indian passport with ≥6 months validity and 2 blank pages.</td></tr>
+                <tr><td>Photo</td><td>Recent digital passport‑style photograph.</td></tr>
+                <tr><td>Application Form</td><td>Form for business visitor visa (if staying longer than 14 days).</td></tr>
+                <tr><td>Invitation Letter</td><td>Official invitation from company or organizer in Hong Kong stating visit purpose.</td></tr>
+                <tr><td>Employer/Company Cover Letter</td><td>Letter from applicant’s employer introducing purpose of travel.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements, salary slips or business accounts showing sufficient funds.</td></tr>
+                <tr><td>Travel Itinerary</td><td>Confirmed return or onward ticket bookings.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Hotel reservation or stay confirmation during business visit.</td></tr>
+                <tr><td>Business Documents</td><td>Company registration or relevant documentation if required.</td></tr>
+                <tr><td>Visa Fee</td><td>HKD 230 for business visas applied through CVASC, with processing time 4–6 weeks.</td></tr>
+                <tr><td>Additional Documents</td><td>Employment contract, business plan or investment documents for other visa categories.</td></tr>
             </table>
         </div>
 
@@ -304,7 +171,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.traveldocument.com/forms/hongkong.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
         applying.</p>
     </div>

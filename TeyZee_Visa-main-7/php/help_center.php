@@ -294,7 +294,7 @@ Our mission is clear: to inform, support, and stay connected with you from appli
                     <td>
                         <ul>
                             <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
+                            <li>Invitation letter from the  company</li>
                         </ul>
                         <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
                             Template</a> -->
@@ -303,7 +303,7 @@ Our mission is clear: to inform, support, and stay connected with you from appli
                 <tr>
                     <td>Company Cover letter</td>
                     <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
+                        relationship between the Indian and  company 
                         <!-- <a href="/templates/company_cover_letter.doc"
                             class="doc-link" target="_blank">Download Template</a> -->
                         </td>
@@ -401,7 +401,7 @@ Our mission is clear: to inform, support, and stay connected with you from appli
     <?php include "footer.php" ?>
     <!-- <div class="note">
         <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
-        it's recommended to verify the current requirements with the French embassy or consulate in your country before
+        it's recommended to verify the current requirements with the  embassy or consulate in your country before
         applying.
     </div> -->
     <!-- <footer>

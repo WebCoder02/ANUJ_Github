@@ -52,7 +52,7 @@
                 </tr>
                 <tr>
                     <td>Visa Application Form</td>
-                    <td>Login to see the Visa Application form & the Document Checklist.
+                    <td><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/Netherlands/UK/visa-services/pdf/Schengen_Application_Form.pdf">Download Application Form</a>
@@ -225,7 +225,7 @@
                     <td>
                         <ul>
                             <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
+                            <li>Invitation letter from the  company</li>
                         </ul>
                         <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
                             Template</a> -->
@@ -234,7 +234,7 @@
                 <tr>
                     <td>Company Cover letter</td>
                     <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
+                        relationship between the Indian and the Dutch company 
                         <!-- <a href="/templates/company_cover_letter.doc"
                             class="doc-link" target="_blank">Download Template</a> -->
                         </td>
@@ -332,7 +332,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.vfsglobal.com/Netherlands/UK/visa-services/pdf/Schengen_Application_Form.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Netherlands or consulate in your country before
         applying.</p>
     </div>

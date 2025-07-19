@@ -28,7 +28,7 @@
             </div>
         </div>
     </header>-->
-    <h1>Saudi Arabia Visa Checklist (data is not updated)</h1>
+    <h1>Saudi Arabia Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -47,13 +47,10 @@
             </td>
           </tr>
           <tr>
-            <td>1</td>
+            <td>Application form</td>
             <td>
-                <strong>Application form</strong> duly filled and signed by the applicant
-                (For children registered in a parent’s passport a separate
-                application form has to be filled and all required documents to
-                be submitted)<br>
-                Login to see the Visa Application form & the Document Checklist.
+                Application form duly filled and signed by the applicant.<br>
+                <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://visa.mofa.gov.sa/">Download Application Form</a>
@@ -61,106 +58,18 @@
                         <?php endif; ?>
             </td>
         </tr>
-        <tr>
-            <td>2</td>
-            <td>Declaration form: signed by the applicant (under section 54
-                (6) AufenthG/ German Residence Act)
-            </td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>
-                In case of minors (below 18 years of age): Parental Authorization
-                <ul>
-                    <li>Both parents must sign the parental authorization and also have to sign the application and declaration forms. From 16 years of age also the minor has to sign the application and
-                    declaration forms. Passport copies of parents (with signatures!)
-                    have to be attached with the application.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>
-                Original passport duly signed and
-                1 copy of the data page and previous Schengen visas
-                (VFS: to be put as very last document in the visa application
-                file)
-            </td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>
-               Photographs: Two recent biometric photographs (35mm X 45mm) not older than 6 months (one fixed to the form, one loose) with white/bright background
-            </td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>
-               Proof of Travel Medical Insurance coverage (EUR 30.000):
-                The insurance must cover the entire period of intended stay,
-                valid for all Schengen States and covering any expenses which
-                may arise in connection with repatriation for medical reasons,
-                urgent medical attention, emergency hospital treatment or
-                death during the stay
-                (Travel Insurance certificate is compulsory)
-            </td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>
-                Hotel reservation
-                Confirmed hotel booking for all intended travel destinations in
-                Schengen states mentioning complete address of the hotel,
-                booking dates and costs.
-            </td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>
-                Flight reservation
-                Copy of the round trip airline reservation with passenger details
-                and the complete travel itinerary. The reservation should prove
-                that the stay in Schengen does not exceed 90 days.
-            </td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>
-                Declaration letter and family Iqama if relevant
-                Letter from one family member stating/ explaining the
-                relationship with the applicant and declaring responsibility for
-                all the expenses of all family members which may incur during
-                the entire trip to the Schengen-area
-            </td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>
-               For employed individuals and their spouses - Employment letter/ Sponsor letter addressed to the
-                German Embassy stating the purpose of the visit, date of
-                joining the company, job position and monthly salary and
-                allowances of the applicant/ head of the family. The letter has
-                to be attested by the Chamber of Commerce.
-                Cost coverage by employer/ sponsor if relevant.
-                In case of non-Saudi applicants also the duration of the
-                contract has to be mentioned and whether it will be renewed.
-            </td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>
-               For self employed individuals/ businessman - Commercial Registration<br/>
-               Bank Statements:
-                Recent bank statements of the past 6 months proving the
-                monthly salary transfer (if salary is not paid cash) and with
-                sufficient funds available for the intended stay. If the salary is
-                paid cash, salary slips for the last 6 months have to be
-                submitted.
-                For Saudi nationals bank statements of the past 3 months or
-                even a copy of a credit card are/ is sufficient.<br/>
-                Photocopy of Saudi National ID Card / Residence Permit (Iqama)
-            </td>
-        </tr>
+        <tr><td>Passport</td><td>Valid for at least 6 months from date of entry with a minimum of two blank pages.</td></tr>
+        <tr><td>Visa Application</td><td>Online form completed and signed; printed confirmation if available.</td></tr>
+        <tr><td>Photograph</td><td>Two recent passport-size colour photos with white background (35×45 mm).</td></tr>
+        <tr><td>Cover Letter</td><td>Personal letter stating purpose of visit (tourism or Umrah), travel dates and details.</td></tr>
+        <tr><td>Proof of Travel</td><td>Confirmed round-trip or onward flight booking.</td></tr>
+        <tr><td>Accommodation</td><td>Hotel reservations or place of stay details.</td></tr>
+        <tr><td>Proof of Funds</td><td>Bank statements or salary slips showing financial stability.</td></tr>
+        <tr><td>Travel Insurance</td><td>Insurance covering medical emergencies during stay (usually mandatory).</td></tr>
+        <tr><td>Visa Fee</td><td>Payment made online (includes health insurance component).</td></tr>
+        <tr><td>Visa Validity</td><td>Single-entry, valid for 30 or 90 days depending on scheme; stays up to 30 or 90 days.</td></tr>
+        <tr><td>Processing Time</td><td>Typically 24–72 hours; expedited options may be available.</td></tr>
+        <tr><td>Entry Discretion</td><td>Entry allowed only via approved Saudi airlines; immigration officer’s decision is final.</td></tr>
     </table>
         </div>
 
@@ -172,118 +81,29 @@
                     <th width="70%">Description</th>
                 </tr>
                  <tr>
-                        <td>Official Document Links </td>
-                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
-                            <?php if (isset($_SESSION['user_id'])): ?>
-                            <!-- Special links for logged-in users -->
-                            <a href="https://visa.mofa.gov.sa/">Download Application Form</a>
-                            <a href="https://embassies.mofa.gov.sa/sites/india/EN/Services/Visa-Instructions/Pages/default.aspx">Download Document Checklist</a>
-                            <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Official Document Links </td>
+                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://visa.mofa.gov.sa/">Download Application Form</a>
+                        <a href="https://embassies.mofa.gov.sa/sites/india/EN/Services/Visa-Instructions/Pages/default.aspx">Download Document Checklist</a>
+                        <?php endif; ?></td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>Passport</td><td>Valid for at least 6 months with at least two blank pages.</td></tr>
+                <tr><td>Visa Application Form</td><td>Completed and signed form submitted online or at embassy.</td></tr>
+                <tr><td>Photographs</td><td>Two passport-size color photos with white background.</td></tr>
+                <tr><td>Invitation Letter</td><td>From Saudi business entity, attested by Saudi Chamber of Commerce.</td></tr>
+                <tr><td>Employer Letter</td><td>From Indian company stating purpose and details of travel.</td></tr>
+                <tr><td>Proof of Company Registration</td><td>Registration documents of inviting and applying companies.</td></tr>
+                <tr><td>Flight Itinerary</td><td>Confirmed round-trip ticket bookings indicating travel dates.</td></tr>
+                <tr><td>Accommodation</td><td>Hotel booking or host-provided lodging details.</td></tr>
+                <tr><td>Proof of Funds</td><td>Recent bank statements or salary slips.</td></tr>
+                <tr><td>Travel Insurance</td><td>Medical insurance valid for the duration of the visit.</td></tr>
+                <tr><td>Visa Fee</td><td>Government fee + service charges.</td></tr>
+                <tr><td>Processing Time</td><td>Typically 3–5 working days via embassy.</td></tr>
+                <tr><td>Submission Centers</td><td>Saudi Embassy Delhi, Consulate Mumbai.</td></tr>
+
+               
             </table>
         </div>
 
@@ -360,7 +180,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="#">Click Here (Link not add)</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Saudi Arabia or consulate in your country before
         applying.</p>
     </div>

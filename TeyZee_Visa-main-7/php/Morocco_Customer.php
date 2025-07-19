@@ -45,10 +45,10 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>Application Form</td>
                     <td>Visa Application form duly type written. Mandatory applicants Phone & Email contact details even if submitted by an Agent.
                         <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.consulat.ma/sites/default/files/inline-files/English-francais-formulaireVisa_1.pdf">Download Application Form</a>
@@ -56,53 +56,14 @@
                         <?php endif; ?>
                     </td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Original Passport with at least 3 months validity (from the date of submission of Visa application) and 1 blank page. A copy of the first and last page of the passport is also required.</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>02 Photos (passport size, white background (4 x 3 cm)) recent and clearly showing facial features.</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Original Covering letter from the applicant /profession details.</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Hotel Booking from an authorized travel agency or recommendation of the Ministry of Tourism or the representation of the Moroccan National Tourist Office or Invitation letter duly legalized (Apostile or Ministry of foreign affairs stamp) in case of family visit, with warranty of support for costs of medical care and possible repatriation.</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Confirmed flight tickets.</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Original Personal updated 3 months ORIGINAL Bank Statement duly stamped and signed by the Bank.</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Travel Insurance</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Copy of Birth Certificate</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Photocopy of PAN or ADHAR Card</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>
-                        Proof of Occupation (to be submitted in Original):<br>
-                        1. For salaried employees - The original NOC or Leave sanction letter on the letterhead of the company, duly signed and stamped by the authorized signatory of the company.<br>
-                        2. Self Employed Applicants - Proof of ownership of the business and covering letter on the company letterhead.<br>
-                        3. Students – Letter from the educational institution confirming that the applicant is a bonafide student. This letter should be in original, duly signed and stamped by the authorized signatory.<br>
-                        <br>
-                        Also, if an applicant is being sponsored by someone, the applicant’s bank statement is not required. The sponsor’s Original bank statement, sponsor’s letter stating that he will bear the expenses of the applicant, and the sponsor’s occupation proof (as described above) is required.
-                    </td>
-                </tr>
+                <tr><td>Passport</td><td>Valid for at least 90 days from intended date of arrival.</td></tr>
+                <tr><td>Passport Copy</td><td>Scan of bio-data page of the passport.</td></tr>
+                <tr><td>Photograph</td><td>Recent passport-style photo with white background (size ~35×45 mm).</td></tr>
+                <tr><td>Flight Booking</td><td>Confirmed return or onward travel itinerary.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Hotel reservation or invitation indicating stay details.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements or financial documents showing sufficient means.</td></tr>
+                <tr><td>Visa Fee</td><td>Payment evidence of e‑Visa fee (standard or express).</td></tr>
+                <tr><td>e‑Visa Printout</td><td>Downloaded and printed e‑Visa approval to carry when traveling.</td></tr>
             </table>
         </div>
 
@@ -122,110 +83,15 @@
                             <a href="https://www.acces-maroc.ma/assets/docs/Guide%20eVisa.pdf">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                    <tr><td>Passport</td><td>Valid for at least 90 days from arrival date.</td></tr>
+                    <tr><td>Passport Copy</td><td>Scan of the passport’s bio-data page.</td></tr>
+                    <tr><td>Photograph</td><td>Recent passport-style photo (35×45 mm) with white background.</td></tr>
+                    <tr><td>Business Invitation</td><td>Invitation letter explaining business purpose and host details.</td></tr>
+                    <tr><td>Flight Itinerary</td><td>Confirmed return or onward flight booking.</td></tr>
+                    <tr><td>Accommodation Proof</td><td>Hotel reservation or official stay address for the visit.</td></tr>
+                    <tr><td>Proof of Funds</td><td>Bank statements or salary slips as financial evidence.</td></tr>
+                    <tr><td>Visa Fee</td><td>Receipt or proof of payment of the e‑Visa business fee.</td></tr>
+                    <tr><td>e‑Visa Approval</td><td>Printed or digital copy of approved e‑Visa for presentation.</td></tr>
             </table>
         </div>
 
@@ -302,7 +168,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.blsmoroccovisa.com/application-tracking.php">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates. </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Morocco or consulate in your country before
         applying.</p>
     </div>

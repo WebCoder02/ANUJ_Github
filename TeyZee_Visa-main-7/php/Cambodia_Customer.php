@@ -45,10 +45,10 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>Schengen visa application form duly completed, dated and signed by the applicant
+                    <td>Visa Application</td>
+                    <td>Visa application form duly completed, dated and signed by the applicant
                         <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.embassyofcambodiadc.org/uploads/9/8/1/8/98182996/cambodiatouristvisaform.pdf">Download Application Form</a>
@@ -57,53 +57,36 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>Colour photograph according to ICAO standards (maximum 6 months old, with neutral facial expression and light background). The photo must not be edited.</td>
+                    <td>Valid Passport</td>
+                    <td>Passport must be valid for at least 6 months from the date of entry into Cambodia and have at least one blank page.</td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>Passport/travel document, must be valid for a minimum of 3 months after the planned journey, issued within the previous 10 years and have at least 2 blank pages.</td>
+                    <td>Photograph</td>
+                    <td>Recent passport-sized color photograph taken within the last 6 months with a plain background.</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>Valid Cambodia or Macau ID-card and residence permit (if not a permanent resident) must be valid at least 3 months after the departure from the Schengen area.</td>
+                    <td>Travel Itinerary</td>
+                    <td>Confirmed round-trip flight tickets showing entry into and exit from Cambodia.</td>
                 </tr>
                 <tr>
-                    <td>5</td>
-                    <td>Travel insurance covering the entire duration of the trip to Schengen area. Minimum coverage 30 000 euros non-deductible; must cover emergency medical expenses, hospital treatment and repatriation for medical reasons or death. Name in Latin letters. Validity: Schengen/Worldwide.</td>
+                    <td>Accommodation Details</td>
+                    <td>Proof of hotel booking or address where the applicant will stay during the visit.</td>
                 </tr>
                 <tr>
-                    <td>6</td>
-                    <td>Travel plan/itinerary including all the destinations of the journey.</td>
+                    <td>Visa Fee</td>
+                    <td>Payment of the e-Visa fee using an accepted payment method such as credit or debit card.</td>
                 </tr>
                 <tr>
-                    <td>7</td>
-                    <td>Flight reservation (roundtrip) including possible third countries & all the Schengen countries. Please note, that it is not recommended to purchase the tickets before receiving a visa decision.</td>
+                    <td>Proof of Funds</td>
+                    <td>Evidence of sufficient financial means to support the stay, such as recent bank statements.</td>
                 </tr>
                 <tr>
-                    <td>8</td>
-                    <td>Proof of accommodation for the whole stay in Schengen area.</td>
+                    <td>Travel Insurance</td>
+                    <td>Recommended to have travel insurance covering health and travel-related emergencies.</td>
                 </tr>
                 <tr>
-                    <td>9</td>
-                    <td>
-                        Letter of employment/studies on official letterhead, stamped and dated; containing contact information (address, email, telephone number) as well as name, position and signature of the countersigning officer. The letter must state the name and position of the applicant, salary, years of employment/studies and approval of absence/position after leave; As well as:<br>
-                        • For retired: Proof of pension or other regular income.<br>
-                        • For domestic helpers: Original employment contract, letter from employer confirming the leave and return after leave, ID copy of the employer.
-                    </td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Proof of sufficient means of subsistence, e.g. previous 3 months bank statement.</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>
-                        For Minors:<br>
-                        • Passport and ID copies of custodian(s). (From both parents, if applicable).<br>
-                        • Birth certificate / court decision of custody (notarized).<br>
-                        • Permission to travel from the guardian(s), if not travelling together with the child (notarized).
-                    </td>
+                    <td>e-Arrival Card</td>
+                    <td>Mandatory online arrival card submission prior to arrival, if applicable at the time of travel.</td>
                 </tr>
             </table>
         </div>
@@ -125,108 +108,48 @@
                             <?php endif; ?></td>
                     </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Valid Passport</td>
+                    <td>Passport must be valid for at least 6 months from the date of entry with at least one blank page.</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
+                    <td>Visa Application Form</td>
+                    <td>Completed visa application form filled out online or in paper format, depending on submission method.</td>
                 </tr>
                 <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
+                    <td>Photograph</td>
+                    <td>Recent passport-size photograph taken within the last 6 months with a plain background.</td>
                 </tr>
                 <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Invitation Letter</td>
+                    <td>Official invitation letter from the business partner or sponsoring company in Cambodia stating the purpose of visit.</td>
                 </tr>
                 <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>Company Registration</td>
+                    <td>Copy of the business registration or license of the Cambodian partner company.</td>
                 </tr>
                 <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>Cover Letter</td>
+                    <td>Letter from the applicant’s employer or company introducing the applicant and stating the reason for travel.</td>
                 </tr>
                 <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>Flight Itinerary</td>
+                    <td>Confirmed flight bookings showing travel into and out of Cambodia.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
+                    <td>Proof of Accommodation</td>
+                    <td>Hotel reservation or accommodation confirmation for the duration of the stay.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
+                    <td>Financial Means</td>
+                    <td>Evidence of sufficient financial means such as recent bank statements or salary slips.</td>
                 </tr>
                 <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
+                    <td>Visa Fee</td>
+                    <td>Payment of the applicable business visa fee using accepted methods like cash or card.</td>
                 </tr>
                 <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company
-                         <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
+                    <td>Optional Extensions</td>
+                    <td>Business visa can be extended inside Cambodia if longer stay is required.</td>
                 </tr>
             </table>
         </div>
@@ -304,7 +227,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.traveldocument.com/forms/hongkong.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
         applying.</p>
     </div>

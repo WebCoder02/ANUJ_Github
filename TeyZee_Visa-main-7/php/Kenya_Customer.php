@@ -44,55 +44,30 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-                 <tr>
-                        <td>1</td>
-                        <td>Original Passport with Old Passport:
-                            <ul>
-                                <li>Passport should be valid for minimum 6 months from the date of travel</li>
-                                <li>Issued within the last 10 years</li>
-                                <li>Validity must not exceed 10 years</li>
-                                <li>No handwritten passports accepted</li>
-                                <li>Must have at least 2 blank pages</li>
-                            </ul>
+                <tr>
+                        <td>Application Form</td>
+                        <td>Duly Filled Visa Application Form
                             <br>
-                            Login to see the Visa Application form & the Document Checklist.
+                            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://evisa.go.ke/">Download Application Form</a>
                         <a href="https://www.kenyaimmigration.org/faq/what-documents-do-i-need-at-the-airport-in-kenya?_gl=1*dhz6g3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwlMfABhCWARIsADGXdy90-v425odt6Za-T8XUDyCy2GEXPVIdVL8xpT6ZfUf9B09OXjr07awaAkdjEALw_wcB">Download Document Checklist</a>
                         <?php endif; ?>
                         </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>02 Recent Photographs:
-                            <ul>
-                                <li>35×45 mm size</li>
-                                <li>White background</li>
-                                <li>Matte finish</li>
-                                <li>80% face visible</li>
-                                <li>Photograph must not have been used in a previous visa</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Evidence of Proposed Tourism in Kenya:
-                            <ul>
-                                <li>Day-to-day itinerary on travel agency letterhead</li>
-                                <li>Hotel confirmation</li>
-                                <li>Confirmed return/onward flight ticket</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Form of Payment:
-                            <ul>
-                                <li>A valid form of payment such as debit card or credit card is required to pay the Kenyan visa fee</li>
-                            </ul>
-                        </td>
-                    </tr>
+                </tr>
+                <tr><td>Passport</td><td>Indian passport valid for at least 6 months from arrival date, with minimum two blank pages.</td></tr>
+                <tr><td>Passport Copy</td><td>Scanned bio-data page of the passport.</td></tr>
+                <tr><td>Photo</td><td>Recent passport-style color photograph.</td></tr>
+                <tr><td>Travel Itinerary</td><td>Basic travel plan including confirmed return or onward flight tickets.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Details of hotel booking or address of where you'll stay.</td></tr>
+                <tr><td>Proof of Funds</td><td>Recent bank statement or other proof of sufficient funds.</td></tr>
+                <tr><td>Visa Fee</td><td>Payment via card or PayPal (Government Fee + optional service fee).</td></tr>
+                <tr><td>eTA Confirmation</td><td>Printed approval must be presented at boarding and on arrival.</td></tr>
+                <tr><td>Stay Duration</td><td>Up to 90 days; single-entry (re-entry allowed if immediately travelling within East African Community).</td></tr>
+                <tr><td>Processing Time</td><td>Standard: ~3 business days; can expedite to 24 hrs or 5 hrs with extra fee.</td></tr>
+                <tr><td>Health Requirements</td><td>Yellow fever vaccination required if arriving from endemic area; insurance recommended.</td></tr>
+                <tr><td>Additional Authority</td><td>Kenyan immigration may request further documents at any time.</td></tr>
             </table>
         </div>
 
@@ -111,111 +86,22 @@
                             <a href="https://evisa.go.ke/">Download Application Form</a>
                             <a href="https://www.kenyaimmigration.org/faq/what-documents-do-i-need-at-the-airport-in-kenya?_gl=1*dhz6g3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwlMfABhCWARIsADGXdy90-v425odt6Za-T8XUDyCy2GEXPVIdVL8xpT6ZfUf9B09OXjr07awaAkdjEALw_wcB">Download Document Checklist</a>
                             <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>Passport</td><td>Indian passport valid for at least 6 months from arrival, with two blank pages.</td></tr>
+                <tr><td>Passport Copy</td><td>Scanned bio-data page of the passport.</td></tr>
+                <tr><td>Photo</td><td>Recent passport-size color photograph.</td></tr>
+                <tr><td>Travel Itinerary</td><td>Confirmed bookings for entry and exit flights.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Hotel reservation or stay address during trip.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements or salary evidence showing financial stability.</td></tr>
+                <tr><td>Invitation Letter</td><td>Invitation from Kenyan business partner or company.</td></tr>
+                <tr><td>Company Documents</td><td>Registration certificate of inviting company and staff ID of inviter.</td></tr>
+                <tr><td>Cover Letter</td><td>Letter from your employer stating purpose and duration of visit.</td></tr>
+                <tr><td>Visa Fee</td><td>Government fee + service fee (paid online); payment options available.</td></tr>
+                <tr><td>Stay Duration</td><td>Up to 90 days; single-entry (with possible EAC re-entry conditions).</td></tr>
+                <tr><td>Processing Time</td><td>Typically ~3 business days; expedited options available.</td></tr>
+                <tr><td>Health Requirements</td><td>Yellow fever vaccination certificate (if required); travel insurance recommended.</td></tr>
+                <tr><td>Additional Authority</td><td>Immigration may request extra documents or deny entry on discretion.</td></tr>
+
             </table>
         </div>
 
@@ -292,7 +178,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.traveldocument.com/forms/hongkong.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
         applying.</p>
     </div>

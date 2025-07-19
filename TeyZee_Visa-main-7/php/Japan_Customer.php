@@ -44,16 +44,12 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
+                
                 <tr>
-                    <td>1</td>
-                    <td>Passport (Valid Passport + Old Passport/s)+ Photocopy of the Bio
-                        Data Page of the Current Passport (First and Last Page)</td>
-                </tr>
-                <tr>
-                    <td>2</td>
+                    <td>Application Form</td>
                     <td>Completely filled and signed Visa Application Form with Photograph
                         <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/japan/india/mumbai/pdf/visa-application-form.pdf">Download Application Form</a>
@@ -61,47 +57,12 @@
                         <?php endif; ?>
                     </td>
                 </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Covering letter stating the purpose of visit and day to day details</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Confirmed travel booking with day to day details</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Original saving bank statement / passbook of last six months</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Latest Income Tax Return</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Certificate of Employment from employer / NOC / Leave sanctioned</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Salary bank statement for last six months</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>If student / dependant, consent from the parents / spouse and their
-bank statement</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>If the applicant is owner of company, proof of ownership</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>If the applicant is owner of company, company bank statement</td>
-                </tr>
-                <tr>
-                    <td>12</td>
-                    <td>Proof of relationship, if the applicant is accompanied by dependant/s</td>
-                </tr>
+                <tr><td>Passport</td><td>Valid passport.</td></tr>
+                <tr><td>Visa Application Form</td><td>One completed and signed form.</td></tr>
+                <tr><td>Photograph</td><td>One recent passport photo.</td></tr>
+                <tr><td>Flight/Ship Itinerary</td><td>Flight or ship schedule with dates of entry and exit from Japan.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statement, income or tax certificate proving ability to cover expenses.</td></tr>
+                <tr><td>Cover Letter</td><td>Letter explaining travel purpose and itinerary.</td></tr>
             </table>
         </div>
 
@@ -121,109 +82,15 @@ bank statement</td>
                             <a href="https://www.bengaluru.in.emb-japan.go.jp/files/000433316.pdf">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
+                <tr><td>Passport</td><td>Valid passport.</td></tr>
+                <tr><td>Visa Application Form</td><td>One completed and signed form.</td></tr>
+                <tr><td>Photograph</td><td>One recent passport photo.</td></tr>
+                <tr><td>Flight/Ship Itinerary</td><td>Flight or ship schedule showing entry and exit dates.</td></tr>
+                <tr><td>Business Purpose Document</td><td>Appointment letter, invitation or business correspondence proving short‑term business purpose.</td></tr>
+                <tr><td>Certificate of Employment</td><td>Proof of applicant’s employment or status.</td></tr>
+                <tr><td>Host Invitation</td><td>Invitation letter from Japanese company or organization.</td></tr>
+                <tr><td>Guarantor Documents</td><td>Letter of guarantee, company registration and financial documents of host organization.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements or income certificates proving ability to cover travel costs.</td></tr>
             </table>
         </div>
 
@@ -301,7 +168,7 @@ bank statement</td>
 
     <div class="note">
         <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
-        it's recommended to verify the current requirements with the French embassy or consulate in your country before
+        it's recommended to verify the current requirements with the  embassy or consulate in your country before
         applying.
     </div>
 

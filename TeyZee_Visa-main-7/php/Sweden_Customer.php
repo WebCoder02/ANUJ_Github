@@ -48,7 +48,7 @@
                     <td>1</td>
                     <td>Application for Schengen Visa (No. 119031) attached with 1 photograph not older than six months with white background (3.5cm/4.5 cm). Please explain your plan for visit.
                         <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.migrationsverket.se/download/18.2cd2e409193b84c506a2f9dc/1738227829389/119031_blvisa_en.pdf">Download Application Form</a>
@@ -220,7 +220,7 @@
                     <td>
                         <ul>
                             <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
+                            <li>Invitation letter from the  company</li>
                         </ul>
                         <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
                             Template</a> -->
@@ -229,7 +229,7 @@
                 <tr>
                     <td>Company Cover letter</td>
                     <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
+                        relationship between the Indian and the Swedish company 
                         <!-- <a href="/templates/company_cover_letter.doc"
                             class="doc-link" target="_blank">Download Template</a> -->
                         </td>
@@ -327,7 +327,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong> <p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.swedenabroad.se/globalassets/ambassader/indien-new-delhi/documents/sweden-tourist-checklist.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong> <p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates. </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Swedish embassy or consulate in your country before
         applying.</p>
         

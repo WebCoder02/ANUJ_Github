@@ -44,119 +44,29 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-            </td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Application form (available online, free of charge)<br>
-            Login to see the Visa Application form & the Document Checklist.
+                
+                <tr>
+                    <td>Application form</td>
+                    <td>Application form (available online, free of charge)<br>
+                    <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.fm.gov.om/citizens/visa-requirements/">Download Application Form</a>
                         <a href="https://evisa.rop.gov.om/visa-eligibility?p_p_id=visawizard_WAR_visaeligibilitywizardportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_visawizard_WAR_visaeligibilitywizardportlet_myaction=selectedVisa">Download Document Checklist</a>
                         <?php endif; ?>
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>1 application form duly completed, dated and signed by the applicant</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>One recent passport-size photograph (3,5 x 4,5 cm)</td>
-          </tr>
-          <tr>
-            <td>4</td>
-<td>Individual applicant: Original passport + copy of all relevant pages (ID page, previous Schengen visas, US /UK Visa etc.)
-</td>          </tr>
-          <tr>
-            <td>5</td>
-            <td>For business/conference/sports event visit:<br/> 
-• letter from the inviting company/organizer stating the period and duration of stay, or official Invitation Letter form certified by the Greece Foreign Police For visiting family or friends.<br/>
-• original letter from the inviting person stating the period and duration of stay, the contact details and a full reference address, or official Invitation Letter form certified by the Greece Foreign Police For medical reasons visit/<br/>
-1. a recent medical report from an Omani health or rehabilitation facility and,<br/>
-2. a letter issued by the receiving Greece institution confirming the type of treatment reserved, the dates of stay and cost and,<br/>
-3. pre-payment or other proof of sufficient financial means for the treatment and related expenses<br/>
-For study visit:<br/>
-• official documents from the receiving Greece institution including contact details For EU spouse/family member visa: Family status/marriage certificate, passport and ID copy of the EU spouse/family member. Documents showing that the applicant is accompanying or joining his/her family member, such as tickets or a solemn declaration of the EU family member. Copies of previous visas, if available. Requirements under n. 5-10 and 12-13 are optional for Directive 2004/38/EC beneficiaries<br/>
-            </td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>Sponsor for Family/ Relative:<br/>
-            Sponsor /Affidavit (FOLLOWING DOCUMENTS MUST BE PROVIDED FOR EACH<br/>
-            SPONSORED APPLICANT\S):<br/>
-             - Affidavit of sponsorship<br/>
-             - Employment letter of sponsor, (chambered if private company)<br/>
-             - Passport copy of the sponsor along with signature page.<br/>
-             - Employment contract signed by both parties (applicable for domestic workers)<br/>
-             - Bank statement for (3 Months Omani-national,6 months non-Saudi, for main sponsor, stamped or needs to have a QR code) First and last page of the bank statement for sponsored applicants. If Omani National Sponsoring Non-Omani applicant need 6month bank statement.<br/>
-            </td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>Hotel reservation(s) or other proof of accommodation for the whole stay in Schengen</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>Flight/travel reservations, including return flight</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td> Proof of sufficient financial means for the intended visit of the Schengen area</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Original letter from employer/sponsor in Oman (stamped and signed, attested by Chamber of Commerce)
-            </td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>Travel medical insurance policy<br/>
-            • valid for the Schengen area and covering the entire period of intended stay<br/>
-            • minimum coverage of 30.000 EUR, including repatriation
-            </td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>
-             Minors travelling with or without parents/legal guardian:<br/>
-             Minor: (Below 18 years)<br/>
-                                    - Non-Objection Letter signed by both parents.<br/>
-                                    - Passport copy along with signature page of both parents.<br/>
-                                    - In case if child is under the custody of any single parent, there should be an official letter to confirm the custodianship.<br/>
-                                    - Birth Certificate.<br/>
-            </td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>
-              STUDY, RESEARCH OR INTERNSHIP:<br>
-              a) Certificate of admission or registration or cover letter from inviting company<br>
-              b) Student cards or certificates from current institution
-            </td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>Additional, for Non-Omani applicants:<br/> 
-            Resident Permit and 1 copy thereof<br/>
-                    • valid at least 3 months after the planned return. The expiry date of the Resident permit needs to be shown on the exit re-entry visa submitted<br/>
-                    • Copies of all family members Resident permit if residing in Oman and list of family members.
-            </td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td>
-              Note:<br> 
-                • Supporting documents must be presented in original during submission (additional copy required if the original cannot be given away).<br/>
-                • Translation of all Arabic documents into English or Greek is mandatory.<br/>
-                • In all applicants aged 12 and older fingerprints will be collected.<br/>
-                • For a child registered in a parent´s passport, a separate application needs to be submitted.<br/>
-                • Visas can be requested at the earliest 6 months and as a rule 15 days before the planned trip.<br/>
-                • Visa applications are decided within 15 calendar days. That period may be extended up to a maximum of 45 calendar days in individual cases. There is no express fee for a faster visa appointment or procedure. An express procedure is followed for Directive 2004/38/EC beneficiaries free of charge. In case of visa refusal, visa fee is not refunded.<br/>
-                • The Embassy of Greece in Riyadh reserves the right to request any additional supporting documents or an interview and does not guarantee the issuance of the visa.
-            </td>
-          </tr>
+                     </td>
+                 </tr>
+                <tr><td>Valid Passport</td><td>Valid for at least 6 months from arrival with at least two blank pages.</td></tr>
+                <tr><td>Passport Copy</td><td>Scanned copy of the bio-data page.</td></tr>
+                <tr><td>Photograph</td><td>Recent passport-style color photo.</td></tr>
+                <tr><td>Return Ticket</td><td>Confirmed flight for exit from Oman.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Hotel booking or address of stay in Oman.</td></tr>
+                <tr><td>Health Insurance</td><td>Valid travel medical insurance covering the stay.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statement or other proof showing adequate funds.</td></tr>
+                <tr><td>e‑Visa Application</td><td>Completed online via the Royal Oman Police portal.</td></tr>
+                <tr><td>Visa Fee</td><td>Paid online during application.</td></tr>
+                <tr><td>e‑Visa Printout</td><td>Printed or digital copy to present at entry.</td></tr>
+          
             </table>
         </div>
 
@@ -175,111 +85,19 @@ For study visit:<br/>
                             <a href="https://www.fm.gov.om/citizens/visa-requirements/">Download Application Form</a>
                             <a href="https://evisa.rop.gov.om/visa-eligibility?p_p_id=visawizard_WAR_visaeligibilitywizardportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_visawizard_WAR_visaeligibilitywizardportlet_myaction=selectedVisa">Download Document Checklist</a>
                             <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>Valid Passport</td><td>Valid for at least 6 months from arrival with at least two blank pages.</td></tr>
+                <tr><td>Passport Copy</td><td>Scanned copy of the bio-data page.</td></tr>
+                <tr><td>Photograph</td><td>Two recent passport-size color photos.</td></tr>
+                <tr><td>Invitation Letter</td><td>Formal invitation from Omani company detailing visit purpose.</td></tr>
+                <tr><td>Application Form</td><td>Completed and signed online or paper visa form.</td></tr>
+                <tr><td>Return Ticket</td><td>Confirmed exit flight booking.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Hotel booking or company-provided lodging details.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements or salary slips demonstrating financial means.</td></tr>
+                <tr><td>Health Insurance</td><td>Travel insurance covering the period of visit.</td></tr>
+                <tr><td>Visa Fee</td><td>Paid online or at embassy, depending on application channel.</td></tr>
+                <tr><td>e‑Visa Printout</td><td>Printed or digital copy to present at entry.</td></tr>
+
             </table>
         </div>
 
@@ -356,7 +174,7 @@ For study visit:<br/>
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.gokitetours.com/oman-tourist-visa-from-delhi/">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Oman or consulate in your country before
         applying.</p>
     </div>

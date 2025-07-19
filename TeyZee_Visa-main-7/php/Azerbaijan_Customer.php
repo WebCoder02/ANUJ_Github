@@ -46,55 +46,49 @@
                 </tr>
                  <tr><td>1</td>
                  <td>Completed visa application via visa portal with printed & signed cover letter.<br>
-                    Login to see the visa application form & the document checklist.
+                    <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
                         <a href="https://www.mfa.gov.az/index.php/en/category/visa/documents-required-for-visa-issuance">Download Document Checklist</a>
                         <?php endif; ?>
                  </td>
+                <tr>
+                    <td>Passport / Travel Document</td>
+                    <td>Original passport or travel document valid at least 3 months beyond the expected visa validity, plus copies of main pages.</td>
                 </tr>
-                    <tr><td>2</td><td>1 recent color photograph</td></tr>
-                    <tr><td>3</td><td>Passport:
-                        <ul>
-                            <li>Valid for at least 3 months after return</li>
-                            <li>At least 2 blank pages</li>
-                            <li>Issued within last 10 years</li>
-                            <li>MFA Verbal Note for service/diplomatic passports</li>
-                        </ul>
-                    </td></tr>
-                    <tr><td>4</td><td>Copy of identity page and all used passport pages</td></tr>
-                    <tr><td>5</td><td>Copy of previous visa(s)</td></tr>
-                    <tr><td>6</td><td>Copy of National ID card (both sides)</td></tr>
-                    <tr><td>7</td><td>Non-Azerbaijani residents: Valid residence permit (3 months beyond return)</td></tr>
-                    <tr><td>8</td><td>Travel medical insurance (minimum EUR 30,000, valid in Schengen)</td></tr>
-                    <tr><td>9</td><td>Flight/travel bookings. Round trip mandatory for multiple entries</td></tr>
-                    <tr><td>10</td><td>Proof of accommodation:
-                        <ul>
-                            <li>Hotel voucher/booking with name, duration, staff details</li>
-                            <li>Medical or campus stay confirmation (if applicable)</li>
-                        </ul>
-                    </td></tr>
-                    <tr><td>11</td><td>Proof of sponsorship or private accommodation (if applicable)</td></tr>
-                    <tr><td>12</td><td>Proof of financial means (except pupils):
-                        <ul>
-                            <li>Recent bank statements (3 months)</li>
-                            <li>Cash, traveler’s cheques, credit cards</li>
-                            <li>Property certificate, pension, or income proof</li>
-                        </ul>
-                    </td></tr>
-                    <tr><td>13</td><td>Employee letter on company letterhead detailing job, salary, leave approval</td></tr>
-                    <tr><td>14</td><td>For business owners: Company registration certificate + TIN</td></tr>
-                    <tr><td>15</td><td>Students: Proof of enrollment from school/university</td></tr>
-                    <tr><td>16</td><td>Minors (under 18):
-                        <ul>
-                            <li>Birth certificate</li>
-                            <li>Notarized parental/guardian consent</li>
-                            <li>Relationship proof (marriage, adoption docs, etc.)</li>
-                        </ul>
-                    </td></tr>
-                    <tr><td>17</td><td>Proof of intent to return (e.g. job, family ties, property, income)</td></tr>
-                    <tr><td>18</td><td>Travel itinerary (if visiting multiple Schengen states)</td></tr>
+                <tr>
+                    <td>Biometric Photographs</td>
+                    <td>Two color photos (3 × 4 cm), compatible with biometric identification requirements.</td>
+                </tr>
+                <tr>
+                    <td>Medical Insurance</td>
+                    <td>Copy of medical insurance certificate (unless the host covers medical services).</td>
+                </tr>
+                <tr>
+                    <td>State Fee Payment</td>
+                    <td>Document certifying payment of state fee for visa issuance (non‑refundable) .</td>
+                </tr>
+                <tr>
+                    <td>Invitation Documents</td>
+                    <td>Invitation submitted by inviting party: sample form, NGO certificate (if relevant), and proof of purpose (not required for transit, tourism, official/personal visits).</td>
+                </tr>
+                <tr>
+                    <td>NGO Registration</td>
+                    <td>Copy of state registration certificate if the inviting party is a non‑governmental organization.</td>
+                </tr>
+                <tr>
+                    <td>Purpose Confirmation</td>
+                    <td>Document confirming reason for invitation (not required for transit, tourism, official and personal travel).</td>
+                </tr>
+                <tr>
+                    <td>Purpose‑specific Documents</td>
+                    <td>Other relevant documents as outlined in the Migration Code, based on purpose of travel.</td>
+                </tr>
+                <tr>
+                    <td>Minors (< 18 yrs)</td>
+                    <td>Notarized birth certificate copy, parental permission and ID copies for minors traveling without legal guardian.</td>
+                </tr>
             </table>
         </div>
 
@@ -115,108 +109,44 @@
                         <?php endif; ?></td>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Visa Application Form</td>
+                    <td>Completed visa application form, printed and signed.</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
+                    <td>Passport</td>
+                    <td>Original passport with at least 3 months validity beyond the intended stay and at least one blank visa page.</td>
                 </tr>
                 <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
+                    <td>Passport-Sized Photos</td>
+                    <td>Two recent color biometric photographs (3×4 cm) on a white background.</td>
                 </tr>
                 <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Invitation Letter</td>
+                    <td>Official invitation letter from the host company or organization in Azerbaijan, certified if required.</td>
                 </tr>
                 <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>Company Documents</td>
+                    <td>Copy of the inviting company's registration certificate and charter (if applicable).</td>
                 </tr>
                 <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>Visa Fee Payment</td>
+                    <td>Receipt or proof of payment of the visa application fee.</td>
                 </tr>
                 <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>Flight Itinerary</td>
+                    <td>Copy of round-trip flight booking or travel details.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">
-                            Download NOC
-                            Template</a> -->
-                        </td>
+                    <td>Accommodation Proof</td>
+                    <td>Hotel booking confirmation or proof of accommodation in Azerbaijan.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
+                    <td>Medical Insurance</td>
+                    <td>Valid travel medical insurance covering the entire stay in Azerbaijan.</td>
                 </tr>
                 <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
+                    <td>Parental Consent (For Minors)</td>
+                    <td>Birth certificate and notarized consent letter if the applicant is under 18 and traveling alone or with one parent.</td>
                 </tr>
             </table>
         </div>

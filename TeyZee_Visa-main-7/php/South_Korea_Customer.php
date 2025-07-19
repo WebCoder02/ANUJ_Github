@@ -48,23 +48,22 @@
           </tr>
           <tr><td>1</td><td>Online visa application form: Completed, signed by applicant. If applying via a 3rd person, include authorization form. For minors: form must be signed by legal guardian, and authorization provided if applicable.
              <br>
-                        Login to see the Visa Application form & the Document Checklist.
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Application Form</a>
                         <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Document Checklist</a>
                         <?php endif; ?>
           </td></tr>
-          <tr><td>2</td><td>Passport/travel document: Issued within last 10 years; valid ≥3 months beyond visa expiry; undamaged, no unofficial entries; ≥2 blank pages.</td></tr>
-          <tr><td>3</td><td>Visa fee payment proof (~20 USD).</td></tr>
-          <tr><td>4</td><td>Copy of travel tickets or confirmed booking (round-trip or onward).</td></tr>
-          <tr><td>5</td><td>Proof of accommodation in Korea: Hotel reservation, rental agreement, or host invitation confirming lodging.</td></tr>
-          <tr><td>6</td><td>Proof of sufficient funds: Bank statements (last 3 months, stamped & signed), scholarship/grant letters, or sponsor’s letter as applicable.</td></tr>
-          <tr><td>7</td><td>Travel & health insurance: Coverage for entire stay, valid across Korea, covering medical and repatriation.</td></tr>
-          <tr><td>8</td><td>Document confirming purpose of travel (e.g., tourism, visit, itinerary).</td></tr>
-          <tr><td>9</td><td>If applying as a legal guardian/custodian of a Georgian citizen (analogous: minors, pardon typo): Provide legal guardianship/custody documents.</td></tr>
-          <tr><td>10</td><td>If previously penalized for illegal stay: Provide proof of penalty payment.</td></tr>
-          <tr><td>11</td><td>For minors or persons with mental disorders: Legal representative consent + birth certificate.</td></tr>
+          <tr><td>e‑Form</td><td>Complete and print the electronic visa application form with barcode and signature.</td></tr>
+            <tr><td>Passport & Copy</td><td>Original passport (valid ≥6 months) and a clear photocopy of its bio-page.</td></tr>
+            <tr><td>Photo</td><td>One color passport-sized photo (3.5 × 4.5 cm), recent, white/off-white background.</td></tr>
+            <tr><td>Flight & Accommodation</td><td>Confirmed return ticket and hotel reservation or host invitation details.</td></tr>
+            <tr><td>Proof of Funds</td><td>Recent bank statements or salary slips demonstrating financial ability.</td></tr>
+            <tr><td>Employment or Student Proof</td><td>Original certificate of employment or student ID/admission letter.</td></tr>
+            <tr><td>Inviter Document</td><td>Copy of inviter’s ID (passport or residence card) and invitation letter.</td></tr>
+            <tr><td>Visa Fee</td><td>Pay the applicable visa issuance fee in the required currency.</td></tr>
+            <tr><td>Entry Validity</td><td>Single-entry, valid for up to 90 days from issuance, stay ≤90 days.</td></tr>
             </table>
         </div>
 
@@ -83,113 +82,18 @@
                             <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Application Form</a>
                             <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Document Checklist</a>
                             <?php endif; ?></td>
-                    </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment
-                       
-                    </td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                <tr><td>e‑Form</td><td>Printed electronic visa form with barcode, filled and signed.</td></tr>
+                <tr><td>Passport & Copy</td><td>Original passport (valid ≥6 months) plus photocopy of data page.</td></tr>
+                <tr><td>Photo</td><td>One color passport-size photo (3.5 × 4.5 cm), white background.</td></tr>
+                <tr><td>Invitation</td><td>Official invitation letter from a Korean host company or VIP corporation.</td></tr>
+                <tr><td>Corporate Inviter Docs</td><td>Copy of inviting company’s business registration certificate.</td></tr>
+                <tr><td>Cover Letter</td><td>Letter from your Indian employer stating purpose and details of visit.</td></tr>
+                <tr><td>Flight & Accommodation</td><td>Confirmed return ticket and hotel reservation or host lodging details.</td></tr>
+                <tr><td>Proof of Funds</td><td>Salary slips or bank statements showing sufficient financial means.</td></tr>
+                <tr><td>Visa Fee</td><td>Payment of visa processing fee through the portal or at the mission.</td></tr>
+                <tr><td>Valid Stay</td><td>Single-entry visa valid up to 90 days; stay during this period.</td></tr>
+                
             </table>
         </div>
 
@@ -266,7 +170,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://overseas.mofa.go.kr/upload/cntnts/in-en/Application-For-Visa-Korea-Latest.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of South Korea or consulate in your country before
         applying.</p>
     </div>

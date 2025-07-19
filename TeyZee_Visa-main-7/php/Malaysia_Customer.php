@@ -43,17 +43,11 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
+                
                 <tr>
-                    <td>1</td>
-                    <td>
-                        <strong>Original Passport :</strong><br>
-                        • Passport should be valid minimum 6 months from the date of travel
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td><strong>Visa Application Form :</strong>
-                        Login to see the Visa Application form & the Document Checklist.
+                    <td>Visa Application Form</td>
+                    <td><strong>Duly filled Visa Application Form </strong>
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.imi.gov.my/index.php/en/main-services/visa/elementor-4396/">Download Application Form</a>
@@ -62,52 +56,38 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>
-                        <strong>04 recent photographs :</strong><br>
-                        • 35*50 mm size without border, White background, matt finish, 60% face image & 40% body coverage<br>
-                        • Photograph should not be more than 3 months old and should not be used in any of the previous visas
-                    </td>
+                    <td>Valid Passport</td>
+                    <td>Passport must be valid for at least 6 months with at least one blank page.</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td><strong>Last 06 months bank statement</strong> till date updated with bank seal and sign at every page</td>
+                    <td>Photograph</td>
+                    <td>Recent passport-sized color photo with white background.</td>
                 </tr>
                 <tr>
-                    <td>5</td>
-                    <td><strong>Company letterhead and visiting / NOC</strong> from Job for Employer</td>
+                    <td>Passport Copy</td>
+                    <td>Scanned copy of the passport’s main information page.</td>
                 </tr>
                 <tr>
-                    <td>6</td>
-                    <td>
-                        <strong>Marriage Certificate / Wedding Card</strong> for Honeymooners<br>
-                        (Bride bank statement require separately)
-                    </td>
+                    <td>Flight Ticket</td>
+                    <td>Confirmed return flight itinerary.</td>
                 </tr>
                 <tr>
-                    <td>7</td>
-                    <td>
-                        <strong>NOC from parents</strong> with proof of signature for minor child traveling without parents on 50/100 RS. stamp paper
-                    </td>
+                    <td>Accommodation</td>
+                    <td>Hotel booking or address of stay in the country.</td>
                 </tr>
                 <tr>
-                    <td>8</td>
-                    <td>
-                        <strong>Confirmed Issued Return Air Ticket,</strong> side trip Confirm issued ticket
-                    </td>
+                    <td>Visa Application Form</td>
+                    <td>Completed application form filled with accurate personal and travel details.</td>
                 </tr>
                 <tr>
-                    <td>9</td>
-                    <td>
-                        <strong>Id card / NOC / Bonafide Certificate</strong> from school of children traveling along with parents
-                    </td>
+                    <td>Visa Fee</td>
+                    <td>Proof of payment for the applicable visa charges.</td>
                 </tr>
                 <tr>
-                    <td>10</td>
-                    <td>
-                        <strong>NOTE:</strong> FOR CHILDREN TRAVELLING WITHOUT PARENTS UNDER AGE OF 18 YEARS NEED TO PROVIDE NOC AFFIDAVIT ON 50 /100 RUPEES STAMP PAPER.
-                    </td>
+                    <td>Arrival Declaration</td>
+                    <td>Online submission confirming travel details prior to arrival.</td>
                 </tr>
+
             </table>
         </div>
 
@@ -128,108 +108,40 @@
                             <?php endif; ?></td>
                     </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Valid Passport</td>
+                    <td>Passport must be valid for at least 6 months with at least one blank page.</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
+                    <td>Photograph</td>
+                    <td>Recent passport-sized color photo with white background.</td>
                 </tr>
                 <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
+                    <td>Passport Copy</td>
+                    <td>Scanned copy of the passport’s main information page.</td>
                 </tr>
                 <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Invitation Letter</td>
+                    <td>Official letter from the inviting company mentioning visit purpose and duration.</td>
                 </tr>
                 <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>Flight Ticket</td>
+                    <td>Confirmed round-trip flight itinerary.</td>
                 </tr>
                 <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>Accommodation</td>
+                    <td>Proof of stay such as hotel reservation or invitation-hosted accommodation.</td>
                 </tr>
                 <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>Visa Application Form</td>
+                    <td>Completed form with business purpose stated.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
+                    <td>Visa Fee</td>
+                    <td>Payment receipt for the visa fee.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
+                    <td>Arrival Declaration</td>
+                    <td>Submission of travel details prior to entry.</td>
                 </tr>
             </table>
         </div>
@@ -307,7 +219,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.kln.gov.my/web/ind_new-delhi/other_information/-/asset_publisher/2TQe/content/evisa-of-indian-nationals?inheritRedirect=false">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates. </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Malaysia or consulate in your country before
         applying.</p>
     </div>

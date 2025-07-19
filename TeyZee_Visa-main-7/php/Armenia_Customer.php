@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kenya Visa Checklist</title>
+    <title>Armenia Visa Checklist</title>
     <link rel="stylesheet" href="document.css">
     <link rel="stylesheet" href="Country_page.css">
     <link rel="stylesheet" href="styles.css">
@@ -28,7 +28,7 @@
             </div>
         </div>
     </header>-->
-    <h1>Kenya Visa Checklist</h1>
+    <h1>Armenia Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
@@ -38,175 +38,74 @@
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>Kenya Tourist Visa Checklist</h2>
+            <h2>Armenia Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Schengen visa application form duly completed, dated and signed by the applicant</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Colour photograph according to ICAO standards (maximum 6 months old, with neutral facial expression and light background). The photo must not be edited.</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Passport/travel document, must be valid for a minimum of 3 months after the planned journey, issued within the previous 10 years and have at least 2 blank pages.</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Valid Kenya or Macau ID-card and residence permit (if not a permanent resident) must be valid at least 3 months after the departure from the Schengen area.</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Travel insurance covering the entire duration of the trip to Schengen area. Minimum coverage 30 000 euros non-deductible; must cover emergency medical expenses, hospital treatment and repatriation for medical reasons or death. Name in Latin letters. Validity: Schengen/Worldwide.</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Travel plan/itinerary including all the destinations of the journey.</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Flight reservation (roundtrip) including possible third countries & all the Schengen countries. Please note, that it is not recommended to purchase the tickets before receiving a visa decision.</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Proof of accommodation for the whole stay in Schengen area.</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>
-                        Letter of employment/studies on official letterhead, stamped and dated; containing contact information (address, email, telephone number) as well as name, position and signature of the countersigning officer. The letter must state the name and position of the applicant, salary, years of employment/studies and approval of absence/position after leave; As well as:<br>
-                        • For retired: Proof of pension or other regular income.<br>
-                        • For domestic helpers: Original employment contract, letter from employer confirming the leave and return after leave, ID copy of the employer.
-                    </td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Proof of sufficient means of subsistence, e.g. previous 3 months bank statement.</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>
-                        For Minors:<br>
-                        • Passport and ID copies of custodian(s). (From both parents, if applicable).<br>
-                        • Birth certificate / court decision of custody (notarized).<br>
-                        • Permission to travel from the guardian(s), if not travelling together with the child (notarized).
-                    </td>
-                </tr>
+            </td>
+          </tr>
+          <tr>
+            <td>Application Form</td>
+            <td><strong>Application Form should fully filled & Ensure Passport Validity.</strong>
+            <br>
+                <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://india.mfa.am/u_files/file/India/visaappform%20NEW.pdf">Download Application Form</a>
+                        <a href="https://india.mfa.am/en/visaforindians/">Download Document Checklist</a>
+                        <?php endif; ?>
+              
+            </td>
+             </tr>
+            <tr><td>Passport</td><td>Valid for at least 6 months beyond entry with at least one blank page.</td></tr>
+            <tr><td>Application Form</td><td>Filled online via e‑Visa portal or paper form for embassy submission.</td></tr>
+            <tr><td>Photograph</td><td>Recent passport-size color photo on white background.</td></tr>
+            <tr><td>Passport Copy</td><td>Scanned bio-data page of your passport.</td></tr>
+            <tr><td>Accommodation Proof</td><td>Hotel booking or host invitation with address.</td></tr>
+            <tr><td>Flight Itinerary</td><td>Confirmed onward or return flight booking.</td></tr>
+            <tr><td>Proof of Funds</td><td>Bank statements or financial documents showing sufficiency.</td></tr>
+            <tr><td>Cover Letter</td><td>Brief letter explaining purpose of visit.</td></tr>
+            <tr><td>Visa Fee</td><td>Paid online for e‑Visa or at embassy for consular application.</td></tr>
+            <tr><td>Processing Time</td><td>e‑Visa: ~3–5 working days; Consular visa: ~10 working days.</td></tr>
+            <tr><td>Validity & Stay</td><td>Short-term valid ~21 days per visit; long-term up to 120 days validity.</td></tr>
             </table>
         </div>
 
         <div id="business" class="tabcontent">
-            <h2>Kenya Business Visa Checklist</h2>
+            <h2>Armenia Business Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                        <td>Official Document Links </td>
+                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://india.mfa.am/u_files/file/India/visaappform%20NEW.pdf">Download Application Form</a>
+                            <a href="https://india.mfa.am/en/visaforindians/">Download Document Checklist</a>
+                            <?php endif; ?></td>
                 </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a></td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the  company</li>
-                        </ul>
-                        <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and  company <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a></td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a></td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a></td>
-                    
-                </tr>
+                <tr><td>Passport</td><td>Valid for at least 6 months beyond entry with at least one blank page.</td></tr>
+                <tr><td>Application Form</td><td>Filled and signed application (paper) for embassy submission.</td></tr>
+                <tr><td>Photograph</td><td>Recent passport-size color photo on white background.</td></tr>
+                <tr><td>Invitation Letter</td><td>Official letter from Armenian host company or organisation.</td></tr>
+                <tr><td>Employer/Business Letter</td><td>From Indian company stating purpose and role.</td></tr>
+                <tr><td>Flight & Accommodation</td><td>Confirmed return ticket and stay booking or host address.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements or salary slips showing financial adequacy.</td></tr>
+                <tr><td>Cover Letter</td><td>Personal statement of business intent and itinerary.</td></tr>
+                <tr><td>Visa Fee</td><td>Paid at embassy; may vary depending on entry type.</td></tr>
+                <tr><td>Processing Time</td><td>Typically around 10 working days at embassy.</td></tr>
+                <tr><td>Visit Purpose</td><td>Meetings, conferences, trade discussions; no direct work/employment allowed.</td></tr>
+
             </table>
         </div>
 
-        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             
+        <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
@@ -216,16 +115,16 @@
                 </tr>
                 <tr>
                     <td>Are you visiting any other Schengen countries during your stay?</td>
-                    <td>Check list of Schengen countries: Hong Kong, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: Vietnam, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Hong Kong, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Vietnam, and
                         Switzerland.</td>
                 </tr>
                 <tr>
                     <td>What is your first country of entry?</td>
-                    <td>Check list of Schengen countries: Hong Kong, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: Vietnam, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Hong Kong, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Vietnam, and
                         Switzerland.</td>
                 </tr>
                 <tr>
@@ -274,15 +173,15 @@
                     </td>
                 </tr>
             </table>
+            <?php endif; ?>
         </div>
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
-        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.</p> <br>
+        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Armenia or consulate in your country before
         applying.</p>
     </div>
-
     <?php include 'footer.php'; ?>
     <!-- <footer>
         <div class="container">
@@ -326,7 +225,7 @@
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div> 
+                </div> --
                 <div class="footer-col">
                     <h3>Support</h3>
                     <ul>
@@ -370,11 +269,11 @@
                     <a href="/html/turkey_customer.html">Turkey</a> •
                     <a href="/html/France_customer.html">France</a> •
                     <a href="#">Russia</a> •
-                    <a href="#">United Arab Emirates</a> •
+                    <a href="#">Uzbekistan</a> •
                     <a href="#">Indonesia</a> •
                     <a href="#">Vietnam</a> •
                     <a href="#">Azerbaijan</a> •
-                    <a href="#">United Kingdom</a> •
+                    <a href="#">United Arab Emirates/a> •
                     <a href="#">Spain</a> •
                     <a href="#">South Korea</a> •
                     <a href="#">Georgia</a> •
@@ -386,9 +285,9 @@
                     <a href="#">Sweden</a> •
                     <a href="#">Austria</a> •
                     <a href="#">Denmark</a> •
-                    <a href="#">Uzbekistan</a> •
+                    <a href="#">United Kingdom</a> •
                     <a href="#">Cambodia</a> •
-                    <a href="#">Morocco</a> •
+                    <a href="#">Malaysia</a> •
                     <a href="#">Netherlands</a> •
                     <a href="#">Philippines</a> •
                     <a href="#">Brazil</a> •
@@ -398,10 +297,10 @@
                     <a href="#">Belgium</a> •
                     <a href="#">Croatia</a> •
                     <a href="#">Lithuania</a> •
-                    <a href="#">Ireland</a> •
+                    <a href="#">Morocco</a> •
                     <a href="#">Luxembourg</a> •
                     <a href="#">Hong Kong</a> •
-                    <a href="#">Malaysia</a> •
+                    <a href="#">Ireland</a> •
                     <a href="#">Japan</a> •
                     <a href="#">Bahrain</a> •
                     <a href="#">Czech Republic</a> •
@@ -453,7 +352,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Hong Kong- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Armenia- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);
@@ -466,5 +365,4 @@
         });
     </script>
 </body>
-
 </html>

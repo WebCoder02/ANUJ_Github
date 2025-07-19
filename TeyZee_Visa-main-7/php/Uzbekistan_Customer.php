@@ -44,22 +44,22 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-                <tr><td>Application Form</td><td>Login to see the Visa Application form & the Document Checklist.
+                <tr><td>Application Form</td><td><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://e-visa.gov.uz/application">Download Application Form</a>
                         <a href="https://e-visa.gov.uz/main">Download Document Checklist</a>
                         <?php endif; ?></td></tr>
-                <tr><td>Eligible Countries</td><td>Check if your country is on the e‑Visa list—77 nationalities supported including India, USA, Vietnam, etc.</td></tr>
-                <tr><td>Passport</td><td>Scan of valid passport's data page (clear JPG/PDF, ≤500 KB). Must have ≥2 blank pages and ideally be valid ≥3 months beyond visa expiry.</td></tr>
-                <tr><td>Photo</td><td>Passport‑style photo (35×45 mm, 300 dpi, ≤1 MB, ICAO‑standard, JPG lowercase). Many users report needing lower‑case extensions and clean white backgrounds.</td></tr>
-                <tr><td>Portal Application</td><td>Go to <a href="https://e-visa.gov.uz" target="_blank">e‑visa.gov.uz</a>, select visa type, fill personal and travel info, and upload passport/photo.</td></tr>
-                <tr><td>Payment</td><td>Online payment via international Visa/MasterCard. Fees: USD 20 (single), 35 (double), 50 (multiple). Non‑refundable. Users report retrying payment after timeouts.</td></tr>
-                <tr><td>Processing Time</td><td>Typically issued within 2–3 working days. Some applicants report up to a week, especially around holidays.</td></tr>
-                <tr><td>Download e‑Visa</td><td>You’ll receive e‑Visa by email—print at least one hard copy; mobile screenshots are not accepted.</td></tr>
-                <tr><td>Entry Validity</td><td>e‑Visa valid for 90 days from issue. Single/multi entry as selected; max. 30 days stay per visit. </td></tr>
-                <tr><td>Border Entry</td><td>Accepted at all official ports. Present printed e‑Visa and passport. Keep copies with you.</td></tr>
-                <tr><td> Common Issues & Tips</td><td>– Ensure JPEG file extension is lowercase<br>– If the portal stalls at CAPTCHA or payment, wait 5+ hrs then retry<br>– Contact support via Telegram or email (mail@e-visa.gov.uz) with your application code<br>– Photo upload is the most frequent issue—certified guides helped users succeed</td></tr>
+                <tr><td>Passport</td><td>Indian passport valid for at least 6 months beyond date of entry with at least one blank page.</td></tr>
+                <tr><td>Application Form</td><td>Completed online e‑Visa application form submitted through official portal.</td></tr>
+                <tr><td>Photograph</td><td>Recent passport-size color photo (digital upload format).</td></tr>
+                <tr><td>Passport Copy</td><td>Scanned copy of the biodata page of the passport.</td></tr>
+                <tr><td>Flight Itinerary</td><td>Confirmed return or onward flight bookings showing entry and exit.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Hotel booking confirmation or host letter with address details.</td></tr>
+                <tr><td>Proof of Funds</td><td>Recent bank statement (last 3–6 months) showing sufficient balance.</td></tr>
+                <tr><td>Visa Fee</td><td>Paid online in the eVisa portal.</td></tr>
+                <tr><td>Processing Time</td><td>Usually processed within 3–5 working days.</td></tr>
+                <tr><td>Validity & Stay</td><td>Visa valid for 90 days from issue; maximum stay up to 30 days per visit.</td></tr>
 
             </table>
         </div>
@@ -80,110 +80,17 @@
                             <a href="https://e-visa.gov.uz/main">Download Document Checklist</a>
                             <?php endif; ?></td>
                     </tr>
-                <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
-                </tr>
-                <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
-                </tr>
-                <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
-                </tr>
-                <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
-                </tr>
-                <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
-                        <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
-                </tr>
-                <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
-                </tr>
-                <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
-                </tr>
-                <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a
-                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
-                </tr>
+                    <tr><td>Passport</td><td>Indian passport valid ≥6 months beyond entry date with at least one blank page.</td></tr>
+                    <tr><td>Application Form & Copy</td><td>Completed online e‑Visa form plus scanned biodata page copy.</td></tr>
+                    <tr><td>Photograph</td><td>Passport‑size color photo for upload.</td></tr>
+                    <tr><td>Invitation Letter</td><td>Invitation or business support letter from Uzbek organization or host company.</td></tr>
+                    <tr><td>Cover Letter</td><td>Personal letter outlining purpose, schedule, and financial responsibility.</td></tr>
+                    <tr><td>Flight Itinerary</td><td>Confirmed return or onward ticket bookings.</td></tr>
+                    <tr><td>Accommodation Proof</td><td>Hotel booking or host arrangement confirmation.</td></tr>
+                    <tr><td>Proof of Funds</td><td>Bank statements (last 3–6 months) or financial documents.</td></tr>
+                    <tr><td>Insurance</td><td>Travel/medical insurance covering the duration of stay.</td></tr>
+                    <tr><td>Visa Fee</td><td>Paid online (depending on entry type).</td></tr>
+                    <tr><td>Processing & Validity</td><td>Processed in ~3–5 working days; visa valid for 90 days, stay up to 30 days per visit.</td></tr>
             </table>
         </div>
 
@@ -260,7 +167,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://e-visa.gov.uz/application">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates. </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Uzbekistan or consulate in your country before
         applying.</p>
     </div>

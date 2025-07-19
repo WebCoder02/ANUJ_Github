@@ -45,14 +45,14 @@
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                        <td>1</td>
+                        <td>Visa Application</td>
                         <td><strong>Visa Application Form:</strong>
                             <ul>
                                 <li>Completed and signed Schengen visa application form</li>
                                 <li>For minors: signed by both parents/legal guardian + consent form + birth certificate (English translation)</li>
                                 
                             </ul><br>
-                            Login to see the Visa Application form & the Document Checklist.
+                            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="http://admin.mfa.gov.eg/arabic/embassies/Egyptian_Embassy_India/Pages/Default.aspx">Download Application Form</a>
@@ -61,92 +61,48 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td><strong>Travel Document:</strong>
-                            <ul>
-                                <li>Original passport (valid 3 months after Schengen exit)</li>
-                                <li>At least 2 blank pages, issued within past 10 years</li>
-                                <li>Copy of all passport pages</li>
-                                <li>Certificate from Mogamma (7-year travel history) if first-time traveler or passport lost</li>
-                            </ul>
-                        </td>
+                        <td>Passport</td>
+                        <td>Original passport valid for at least 6 months from the date of entry with at least two blank visa pages.</td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td><strong>Minors’ Consent:</strong>
-                            <ul>
-                                <li>If traveling without guardian: notarized consent form</li>
-                                <li>If traveling with one guardian: notarized consent from other parent/legal guardian</li>
-                            </ul>
-                        </td>
+                        <td>Passport Copies</td>
+                        <td>Two or more photocopies of passport information page and blank visa pages.</td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td><strong>Proof of Legal Residence:</strong> Valid residence permit or visa in Egypt (valid 3 months post-Schengen departure)</td>
+                        <td>Photograph</td>
+                        <td>One or two recent high-definition passport-size photos (2″×2″) on white background.</td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td><strong>Photograph:</strong>
-                            <ul>
-                                <li>Passport photo per Dutch standards (max 6 months old)</li>
-                            </ul>
-                        </td>
+                        <td>Flight Itinerary</td>
+                        <td>Confirmed round‑trip ticket or full travel itinerary.</td>
                     </tr>
                     <tr>
-                        <td>6</td>
-                        <td><strong>Travel Proof:</strong>
-                            <ul>
-                                <li>Round trip flight reservation</li>
-                                <li>Proof of accommodation with full address</li>
-                                <li>Travel itinerary (if visiting multiple countries)</li>
-                                <li>Purpose of stay documentation</li>
-                            </ul>
-                        </td>
+                        <td>Accommodation Proof</td>
+                        <td>Hotel reservation or invitation letter showing where you will stay.</td>
                     </tr>
                     <tr>
-                        <td>7</td>
-                        <td><strong>Financial Solvency:</strong>
-                            <ul>
-                                <li>Original stamped bank statements for past 6 months (translated)</li>
-                                <li>If no bank account: proof of other assets</li>
-                                <li><em>Employees:</em> Certificate of employment (start date, position, salary)</li>
-                                <li><em>Self-employed:</em> Commercial registry + tax card (original)</li>
-                                <li><em>Students:</em> Enrollment proof from school/university</li>
-                                <li><em>Employees:</em> Leave approval confirmation</li>
-                            </ul>
-                        </td>
+                        <td>Cover Letter</td>
+                        <td>Personal letter explaining the purpose of travel, itinerary and stay details.</td>
                     </tr>
                     <tr>
-                        <td>8</td>
-                        <td><strong>Health Insurance:</strong>
-                            <ul>
-                                <li>Insurance in applicant’s name, valid across Schengen</li>
-                                <li>Minimum €30,000 coverage (including emergency, hospital, repatriation)</li>
-                                <li><em>Note:</em> Credit card-based insurances are not accepted</li>
-                            </ul>
-                        </td>
+                        <td>Proof of Funds</td>
+                        <td>Bank statements for the last 6 months, stamped and signed as proof of financial capability.</td>
                     </tr>
                     <tr>
-                        <td>9</td>
-                        <td><strong>Visa to Final Destination:</strong> If applicable, visa/residence permit for country to be visited after Schengen</td>
+                        <td>Travel Agency Guarantee</td>
+                        <td>For Indian citizens applying for e‑visa, signed letter from authorized Egyptian travel agency may be required.</td>
                     </tr>
                     <tr>
-                        <td>10</td>
-                        <td><strong>Payment:</strong> Visa fee to be paid (non-refundable, even in case of rejection)</td>
+                        <td>Visa Fee</td>
+                        <td>Payment of visa fee  in cash or by required payment method.</td>
                     </tr>
                     <tr>
-                        <td>11</td>
-                        <td>
-                            <strong>Additional Notes:</strong>
-                             <ul>
-                                <li>Applications must be submitted in person (including for children and babies)</li>
-                                <li>Original + one copy of each document required</li>
-                                <li>Documents must be in or translated into Dutch, English, French, or Spanish</li>
-                                <li>Only the passport will be returned, all other documents will be retained</li>
-                                <li>Incomplete documentation may result in visa refusal</li>
-                            </ul>
-                        </td>
-
+                        <td>Processing Time</td>
+                        <td>Approximately 7–12 working days if applied through embassy or consulate.</td>
+                    </tr>
+                    <tr>
+                        <td>Note</td>
+                        <td>Additional documents may be requested depending on individual circumstances; biometric data collection may be required.</td>
                     </tr>
             </table>
         </div>
@@ -168,107 +124,56 @@
                         <?php endif; ?></td>
                 </tr>
                 <tr>
-                    <td>Original Passport</td>
-                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
-                        years</td>
+                    <td>Passport</td>
+                    <td>Original passport valid for at least 6 months with at least two blank visa pages.</td>
                 </tr>
                 <tr>
-                    <td>Copy of Passport Pages</td>
-                    <td>
-                        <ul>
-                            <li>Clear photocopy of passport first and last page</li>
-                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
-                        </ul>
-                    </td>
+                    <td>Passport Copies</td>
+                    <td>Two or more copies of passport main page and blank page(s).</td>
                 </tr>
                 <tr>
-                    <td>Passport size photo</td>
-                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
-                        visible, ears should be visible</td>
+                    <td>Visa Application Form</td>
+                    <td>Completed, printed and signed application form with a passport photo attached and a copy of the form.</td>
                 </tr>
                 <tr>
-                    <td>Visa application form</td>
-                    <td>Put your signature and carry it on the day of appointment</td>
+                    <td>Photographs</td>
+                    <td>Two recent passport-size photos (2″×2″) on white background.</td>
                 </tr>
                 <tr>
-                    <td>Appointment letter</td>
-                    <td>This needs be carried on the day of appointment</td>
+                    <td>Invitation Letter</td>
+                    <td>Official invitation from Egyptian host company stating purpose, dates and financial guarantee (if applicable).</td>
                 </tr>
                 <tr>
-                    <td>Flight ticket</td>
-                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
-                        states (flight, train itinerary or car rental)</td>
+                    <td>Cover Letter</td>
+                    <td>Letter from your company introducing the applicant and reason for business visit.</td>
                 </tr>
                 <tr>
-                    <td>Hotel booking</td>
-                    <td>Hotel bookings for complete stay in Schengen</td>
+                    <td>Proof of Funds</td>
+                    <td>Recent bank statements and/or company financial documents showing sufficient resources.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If employed)</td>
-                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16
-                         <!-- <a
-                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
-                            Template</a> -->
-                        </td>
+                    <td>Flight Itinerary</td>
+                    <td>Confirmed round‑trip flight tickets for entry and exit from Egypt.</td>
                 </tr>
                 <tr>
-                    <td>Proof of occupation (If self employed)</td>
-                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
+                    <td>Accommodation Proof</td>
+                    <td>Hotel booking confirmation or accommodation arrangement during business stay.</td>
                 </tr>
                 <tr>
-                    <td>Bank statement</td>
-                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
-                        day</td>
+                    <td>Business Documents</td>
+                    <td>Evidence of business ownership or employment, such as company registration or charter documents.</td>
                 </tr>
                 <tr>
-                    <td>IT return</td>
-                    <td>
-                        <ul>
-                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
-                                available</li>
-                        </ul>
-                    </td>
+                    <td>Visa Fee</td>
+                    <td>Payment of business visa fee.</td>
                 </tr>
                 <tr>
-                    <td>Travel insurance</td>
-                    <td>Minimum coverage of 30,000 Euros</td>
+                    <td>Processing Time</td>
+                    <td>Usually around 5–7 working days for business visas submitted through embassy or consulate.</td>
                 </tr>
                 <tr>
-                    <td>Invitation letter</td>
-                    <td>
-                        <ul>
-                            <li>If applicable. With contact details of the host and address</li>
-                            <li>Invitation letter from the French company</li>
-                        </ul>
-                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Company Cover letter</td>
-                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
-                        relationship between the Indian and French company 
-                        <!-- <a href="/templates/company_cover_letter.doc"
-                            class="doc-link" target="_blank">Download Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Applicant Cover letter</td>
-                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
-                        <!-- <a href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                </tr>
-                <tr>
-                    <td>Company Sponsorship Letter (from Indian employer)</td>
-                    <td>If the trip is sponsored by the Indian company please mention the details too 
-                        <!-- <a
-                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
-                            Template</a> -->
-                        </td>
-                    
+                    <td>Note</td>
+                    <td>Embassy may request additional papers or an interview; business visa may allow stay up to 30 days per visit.</td>
                 </tr>
             </table>
         </div>
@@ -346,7 +251,7 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.  Official link for checklist is as follows <a href="https://www.traveldocument.com/forms/hongkong.pdf">Click Here</a> </p> <br>
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
         <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
         applying.</p>
     </div>
