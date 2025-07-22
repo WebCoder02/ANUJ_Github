@@ -57,6 +57,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/schengen_form_en_new_2024.pdf">Download Application Form</a>
                         <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/checklist_for_schengen_visa_tourism_cg_new.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=portugal&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=portugal" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                   </tr>
@@ -207,6 +217,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/checklist_for_schengen_visa_tourism_cg_new.pdf">Download Application Form</a>
                             <a href="https://www.vfsglobal.com/one-pager/portugal/india/english/pdf/schengen_form_en_new_2024.pdf">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=portugal&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=portugal" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

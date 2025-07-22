@@ -1,26 +1,21 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeyZee Visas - Iceland Visa Services</title>
+    <title>TeyZee Visas - France Visa Services</title>
     <link rel="stylesheet" href="../Country_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Tag Manager -->
 
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-
-        })(window, document, 'script', 'dataLayer', 'GTM-TZGFW4FB');</script>
+    
 
     <!-- End Google Tag Manager -->
 </head>
@@ -28,10 +23,9 @@
 <body>
     <!-- Google Tag Manager (noscript) -->
 
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGFW4FB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    
     <!-- End Google Tag Manager (noscript) -->
-    <!--<header>
+    <!-- <header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
@@ -42,10 +36,10 @@
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
                 <a href="tel:919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                 <a href="#" class="login-btn">Login</a> 
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
-    </header>-->
+    </header> -->
     <nav class="sticky-nav">
         <div class="container nav-container">
             <ul class="nav-links">
@@ -64,7 +58,7 @@
                     <p>Start now and get your appointment booked in 2 days</p>
                 </div>
                 <div class="hero-text">
-                    <h1>Get your Iceland visa</h1>
+                    <h1>Get your France visa</h1>
                     <div class="recent-applications">
                         <!-- <span class="avatars">
                             <img src="https://via.placeholder.com/30" alt="User">
@@ -90,7 +84,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../VisaImages/destinations/iceland.jpg" alt="Iceland">
+                <img src="../VisaImages/destinations/france.jpg" alt="Paris cityscape">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
@@ -103,20 +97,23 @@
         <div class="container eligibility-container">
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for Rs 500 only</h2>
-                <p>Upload your basic documents now.</p>
-                <a href="_Customer.php"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
+                <a href="/payments/payment.php?country=france&amount=499"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>
     <section class="document-checklist">
         <div class="container">
-             <div class="label-container">
+            <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="Iceland_Customer.html" target="_blank">Download the Documentation</a>
+                <a href="/php/France_Customer.php" class="check-btn">Download Documents</a>
+                <h3>Get Access to Original Visa Form and Checklist</h3>
+                <!-- <a href="France_Customer.php" target="_blank">Download Documents</a>
+                <h3>Get Access to Original Visa Form and Checklist</h3> -->
             </div>
             <!-- <div class="label-container">
                 <h2 class="document-checklist">Document Checklist</h2>
-                <a href="Iceland_Customer.html" target="_blank">Download the Documentation</a>
+                <a href="France_Customer.html" target="_blank">Download the Documentation</a>
             </div> -->
 
             <!-- Cascading dropdown -->
@@ -340,7 +337,7 @@
 
     <section class="visa-types">
         <div class="container">
-            <h2>Types of Iceland Visa</h2>
+            <h2>Types of France Visa</h2>
             <section class="next-appointment">
                 <div class="container appointment-container">
                     <div class="appointment-info">
@@ -388,7 +385,7 @@
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
+                        <small>+₹3500 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                         <!-- <a href="#">View details</a> -->
                     </div>
@@ -432,7 +429,7 @@
                 <div class="visa-action">
                     <div class="price">
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
+                        <small>+₹3500 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                     </div>
                     <button class="start-btn">Apply Now</button>
@@ -543,12 +540,12 @@
     </section>
     <section class="info-cards" id="info-section">
         <div class="container">
-            <h2>Know more about Iceland Visa</h2>
-            <p class="subtitle">Curated resources for Iceland visa</p>
+            <h2>Know more about France Visa</h2>
+            <p class="subtitle">Curated resources for France visa</p>
             <div class="info-grid">
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Iceland Visa Rejection Rates & Prevention Tips</h3>
+                        <h3>France Visa Rejection Rates & Prevention Tips</h3>
                         <p>Around 1% rejection rate with TeyZee Visas, 10-20% with other agents. <span
                                 class="hidden-content">Learn how proper documentation, financial stability proof, and
                                 clear travel plans can improve your chances.</span></p>
@@ -557,14 +554,14 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>How do I prevent my Iceland visa application from being denied?</h3>
+                        <h3>How do I prevent my France visa application from being denied?</h3>
                         <p>Check eligibility with TeyZee Visas before you apply. </p>
                         <!-- <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>When to Apply for a Iceland Visa: Optimal Timing</h3>
+                        <h3>When to Apply for a France Visa: Optimal Timing</h3>
                         <p>Apply up to 90 days before your planned travel date. <span class="hidden-content">We highly
                                 recommend applying at the earliest opportunity to avoid delays and complications.</span>
                         </p>
@@ -573,8 +570,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Iceland Transit Visa Requirements for Indian Citizens</h3>
-                        <p>Indian citizens need a transit visa for all layovers in Iceland. <span
+                        <h3>France Transit Visa Requirements for Indian Citizens</h3>
+                        <p>Indian citizens need a transit visa for all layovers in France. <span
                                 class="hidden-content">This visa only allows airport stays - for city visits, apply for
                                 a regular Schengen visa.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
@@ -582,7 +579,7 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Reapplying After Iceland Visa Rejection: Next Steps</h3>
+                        <h3>Reapplying After France Visa Rejection: Next Steps</h3>
                         <p>Address the specific rejection reasons and reapply with TeyZee Visas' expert guidance. <span
                                 class="hidden-content">Most rejections are due to financial documentation or
                                 insufficient ties to India.</span></p>
@@ -591,8 +588,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Single vs. Multiple-Entry Schengen Visas for Iceland</h3>
-                        <p>Both single and multiple-entry visas available for Iceland travel. <span
+                        <h3>Single vs. Multiple-Entry Schengen Visas for France</h3>
+                        <p>Both single and multiple-entry visas available for France travel. <span
                                 class="hidden-content">First-time visitors should apply for single-entry, while
                                 multiple-entry allows unlimited visits within the validity period.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
@@ -601,8 +598,8 @@
             </div>
         </div>
     </section>
-
-     <footer>
+    <?php include 'footer.php';?>
+      <!--<footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
@@ -644,7 +641,7 @@
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div> -->
+                </div>
                 <div class="footer-col">
                     <h3>Support</h3>
                     <ul>
@@ -679,14 +676,14 @@
             <div class="footer-countries">
                 <h3>Read more about visas</h3>
                 <div class="country-links">
-                    <a href="/html/france_customer.html">France</a> •
+                     <a href="/html/france_customer.html">France</a> •
                     <a href="/html/italy_customer.html">Italy</a> •
                     <a href="/html/germany_customer.html">Germany</a> •
                     <a href="/html/switzerland.html">Switzerland</a> •
                     <a href="/html/greece_customer.html">Greece</a> •
                     <a href="/html/singapore_customer.html">Singapore</a> •
                     <a href="/html/turkey_customer.html">Turkey</a> •
-                    <a href="/html/France_customer.html">France</a> •
+                    <a href="/html/china_customer.html">China</a> •
                     <a href="#">Russia</a> •
                     <a href="#">United Arab Emirates</a> •
                     <a href="#">Indonesia</a> •
@@ -734,7 +731,7 @@
                 <p>© 2025 TeyZee Visas. All Rights Reserved.</p>
             </div>
         </div>
-    </footer>
+    </footer>-->
     <div id="custom-tooltip" style="
     position: absolute;
     background: #333;
@@ -761,6 +758,7 @@
         });
 
     </script>
+    <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq4e31759c72faf117d54e41692276fce110fbe6e6e6d715a6aaac7a0c47204f0c" defer></script>
 
 </body>
 

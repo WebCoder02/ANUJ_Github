@@ -55,6 +55,16 @@
                               <!-- Special links for logged-in users -->
                               <a href="https://www.mofa.gov.ae/en/Missions/New-Delhi/Services/Visas">Download Application Form</a>
                               <a href="https://u.ae/en/information-and-services/visa-and-emirates-id/tourist-visa">Download Document Checklist</a>
+                              <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=uae&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=uae" class="doc-link">Login</a>
+                            </p>
                               <?php endif; ?>
 
                   </td>
@@ -88,6 +98,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://www.mofa.gov.ae/en/Missions/New-Delhi/Services/Visas">Download Application Form</a>
                             <a href="https://u.ae/en/information-and-services/visa-and-emirates-id/tourist-visa">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=uae&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=uae" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                 </tr>
                 <tr><td>Valid Passport</td><td>Valid ≥6 months from entry, issued within 10 years, with ≥2 blank pages.</td></tr>

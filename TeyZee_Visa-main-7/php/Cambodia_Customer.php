@@ -53,6 +53,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.embassyofcambodiadc.org/uploads/9/8/1/8/98182996/cambodiatouristvisaform.pdf">Download Application Form</a>
                         <a href="https://www.evisa.gov.kh/information/visa_type/4">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=cambodia&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=cambodia" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -105,6 +115,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://www.embassyofcambodiadc.org/uploads/9/8/1/8/98182996/cambodiatouristvisaform.pdf">Download Application Form</a>
                             <a href="https://www.evisa.gov.kh/information/visa_type/4">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=cambodia&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=cambodia" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

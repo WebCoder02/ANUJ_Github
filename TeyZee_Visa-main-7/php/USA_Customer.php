@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Georgia Visa Checklist</title>
+    <title>United States Visa Checklist</title>
     <link rel="stylesheet" href="document.css">
     <link rel="stylesheet" href="Country_page.css">
     <link rel="stylesheet" href="styles.css">
@@ -28,103 +28,115 @@
             </div>
         </div>
     </header>-->
-    <h1>Georgia Visa Checklist</h1>
+    <h1>United States Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
             <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'student')">Student Visa</button>
             <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>Georgia Tourist Visa Checklist</h2>
+            <h2>United States Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                        <td>Application Form</td>
-                        <td>Completed and signed visa application form by the applicant.<br>
-                            <strong>Note:</strong> For minors, must be signed by a legal guardian.<br>
-                            If applicable, include authorization for a third person.<br>
-                            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
-                            <?php if (isset($_SESSION['user_id'])): ?>
-                            <!-- Special links for logged-in users -->
-                            <a href="https://www.evisa.gov.ge/GeoVisa/en/VisaApp">Download Application Form</a>
-                            <a href="https://www.netherlandsworldwide.nl/binaries/content/assets/pdfs-engels/checklist-visa-application/georgia/tourism.pdf">Download Document Checklist</a>
-                            <?php else: ?>
-                            <p>
-                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
-                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="/php/payment.php?country=georgia&amount=499" class="doc-link">Check Eligibility</a><br>
-                                Pay ₹499 to check your visa eligibility and get free registration.<br>
-                                After registration, you will receive your User ID and password on your registered Email ID.<br>
-                                If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="/php/login.php?country=georgia" class="doc-link">Login</a>
-                            </p>
-                            <?php endif; ?>
+                    <td>Application Form</td>
+                    <td>
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                                <?php if (isset($_SESSION['user_id'])): ?>
+                                <!-- Special links for logged-in users -->
+                                <a href="https://www.mofa.gov.ae/en/Missions/Mumbai/Services/Visas">Download Application Form</a>
+                                <a href="https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk">Download Document Checklist</a>
+                                <?php else: ?>
+                                    <p>
+                                        If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                        To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                        <a href="/php/payment.php?country=usa&amount=499" class="doc-link">Check Eligibility</a><br>
+                                        Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                        After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                        If you have already registered on TeyzeeVisas, please login:<br>
+                                        <a href="/php/login.php?country=usa" class="doc-link">Login</a>
+                                    </p>
+                                <?php endif; ?>
 
-                        </td>
-                    </tr>
-                    <tr><td>Passport</td><td>Valid travel document with at least 3 months validity beyond intended stay.</td></tr>
-                    <tr><td>Visa Application Form</td><td>Fully completed and signed online application form.</td></tr>
-                    <tr><td>Photograph</td><td>Recent passport-size photo in digital format.</td></tr>
-                    <tr><td>Purpose of Travel</td><td>Document or declaration indicating purpose (e.g., tourism, visiting friends).</td></tr>
-                    <tr><td>Accommodation Proof</td><td>Hotel booking or invitation letter indicating where you will stay.</td></tr>
-                    <tr><td>Travel Itinerary</td><td>Round-trip flight ticket or travel schedule.</td></tr>
-                    <tr><td>Travel & Health Insurance</td><td>Valid insurance covering medical emergencies during stay.</td></tr>
-                    <tr><td>Proof of Funds</td><td>Bank statement or other proof showing financial capability.</td></tr>
-                    <tr><td>Visa Fee</td><td>Online payment by credit/debit card.</td></tr>
-                    <tr><td>Processing Time</td><td>Usually completed within 5–10 working days.</td></tr>
+                    </td>
+                </tr>
+                <tr><td>Passport</td><td>Valid for at least 6 months beyond intended stay, with at least one blank page.</td></tr>
+                <tr><td>Form DS‑160 Confirmation</td><td>Printed DS‑160 barcode page after online submission.</td></tr>
+                <tr><td>Visa Fee Payment Receipt</td><td>Receipt for the non‑immigrant visa application fee (usually US$185).</td></tr>
+                <tr><td>Photo</td><td>Passport‑style photo meeting official specifications.</td></tr>
+                <tr><td>Appointment Letter</td><td>Printed visa interview appointment confirmation.</td></tr>
+                <tr><td>Previous Passports</td><td>Any expired passports showing travel history (if applicable).</td></tr>
+                <tr><td>Supporting Documents</td><td>Evidence of trip purpose, intent to depart, ability to cover expenses.</td></tr>
+                <tr><td>Ties to Home Country</td><td>Proof such as employment, family, property or business establishing intent to return.</td></tr>
             </table>
         </div>
 
         <div id="business" class="tabcontent">
-            <h2>Georgia Business Visa Checklist</h2>
-            <table>
+            <h2>United States Business Visa Checklist</h2>
+            <table>        
                 <tr>
                     <th width="30%">Document</th>
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                    <td>Official Document Links </td>
-                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
-                        <?php if (isset($_SESSION['user_id'])): ?>
-                        <!-- Special links for logged-in users -->
-                        <a href="https://www.evisa.gov.ge/GeoVisa/en/VisaApp">Download Application Form</a>
-                        <a href="https://www.netherlandsworldwide.nl/binaries/content/assets/pdfs-engels/checklist-visa-application/georgia/tourism.pdf">Download Document Checklist</a>
-                        <?php else: ?>
+                        <td>Official Document Links </td>
+                        <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
+                            <?php if (isset($_SESSION['user_id'])): ?>
+                            <!-- Special links for logged-in users -->
+                            <a href="https://www.mofa.gov.ae/en/Missions/Mumbai/Services/Visas">Download Application Form</a>
+                            <a href="https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk">Download Document Checklist</a>
+                            <?php else: ?>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="/php/payment.php?country=georgia&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="/php/payment.php?country=usa&amount=499" class="doc-link">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="/php/login.php?country=georgia" class="doc-link">Login</a>
+                                <a href="/php/login.php?country=usa" class="doc-link">Login</a>
                             </p>
-                        <?php endif; ?></td>
+                            <?php endif; ?></td>
                 </tr>
-                <tr><td>Passport</td><td>Valid travel document with at least 3 months validity beyond intended stay.</td></tr>
-                <tr><td>Visa Application Form</td><td>Fully completed and signed online/business form.</td></tr>
-                <tr><td>Photograph</td><td>Recent passport-size digital photo.</td></tr>
-                <tr><td>Purpose of Visit</td><td>Documented purpose (e.g., business meeting, conference, investment).</td></tr>
-                <tr><td>Invitation Letter</td><td>Official invitation from Georgian company or organizer.</td></tr>
-                <tr><td>Company Documents</td><td>Registration or license copy of inviting Georgian company.</td></tr>
-                <tr><td>Cover Letter</td><td>Letter from your employer introducing purpose of travel.</td></tr>
-                <tr><td>Travel Itinerary</td><td>Confirmed entry and exit flight tickets.</td></tr>
-                <tr><td>Accommodation Proof</td><td>Hotel reservation or business stay confirmation.</td></tr>
-                <tr><td>Travel & Health Insurance</td><td>Insurance recommended/required during stay.</td></tr>
-                <tr><td>Proof of Funds</td><td>Bank statements or salary slips showing financial capability.</td></tr>
-                <tr><td>Visa Fee</td><td>Online payment by credit/debit card.</td></tr>
-                <tr><td>Processing Time</td><td>Usually processed within 5–10 working days.</td></tr>
+                 <tr><td>Passport</td><td>Valid for at least 6 months beyond intended stay, with at least one blank page.</td></tr>
+                <tr><td>Form Confirmation</td><td>Printed barcode page after online submission.</td></tr>
+                <tr><td>Visa Fee Payment Receipt</td><td>Receipt for the non‑immigrant visa application fee (usually US$185).</td></tr>
+                <tr><td>Photo</td><td>Passport‑style photo meeting official specifications.</td></tr>
+                <tr><td>Appointment Letter</td><td>Printed visa interview appointment confirmation.</td></tr>
+                <tr><td>Previous Passports</td><td>Any expired passports showing travel history (if applicable).</td></tr>
+                <tr><td>Supporting Documents</td><td>Evidence of trip purpose, intent to depart, ability to cover expenses.</td></tr>
+                <tr><td>Ties to Home Country</td><td>Proof such as employment, family, property or business establishing intent to return.</td></tr>
+            </table>
+        </div>
+        <div id="student" class="tabcontent">
+            <h2>United States Student Visa Checklist</h2>
+            <table>
+                <tr>
+                    <th width="30%">Document</th>
+                    <th width="70%">Description</th>
+                </tr>
+                <tr><td>Valid Passport</td><td>Passport valid for at least 6 months beyond intended US stay with blank pages.</td></tr>
+                <tr><td>Form I‑20</td><td>Certificate of Eligibility issued by SEVP-approved U.S. institution, signed by student and school.</td></tr>
+                <tr><td>DS‑160 Confirmation</td><td>Printed barcode page of online non-immigrant visa application.</td></tr>
+                <tr><td>SEVIS Fee Receipt</td><td>Receipt for SEVIS I‑901 fee payment  before visa interview.</td></tr>
+                <tr><td>Visa Application Fee Receipt</td><td>Payment proof for the visa (usually US$185/INR equivalent).</td></tr>
+                <tr><td>Passport Photographs</td><td>Passport-style photos meeting U.S. consular specifications.</td></tr>
+                <tr><td>Academic Documents</td><td>Original transcripts, mark sheets, degrees, test scores (TOEFL/IELTS, GRE, etc.).</td></tr>
+                <tr><td>Evidence of Financial Ability</td><td>Bank statements, sponsor affidavit, CA statement showing funds for tuition and living costs.</td></tr>
+                <tr><td>Statement of Purpose / Resume</td><td>Purpose of study letter and academic/professional background.</td></tr>
+                <tr><td>Appointment Letter(s)</td><td>Printed confirmation of VAC (biometrics) and consular interview appointments.</td></tr>
+                <tr><td>Ties to Home Country</td><td>Evidence such as family, property, employment intention to demonstrate return intent.</td></tr>
             </table>
         </div>
 
-        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>            
-         <?php if (isset($_SESSION['user_id'])): ?>
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             
+        <?php if (isset($_SESSION['user_id'])): ?>
             <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
@@ -134,16 +146,16 @@
                 </tr>
                 <tr>
                     <td>Are you visiting any other Schengen countries during your stay?</td>
-                    <td>Check list of Schengen countries: Hong Kong, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: United Kingdom, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Hong Kong, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, United Kingdom, and
                         Switzerland.</td>
                 </tr>
                 <tr>
                     <td>What is your first country of entry?</td>
-                    <td>Check list of Schengen countries: Hong Kong, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: United Kingdom, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Hong Kong, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, United Kingdom, and
                         Switzerland.</td>
                 </tr>
                 <tr>
@@ -197,12 +209,10 @@
     </div>
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
-        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
+        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates. </p> <br>
+        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of United States or consulate in your country before
         applying.</p>
     </div>
-
-    <?php include 'footer.php'; ?>
     <!-- <footer>
         <div class="container">
             <div class="footer-grid">
@@ -245,7 +255,7 @@
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div> 
+                </div> --
                 <div class="footer-col">
                     <h3>Support</h3>
                     <ul>
@@ -289,11 +299,11 @@
                     <a href="/html/turkey_customer.html">Turkey</a> •
                     <a href="/html/France_customer.html">France</a> •
                     <a href="#">Russia</a> •
-                    <a href="#">United Arab Emirates</a> •
+                    <a href="#">United Kingdom</a> •
                     <a href="#">Indonesia</a> •
                     <a href="#">Vietnam</a> •
                     <a href="#">Azerbaijan</a> •
-                    <a href="#">United Kingdom</a> •
+                    <a href="#">United Arab Emirates/a> •
                     <a href="#">Spain</a> •
                     <a href="#">South Korea</a> •
                     <a href="#">Georgia</a> •
@@ -307,7 +317,7 @@
                     <a href="#">Denmark</a> •
                     <a href="#">Uzbekistan</a> •
                     <a href="#">Cambodia</a> •
-                    <a href="#">Morocco</a> •
+                    <a href="#">Malaysia</a> •
                     <a href="#">Netherlands</a> •
                     <a href="#">Philippines</a> •
                     <a href="#">Brazil</a> •
@@ -317,10 +327,10 @@
                     <a href="#">Belgium</a> •
                     <a href="#">Croatia</a> •
                     <a href="#">Lithuania</a> •
-                    <a href="#">Ireland</a> •
+                    <a href="#">Morocco</a> •
                     <a href="#">Luxembourg</a> •
                     <a href="#">Hong Kong</a> •
-                    <a href="#">Malaysia</a> •
+                    <a href="#">Ireland</a> •
                     <a href="#">Japan</a> •
                     <a href="#">Bahrain</a> •
                     <a href="#">Czech Republic</a> •
@@ -372,7 +382,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Hong Kong- https://teyzee.com/georgia-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for United States- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);

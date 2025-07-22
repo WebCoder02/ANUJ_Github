@@ -1,4 +1,5 @@
-<?php include 'header.php'; ?>  <!DOCTYPE html>
+<?php include 'header.php'; ?> 
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -90,21 +91,21 @@
     <section class="visa-eligibility" id="document-checklist">
         <div class="container eligibility-container">
             <div class="eligibility-content">
-                <h2>Visa Assistance for Rs 499/- only</h2>
-                <p>Upload your basic documents after payment.</p>
-                <a href="/payments/payment.php?country=japan&amount=499"><button class="check-btn">Visa Service Fee - Pay Rs 499</button></a>
+                <h2>Check Your Visa Eligibilty for Rs 499 only</h2>
+                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day..</p>
+                <a href="/payments/payment.php?country=japan&amount=499"><button class="check-btn">Check Eligibility - Pay Rs 499</button></a>
             </div>
         </div>
     </section>
-   <!-- <section class="document-checklist">
+    <section class="document-checklist">
         <div class="container">
              <div class="label-container">
-                <h2>Visa Assistance for Rs 499/- only</h2>
-                <a href="/payments/payment.php?country=japan&amp;amount=499" class="check-btn">Download Documents</a>
+                <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
+                <a href="../php/Japan_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
 
-            <!-- Cascading dropdown 
+            <!-- Cascading dropdown -->
             <div class="dropdown-container">
                 <div class="dropdown-group">
                     <label class="dropdown-label" for="primary-category">Select Visa Category:</label>
@@ -116,7 +117,7 @@
                     </select>
                 </div>
 
-                <!-- Sub-category dropdown (initially hidden) 
+                <!-- Sub-category dropdown (initially hidden) -->
                 <div class="dropdown-group" id="subcategory-container" style="display: none;">
                     <label class="dropdown-label" for="sub-category">Select Service/Business/Others:</label>
                     <select id="sub-category">
@@ -126,7 +127,7 @@
             </div>
 
             <div class="document-checklist">
-                <!-- Tourist Category Selectors 
+                <!-- Tourist Category Selectors -->
                 <div class="checklist-selector" data-category="Tourist" data-subcategory="Employed">
                     <p>Showing documents for <span>Tourist - Employed <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -138,7 +139,7 @@
                     <p>Showing documents for <span>Tourist - Sponsored <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Business Category Selectors 
+                <!-- Business Category Selectors -->
                 <div class="checklist-selector" data-category="Business" data-subcategory="Meeting">
                     <p>Showing documents for <span>Business - Meeting <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -146,7 +147,7 @@
                     <p>Showing documents for <span>Business - Conference <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Other Category Selectors 
+                <!-- Other Category Selectors -->
                 <div class="checklist-selector" data-category="Other" data-subcategory="Student">
                     <p>Showing documents for <span>Student <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -157,8 +158,8 @@
                     <p>Showing documents for <span>Seaman <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Document sections 
-                <!-- Tourist - Employed 
+                <!-- Document sections -->
+                <!-- Tourist - Employed -->
                 <div id="checklist-section1" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Employed</h4>
@@ -183,7 +184,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Self-Employed 
+                <!-- Tourist - Self-Employed -->
                 <div id="checklist-section2" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Self-Employed</h4>
@@ -209,7 +210,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Spounser 
+                <!-- Tourist - Spounser -->
                 <div id="checklist-section3" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Sponsored</h4>
@@ -237,8 +238,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Add more checklist sections for other categories and subcategories 
-                <!-- Business - Meeting 
+                <!-- Add more checklist sections for other categories and subcategories -->
+                <!-- Business - Meeting -->
                 <div id="checklist-section4" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Business - Meeting</h4>
@@ -294,7 +295,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Student 
+                <!-- Student -->
                 <div id="checklist-section6" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Student</h4>
@@ -318,10 +319,10 @@
                     </div>
                 </div>
 
-                <!-- Additional sections would go here for the remaining categories 
+                <!-- Additional sections would go here for the remaining categories -->
             </div>
         </div>
-    </section>-->
+    </section>
 
     <section class="next-appointment">
                 <div class="container appointment-container">

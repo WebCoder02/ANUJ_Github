@@ -52,6 +52,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://guichet.public.lu/dam-assets/catalogue-formulaires/immigration/document/visa-schengen/demande-visa-schengen/visa-en.pdf">Download Application Form</a>
                         <a href="https://www.vfsglobal.com/luxembourg/india/pdf/tourist_290715.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=luxembourg&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=luxembourg" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
 
                     </td>
@@ -144,6 +154,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://newdelhi.mae.lu/en/service_citoyens/visa-immigration/short-term-schengen-visa.html">Download Application Form</a>
                             <a href="https://www.vfsglobal.com/luxembourg/india/pdf/tourist_290715.pdf">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=luxembourg&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=luxembourg" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

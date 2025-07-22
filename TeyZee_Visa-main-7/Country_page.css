@@ -869,7 +869,7 @@ header {
 }
 
 .timeline-line {
-    position: absolute;
+    position: relative;
     left: 15px;
     top: 25px;
     bottom: 25px;
@@ -888,7 +888,7 @@ header {
 }
 
 .step-icon {
-    position: absolute;
+    position: relative;
     left: -40px;
     width: 30px;
     height: 30px;
@@ -958,10 +958,12 @@ header {
 }
 
 .badge {
+    display: inline-block;
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .badge.secure {

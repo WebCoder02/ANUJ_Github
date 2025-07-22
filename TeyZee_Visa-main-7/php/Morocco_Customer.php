@@ -53,6 +53,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.consulat.ma/sites/default/files/inline-files/English-francais-formulaireVisa_1.pdf">Download Application Form</a>
                         <a href="https://www.acces-maroc.ma/assets/docs/Guide%20eVisa.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=morocco&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=morocco" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -81,6 +91,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://www.consulat.ma/sites/default/files/inline-files/English-francais-formulaireVisa_1.pdf">Download Application Form</a>
                             <a href="https://www.acces-maroc.ma/assets/docs/Guide%20eVisa.pdf">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=morocco&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=morocco" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                     </tr>
                     <tr><td>Passport</td><td>Valid for at least 90 days from arrival date.</td></tr>

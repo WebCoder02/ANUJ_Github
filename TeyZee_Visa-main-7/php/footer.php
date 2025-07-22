@@ -116,17 +116,17 @@
 <a href="./portugal.php">Portugal</a> •
 <a href="./romania.php">Romania</a> •
 <a href="./russia.php">Russia</a> •
-<a href="./saudi_Arabia.php">Saudi Arabia</a> •
+<a href="./saudi_arabia.php">Saudi Arabia</a> •
 <a href="./singapore.php">Singapore</a> •
 <a href="./slovakia.php">Slovakia</a> •
 <a href="./slovenia.php">Slovenia</a> •
-<a href="./south_Korea.php">South Korea</a> •
+<a href="./south_korea.php">South Korea</a> •
 <a href="./spain.php">Spain</a> •
 <a href="./sweden.php">Sweden</a> •
 <a href="./switzerland.php">Switzerland</a> •
 <a href="./turkey.php">Turkey</a> •
-<a href="./UAE.php">United Arab Emirates</a> •
-<a href="./UK.php">United Kingdom</a> •
+<a href="./usa.php">United Arab Emirates</a> •
+<a href="./uk.php">United Kingdom</a> •
 <a href="./uzbekistan.php">Uzbekistan</a> •
 <a href="./vietnam.php">Vietnam</a> •
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeyZee Visas - South Korea Visa Services</title>
+    <title>TeyZee Visas - Saudi Arabia Visa Services</title>
     <link rel="stylesheet" href="../Country_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Tag Manager -->
@@ -52,7 +52,7 @@
                     <p>Start now and get your appointment booked in 2 days</p>
                 </div>
                 <div class="hero-text">
-                    <h1>Get your South Korea visa</h1>
+                    <h1>Get your Saudi Arabia visa</h1>
                     <div class="recent-applications">
                         <!-- <span class="avatars">
                             <img src="https://via.placeholder.com/30" alt="User">
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../VisaImages/destinations/south_Korea.jpg" alt="South Korea">
+                <img src="../VisaImages/destinations/saudi_Arabia.jpg" alt="Saudi Arabia">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
@@ -90,25 +90,25 @@
     <section class="visa-eligibility" id="document-checklist">
         <div class="container eligibility-container">
             <div class="eligibility-content">
-                <h2>Visa Assistance for Rs 499/- only</h2>
-                <p>Upload your basic documents after payment.</p>
-                <a href="/payments/payment.php?country=southKorea&amount=499"><button class="check-btn">Visa Service Fee - Pay Rs 499</button></a>
+                <h2>Check Your Visa Eligibilty for Rs 499 only</h2>
+                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day..</p>
+                <a href="/payments/payment.php?country=saudiArabia&amount=499"><button class="check-btn">Check Eligibility - Pay Rs 499</button></a>
             </div>
         </div>
     </section>
-    <!-- <section class="document-checklist">
+    <section class="document-checklist">
         <div class="container">
              <div class="label-container">
-                <h2>Visa Assistance for Rs 499/- only</h2>
-                <a href="/payments/payment.php?country=southKorea&amp;amount=499" class="check-btn">Download Documents</a>
+                <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
+                <a href="../php/Saudi_Arabia_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
             <!-- <div class="label-container">
                 <h2 class="document-checklist">Document Checklist</h2>
-                <a href="South Korea_Customer.html" target="_blank">Download the Documentation</a>
-            </div> 
+                <a href="Saudi Arabia_Customer.html" target="_blank">Download the Documentation</a>
+            </div> -->
 
-            <!-- Cascading dropdown 
+            <!-- Cascading dropdown -->
             <div class="dropdown-container">
                 <div class="dropdown-group">
                     <label class="dropdown-label" for="primary-category">Select Visa Category:</label>
@@ -120,7 +120,7 @@
                     </select>
                 </div>
 
-                <!-- Sub-category dropdown (initially hidden) 
+                <!-- Sub-category dropdown (initially hidden) -->
                 <div class="dropdown-group" id="subcategory-container" style="display: none;">
                     <label class="dropdown-label" for="sub-category">Select Service/Business/Others:</label>
                     <select id="sub-category">
@@ -130,7 +130,7 @@
             </div>
 
             <div class="document-checklist">
-                <!-- Tourist Category Selectors 
+                <!-- Tourist Category Selectors -->
                 <div class="checklist-selector" data-category="Tourist" data-subcategory="Employed">
                     <p>Showing documents for <span>Tourist - Employed <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -142,7 +142,7 @@
                     <p>Showing documents for <span>Tourist - Sponsored <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Business Category Selectors 
+                <!-- Business Category Selectors -->
                 <div class="checklist-selector" data-category="Business" data-subcategory="Meeting">
                     <p>Showing documents for <span>Business - Meeting <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -150,7 +150,7 @@
                     <p>Showing documents for <span>Business - Conference <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Other Category Selectors 
+                <!-- Other Category Selectors -->
                 <div class="checklist-selector" data-category="Other" data-subcategory="Student">
                     <p>Showing documents for <span>Student <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -161,8 +161,8 @@
                     <p>Showing documents for <span>Seaman <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Document sections 
-                <!-- Tourist - Employed 
+                <!-- Document sections -->
+                <!-- Tourist - Employed -->
                 <div id="checklist-section1" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Employed</h4>
@@ -187,7 +187,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Self-Employed 
+                <!-- Tourist - Self-Employed -->
                 <div id="checklist-section2" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Self-Employed</h4>
@@ -213,7 +213,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Spounser 
+                <!-- Tourist - Spounser -->
                 <div id="checklist-section3" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Sponsored</h4>
@@ -241,8 +241,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Add more checklist sections for other categories and subcategories 
-                <!-- Business - Meeting 
+                <!-- Add more checklist sections for other categories and subcategories -->
+                <!-- Business - Meeting -->
                 <div id="checklist-section4" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Business - Meeting</h4>
@@ -298,7 +298,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Student 
+                <!-- Student -->
                 <div id="checklist-section6" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Student</h4>
@@ -322,10 +322,10 @@
                     </div>
                 </div>
 
-                <!-- Additional sections would go here for the remaining categories 
+                <!-- Additional sections would go here for the remaining categories -->
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section class="next-appointment">
                 <div class="container appointment-container">
@@ -337,29 +337,27 @@
                         </p>
                     </div>
                 </div>
-            </section>
+    </section>
     <section class="visa-cards-wrapper" id="eVisa">
   <h2 class="visa-information-title">eVisa Information</h2>
+
   <div class="visa-cards-grid">
 
     <div class="visa-cards">
-      <h3 class="visa-title">Single Entry (ETA - Electronic Travel Authorisation)</h3>
+      <h3 class="visa-title">Single Entry-Umrah (ETA - Electronic Travel Authorisation)</h3>
       <div class="visa-information">
         <div><strong>Visa Type:</strong> eVisa</div>
-        <div><strong>Processing Time:</strong> 12 working days</div>
+        <div><strong>Processing Time:</strong> 2-3 working days</div>
         <div><strong>Visa Duration:</strong> 90 days from issue</div>
-        <div><strong>Length of Stay:</strong> Up to 30 days</div>
+        <div><strong>Length of Stay:</strong> Up to 90 days</div>
         
       </div>
-      <a href="/payments/payment.php?country=southKorea&amount=6999"><button class="apply-button">Apply Now for $81.55 (₹6500 + ₹499)</button></a>
+      <a href="/payments/payment.php?country=saudiArabia&amount=25499"><button class="apply-button">Apply Now for $290 (₹24,999 + ₹499)</button></a>
     </div>
 
 
   </div>
 </section>
-
-
-
 
     <section class="process" id="visa-process">
         <div class="container">
@@ -418,21 +416,26 @@
                         </div>
                         <div class="step-content result">
                             <h3>Step 4: Visa received</h3>
-                            <p>From the appointment date, get your visa in <span class="highlight">12 days</span>.</p>
+                            <p>From the appointment date, get your visa in <span class="highlight">2-3 days</span>.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="process-badges">
-                    <div class="badge secure">
-                        <span>100% Safe & Secure</span>
-                    </div>
-                    <div class="badge experts">
-                        <span>Visa Experts + AI Assisted</span>
-                    </div>
-                    <div class="badge assistance">
-                        <span>Complete assistance</span>
-                    </div>
+                    <!-- <div class="process-badges">
+    <div class="badge secure">
+        <span>100% Safe & Secure</span>
+    </div>
+    <div class="badge experts">
+        <span>Visa Experts + AI Assisted</span>
+    </div>
+    <div class="badge assistance">
+        <span>Complete assistance</span>
+    </div>
+    <div class="badge updates">
+        <span>Regular status updates</span>
+    </div>
+</div> -->
                     <div class="badge updates">
                         <span>Regular status updates</span>
                     </div>
@@ -442,12 +445,12 @@
     </section>
     <section class="info-cards" id="info-section">
         <div class="container">
-            <h2>Know more about South Korea Visa</h2>
-            <p class="subtitle">Curated resources for South Korea visa</p>
+            <h2>Know more about Saudi Arabia Visa</h2>
+            <p class="subtitle">Curated resources for Saudi Arabia visa</p>
             <div class="info-grid">
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>South Korea Visa Rejection Rates & Prevention Tips</h3>
+                        <h3>Saudi Arabia Visa Rejection Rates & Prevention Tips</h3>
                         <p>Around 1% rejection rate with TeyZee Visas, 10-20% with other agents. <span
                                 class="hidden-content">Learn how proper documentation, financial stability proof, and
                                 clear travel plans can improve your chances.</span></p>
@@ -456,14 +459,14 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>How do I prevent my South Korea visa application from being denied?</h3>
+                        <h3>How do I prevent my Saudi Arabia visa application from being denied?</h3>
                         <p>Check eligibility with TeyZee Visas before you apply. </p>
                         <!-- <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>When to Apply for a South Korea Visa: Optimal Timing</h3>
+                        <h3>When to Apply for a Saudi Arabia Visa: Optimal Timing</h3>
                         <p>Apply up to 90 days before your planned travel date. <span class="hidden-content">We highly
                                 recommend applying at the earliest opportunity to avoid delays and complications.</span>
                         </p>
@@ -472,8 +475,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>South Korea Transit Visa Requirements for Indian Citizens</h3>
-                        <p>Indian citizens need a transit visa for all layovers in South Korea. <span
+                        <h3>Saudi Arabia Transit Visa Requirements for Indian Citizens</h3>
+                        <p>Indian citizens need a transit visa for all layovers in Saudi Arabia. <span
                                 class="hidden-content">This visa only allows airport stays - for city visits, apply for
                                 a regular  visa.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
@@ -481,7 +484,7 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Reapplying After South Korea Visa Rejection: Next Steps</h3>
+                        <h3>Reapplying After Saudi Arabia Visa Rejection: Next Steps</h3>
                         <p>Address the specific rejection reasons and reapply with TeyZee Visas' expert guidance. <span
                                 class="hidden-content">Most rejections are due to financial documentation or
                                 insufficient ties to India.</span></p>
@@ -490,8 +493,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Single vs. Multiple-Entry  Visas for South Korea</h3>
-                        <p>Both single and multiple-entry visas available for South Korea travel. <span
+                        <h3>Single vs. Multiple-Entry  Visas for Saudi Arabia</h3>
+                        <p>Both single and multiple-entry visas available for Saudi Arabia travel. <span
                                 class="hidden-content">First-time visitors should apply for single-entry, while
                                 multiple-entry allows unlimited visits within the validity period.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>

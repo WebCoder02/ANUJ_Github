@@ -54,6 +54,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://newdelhi.mae.ro/en/node/873">Download Application Form</a>
                         <a href="https://eviza.mae.ro/SupportingDocuments">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=romania&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=romania" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                 Original Passport with old passport:
                 <ul>
@@ -184,6 +194,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://newdelhi.mae.ro/en/node/873">Download Application Form</a>
                             <a href="https://eviza.mae.ro/SupportingDocuments">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=romania&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=romania" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

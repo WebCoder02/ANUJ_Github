@@ -53,8 +53,17 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf">Download Application Form</a>
                         <a href="https://visa.vfsglobal.com/one-pager/norway/cameroon/english/pdf/checklist-schengen-new.pdf">Download Document Checklist</a>
-                        <?php endif; ?><br>  
-                        With one passport size photo not older than three months, white background, size 3.5x4.5 cm
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=norway&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=norway" class="doc-link">Login</a>
+                            </p>
+                        <?php endif; ?>
                     </td>
                 </tr>
                 <tr>
@@ -185,6 +194,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf">Download Application Form</a>
                             <a href="https://visa.vfsglobal.com/one-pager/norway/cameroon/english/pdf/checklist-schengen-new.pdf">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=norway&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=norway" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                     </tr>
                 <tr>

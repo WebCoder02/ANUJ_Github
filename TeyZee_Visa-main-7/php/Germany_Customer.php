@@ -34,6 +34,7 @@
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
             <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'student')">Student Visa</button>
             <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
         </div>
 
@@ -58,6 +59,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://india.diplo.de/resource/blob/1866462/ade94bd7a05b747d483fb23dfbd05cd3/ac-antrag-data.pdf">Download Application Form</a>
                         <a href="https://india.diplo.de/resource/blob/1866462/ade94bd7a05b747d483fb23dfbd05cd3/ac-antrag-data.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=germany&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=germany" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -166,6 +177,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.germany-visa.org/business-visa/#google_vignette">Download Application Form</a>
                         <a href="https://india.diplo.de/resource/blob/1866462/ade94bd7a05b747d483fb23dfbd05cd3/ac-antrag-data.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=germany&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=germany" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?></td>
                 </tr>
 
@@ -272,6 +293,30 @@
                             Template</a> -->
                         </td>
                 </tr>
+            </table>
+
+        </div>
+
+        <div id="student" class="tabcontent">
+            <h2>Germany Student Visa Checklist</h2>
+            <table>
+                <tr>
+                    <th width="30%">Document</th>
+                    <th width="70%">Description</th>
+                </tr>
+                <tr><td>Passport</td><td>Valid for ≥6 months beyond stay, issued within last 10 years, with ≥2 blank pages.</td></tr>
+                <tr><td>Visa Form & Declarations</td><td>Completed national visa application form and signed legal declarations.</td></tr>
+                <tr><td>Photographs</td><td>Three biometric passport photos (35×45 mm) not older than 6 months.</td></tr>
+                <tr><td>Passport Copy</td><td>A4-sized copy of passport data page.</td></tr>
+                <tr><td>APS Certificate</td><td>Mandatory unless enrolling via non-Indian final degree, PhD/post-doc, or scholarship holder.</td></tr>
+                <tr><td>Admission Letter</td><td>Official university letter confirming course admission with language of instruction.</td></tr>
+                <tr><td>Language Proficiency Proof</td><td>B2-level certificate unless covered by admission letter; approved exams only.</td></tr>
+                <tr><td>Academic Records</td><td>Original degrees and transcripts from previous education.</td></tr>
+                <tr><td>Curriculum Vitae</td><td>Detailed educational and professional resume.</td></tr>
+                <tr><td>Motivation Letter</td><td>Statement outlining study goals and choice of institution.</td></tr>
+                <tr><td>Proof of Funds</td><td>Blocked account with €11,904 for one year, scholarship/stipend, or formal obligation letter.</td></tr>
+                <tr><td>Health Insurance</td><td>Valid travel health insurance covering at least first 90 days until enrolment.</td></tr>
+                <tr><td>Biometrics & Interview</td><td>Provide fingerprints and photo at VAC; attend visa appointment.</td></tr>
             </table>
         </div>
 

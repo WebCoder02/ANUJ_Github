@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeyZee Visas - Saudi Arabia Visa Services</title>
+    <title>TeyZee Visas - United Kingdom Visa Services</title>
     <link rel="stylesheet" href="../Country_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Tag Manager -->
@@ -37,8 +37,8 @@
     <nav class="sticky-nav">
         <div class="container nav-container">
             <ul class="nav-links">
-                <li><a href="#eVisa">Tourist</a></li>
-                <li><a href="#eVisa">Business</a></li>
+                <li><a href="#tourist-visa">Tourist</a></li>
+                <li><a href="#tourist-visa">Business</a></li>
                 <li><a href="#visa-process">Process</a></li>
                 <li><a href="#document-checklist">Checklist</a></li>
                 <li><a href="#info-section">Q&A</a></li>
@@ -52,7 +52,7 @@
                     <p>Start now and get your appointment booked in 2 days</p>
                 </div>
                 <div class="hero-text">
-                    <h1>Get your Saudi Arabia visa</h1>
+                    <h1>Get your United Kingdom visa</h1>
                     <div class="recent-applications">
                         <!-- <span class="avatars">
                             <img src="https://via.placeholder.com/30" alt="User">
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../VisaImages/destinations/saudi_Arabia.jpg" alt="Saudi Arabia">
+                <img src="../VisaImages/destinations/united_Kingdom.jpg" alt="United Kingdom">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
@@ -90,25 +90,25 @@
     <section class="visa-eligibility" id="document-checklist">
         <div class="container eligibility-container">
             <div class="eligibility-content">
-                <h2>Visa Assistance for Rs 499/- only</h2>
-                <p>Upload your basic documents after payment.</p>
-                <a href="/payments/payment.php?country=saudiArabia&amount=499"><button class="check-btn">Visa Service Fee - Pay Rs 499</button></a>
+                <h2>Check Your Visa Eligibilty for Rs 499 only</h2>
+                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day..</p>
+                <a href="/payments/payment.php?country=uk&amount=499"><button class="check-btn">Check Eligibility - Pay Rs 499</button></a>
             </div>
         </div>
     </section>
-    <!-- <section class="document-checklist">
+    <section class="document-checklist">
         <div class="container">
              <div class="label-container">
-                <h2>Visa Assistance for Rs 499/- only</h2>
-                <a href="/payments/payment.php?country=saudiArabia&amp;amount=499" class="check-btn">Download Documents</a>
+                <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
+                <a href="../php/UK_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
             <!-- <div class="label-container">
                 <h2 class="document-checklist">Document Checklist</h2>
-                <a href="Saudi Arabia_Customer.html" target="_blank">Download the Documentation</a>
-            </div> 
+                <a href="United Kingdom_Customer.html" target="_blank">Download the Documentation</a>
+            </div> -->
 
-            <!-- Cascading dropdown 
+            <!-- Cascading dropdown -->
             <div class="dropdown-container">
                 <div class="dropdown-group">
                     <label class="dropdown-label" for="primary-category">Select Visa Category:</label>
@@ -120,7 +120,7 @@
                     </select>
                 </div>
 
-                <!-- Sub-category dropdown (initially hidden) 
+                <!-- Sub-category dropdown (initially hidden) -->
                 <div class="dropdown-group" id="subcategory-container" style="display: none;">
                     <label class="dropdown-label" for="sub-category">Select Service/Business/Others:</label>
                     <select id="sub-category">
@@ -130,7 +130,7 @@
             </div>
 
             <div class="document-checklist">
-                <!-- Tourist Category Selectors 
+                <!-- Tourist Category Selectors -->
                 <div class="checklist-selector" data-category="Tourist" data-subcategory="Employed">
                     <p>Showing documents for <span>Tourist - Employed <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -142,7 +142,7 @@
                     <p>Showing documents for <span>Tourist - Sponsored <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Business Category Selectors 
+                <!-- Business Category Selectors -->
                 <div class="checklist-selector" data-category="Business" data-subcategory="Meeting">
                     <p>Showing documents for <span>Business - Meeting <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -150,7 +150,7 @@
                     <p>Showing documents for <span>Business - Conference <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Other Category Selectors 
+                <!-- Other Category Selectors -->
                 <div class="checklist-selector" data-category="Other" data-subcategory="Student">
                     <p>Showing documents for <span>Student <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -161,8 +161,8 @@
                     <p>Showing documents for <span>Seaman <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Document sections 
-                <!-- Tourist - Employed 
+                <!-- Document sections -->
+                <!-- Tourist - Employed -->
                 <div id="checklist-section1" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Employed</h4>
@@ -187,7 +187,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Self-Employed 
+                <!-- Tourist - Self-Employed -->
                 <div id="checklist-section2" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Self-Employed</h4>
@@ -213,7 +213,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Spounser 
+                <!-- Tourist - Spounser -->
                 <div id="checklist-section3" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Sponsored</h4>
@@ -241,8 +241,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Add more checklist sections for other categories and subcategories 
-                <!-- Business - Meeting 
+                <!-- Add more checklist sections for other categories and subcategories -->
+                <!-- Business - Meeting -->
                 <div id="checklist-section4" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Business - Meeting</h4>
@@ -298,7 +298,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Student 
+                <!-- Student -->
                 <div id="checklist-section6" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Student</h4>
@@ -322,10 +322,10 @@
                     </div>
                 </div>
 
-                <!-- Additional sections would go here for the remaining categories 
+                <!-- Additional sections would go here for the remaining categories -->
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section class="next-appointment">
                 <div class="container appointment-container">
@@ -337,34 +337,201 @@
                         </p>
                     </div>
                 </div>
+            </section> 
+    <section class="visa-types">
+        <div class="container">
+            <h2>Types of United Kingdom Visa</h2>
+            
+
+            <div class="visa-card">
+                <div class="visa-info">
+                    <div class="visa-type">
+                        <span class="heading" id="tourist-visa">Tourist/Business</span>
+                        <h3>6 Months</h3>
+                        <p>Single/Multiple Entry (Short term)</p>
+                    </div>
+
+                    <div class="visa-details">
+                        <div class="detail">
+                            <i class="fas fa-passport"></i>
+                            <span>Visa Types</span>
+                            <strong>Sticker</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>Stay duration</span>
+                            <strong>180 Days</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Visa validity</span>
+                            <strong>180 Days</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Processing time</span>
+                            <strong>3-5 Weeks</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visa-action">
+                    <div class="price">
+                        <!-- add any tag -->
+                        <p>Pay now</p>
+                        <small>+₹4500 Plus Tax</small>
+                        <h3>178$ per adult</h3>
+                        <!-- <a href="#">View details</a> -->
+                    </div>
+                    <a href="/payments/payment.php?country=uk&amount=19770"><button class="start-btn">Apply Now</button></a>
+                </div>
+            </div>
+
+            <div class="visa-card">
+                <div class="visa-info">
+                    <div class="visa-type">
+                        <span class="heading" id="tourist-visa">Tourist</span>
+                        <h3>2 Years</h3>
+                        <p>Single/Multiple Entry</p>
+                    </div>
+
+                    <div class="visa-details">
+                        <div class="detail">
+                            <i class="fas fa-passport"></i>
+                            <span>Visa Types</span>
+                            <strong>Sticker</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>Stay duration</span>
+                            <strong>180 Days</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Visa validity</span>
+                            <strong>2 Years</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Processing time</span>
+                            <strong>3-5 Weeks</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visa-action">
+                    <div class="price">
+                        <!-- add any tag -->
+                        <p>Pay now</p>
+                        <small>+₹4500 Plus Tax</small>
+                        <h3>665$ per adult</h3>
+                        <!-- <a href="#">View details</a> -->
+                    </div>
+                    <a href="/payments/payment.php?country=uk&amount=61619"><button class="start-btn">Apply Now</button></a>
+                </div>
+            </div>
+
+            <div class="visa-card">
+                <div class="visa-info">
+                    <div class="visa-type">
+                        <span class="heading" id="tourist-visa">Tourist</span>
+                        <h3>5 Years</h3>
+                        <p>Single/Multiple Entry</p>
+                    </div>
+
+                    <div class="visa-details">
+                        <div class="detail">
+                            <i class="fas fa-passport"></i>
+                            <span>Visa Types</span>
+                            <strong>Sticker</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>Stay duration</span>
+                            <strong>180 Days</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Visa validity</span>
+                            <strong>5 Years</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Processing time</span>
+                            <strong>3-5 Weeks </strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visa-action">
+                    <div class="price">
+                        <!-- add any tag -->
+                        <p>Pay now</p>
+                        <small>+₹4500 Plus Tax</small>
+                        <h3>1186$ per adult</h3>
+                        <!-- <a href="#">View details</a> -->
+                    </div>
+                    <a href="/payments/payment.php?country=uk&amount=106469"><button class="start-btn">Apply Now</button></a>
+                </div>
+            </div>
+
+            <div class="visa-card">
+                <div class="visa-info">
+                    <div class="visa-type">
+                        <span class="heading" id="tourist-visa">Tourist</span>
+                        <h3>10 Years</h3>
+                        <p>Single/Multiple Entry</p>
+                    </div>
+
+                    <div class="visa-details">
+                        <div class="detail">
+                            <i class="fas fa-passport"></i>
+                            <span>Visa Types</span>
+                            <strong>Sticker</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>Stay duration</span>
+                            <strong>180 Days</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Visa validity</span>
+                            <strong>10 Years</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Processing time</span>
+                            <strong>3-5 Weeks</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visa-action">
+                    <div class="price">
+                        <!-- add any tag -->
+                        <p>Pay now</p>
+                        <small>+₹4500 Plus Tax</small>
+                        <h3>1,481$ per adult</h3>
+                        <!-- <a href="#">View details</a> -->
+                    </div>
+                    <a href="/payments/payment.php?country=uk&amount=131840"><button class="start-btn">Apply Now</button></a>
+                </div>
+            </div>
+
+            <div class="contact-expert">
+                <p>Talk to a visa expert instantly-Call now!</p>
+                <button class="callback-btn"><i class="fas fa-phone"></i> Request callback</button>
+            </div>
+        </div>
     </section>
-    <section class="visa-cards-wrapper" id="eVisa">
-  <h2 class="visa-information-title">eVisa Information</h2>
-
-  <div class="visa-cards-grid">
-
-    <div class="visa-cards">
-      <h3 class="visa-title">Single Entry-Umrah (ETA - Electronic Travel Authorisation)</h3>
-      <div class="visa-information">
-        <div><strong>Visa Type:</strong> eVisa</div>
-        <div><strong>Processing Time:</strong> 2-3 working days</div>
-        <div><strong>Visa Duration:</strong> 90 days from issue</div>
-        <div><strong>Length of Stay:</strong> Up to 90 days</div>
-        
-      </div>
-      <a href="/payments/payment.php?country=saudiArabia&amount=25499"><button class="apply-button">Apply Now for $290 (₹24,999 + ₹499)</button></a>
-    </div>
-
-
-  </div>
-</section>
 
     <section class="process" id="visa-process">
         <div class="container">
             <div class="process-timeline">
                 <h3>Expert Visa Assistance in Just a Few Steps</h3>
                 <div class="process-selector">
-                    <p>Showing steps for <span>eVisa</span></p>
+                    <p>Showing steps for <span>Sticker visa</span></p>
                 </div>
                 <div class="process-steps">
                     <div class="timeline-line"></div>
@@ -402,10 +569,20 @@
 
                     <div class="step">
                         <div class="step-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>Step 3: Visit the visa application centre</h3>
+                            <p>Visit the visa centre to submit biometrics with our guidance and support.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="step-content">
-                            <h3>Step 3: Visa delivered on time</h3>
+                            <h3>Step 4: Visa delivered on time</h3>
                             <p>Relax as we ensure your visa is processed promptly and delivered on time.</p>
                         </div>
                     </div>
@@ -415,22 +592,27 @@
                             <i class="fas fa-check"></i>
                         </div>
                         <div class="step-content result">
-                            <h3>Step 4: Visa received</h3>
-                            <p>From the appointment date, get your visa in <span class="highlight">2-3 days</span>.</p>
+                            <h3>Step 5: Visa received</h3>
+                            <p>From the appointment date, get your visa in <span class="highlight">3-5 weeks</span>.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="process-badges">
-                    <div class="badge secure">
-                        <span>100% Safe & Secure</span>
-                    </div>
-                    <div class="badge experts">
-                        <span>Visa Experts + AI Assisted</span>
-                    </div>
-                    <div class="badge assistance">
-                        <span>Complete assistance</span>
-                    </div>
+                    <!-- <div class="process-badges">
+    <div class="badge secure">
+        <span>100% Safe & Secure</span>
+    </div>
+    <div class="badge experts">
+        <span>Visa Experts + AI Assisted</span>
+    </div>
+    <div class="badge assistance">
+        <span>Complete assistance</span>
+    </div>
+    <div class="badge updates">
+        <span>Regular status updates</span>
+    </div>
+</div> -->
                     <div class="badge updates">
                         <span>Regular status updates</span>
                     </div>
@@ -440,12 +622,12 @@
     </section>
     <section class="info-cards" id="info-section">
         <div class="container">
-            <h2>Know more about Saudi Arabia Visa</h2>
-            <p class="subtitle">Curated resources for Saudi Arabia visa</p>
+            <h2>Know more about United Kingdom Visa</h2>
+            <p class="subtitle">Curated resources for United Kingdom visa</p>
             <div class="info-grid">
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Saudi Arabia Visa Rejection Rates & Prevention Tips</h3>
+                        <h3>United Kingdom Visa Rejection Rates & Prevention Tips</h3>
                         <p>Around 1% rejection rate with TeyZee Visas, 10-20% with other agents. <span
                                 class="hidden-content">Learn how proper documentation, financial stability proof, and
                                 clear travel plans can improve your chances.</span></p>
@@ -454,14 +636,14 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>How do I prevent my Saudi Arabia visa application from being denied?</h3>
+                        <h3>How do I prevent my United Kingdom visa application from being denied?</h3>
                         <p>Check eligibility with TeyZee Visas before you apply. </p>
                         <!-- <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>When to Apply for a Saudi Arabia Visa: Optimal Timing</h3>
+                        <h3>When to Apply for a United Kingdom Visa: Optimal Timing</h3>
                         <p>Apply up to 90 days before your planned travel date. <span class="hidden-content">We highly
                                 recommend applying at the earliest opportunity to avoid delays and complications.</span>
                         </p>
@@ -470,8 +652,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Saudi Arabia Transit Visa Requirements for Indian Citizens</h3>
-                        <p>Indian citizens need a transit visa for all layovers in Saudi Arabia. <span
+                        <h3>United Kingdom Transit Visa Requirements for Indian Citizens</h3>
+                        <p>Indian citizens need a transit visa for all layovers in United Kingdom. <span
                                 class="hidden-content">This visa only allows airport stays - for city visits, apply for
                                 a regular  visa.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
@@ -479,7 +661,7 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Reapplying After Saudi Arabia Visa Rejection: Next Steps</h3>
+                        <h3>Reapplying After United Kingdom Visa Rejection: Next Steps</h3>
                         <p>Address the specific rejection reasons and reapply with TeyZee Visas' expert guidance. <span
                                 class="hidden-content">Most rejections are due to financial documentation or
                                 insufficient ties to India.</span></p>
@@ -488,8 +670,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Single vs. Multiple-Entry  Visas for Saudi Arabia</h3>
-                        <p>Both single and multiple-entry visas available for Saudi Arabia travel. <span
+                        <h3>Single vs. Multiple-Entry  Visas for United Kingdom</h3>
+                        <p>Both single and multiple-entry visas available for United Kingdom travel. <span
                                 class="hidden-content">First-time visitors should apply for single-entry, while
                                 multiple-entry allows unlimited visits within the validity period.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
@@ -585,13 +767,13 @@
                     <a href="/html/turkey_customer.html">Turkey</a> •
                     <a href="/html/France_customer.html">France</a> •
                     <a href="#">Russia</a> •
-                    <a href="#">United Arab Emirates</a> •
+                    <a href="#">South Korea</a> •
                     <a href="#">Indonesia</a> •
                     <a href="#">Vietnam</a> •
                     <a href="#">Azerbaijan</a> •
                     <a href="#">United Kingdom</a> •
                     <a href="#">Spain</a> •
-                    <a href="#">South Korea</a> •
+                    <a href="#">United Arab Emirates</a> •
                     <a href="#">Georgia</a> •
                     <a href="#">Hungary</a> •
                     <a href="#">Finland</a> •

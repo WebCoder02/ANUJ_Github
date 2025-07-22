@@ -53,6 +53,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://kemlu.go.id/files-service/storage/childmenu/additional_file/17291570886710d7e0c2e4b_Visa_Application_Form.pdf">Download Application Form</a>
                         <a href="https://www.hciottawa.gov.in/pdf/Checklist_and_Information_Booklet_for_Visa.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=indonesia&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=indonesia" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -84,6 +94,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://kemlu.go.id/files-service/storage/childmenu/additional_file/17291570886710d7e0c2e4b_Visa_Application_Form.pdf">Download Application Form</a>
                         <a href="https://www.hciottawa.gov.in/pdf/Checklist_and_Information_Booklet_for_Visa.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=indonesia&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=indonesia" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?></td>
                 </tr>
                  <tr><td>Valid Passport</td><td>Passport valid for at least 6 months with at least one blank page.</td></tr>
@@ -102,7 +122,8 @@
             </table>
         </div>
 
-        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             
+        <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>

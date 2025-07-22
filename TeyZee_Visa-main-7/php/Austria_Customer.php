@@ -57,6 +57,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://visa.vfsglobal.com/one-pager/austria/india/english/pdf/new-application-form.pdf">Download Application Form</a>
                         <a href="https://visa.vfsglobal.com/one-pager/austria/india/english/pdf/Tourist-Visa-2024.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=austria&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=austria" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -160,6 +170,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.bmeia.gv.at/fileadmin/user_upload/Vertretungen/New_Delhi/April_2025_Application_Form_C.pdf">Download Application Form</a>
                         <a href="https://visa.vfsglobal.com/one-pager/austria/india/english/pdf/Tourist-Visa-2024.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=austria&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=austria" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?></td>
                 </tr>
                 <tr>

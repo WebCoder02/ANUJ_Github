@@ -53,6 +53,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://visaoffice.eu/media/uploads/document_examples/Order_forms/china/data_collect_form_china.pdf">Download Application Form</a>
                         <a href="https://www.visaforchina.cn/YYC3_EN/qianzhengyewu/jichuzhishi/changjianwenti/336247379642683392.html">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=china&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=china" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                 
                 </td>
@@ -123,6 +133,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://visaoffice.eu/media/uploads/document_examples/Order_forms/china/data_collect_form_china.pdf">Download Application Form</a>
                         <a href="https://www.visaforchina.cn/YYC3_EN/qianzhengyewu/jichuzhishi/changjianwenti/336247379642683392.html">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=china&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=china" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?></td>
                 </tr>  
                 <tr>
@@ -406,8 +426,8 @@
              <div class="copyright">
                  <p>© 2025 TeyZee Visas. All Rights Reserved.</p>
              </div>
-         </div>-->
-     </footer>
+         </div>
+     </footer>-->
     <script>
         function openTab(evt, tabName) {
             var i, tabcontent, tablinks;
@@ -426,7 +446,7 @@
             evt.currentTarget.className += " active";
         }
 
-         JavaScript to redirect users to WhatsApp with template request message
+         //JavaScript to redirect users to WhatsApp with template request message
         document.addEventListener('DOMContentLoaded', function () {
              //Select all download links with the class "doc-link"
             const downloadLinks = document.querySelectorAll('.doc-link');
@@ -450,7 +470,7 @@
                     const encodedMessage = encodeURIComponent(message);
 
 
-                    const whatsappUrl = `https:wa.me/${whatsappNumber}?text=${encodedMessage}`;
+                    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
                     window.location.href = whatsappUrl;
                 });
             });

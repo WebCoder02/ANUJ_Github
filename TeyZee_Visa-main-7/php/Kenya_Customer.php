@@ -53,6 +53,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://evisa.go.ke/">Download Application Form</a>
                         <a href="https://www.kenyaimmigration.org/faq/what-documents-do-i-need-at-the-airport-in-kenya?_gl=1*dhz6g3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwlMfABhCWARIsADGXdy90-v425odt6Za-T8XUDyCy2GEXPVIdVL8xpT6ZfUf9B09OXjr07awaAkdjEALw_wcB">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=kenya&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=kenya" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                         </td>
                 </tr>
@@ -85,6 +95,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://evisa.go.ke/">Download Application Form</a>
                             <a href="https://www.kenyaimmigration.org/faq/what-documents-do-i-need-at-the-airport-in-kenya?_gl=1*dhz6g3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwlMfABhCWARIsADGXdy90-v425odt6Za-T8XUDyCy2GEXPVIdVL8xpT6ZfUf9B09OXjr07awaAkdjEALw_wcB">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=kenya&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=kenya" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                 </tr>
                 <tr><td>Passport</td><td>Indian passport valid for at least 6 months from arrival, with two blank pages.</td></tr>

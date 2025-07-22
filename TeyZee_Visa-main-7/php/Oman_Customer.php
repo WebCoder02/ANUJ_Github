@@ -53,6 +53,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.fm.gov.om/citizens/visa-requirements/">Download Application Form</a>
                         <a href="https://evisa.rop.gov.om/visa-eligibility?p_p_id=visawizard_WAR_visaeligibilitywizardportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_visawizard_WAR_visaeligibilitywizardportlet_myaction=selectedVisa">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=oman&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=oman" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                      </td>
                  </tr>
@@ -84,6 +94,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://www.fm.gov.om/citizens/visa-requirements/">Download Application Form</a>
                             <a href="https://evisa.rop.gov.om/visa-eligibility?p_p_id=visawizard_WAR_visaeligibilitywizardportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_visawizard_WAR_visaeligibilitywizardportlet_myaction=selectedVisa">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=oman&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=oman" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                 </tr>
                 <tr><td>Valid Passport</td><td>Valid for at least 6 months from arrival with at least two blank pages.</td></tr>
@@ -101,7 +121,8 @@
             </table>
         </div>
 
-        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>            
+         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>

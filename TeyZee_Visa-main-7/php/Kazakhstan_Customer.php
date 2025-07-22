@@ -55,6 +55,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.gov.kz/uploads/2020/3/16/4c80ca175301c78bf83bcfd00077de06_original.244495.pdf">Download Application Form</a>
                         <a href="https://www.gov.kz/memleket/entities/mfa-ottawa/press/article/details/5326?directionId=5838&lang=en">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=kazakhstan&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=kazakhstan" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
               
                 </td>
@@ -82,6 +92,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://www.gov.kz/uploads/2020/3/16/4c80ca175301c78bf83bcfd00077de06_original.244495.pdf">Download Application Form</a>
                             <a href="https://www.gov.kz/memleket/entities/mfa-ottawa/press/article/details/5326?directionId=5838&lang=en">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=kazakhstan&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=kazakhstan" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                 </tr>
                 <tr>

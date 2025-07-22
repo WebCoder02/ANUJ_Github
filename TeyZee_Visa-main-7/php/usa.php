@@ -1,27 +1,14 @@
-<?php include 'header.php'; ?>  
+<?php include 'header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeyZee Visas - Bulgaria Visa Services</title>
+    <title>TeyZee Visas - United States of America Visa Services</title>
     <link rel="stylesheet" href="../Country_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Tag Manager -->
-
-    <!-- <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-
-        })(window, document, 'script', 'dataLayer', 'GTM-TZGFW4FB');</script> -->
 
     <!-- End Google Tag Manager -->
 </head>
@@ -29,8 +16,6 @@
 <body>
     <!-- Google Tag Manager (noscript) -->
 
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGFW4FB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
     <!--<header>
         <div class="container header-container">
@@ -51,9 +36,9 @@
         <div class="container nav-container">
             <ul class="nav-links">
                 <li><a href="#tourist-visa">Tourist</a></li>
-                <li><a href="#">Business</a></li>
+                <li><a href="#business-visa">Business</a></li>
                 <li><a href="#visa-process">Process</a></li>
-                <li><a href="#">Checklist</a></li>
+                <li><a href="#document-checklist">Checklist</a></li>
                 <li><a href="#info-section">Q&A</a></li>
             </ul>
         </div>
@@ -65,7 +50,7 @@
                     <p>Start now and get your appointment booked in 2 days</p>
                 </div>
                 <div class="hero-text">
-                    <h1>Get your Bulgaria visa</h1>
+                    <h1>Get your United States of America visa</h1>
                     <div class="recent-applications">
                         <!-- <span class="avatars">
                             <img src="https://via.placeholder.com/30" alt="User">
@@ -91,7 +76,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../VisaImages/destinations/bulgaria.jpg" alt="Bulgaria">
+                <img src="../VisaImages/destinations/usa.jpg" alt="United States of America">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
                     <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
@@ -103,25 +88,25 @@
     <section class="visa-eligibility" id="document-checklist">
         <div class="container eligibility-container">
             <div class="eligibility-content">
-                <h2>Visa Assistance for Rs 499/- only</h2>
-                <p>Upload your basic documents after payment.</p>
-                <a href="/payments/payment.php?country=bulgaria&amount=499"><button class="check-btn">Visa Service Fee - Pay Rs 499</button></a>
+                <h2>Check your Visa Eligibility for 499 Rs only</h2>
+                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
+                <a href="/payments/payment.php?country=usa&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>
-    <!-- <section class="document-checklist">
+    <section class="document-checklist">
         <div class="container">
              <div class="label-container">
-                <h2>Visa Assistance for Rs 499/- only</h2>
-                <a href="/payments/payment.php?country=bulgaria&amp;amount=499" class="check-btn">Download Documents</a>
+                <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
+                <a href="../php/USA_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
             <!-- <div class="label-container">
                 <h2 class="document-checklist">Document Checklist</h2>
-                <a href="Belgium_Customer.html" target="_blank">Download the Documentation</a>
-            </div> 
+                <a href="Austria_Customer.html" target="_blank">Download the Documentation</a>
+            </div> -->
 
-            <!-- Cascading dropdown 
+            <!-- Cascading dropdown -->
             <div class="dropdown-container">
                 <div class="dropdown-group">
                     <label class="dropdown-label" for="primary-category">Select Visa Category:</label>
@@ -133,7 +118,7 @@
                     </select>
                 </div>
 
-                <!-- Sub-category dropdown (initially hidden) 
+                <!-- Sub-category dropdown (initially hidden) -->
                 <div class="dropdown-group" id="subcategory-container" style="display: none;">
                     <label class="dropdown-label" for="sub-category">Select Service/Business/Others:</label>
                     <select id="sub-category">
@@ -143,7 +128,7 @@
             </div>
 
             <div class="document-checklist">
-                <!-- Tourist Category Selectors 
+                <!-- Tourist Category Selectors -->
                 <div class="checklist-selector" data-category="Tourist" data-subcategory="Employed">
                     <p>Showing documents for <span>Tourist - Employed <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -155,7 +140,7 @@
                     <p>Showing documents for <span>Tourist - Sponsored <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Business Category Selectors 
+                <!-- Business Category Selectors -->
                 <div class="checklist-selector" data-category="Business" data-subcategory="Meeting">
                     <p>Showing documents for <span>Business - Meeting <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -163,7 +148,7 @@
                     <p>Showing documents for <span>Business - Conference <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Other Category Selectors 
+                <!-- Other Category Selectors -->
                 <div class="checklist-selector" data-category="Other" data-subcategory="Student">
                     <p>Showing documents for <span>Student <i class="fas fa-chevron-down"></i></span></p>
                 </div>
@@ -174,8 +159,8 @@
                     <p>Showing documents for <span>Seaman <i class="fas fa-chevron-down"></i></span></p>
                 </div>
 
-                <!-- Document sections 
-                <!-- Tourist - Employed 
+                <!-- Document sections -->
+                <!-- Tourist - Employed -->
                 <div id="checklist-section1" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Employed</h4>
@@ -200,7 +185,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Self-Employed 
+                <!-- Tourist - Self-Employed -->
                 <div id="checklist-section2" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Self-Employed</h4>
@@ -226,7 +211,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Spounser 
+                <!-- Tourist - Spounser -->
                 <div id="checklist-section3" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Sponsored</h4>
@@ -254,8 +239,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Add more checklist sections for other categories and subcategories 
-                <!-- Business - Meeting 
+                <!-- Add more checklist sections for other categories and subcategories -->
+                <!-- Business - Meeting -->
                 <div id="checklist-section4" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Business - Meeting</h4>
@@ -311,7 +296,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Student 
+                <!-- Student -->
                 <div id="checklist-section6" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Student</h4>
@@ -335,12 +320,15 @@
                     </div>
                 </div>
 
-                <!-- Additional sections would go here for the remaining categories 
+                <!-- Additional sections would go here for the remaining categories -->
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <section class="next-appointment">
+    <section class="visa-types">
+        <div class="container">
+            <h2>Types of United States of America Visa</h2>
+            <section class="next-appointment">
                 <div class="container appointment-container">
                     <div class="appointment-info">
                         <h2>Next Appointment Date</h2>
@@ -350,16 +338,12 @@
                         </p>
                     </div>
                 </div>
-            </section> 
-    <section class="visa-types">
-        <div class="container">
-            <h2>Types of Bulgaria Visa</h2>
-            
+            </section>
             <div class="visa-card">
                 <div class="visa-info">
                     <div class="visa-type">
-                        <span class="heading" id="tourist-visa">Tourist</span>
-                        <h3>3 Months</h3>
+                        <span class="heading" id="tourist-visa">B1/B2 Visa</span>
+                        <h3>6 months</h3>
                         <p>Multiple Entry</p>
                     </div>
 
@@ -372,17 +356,17 @@
                         <div class="detail">
                             <i class="fas fa-calendar"></i>
                             <span>Stay duration</span>
-                            <strong>90 Days</strong>
+                            <strong>6 months</strong>
                         </div>
                         <div class="detail">
                             <i class="fas fa-calendar-check"></i>
                             <span>Visa validity</span>
-                            <strong>90 Days</strong>
+                            <strong>10 Years</strong>
                         </div>
                         <div class="detail">
                             <i class="fas fa-clock"></i>
                             <span>Processing time</span>
-                            <strong>15-20 Working Days</strong>
+                            <strong>9-18 Months</strong>
                         </div>
                     </div>
                 </div>
@@ -391,14 +375,56 @@
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
-                        <h3>24$ per adult</h3>
+                        <small>+₹3500 Plus Tax</small>
+                        <h3>$185 per adult</h3>
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=bulgaria&amount=2569"><button class="start-btn">Apply Now</button></a>
+                    <a href="/payments/payment.php?country=usa&amount=19499"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
 
+
+            <div class="visa-card business">
+                <div class="visa-info">
+                    <div class="visa-type">
+                        <span class="heading" id="business-visa">B1/B2 + Express Appointment</span>
+                        <h3>6 Months</h3>
+                        <p>Multiple Entry</p>
+                    </div>
+
+                    <div class="visa-details">
+                        <div class="detail">
+                            <i class="fas fa-passport"></i>
+                            <span>Visa Types</span>
+                            <strong>Sticker</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>Stay duration</span>
+                            <strong>6 Months</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Visa validity</span>
+                            <strong>10 Years</strong>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Processing time</span>
+                            <strong>45 Working Days</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visa-action">
+                    <div class="price">
+                        <p>Pay now</p>
+                        <small>+₹3500 Plus Tax</small>
+                        <h3>$425 per adult</h3>
+                    </div>
+                    <a href="/payments/payment.php?country=usa&amount=39999"><button class="start-btn">Apply Now</button></a>
+                </div>
+            </div>
 
             <div class="contact-expert">
                 <p>Talk to a visa expert instantly-Call now!</p>
@@ -406,6 +432,7 @@
             </div>
         </div>
     </section>
+
 
     <section class="process" id="visa-process">
         <div class="container">
@@ -474,21 +501,26 @@
                         </div>
                         <div class="step-content result">
                             <h3>Step 5: Visa received</h3>
-                            <p>From the appointment date, get your visa in <span class="highlight">20 days</span>.</p>
+                            <p>From the appointment date, get your visa in <span class="highlight">9-18 Months</span>.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="process-badges">
-                    <div class="badge secure">
-                        <span>100% Safe & Secure</span>
-                    </div>
-                    <div class="badge experts">
-                        <span>Visa Experts + AI Assisted</span>
-                    </div>
-                    <div class="badge assistance">
-                        <span>Complete assistance</span>
-                    </div>
+                    <!-- <div class="process-badges">
+    <div class="badge secure">
+        <span>100% Safe & Secure</span>
+    </div>
+    <div class="badge experts">
+        <span>Visa Experts + AI Assisted</span>
+    </div>
+    <div class="badge assistance">
+        <span>Complete assistance</span>
+    </div>
+    <div class="badge updates">
+        <span>Regular status updates</span>
+    </div>
+</div> -->
                     <div class="badge updates">
                         <span>Regular status updates</span>
                     </div>
@@ -498,12 +530,12 @@
     </section>
     <section class="info-cards" id="info-section">
         <div class="container">
-            <h2>Know more about Bulgaria Visa</h2>
-            <p class="subtitle">Curated resources for Bulgaria visa</p>
+            <h2>Know more about United States of America Visa</h2>
+            <p class="subtitle">Curated resources for United States of America visa</p>
             <div class="info-grid">
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Bulgaria Visa Rejection Rates & Prevention Tips</h3>
+                        <h3>United States of America Visa Rejection Rates & Prevention Tips</h3>
                         <p>Around 1% rejection rate with TeyZee Visas, 10-20% with other agents. <span
                                 class="hidden-content">Learn how proper documentation, financial stability proof, and
                                 clear travel plans can improve your chances.</span></p>
@@ -512,14 +544,14 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>How do I prevent my Bulgaria visa application from being denied?</h3>
+                        <h3>How do I prevent my United States of America visa application from being denied?</h3>
                         <p>Check eligibility with TeyZee Visas before you apply. </p>
                         <!-- <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>When to Apply for a Bulgaria Visa: Optimal Timing</h3>
+                        <h3>When to Apply for a United States of America Visa: Optimal Timing</h3>
                         <p>Apply up to 90 days before your planned travel date. <span class="hidden-content">We highly
                                 recommend applying at the earliest opportunity to avoid delays and complications.</span>
                         </p>
@@ -528,8 +560,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Bulgaria Transit Visa Requirements for Indian Citizens</h3>
-                        <p>Indian citizens need a transit visa for all layovers in Bulgaria. <span
+                        <h3>United States of America Transit Visa Requirements for Indian Citizens</h3>
+                        <p>Indian citizens need a transit visa for all layovers in United States of America. <span
                                 class="hidden-content">This visa only allows airport stays - for city visits, apply for
                                 a regular  visa.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
@@ -537,7 +569,7 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Reapplying After Bulgaria Visa Rejection: Next Steps</h3>
+                        <h3>Reapplying After United States of America Visa Rejection: Next Steps</h3>
                         <p>Address the specific rejection reasons and reapply with TeyZee Visas' expert guidance. <span
                                 class="hidden-content">Most rejections are due to financial documentation or
                                 insufficient ties to India.</span></p>
@@ -546,8 +578,8 @@
                 </div>
                 <div class="info-card">
                     <div class="card-content">
-                        <h3>Single vs. Multiple-Entry  Visas for Bulgaria</h3>
-                        <p>Both single and multiple-entry visas available for Bulgaria travel. <span
+                        <h3>Single vs. Multiple-Entry  Visas for United States of America</h3>
+                        <p>Both single and multiple-entry visas available for United States of America travel. <span
                                 class="hidden-content">First-time visitors should apply for single-entry, while
                                 multiple-entry allows unlimited visits within the validity period.</span></p>
                         <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
@@ -556,9 +588,8 @@
             </div>
         </div>
     </section>
-
-    <?php include 'footer.php'?>
-    <!--<footer>
+        <?php include 'footer.php'; ?>
+     <!-- <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
@@ -690,7 +721,7 @@
                 <p>© 2025 TeyZee Visas. All Rights Reserved.</p>
             </div>
         </div>
-    </footer>-->
+    </footer> -->
     <div id="custom-tooltip" style="
     position: absolute;
     background: #333;

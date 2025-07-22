@@ -51,6 +51,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
                         <a href="https://www.mfa.gov.az/index.php/en/category/visa/documents-required-for-visa-issuance">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=azerbaijan&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=azerbaijan" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                  </td>
                 <tr>
@@ -106,6 +116,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
                         <a href="https://www.mfa.gov.az/index.php/en/category/visa/documents-required-for-visa-issuance">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=azerbaijan&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=azerbaijan" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?></td>
                 </tr>
                 <tr>

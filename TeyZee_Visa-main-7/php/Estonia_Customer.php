@@ -56,6 +56,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://eelviisataotlus.vm.ee/">Download Application Form</a>
                         <a href="https://newdelhi.mfa.ee/wp-content/uploads/sites/41/2023/09/Checklist-Tourism-1.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=estonia&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=estonia" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -127,6 +137,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://newdelhi.mfa.ee/">Download Application Form</a>
                         <a href="https://newdelhi.mfa.ee/wp-content/uploads/sites/41/2023/09/Checklist-Tourism-1.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=estonia&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=estonia" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?></td>
                 </tr>
                 <tr>
@@ -468,25 +488,25 @@
             evt.currentTarget.className += " active";
         }
 
-         JavaScript to redirect users to WhatsApp with template request message
+         //JavaScript to redirect users to WhatsApp with template request message
         document.addEventListener('DOMContentLoaded', function () {
-             Select all download links with the class "doc-link"
+            // Select all download links with the class "doc-link"
             const downloadLinks = document.querySelectorAll('.doc-link');
 
-             WhatsApp number - Replace with your actual number
-            const whatsappNumber = "919892527420";  Format: country code without + followed by number
+            // WhatsApp number - Replace with your actual number
+            const whatsappNumber = "919892527420";  //Format: country code without + followed by number
 
-             Loop through each download link and modify its behavior
+             //Loop through each download link and modify its behavior
             downloadLinks.forEach(function (link) {
                 link.addEventListener('click', function (e) {
-                    e.preventDefault();  Prevent the default download behavior
+                    e.preventDefault(); // Prevent the default download behavior
 
-                     Get the template type from the link
+                    // Get the template type from the link
                     const templatePath = link.getAttribute('href').split('/').pop();
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Estonia- https:teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Estonia- https:teyzee.com/estonia-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);

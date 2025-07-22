@@ -53,6 +53,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Application Form</a>
                         <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=southKorea&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=southKorea" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
           </td></tr>
           <tr><td>e‑Form</td><td>Complete and print the electronic visa application form with barcode and signature.</td></tr>
@@ -81,6 +91,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Application Form</a>
                             <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=southKorea&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=southKorea" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                 </tr>
                 <tr><td>e‑Form</td><td>Printed electronic visa form with barcode, filled and signed.</td></tr>

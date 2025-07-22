@@ -34,6 +34,7 @@
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
             <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'student')">Student Visa</button>
             <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
         </div>
 
@@ -71,6 +72,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://visa.vfsglobal.com/one-pager/italy/india/new-delhi/english/pdf/visa-application-form-new.pdf">Download Application Form</a>
                         <a href="https://visa.vfsglobal.com/one-pager/italy/india/mumbai/english/pdf/requisite_documents_for_tourist_visa.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=italy&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=italy" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
 
                     </td>
@@ -173,6 +184,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://consmumbai.esteri.it/wp-content/uploads/2024/07/VISA-APPLICATION-FORM-ENGLISH.pdf">Download Application Form</a>
                             <a href="https://visa.vfsglobal.com/one-pager/italy/india/mumbai/english/pdf/requisite_documents_for_tourist_visa.pdf">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=italy&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=italy" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                     </tr>
                 <tr>
@@ -277,6 +298,71 @@
                             href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
                             Template</a> -->
                         </td>
+                </tr>
+            </table>
+        </div>
+        <div id="student" class="tabcontent">
+            <h2>Italy Student Visa Checklist</h2>
+            <table>
+                <tr>
+                    <th width="30%">Document</th>
+                    <th width="70%">Description</th>
+                </tr>
+                 <tr>
+                    <td>Passport & Copies</td>
+                    <td>Valid passport with at least 6 months validity, previous passports, and photocopies.</td>
+                </tr>
+                <tr>
+                    <td>Visa Application Form</td>
+                    <td>Completed and signed application form.</td>
+                </tr>
+                <tr>
+                    <td>Photographs</td>
+                    <td>Two recent biometric passport-size photos.</td>
+                </tr>
+                <tr>
+                    <td>Admission Letter</td>
+                    <td>Letter of acceptance from an Italian educational institution and Universitaly registration.</td>
+                </tr>
+                <tr>
+                    <td>Academic Records</td>
+                    <td>Certificates and mark sheets of previous education.</td>
+                </tr>
+                <tr>
+                    <td>Declaration of Value </td>
+                    <td>DOV or interview confirmation depending on program and region.</td>
+                </tr>
+                <tr>
+                    <td>Curriculum Vitae</td>
+                    <td>Detailed resume with education and experience.</td>
+                </tr>
+                <tr>
+                    <td>Motivation Letter</td>
+                    <td>Letter stating purpose of study and goals.</td>
+                </tr>
+                <tr>
+                    <td>Proof of Funds</td>
+                    <td>Bank statements or sponsorship showing sufficient financial means.</td>
+                </tr>
+                <tr>
+                    <td>Accommodation Proof</td>
+                    <td>Confirmed accommodation booking or invitation/host declaration.</td>
+                </tr>
+                <tr>
+                    <td>Medical Insurance</td>
+                    <td>Policy with at least €30,000 coverage for the initial stay period.</td>
+                </tr>
+                <tr>
+                    <td>Travel Itinerary</td>
+                    <td>Flight reservation or travel plan.</td>
+                </tr>
+                <tr>
+                    <td>Translations</td>
+                    <td>Certified translations if documents are not in English or Italian.</td>
+                </tr>
+                <tr>
+                    <td>Visa Fee & Biometrics</td>
+                    <td>Visa fee payment receipt and biometric enrollment at application center.</td>
                 </tr>
             </table>
         </div>

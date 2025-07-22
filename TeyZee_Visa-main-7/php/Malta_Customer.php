@@ -53,6 +53,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://visa.vfsglobal.com/one-pager/malta/uk/english/pdf/application-form-new-malta.pdf">Download Application Form</a>
                         <a href="https://visa.vfsglobal.com/one-pager/malta/india/english/pdf/Mt-EMPLOYMENT-VISA-CHECKLIST.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=malta&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=malta" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -65,7 +75,7 @@
                 <tr><td>Proof of Residence</td><td>Aadhaar card copy (and other local proof where applicable).</td></tr>
                 <tr><td>Visa Fee & VFS</td><td>Visa fee (at exchange rate) + service charges; specifics apply.</td></tr>
                 <tr><td>Optional Services</td><td>Courier, SMS, premium lounge, form help available for extra fee.</td></tr>
-                <tr><td>Timeline</td><td>Apply up to 6 months in advance; ideally at least 4 weeks prior to travel.</td></tr>
+                <tr><td>Timeline</td><td>Apply up to 6 months in advance; ideally at least 15 days prior to travel.</td></tr>
             </table>
         </div>
 
@@ -83,6 +93,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://visa.vfsglobal.com/one-pager/malta/uk/english/pdf/application-form-new-malta.pdf">Download Application Form</a>
                             <a href="https://visa.vfsglobal.com/one-pager/malta/india/english/pdf/Mt-EMPLOYMENT-VISA-CHECKLIST.pdf">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=malta&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=malta" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                     </tr>
                 <tr><td>Visa Application Form</td><td>Fully completed and signed form.</td></tr>
@@ -95,7 +115,7 @@
                 <tr><td>Travel Insurance</td><td>Must have valid coverage for the entire stay.</td></tr>
                 <tr><td>Visa Fee</td><td>Visa fee  + services including optional add‑ons.</td></tr>
                 <tr><td>Additional Services</td><td>Court fees, premium lounge, form help, courier options are available.</td></tr>
-                <tr><td>Timeline</td><td>Apply up to 6 months ahead; recommended at least 4 weeks prior to travel.</td></tr>
+                <tr><td>Timeline</td><td>Apply up to 6 months ahead; recommended at least 15 days prior to travel.</td></tr>
             </table>
         </div>
 

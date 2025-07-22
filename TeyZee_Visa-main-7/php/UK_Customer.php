@@ -34,6 +34,7 @@
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
             <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'student')">Student Visa</button>
             <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
         </div>
 
@@ -54,6 +55,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.mofa.gov.ae/en/Missions/Mumbai/Services/Visas">Download Application Form</a>
                         <a href="https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=uk&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=uk" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
 
             </td>
@@ -105,6 +116,16 @@
                             <!-- Special links for logged-in users -->
                             <a href="https://www.mofa.gov.ae/en/Missions/Mumbai/Services/Visas">Download Application Form</a>
                             <a href="https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk">Download Document Checklist</a>
+                            <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=uk&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=uk" class="doc-link">Login</a>
+                            </p>
                             <?php endif; ?></td>
                 </tr>
                 <tr><td>Passport & Travel History</td><td>Valid passport with at least one blank page; include previous passports if available.</td></tr>
@@ -120,6 +141,27 @@
                 <tr><td>Translation</td><td>Certified English/Welsh translations with translator's statement for any non-English documents.</td></tr>
                 <tr><td>Biometric Appointment</td><td>Attend local Visa Application Centre for fingerprint and photo submission.</td></tr>
                 <tr><td>Visa Fee</td><td>Pay application fee ; healthcare surcharge if staying longer.</td></tr>
+            </table>
+        </div>
+        <div id="student" class="tabcontent">
+            <h2>United Kingdom Student Visa Checklist</h2>
+            <table>
+                <tr>
+                    <th width="30%">Document</th>
+                    <th width="70%">Description</th>
+                </tr>
+                <tr><td>Passport / Travel Document</td><td>Current valid passport or travel document; must have at least one blank page.</td></tr>
+                <tr><td>Confirmation of Acceptance for Studies (CAS)</td><td>Unique CAS reference from your UK course provider.</td></tr>
+                <tr><td>Proof of Funds</td><td>Evidence to cover course fees and living costs (bank statements, sponsor letters, etc.).</td></tr>
+                <tr><td>ATAS Certificate (if required)</td><td>Valid Academic Technology Approval Scheme certificate for relevant courses.</td></tr>
+                <tr><td>Parental Consent (if under 18)</td><td>Consent letters and proof of relationship if you are under 18.</td></tr>
+                <tr><td>Tuberculosis Test Certificate</td><td>TB test result from approved clinic, if applicable.</td></tr>
+                <tr><td>Proof of English Proficiency</td><td>IELTS/TOEFL or equivalent, if not stated on CAS.</td></tr>
+                <tr><td>Visa Application Form</td><td>Completed online application form and payment receipt.</td></tr>
+                <tr><td>Photographs</td><td>Two recent passport-size photos meeting UKVI specifications.</td></tr>
+                <tr><td>Healthcare Surcharge (IHS)</td><td>Receipt showing payment for Immigration Health Surcharge.</td></tr>
+                <tr><td>Biometric Information</td><td>Fingerprint and photo submission at a UK Visa Application Centre.</td></tr>
+                <tr><td>Additional Supporting Documents</td><td>Evidence such as employment letters, educational transcripts, SOP, etc., if requested.</td></tr>
             </table>
         </div>
 

@@ -88,9 +88,9 @@
     <section class="visa-eligibility" id="document-checklist">
         <div class="container eligibility-container">
             <div class="eligibility-content">
-                <h2>Check your Visa Eligibility for Rs 500 only</h2>
-                <p>Upload your basic documents now.</p>
-                <a href="/payments/payment.php?country=croatia&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <h2>Check your Visa Eligibility for 499 Rs only</h2>
+                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
+                <a href="../payments/payment.php?country=croatia&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>
@@ -98,7 +98,7 @@
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="/payments/payment.php?country=croatia&amp;amount=499" class="check-btn">Download Documents</a>
+                <a href="../php/Croatia_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
             <!-- <div class="label-container">
@@ -329,7 +329,7 @@
         <div class="container">
             <h2>Types of Croatia Visa</h2>
             <section class="next-appointment">
-                <div class="container appointment-container">
+                <div class="container appointment-container visa card">
                     <div class="appointment-info">
                         <h2>Next Appointment Date</h2>
                         <p class="appointment-date">
@@ -375,11 +375,11 @@
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
+                        <small>+₹3499 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <button class="start-btn">Apply Now</button>
+                    <a href="/payments/payment.php?country=croatia&amount=12599"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
 
@@ -419,10 +419,10 @@
                 <div class="visa-action">
                     <div class="price">
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
+                        <small>+₹3499 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                     </div>
-                    <button class="start-btn">Apply Now</button>
+                    <a href="/payments/payment.php?country=croatia&amount=12599"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
 
@@ -501,25 +501,49 @@
                         </div>
                         <div class="step-content result">
                             <h3>Step 5: Visa received</h3>
-                            <p>From the appointment date, get your visa in <span class="highlight">4 weeks</span>.</p>
+                            <p>From the appointment date, get your visa in <span class="highlight">15 days</span>.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="process-badges">
-                    <div class="badge secure">
-                        <span>100% Safe & Secure</span>
-                    </div>
-                    <div class="badge experts">
-                        <span>Visa Experts + AI Assisted</span>
-                    </div>
-                    <div class="badge assistance">
-                        <span>Complete assistance</span>
-                    </div>
+                    <!-- <div class="process-badges">
+    <div class="badge secure">
+        <span>100% Safe & Secure</span>
+    </div>
+    <div class="badge experts">
+        <span>Visa Experts + AI Assisted</span>
+    </div>
+    <div class="badge assistance">
+        <span>Complete assistance</span>
+    </div>
+    <div class="badge updates">
+        <span>Regular status updates</span>
+    </div>
+</div> -->
                     <div class="badge updates">
                         <span>Regular status updates</span>
                     </div>
                 </div>
+                <!-- <div class="process-badges">
+                    <div class="process-badges">
+    <div class="badge secure">
+        <span>100% Safe & Secure</span>
+    </div>
+    <div class="badge experts">
+        <span>Visa Experts + AI Assisted</span>
+    </div>
+    <div class="badge assistance">
+        <span>Complete assistance</span>
+    </div>
+    <div class="badge updates">
+        <span>Regular status updates</span>
+    </div>
+</div> 
+                    <div class="badge updates">
+                        <span>Regular status updates</span>
+                    </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -728,7 +752,17 @@
     pointer-events: none;
     z-index: 1000;
 "></div>
-
+<?php
+// Visa type-based offsets
+$dateOffsets = [
+    'business' => 3,
+    'tourist' => 5,
+    'student' => 7
+];
+?>
+<script>
+    const visaOffsets = <?php echo json_encode($dateOffsets); ?>;
+</script>
     <script src="../link.js"></script>
     <script src="../scripts.js"></script>
     <script>

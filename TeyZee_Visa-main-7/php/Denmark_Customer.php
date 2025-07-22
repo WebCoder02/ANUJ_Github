@@ -52,6 +52,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa-english-latest_1b0c5d59214f2452613dffed18ec6ebc6e4cfe5a97e1ddec3a4fb50bbff30729.pdf">Download Application Form</a>
                         <a href="https://indien.um.dk/en/-/media/country-sites/indien-en/travel-and-residence/tourist-checklist-2024.ashx">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=denmark&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=denmark" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -150,6 +160,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://applyvisa.um.dk/NVP.App/frontpage/1">Download Application Form</a>
                         <a href="https://indien.um.dk/en/-/media/country-sites/indien-en/travel-and-residence/tourist-checklist-2024.ashx">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=denmark&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=denmark" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?></td>
                 </tr>
                 <tr>

@@ -34,6 +34,7 @@
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
             <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'student')">Student Visa</button>
             <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
         </div>
 
@@ -54,6 +55,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.ica.gov.sg/docs/default-source/ica/forms/form14a.pdf">Download Application Form</a>
                         <a href="https://www.mfa.gov.sg/Overseas-Mission/New-Delhi/Consular-Services/Visa-Information#:~:text=India">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=singapore&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=singapore" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
             </td>
           </tr>
@@ -118,6 +129,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.ica.gov.sg/docs/default-source/ica/forms/form14a.pdf">Download Application Form</a>
                         <a href="https://www.mfa.gov.sg/Overseas-Mission/New-Delhi/Consular-Services/Visa-Information#:~:text=India">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=singapore&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=singapore" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?></td>
                 </tr>
                 <tr><td>Visa Application Form</td><td>Duly completed and signed Form 14A.</td></tr>
@@ -128,6 +149,31 @@
                 <tr><td>Proof of Employment or Business</td><td>Employment letter or company documents from India-side.</td></tr>
                 <tr><td>Travel Itinerary</td><td>Return or onward flight bookings.</td></tr>
                 <tr><td>SG Arrival Card</td><td>Submit electronically within 72 hours before entry.</td></tr>
+                
+            </table>
+        </div>
+        <div id="student" class="tabcontent">
+            <h2>Singapore Student Visa Checklist</h2>
+            <table>
+                <tr>
+                    <th width="30%">Document</th>
+                    <th width="70%">Description</th>
+                </tr>
+                <tr><td>Offer Letter & SOLAR Reference</td><td>Letter of acceptance and school‑provided SOLAR application number.</td></tr>
+                <tr><td>Completed e‑Form 16</td><td>Filled via SOLAR, printed, signed and submitted within 7 days of receiving reference number.</td></tr>
+                <tr><td>Form V36 (if required)</td><td>Provided if additional information is requested (e.g. financial/family details).</td></tr>
+                <tr><td>Passport Copy</td><td>Scanned biodata page showing ≥6 months validity from entry date.</td></tr>
+                <tr><td>Photographs</td><td>Two recent passport-size colour photos (35×45 mm) on a plain white background.</td></tr>
+                <tr><td>Proof of Financial Support</td><td>Bank statement, fixed deposit, student loan sanction or sponsor letter as required.</td></tr>
+                <tr><td>Educational Documents</td><td>Transcripts, certificates and proof of prior academic qualifications.</td></tr>
+                <tr><td>Passport‑sized Photograph</td><td>Pasted on application forms and/or uploaded as per SOLAR requirements.</td></tr>
+                <tr><td>SG Arrival Card</td><td>To be completed online within 72 hours before departure to Singapore.</td></tr>
+                <tr><td>Processing Fee</td><td>SGD 30 paid during application submission.</td></tr>
+                <tr><td>IPA Letter</td><td>Issued upon approval; serves as entry approval and visa equivalent.</td></tr>
+                <tr><td>Issuance Fee</td><td>SGD 60 paid in-person upon collection of Student Pass in Singapore.</td></tr>
+                <tr><td>Medical Exam (if required)</td><td>Undergo health screening in Singapore if requested by ICA.</td></tr>
+                <tr><td>Confirmation Appointment</td><td>Book COF appointment after receiving IPA and pay issuance fee.</td></tr>
+                <tr><td>Biometric Enrollment</td><td>Fingerprint scan and photo taken at ICA Visitor Services Centre.</td></tr>
                 
             </table>
         </div>

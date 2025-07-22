@@ -93,8 +93,8 @@
     <section class="visa-eligibility">
         <div class="container eligibility-container">
             <div class="eligibility-content">
-                <h2>Check your Visa Eligibility for Rs 500 only</h2>
-                <p>Upload your basic documents now.</p>
+                <h2>Check your Visa Eligibility for 499 Rs only</h2>
+                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
                 <a href="/payments/payment.php?country=germany&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
@@ -103,7 +103,7 @@
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="/payments/payment.php?country=germany&amp;amount=499" class="check-btn">Download Documents</a>
+                <a href="../php/Germany_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
 
@@ -382,7 +382,7 @@
                         <h3>90 Euros per adult</h3>
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <button class="start-btn">Apply Now</button>
+                    <a href="/payments/payment.php?country=germany&amount=12599"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
 
@@ -425,7 +425,7 @@
                         <small>+₹3500 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                     </div>
-                    <button class="start-btn">Apply Now</button>
+                    <a href="/payments/payment.php?country=germany&amount=12599"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
 
@@ -504,21 +504,26 @@
                         </div>
                         <div class="step-content result">
                             <h3>Step 5: Visa received</h3>
-                            <p>From the appointment date, get your visa in <span class="highlight">4 weeks</span>.</p>
+                            <p>From the appointment date, get your visa in <span class="highlight">15 days</span>.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="process-badges">
-                    <div class="badge secure">
-                        <span>100% Safe & Secure</span>
-                    </div>
-                    <div class="badge experts">
-                        <span>Visa Experts + AI Assisted</span>
-                    </div>
-                    <div class="badge assistance">
-                        <span>Complete assistance</span>
-                    </div>
+                    <!-- <div class="process-badges">
+    <div class="badge secure">
+        <span>100% Safe & Secure</span>
+    </div>
+    <div class="badge experts">
+        <span>Visa Experts + AI Assisted</span>
+    </div>
+    <div class="badge assistance">
+        <span>Complete assistance</span>
+    </div>
+    <div class="badge updates">
+        <span>Regular status updates</span>
+    </div>
+</div> -->
                     <div class="badge updates">
                         <span>Regular status updates</span>
                     </div>

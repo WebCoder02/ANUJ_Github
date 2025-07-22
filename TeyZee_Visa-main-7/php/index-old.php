@@ -427,7 +427,7 @@
             <div class="container eligibility-container">
                 <div class="eligibility-content">
                     <h2>Check your Visa Eligibility for Rs 500 only</h2>
-                    <p>Upload your basic documents now.</p>
+                    <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
                     <a href="_Customer.php"><button id="check-now" class="check-btn">CHECK NOW</button></a>
                 </div>
             </div>

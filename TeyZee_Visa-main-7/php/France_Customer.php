@@ -34,6 +34,7 @@
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
             <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'student')">Student Visa</button>
             <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
         </div>
 
@@ -71,7 +72,17 @@
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf">Download Application Form</a>
-                        <a href="">Download Document Checklist</a>
+                        <a href="https://www.welcometofrance.com/app/uploads/List-of-documents-to-be-submitted-with-an-application-for-a-short-stay-visa-1.pdf">Download Document Checklist</a>
+                        <?php else: ?>
+                            <p>
+                                If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
+                                <a href="/php/payment.php?country=france&amount=499" class="doc-link">Check Eligibility</a><br>
+                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                After registration, you will receive your User ID and password on your registered Email ID.<br>
+                                If you have already registered on TeyzeeVisas, please login:<br>
+                                <a href="/php/login.php?country=france" class="doc-link">Login</a>
+                            </p>
                         <?php endif; ?>
                     </td>
                 </tr>
@@ -280,6 +291,32 @@
                 </tr>
             </table>
         </div>
+
+        <div id="student" class="tabcontent">
+            <h2>France Student Visa Checklist</h2>
+            <table>
+                <tr>
+                    <th width="30%">Document</th>
+                    <th width="70%">Description</th>
+                </tr>
+                <tr><td>Passport</td><td>Valid at least 6 months beyond intended stay; two blank pages recommended.</td></tr>
+                <tr><td>Campus France Registration</td><td>Online file number (IN) and interview confirmation from Campus France India.</td></tr>
+                <tr><td>Admission Letter</td><td>Official acceptance from a French educational institution.</td></tr>
+                <tr><td>Visa Application Form</td><td>Long‑Stay Student Visa form, printed, signed and dated.</td></tr>
+                <tr><td>Photos</td><td>Two recent passport-style colour photos (35×45 mm; biometric guidelines).</td></tr>
+                <tr><td>Academic Records</td><td>Transcripts and diplomas from previous studies (10th grade onward).</td></tr>
+                <tr><td>Curriculum Vitae</td><td>Résumé detailing education and experience.</td></tr>
+                <tr><td>Motivation Letter</td><td>Personal cover letter explaining your study goals and choice of program.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements, ITRs or sponsor documents showing ≥ €615/month plus tuition fee proof.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Rental agreement, student housing confirmation, or host invitation with address.</td></tr>
+                <tr><td>Insurance</td><td>Medical/travel insurance covering at least €30,000 for emergencies and repatriation.</td></tr>
+                <tr><td>Flight & Travel Plan</td><td>Flight reservation for short stays or proposed travel itinerary.</td></tr>
+                <tr><td>Health Declaration (OFII)</td><td>Completed OFII form if required upon arrival in France.</td></tr>
+                <tr><td>Visa Fee</td><td>Paid at VFS/Consulate during submission.</td></tr>
+                <tr><td>Biometrics</td><td>Fingerprint scan and photo at Visa Application Centre (age ≥12).</td></tr>
+                <tr><td>Translations</td><td>Documents not in English or French translated and certified.</td></tr>
+            </table>
+         </div>
 
         <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>            
          <?php if (isset($_SESSION['user_id'])): ?>
