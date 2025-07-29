@@ -80,7 +80,7 @@ if ($isLoggedIn) {
                     <div class="user-menu">
                         <span class="user-greeting">Welcome, <?php echo htmlspecialchars($userName); ?>!</span>
                         <!-- <a href="https://www.teyzeevisas.com/php/dashboard.php" class="contact"><i class="fas fa-user"></i> Dashboard</a> -->
-                        <a href="../php/logout.php" class="contact"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        <a href="/php/logout.php" class="contact"><i class="fas fa-sign-out-alt"></i> Logout</a>
                     </div>
                 <?php else: ?>
                     <!-- User is not logged in - show login button only -->

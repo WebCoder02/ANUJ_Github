@@ -60,6 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="hero">
         <div class="container">
             <div class="hero-content">
+
                 <div class="action-banner">
                     <p>Start now and get your appointment booked in 2 days</p>
                 </div>
@@ -103,6 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for 499 Rs only</h2>
                 <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
+                
                 <a href="/payments/payment.php?country=italy&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
@@ -111,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="../php/Italy_Customer.php" class="check-btn">Download Documents</a>
+                <a href="/php/Italy_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
 
@@ -387,11 +389,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹3500 Plus Tax</small>
+                        <strong><h5>₹3500 Plus Tax</h5></strong>
+                        <small>Visa fee payable at VFS</small>
                         <h3>90 Euros per adult</h3>
+                        
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=italy&amount=12599"><button class="start-btn">Apply Now</button></a>
+                    <a href="/payments/payment.php?country=italy&amount=4130"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
     
@@ -430,11 +434,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
                 <div class="visa-action">
                     <div class="price">
+                        <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹3500 Plus Tax</small>
+                        <strong><h5>₹3500 Plus Tax</h5></strong>
+                        <small>Visa fee payable at VFS</small>
                         <h3>90 Euros per adult</h3>
+                        
+                        <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=italy&amount=12599"><button class="start-btn">Apply Now</button></a>
+                    <a href="/payments/payment.php?country=italy&amount=4130"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
             

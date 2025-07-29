@@ -4,28 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeyZee Visas - Azerbaijan Visa Services</title>
+    <title>TeyZee Visas - Italy Visa Services</title>
     <link rel="stylesheet" href="../Country_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Google Tag Manager -->
+<!-- Google Tag Manager -->
 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     
-
-    <!-- End Google Tag Manager -->
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    
+    })(window,document,'script','dataLayer','GTM-TZGFW4FB');</script>
+    
+    <!-- End Google Tag Manager -->  
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-
     
-    <!-- End Google Tag Manager (noscript) -->
-    <!--<header>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGFW4FB"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+<!-- <header>
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
                     <img src="../VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
-                </a>
-
+                    </a>
+                
             </div>
             <div class="header-actions">
                 <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
@@ -33,26 +44,33 @@
                  <a href="#" class="login-btn">Login</a> 
             </div>
         </div>
-    </header>-->
+    </header> -->
     <nav class="sticky-nav">
         <div class="container nav-container">
             <ul class="nav-links">
                 <li><a href="#tourist-visa">Tourist</a></li>
-                <li><a href="#">Business</a></li>
+                <li><a href="#business-visa">Business</a></li>
                 <li><a href="#visa-process">Process</a></li>
-                <li><a href="#">Checklist</a></li>
+                <li><a href="#document-checklist">Checklist</a></li>
                 <li><a href="#info-section">Q&A</a></li>
             </ul>
         </div>
     </nav>
+
     <section class="hero">
         <div class="container">
             <div class="hero-content">
+
                 <div class="action-banner">
                     <p>Start now and get your appointment booked in 2 days</p>
                 </div>
+                 <!-- ✅ LOGIN REFERENCE 1: Hero Section Quick Login -->
+                <div class="quick-access">
+                    <p>Already have an account? <a href="/php/login.php?redirect_to=/php/italy.php" class="quick-login" style="color:#5648ce"><strong>Login to continue</strong></a></p>
+                </div>
+
                 <div class="hero-text">
-                    <h1>Get your Azerbaijan visa</h1>
+                    <h1>Get your Italy visa</h1>
                     <div class="recent-applications">
                         <!-- <span class="avatars">
                             <img src="https://via.placeholder.com/30" alt="User">
@@ -78,35 +96,44 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../VisaImages/destinations/azerbaijan.jpg" alt="Azerbaijan">
+                <img src="../VisaImages/destinations/italy.jpg" alt="Paris cityscape">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
-                    <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
-                        our personal visas as well. Flawless service.👍"</p>
+                    <p>"Teyzee Visas has been doing our coporate visas since decades,  so naturally we asked them to do our personal visas as well.  Flawless service.👍"</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="visa-eligibility" id="document-checklist">
+    <section class="visa-eligibility">
         <div class="container eligibility-container">
             <div class="eligibility-content">
-                <h2>Check Your Visa Eligibilty for Rs 499 only</h2>
-                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day..</p>
-                <a href="/payments/payment.php?country=azerbaijan&amount=499"><button class="check-btn">Check Eligibility - Pay Rs 499</button></a>
+                <h2>Check your Visa Eligibility for 499 Rs only</h2>
+                <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
+                <!-- ✅ LOGIN REFERENCE 2: Before Payment - Check if User is Logged In -->
+                <?php if (isset($_SESSION['user_id'])): ?>
+                    <a href="/payments/payment.php?country=france&amount=499"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <?php else: ?>
+                    <p><small>Please <a href="/php/login.php?redirect_to=/php/france.php" class="login-link">login</a> to proceed with payment</small></p>
+                    <a href="/php/login.php?redirect_to=/php/france.php"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <?php endif; ?>
+                
+                <!-- <a href="/payments/payment.php?country=italy&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a> -->
             </div>
         </div>
     </section>
-    <section class="document-checklist">
+   <section class="document-checklist">
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="/php/Azerbaijan_Customer.php" class="check-btn">Download Documents</a>
+                <!-- ✅ LOGIN REFERENCE 3: Document Download - Login Required -->
+                <?php if (isset($_SESSION['user_id'])): ?>
+                    <a href="../php/France_Customer.php" class="check-btn">Download Documents</a>
+                <?php else: ?>
+                    <a href="/php/login.php?redirect_to=/php/france.php" class="check-btn">Download Documents</a>
+                <?php endif; ?>
+                <!-- <a href="/php/Italy_Customer.php" class="check-btn">Download Documents</a> -->
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
-            <!-- <div class="label-container">
-                <h2 class="document-checklist">Document Checklist</h2>
-                <a href="Russia_Customer.html" target="_blank">Download the Documentation</a>
-            </div> -->
 
             <!-- Cascading dropdown -->
             <div class="dropdown-container">
@@ -326,62 +353,32 @@
             </div>
         </div>
     </section>
-    <section class="next-appointment">
-        <div class="container appointment-container visa-card">
-            <div class="appointment-info">
-                <h2>Next Appointment Date</h2>
-                <p class="appointment-date">
-                    <i class="fas fa-calendar-alt"></i>
-                    <span id="next-appointment-date"></span>
-                </p>
-            </div>
-        </div>
-    </section>
-
-     <section class="visa-cards-wrapper">
-  <h2 class="visa-information-title">eVisa Information</h2>
-
-  <div class="visa-cards-grid">
-
-    <div class="visa-cards">
-      <h3 class="visa-title">Single Entry (ETA - Electronic Travel Authorisation)</h3>
-      <div class="visa-information">
-        <div><strong>Visa Type:</strong> eVisa</div>
-        <div><strong>Processing Time:</strong> 4 working days</div>
-        <div><strong>Visa Duration:</strong> 90 days from issue</div>
-        <div><strong>Length of Stay:</strong> Up to 30 days</div>
-        
-      </div>
-      <a href="/payments/payment.php?country=azerbaijan&amount=2899"><button class="apply-button">Apply Now @ $29 (₹2400 + ₹499)</button></a>
-    </div>
-
-    <div class="visa-cards">
-      <h3 class="visa-title">Express Entry (ETA - Electronic Travel Authorisation)</h3>
-      <div class="visa-information">
-        <div><strong>Visa Type:</strong> eVisa</div>
-        <div><strong>Processing Time:</strong> 1 working days</div>
-        <div><strong>Visa Duration:</strong> 90 days from issue</div>
-        <div><strong>Length of Stay:</strong> Up to 30 days</div>
-      </div>
-      <a href="/payments/payment.php?country=azerbaijan&amount=6799"><button class="apply-button">Apply Now @ $75 (₹6300 + ₹499)  </button></a>
-    </div>
-
-
-  </div>
-</section>
 
     <section class="visa-types">
         <div class="container">
-            <h2>Types of Azerbaijan Visa</h2>
-            
+            <h2>Types of Italy Visa</h2>
+            <section class="next-appointment">
+                <div class="container appointment-container">
+                  <div class="appointment-info">
+                    <h2>Next Appointment Date</h2>
+                    <p class="appointment-date">
+                      <i class="fas fa-calendar-alt"></i> 
+                      <span id="next-appointment-date"></span>
+                    </p>
+                  </div>
+                </div>
+              </section>
+              
+              
+    
             <div class="visa-card">
                 <div class="visa-info">
                     <div class="visa-type">
-                        <span class="heading" id="tourist-visa">Tourist</span>
-                        <h3>90 Days</h3>
-                        <p>Single Entry</p>
+                        <span class="heading">Tourist</span>
+                        <h3>1-6 Months</h3>
+                        <p>Single/Multiple Entry</p>
                     </div>
-
+    
                     <div class="visa-details">
                         <div class="detail">
                             <i class="fas fa-passport"></i>
@@ -396,37 +393,45 @@
                         <div class="detail">
                             <i class="fas fa-calendar-check"></i>
                             <span>Visa validity</span>
-                            <strong>90 Days</strong>
+                            <strong>30-180 Days</strong>
                         </div>
                         <div class="detail">
                             <i class="fas fa-clock"></i>
                             <span>Processing time</span>
-                            <strong>4 Working Days</strong>
+                            <strong>15 Working Days</strong>
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="visa-action">
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
-                        <h3>29$ per adult</h3>
+                        <strong><h5>₹3500 Plus Tax</h5></strong>
+                        <small>Visa fee payable at VFS</small>
+                        <h3>90 Euros per adult</h3>
+                        
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=azerbaijan&amount=2999"><button class="start-btn">Apply Now</button></a>
+                    <!-- ✅ LOGIN REFERENCE 4: Main Apply Button - Login Check -->
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=france&amount=12599"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/php/login.php?redirect_to=/php/france.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
+                    <!-- <a href="/payments/payment.php?country=italy&amount=4130"><button class="start-btn">Apply Now</button></a> -->
                 </div>
             </div>
-
-
-            <div class="visa-card">
+    
+    
+            <div class="visa-card business">
                 <div class="visa-info">
                     <div class="visa-type">
-                        <span class="heading" id="tourist-visa">Tourist</span>
-                        <h3>90 Days</h3>
-                        <p>Express Entry</p>
+                        <span class="heading">Business</span>
+                        <h3>1-3 Months</h3>
+                        <p>Single/Multiple Entry</p>
                     </div>
-
+    
                     <div class="visa-details">
                         <div class="detail">
                             <i class="fas fa-passport"></i>
@@ -441,278 +446,364 @@
                         <div class="detail">
                             <i class="fas fa-calendar-check"></i>
                             <span>Visa validity</span>
-                            <strong>90 Days</strong>
+                            <strong>30-180 Days</strong>
                         </div>
                         <div class="detail">
                             <i class="fas fa-clock"></i>
                             <span>Processing time</span>
-                            <strong>1 Working Days</strong>
+                            <strong>15 Working Days</strong>
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="visa-action">
                     <div class="price">
+                        <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
-                        <h3>69$ per adult</h3>
+                        <strong><h5>₹3500 Plus Tax</h5></strong>
+                        <small>Visa fee payable at VFS</small>
+                        <h3>90 Euros per adult</h3>
+                        
+                        <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=azerbaijan&amount=6419"><button class="start-btn">Apply Now</button></a>
+                    <!-- ✅ LOGIN REFERENCE 5: Business Apply Button - Login Check -->
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=france&amount=12599"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/php/login.php?redirect_to=/php/france.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
+                    <!-- <a href="/payments/payment.php?country=italy&amount=4130"><button class="start-btn">Apply Now</button></a> -->
                 </div>
             </div>
-
+            
             <div class="contact-expert">
                 <p>Talk to a visa expert instantly-Call now!</p>
                 <button class="callback-btn"><i class="fas fa-phone"></i> Request callback</button>
             </div>
         </div>
     </section>
+   
+    
+<section class="process">
+    <div class="container">
+        <div class="process-timeline">
+            <h3>Expert Visa Assistance in Just a Few Steps</h3>
+            <div class="process-selector">
+                <p>Showing steps for <span>Sticker visa</span></p>
+            </div>
+            <div class="process-steps">
+                <div class="timeline-line"></div>
+                <div class="step">
+                    <div class="step-icon date">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="step-content">
+                        <span class="step-label">Today</span>
+                        <h3 id="current-date">April 8, 2025</h3>
+                    </div>
+                </div>
 
-    <section class="process" id="visa-process">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 1: Start & submit your application</h3>
+                        <p>Complete your application accurately on our user-friendly platform</p>
+                        <!-- <span class="step-date">April 8, 2025</span> -->
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 2: Expert review and appointment booking</h3>
+                        <p>Your designated visa expert reviews your application and books your appointments at the
+                            visa centre.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 3: Visit the visa application centre</h3>
+                        <p>Visit the visa centre to submit biometrics with our guidance and support.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Step 4: Visa delivered on time</h3>
+                        <p>Relax as we ensure your visa is processed promptly and delivered on time.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon result">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="step-content result">
+                        <h3>Step 5: Visa received</h3>
+                        <p>From the appointment date, get your visa in <span class="highlight">15 days</span>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-badges">
+                <!--<div class="badge secure">
+                    <span>100% Safe & Secure</span>
+                </div>
+                <div class="badge experts">
+                    <span>Visa Experts + AI Assisted</span>
+                </div>
+                <div class="badge assistance">
+                    <span>Complete assistance</span>
+                </div>-->
+                <div class="badge updates">
+                    <span>Regular status updates</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   
+    <!-- <div class="checklist-header">
+                <h3>Documents required for <span class="flag"> </span> Italy Visa</h3>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download Italy Checklist</a>
+            </div> -->
+    <!-- <div class="checklist-column">
+                <h4>Conditional Docs</h4>
+                <div class="checklist-item"><i class="fas fa-briefcase"></i><span>Employed</span></div>
+                <div class="checklist-item"><i class="fas fa-user-tie"></i><span>If Self-Employed</span></div>
+                <div class="checklist-item"><i class="fas fa-umbrella-beach"></i><span>Retired</span></div>
+                <div class="checklist-item"><i class="fas fa-coins"></i><span>Is Funded</span></div>
+                <div class="checklist-item"><i class="fas fa-heart"></i><span>Is Married</span></div>
+            </div> -->
+    <!-- <div class="checklist-section">
+                    <div class="checklist-grid">
+                        <h4>Conditional Docs</h4>
+                        <div class="checklist-item"><i class="fas fa-briefcase"></i><span>Employed</span></div>
+                        <div class="checklist-item"><i class="fas fa-user-tie"></i><span>If Self-Employed</span></div>
+                        <div class="checklist-item"><i class="fas fa-umbrella-beach"></i><span>Retired</span></div>
+                        <div class="checklist-item"><i class="fas fa-coins"></i><span>Is Funded</span></div>
+                        <div class="checklist-item"><i class="fas fa-heart"></i><span>Is Married</span></div>
+                    </div>
+                    
+                    <div class="checklist-grid">
+                        <h4>Additional Documents</h4>
+                        <div class="checklist-item"><i class="fas fa-file-invoice"></i><span>ITR Acknowledgement - 3 years</span></div>
+                        <div class="checklist-item"><i class="fas fa-file-alt"></i><span>Covering Letter</span></div>
+                        <div class="checklist-item"><i class="fas fa-passport"></i><span>Previous Visas Copy</span></div>
+                        <div class="checklist-item"><i class="fas fa-coins"></i><span>Assets & Liabilities Statement</span></div>
+                    </div>
+                    
+                    <div class="checklist-grid">
+                        <h4>Refundable Booking Documents</h4>
+                        <div class="checklist-item"><i class="fas fa-bed"></i><span>Hotel Voucher (Refundable booking)</span></div>
+                        <div class="checklist-item"><i class="fas fa-plane"></i><span>Flight Tickets (Refundable booking)</span></div>
+                    </div>
+                </div> -->
+    <!-- <h4>Mandatory Docs</h4>
+                <div class="checklist-grid">
+                    <div class="checklist-item"><i class="fas fa-file-invoice"></i><span>Copy of Income Tax Department Return (ITR V) acknowledgment</span></div>
+                    <div class="checklist-item"><i class="fas fa-file-alt"></i><span>Cover Letter</span></div>
+                    <div class="checklist-item"><i class="fas fa-passport"></i><span>Copy of passport front page</span></div>
+                    <div class="checklist-item"><i class="fas fa-bed"></i><span>Hotel Tickets</span></div>
+                    <div class="checklist-item"><i class="fas fa-file-alt"></i><span>Visa Application Form</span></div>
+                    <div class="checklist-item"><i class="fas fa-stamp"></i><span>Visa Stamps</span></div>
+                    <div class="checklist-item"><i class="fas fa-passport"></i><span>Original passport</span></div>
+                    <div class="checklist-item"><i class="fas fa-passport"></i><span>Copy of Passport Back Page</span></div>
+                    <div class="checklist-item"><i class="fas fa-image"></i><span>Photograph</span></div>
+                    <div class="checklist-item"><i class="fas fa-plane"></i><span>Flight Tickets</span></div>
+                    <div class="checklist-item"><i class="fas fa-file-invoice"></i><span>3 Months Bank Statement</span></div>
+                </div> -->
+
+
+
+                <section class="info-cards">
+                    <div class="container">
+                        <h2>Know more about Italy visa</h2>
+                        <p class="subtitle">Curated resources for Italy visa</p>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="card-content">
+                                    <h3>Italy Visa Rejection Rates & Prevention Tips</h3>
+                                    <p>Around 1% rejection rate with TeyZee Visas, 10-20% with other agents. <span class="hidden-content">Learn how proper documentation, financial stability proof, and clear travel plans can improve your chances.</span></p>
+                                    <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-content">
+                                    <h3>How do I prevent my Italy visa application from being  denied?</h3>
+                                    <p>Check eligibility with TeyZee Visas before you apply. </p>
+                                    <!-- <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a> -->
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-content">
+                                    <h3>When to Apply for a Italy Visa: Optimal Timing</h3>
+                                    <p>Apply up to 90 days before your planned travel date. <span class="hidden-content">We highly recommend applying at the earliest opportunity to avoid delays and complications.</span></p>
+                                    <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-content">
+                                    <h3>Italy Transit Visa Requirements for Indian Citizens</h3>
+                                    <p>Indian citizens need a transit visa for all layovers in Italy. <span class="hidden-content">This visa only allows airport stays - for city visits, apply for a regular Schengen visa.</span></p>
+                                    <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-content">
+                                    <h3>Reapplying After Italy Visa Rejection: Next Steps</h3>
+                                    <p>Address the specific rejection reasons and reapply with TeyZee Visas' expert guidance. <span class="hidden-content">Most rejections are due to financial documentation or insufficient ties to India.</span></p>
+                                    <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-content">
+                                    <h3>Single vs. Multiple-Entry Schengen Visas for Italy</h3>
+                                    <p>Both single and multiple-entry visas available for Italy travel. <span class="hidden-content">First-time visitors should apply for single-entry, while multiple-entry allows unlimited visits within the validity period.</span></p>
+                                    <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+    <!-- <section class="related-countries">
         <div class="container">
-            <div class="process-timeline">
-                <h3>Expert Visa Assistance in Just a Few Steps</h3>
-                <div class="process-selector">
-                    <p>Showing steps for <span>eVisa</span></p>
+            <h2>Other Popular Countries</h2>
+            <p class="subtitle">Users who looked for Italy, also looked at these countries</p>
+            
+            <div class="country-grid">
+                <div class="country-card">
+                    <div class="issuance">1054 issued recently</div>
+                    <img src="https://via.placeholder.com/300x200" alt="Dubai">
                 </div>
-                <div class="process-steps">
-                    <div class="timeline-line"></div>
-                    <div class="step">
-                        <div class="step-icon date">
-                            <i class="fas fa-sun"></i>
-                        </div>
-                        <div class="step-content">
-                            <span class="step-label">Today</span>
-                            <h3 id="current-date">April 8, 2025</h3>
-                        </div>
-                    </div>
+                
+                <div class="country-card">
+                    <div class="issuance">966 issued recently</div>
+                    <img src="https://via.placeholder.com/300x200" alt="Singapore">
+                </div>
+                
+                <div class="country-card">
+                    <div class="issuance">594 issued recently</div>
+                    <img src="https://via.placeholder.com/300x200" alt="Vietnam">
+                </div>
+                
+                <div class="country-card">
+                    <div class="issuance">2 issued recently</div>
+                    <img src="https://via.placeholder.com/300x200" alt="USA">
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-                    <div class="step">
-                        <div class="step-icon">
-                            <i class="fas fa-file-alt"></i>
-                        </div>
-                        <div class="step-content">
-                            <h3>Step 1: Start & submit your application</h3>
-                            <p>Complete your application accurately on our user-friendly platform</p>
-                            <!-- <span class="step-date">April 8, 2025</span> -->
-                        </div>
-                    </div>
 
-                    <div class="step">
-                        <div class="step-icon">
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="step-content">
-                            <h3>Step 2: Expert review and appointment booking</h3>
-                            <p>Your designated visa expert reviews your application and books your appointments at the
-                                visa centre.</p>
-                        </div>
-                    </div>
 
-                    <div class="step">
-                        <div class="step-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="step-content">
-                            <h3>Step 3: Visa delivered on time</h3>
-                            <p>Relax as we ensure your visa is processed promptly and delivered on time.</p>
-                        </div>
-                    </div>
 
-                    <div class="step">
-                        <div class="step-icon result">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="step-content result">
-                            <h3>Step 4: Visa received</h3>
-                            <p>From the appointment date, get your visa in <span class="highlight">4 days</span>.</p>
-                        </div>
+
+    <!-- <section class="faq">
+        <div class="container">
+            <h2>FAQs for Italy Visa</h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What should I do if my Italy visa application is denied as an Indian citizen?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
-
-                <div class="process-badges">
-                    <!-- <div class="process-badges">
-    <div class="badge secure">
-        <span>100% Safe & Secure</span>
-    </div>
-    <div class="badge experts">
-        <span>Visa Experts + AI Assisted</span>
-    </div>
-    <div class="badge assistance">
-        <span>Complete assistance</span>
-    </div>
-    <div class="badge updates">
-        <span>Regular status updates</span>
-    </div>
-</div> -->
-                    <div class="badge updates">
-                        <span>Regular status updates</span>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do Indian citizens need a transit visa when traveling to Italy?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I need to courier my document for an e-visa for Italy as an Indian?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>When to apply for Italy visa as an Indian?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is Italy visa multiple entry?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is the rejection rate for Italy visa for Indians?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is it possible to extend the validity of my Italy visa as an Indian citizen?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long can I stay in Italy with my tourist visa?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is the processing time for Italy tourist visa?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are the steps and procedures for obtaining a Italy visa for Indians?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Where to track my Italy visa application status?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Does Italy offer visa on arrival to Indians?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="process" id="visa-process">
-        <div class="container">
-            <div class="process-timeline">
-                <h3>Expert Visa Assistance in Just a Few Steps</h3>
-                <div class="process-selector">
-                    <p>Showing steps for <span>Sticker Visa</span></p>
-                </div>
-                <div class="process-steps">
-                    <div class="timeline-line"></div>
-                    <div class="step">
-                        <div class="step-icon date">
-                            <i class="fas fa-sun"></i>
-                        </div>
-                        <div class="step-content">
-                            <span class="step-label">Today</span>
-                            <h3 id="current-date"><?php 
-                            $currentDate = date('d M Y');
-                            echo $currentDate;
-                            ?></h3>
-                        </div>
-                    </div>
-
-                    <div class="step">
-                        <div class="step-icon">
-                            <i class="fas fa-file-alt"></i>
-                        </div>
-                        <div class="step-content">
-                            <h3>Step 1: Start & submit your application</h3>
-                            <p>Complete your application accurately on our user-friendly platform</p>
-                        </div>
-                    </div>
-
-                    <div class="step">
-                        <div class="step-icon">
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="step-content">
-                            <h3>Step 2: Expert review and appointment booking</h3>
-                            <p>Your designated visa expert reviews your application and books your appointments at the
-                                visa centre.</p>
-                        </div>
-                    </div>
-
-                    <div class="step">
-                        <div class="step-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="step-content">
-                            <h3>Step 3: Visit the visa application centre</h3>
-                            <p>Visit the visa centre to submit biometrics with our guidance and support.</p>
-                        </div>
-                    </div>
-
-                    <div class="step">
-                        <div class="step-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="step-content">
-                            <h3>Step 4: Visa delivered on time</h3>
-                            <p>Relax as we ensure your visa is processed promptly and delivered on time.</p>
-                        </div>
-                    </div>
-
-                    <div class="step">
-                        <div class="step-icon result">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="step-content result">
-                            <h3>Step 5: Visa received</h3>
-                            <p>From the appointment date, get your visa in <span class="highlight">1-4 Working Days</span>.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="process-badges">
-                    <!-- <div class="process-badges">
-    <div class="badge secure">
-        <span>100% Safe & Secure</span>
-    </div>
-    <div class="badge experts">
-        <span>Visa Experts + AI Assisted</span>
-    </div>
-    <div class="badge assistance">
-        <span>Complete assistance</span>
-    </div>
-    <div class="badge updates">
-        <span>Regular status updates</span>
-    </div>
-</div> -->
-                    <div class="badge updates">
-                        <span>Regular status updates</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="info-cards" id="info-section">
-        <div class="container">
-            <h2>Know more about Azerbaijan Visa</h2>
-            <p class="subtitle">Curated resources for Azerbaijan visa</p>
-            <div class="info-grid">
-                <div class="info-card">
-                    <div class="card-content">
-                        <h3>Azerbaijan Visa Rejection Rates & Prevention Tips</h3>
-                        <p>Around 1% rejection rate with TeyZee Visas, 10-20% with other agents. <span
-                                class="hidden-content">Learn how proper documentation, financial stability proof, and
-                                clear travel plans can improve your chances.</span></p>
-                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="info-card">
-                    <div class="card-content">
-                        <h3>How do I prevent my Azerbaijan visa application from being denied?</h3>
-                        <p>Check eligibility with TeyZee Visas before you apply. </p>
-                        <!-- <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a> -->
-                    </div>
-                </div>
-                <div class="info-card">
-                    <div class="card-content">
-                        <h3>When to Apply for a Azerbaijan Visa: Optimal Timing</h3>
-                        <p>Apply up to 90 days before your planned travel date. <span class="hidden-content">We highly
-                                recommend applying at the earliest opportunity to avoid delays and complications.</span>
-                        </p>
-                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="info-card">
-                    <div class="card-content">
-                        <h3>Azerbaijan Transit Visa Requirements for Indian Citizens</h3>
-                        <p>Indian citizens need a transit visa for all layovers in Azerbaijan. <span
-                                class="hidden-content">This visa only allows airport stays - for city visits, apply for
-                                a regular visa.</span></p>
-                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="info-card">
-                    <div class="card-content">
-                        <h3>Reapplying After Azerbaijan Visa Rejection: Next Steps</h3>
-                        <p>Address the specific rejection reasons and reapply with TeyZee Visas' expert guidance. <span
-                                class="hidden-content">Most rejections are due to financial documentation or
-                                insufficient ties to India.</span></p>
-                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="info-card">
-                    <div class="card-content">
-                        <h3>Single vs. Multiple-Entry Visas for Azerbaijan</h3>
-                        <p>Both single and multiple-entry visas available for Azerbaijan travel. <span
-                                class="hidden-content">First-time visitors should apply for single-entry, while
-                                multiple-entry allows unlimited visits within the validity period.</span></p>
-                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <?php include 'footer.php'; ?>
-     <!-- <footer>
+    </section> -->
+<?php include 'footer.php';?>
+      <!--<footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
@@ -789,14 +880,14 @@
             <div class="footer-countries">
                 <h3>Read more about visas</h3>
                 <div class="country-links">
-                    <a href="/html/france_customer.html">France</a> •
+                     <a href="/html/france_customer.html">France</a> •
                     <a href="/html/italy_customer.html">Italy</a> •
                     <a href="/html/germany_customer.html">Germany</a> •
                     <a href="/html/switzerland.html">Switzerland</a> •
                     <a href="/html/greece_customer.html">Greece</a> •
                     <a href="/html/singapore_customer.html">Singapore</a> •
                     <a href="/html/turkey_customer.html">Turkey</a> •
-                    <a href="/html/France_customer.html">France</a> •
+                    <a href="/html/china_customer.html">China</a> •
                     <a href="#">Russia</a> •
                     <a href="#">United Arab Emirates</a> •
                     <a href="#">Indonesia</a> •
@@ -816,9 +907,9 @@
                     <a href="#">Denmark</a> •
                     <a href="#">Uzbekistan</a> •
                     <a href="#">Cambodia</a> •
-                    <a href="#">Malaysia</a> •
+                    <a href="#">Morocco</a> •
                     <a href="#">Netherlands</a> •
-                    <a href="#">Romania</a> •
+                    <a href="#">Philippines</a> •
                     <a href="#">Brazil</a> •
                     <a href="#">Saudi Arabia</a> •
                     <a href="#">Kenya</a> •
@@ -826,14 +917,14 @@
                     <a href="#">Belgium</a> •
                     <a href="#">Croatia</a> •
                     <a href="#">Lithuania</a> •
-                    <a href="#">Morocco</a> •
+                    <a href="#">Ireland</a> •
                     <a href="#">Luxembourg</a> •
                     <a href="#">Hong Kong</a> •
-                    <a href="#">Ireland</a> •
+                    <a href="#">Malaysia</a> •
                     <a href="#">Japan</a> •
                     <a href="#">Bahrain</a> •
                     <a href="#">Czech Republic</a> •
-                    <a href="#">Philippines</a> •
+                    <a href="#">Romania</a> •
                     <a href="#">Bulgaria</a> •
                     <a href="#">Slovakia</a> •
                     <a href="#">Latvia</a> •
@@ -844,8 +935,8 @@
                 <p>© 2025 TeyZee Visas. All Rights Reserved.</p>
             </div>
         </div>
-    </footer> -->
-    <div id="custom-tooltip" style="
+    </footer>-->
+<div id="custom-tooltip" style="
     position: absolute;
     background: #333;
     color: #fff;
@@ -856,17 +947,6 @@
     pointer-events: none;
     z-index: 1000;
 "></div>
-<?php
-// Visa type-based offsets
-$dateOffsets = [
-    'business' => 3,
-    'tourist' => 5,
-    'student' => 7
-];
-?>
-<script>
-    const visaOffsets = <?php echo json_encode($dateOffsets); ?>;
-</script>
 
     <script src="../link.js"></script>
     <script src="../scripts.js"></script>
@@ -880,7 +960,6 @@ $dateOffsets = [
 
             dateElement.textContent = formattedDate;
         });
-
     </script>
     <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq4e31759c72faf117d54e41692276fce110fbe6e6e6d715a6aaac7a0c47204f0c" defer></script>
 
