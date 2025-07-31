@@ -58,11 +58,11 @@
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="/php/payment.php?country=Japan_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Japan_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="/php/login.php?country=Japan_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=Japan_Customer" class="doc-link">Login</a>
                             </p>
                         <?php endif; ?>
                     </td>
@@ -94,11 +94,11 @@
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="/php/payment.php?country=Japan_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Japan_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="/php/login.php?country=Japan_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=Japan_Customer" class="doc-link">Login</a>
                             </p>
                             <?php endif; ?></td>
                     </tr>
@@ -362,7 +362,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Japan - https://teyzee.com/Japan-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Japan - https://teyzee.com/japan.php; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);

@@ -1,3 +1,4 @@
+/* july 30 2025 */
 /* Global Variables */
 :root {
   --primary-color: #5648ce;
@@ -118,6 +119,18 @@ tr:hover {
   color: #5648ce;
   font-weight: bold;
 }
+/* New doc-link-special for customer files.  */
+.doc-link-special {
+  display: inline-block;
+  background-color: #078c1e;
+  color: white;
+  padding: 8px 16px;
+  border-radius: var(--border-radius);
+  margin-left: 10px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+/* July 30 2025 */
 
 .doc-link {
   display: inline-block;

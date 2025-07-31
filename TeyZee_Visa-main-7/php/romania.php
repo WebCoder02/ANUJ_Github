@@ -375,11 +375,13 @@
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
+                        <strong><h5>₹3500 Plus Tax</h5></strong>
+                        <small>Visa fee payable at VFS</small>
                         <h3>90 Euros per adult</h3>
+                        
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=romania&amount=4130"><button class="start-btn">Apply Now</button></a>
+                    <a href="/payments/payment.php?country=portugal&amount=4130"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
 
@@ -418,11 +420,15 @@
 
                 <div class="visa-action">
                     <div class="price">
+                        <!-- add any tag -->
                         <p>Pay now</p>
-                        <small>+₹499 Plus Tax</small>
+                        <strong><h5>₹3500 Plus Tax</h5></strong>
+                        <small>Visa fee payable at VFS</small>
                         <h3>90 Euros per adult</h3>
+                        
+                        <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=romania&amount=4130"><button class="start-btn">Apply Now</button></a>
+                    <a href="/payments/payment.php?country=portugal&amount=4130"><button class="start-btn">Apply Now</button></a>
                 </div>
             </div>
 

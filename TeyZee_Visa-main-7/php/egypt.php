@@ -366,7 +366,7 @@
         <div><strong>Length of Stay:</strong> Up to 30 days</div>
         
       </div>
-      <a href="/payments/payment.php?country=egypt&amount=2159"><button class="apply-button">Apply Now for $31 (₹2160 + ₹499)</button></a>
+      <a href="/payments/payment.php?country=egypt&amount=2659"><button class="apply-button">Apply Now for $31 (₹2160 + ₹499)</button></a>
     </div>
 
     <div class="visa-cards">

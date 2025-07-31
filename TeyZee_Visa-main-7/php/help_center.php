@@ -557,7 +557,7 @@ Our mission is clear: to inform, support, and stay connected with you from appli
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for France - https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for France - https://teyzee.com/France.php; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);

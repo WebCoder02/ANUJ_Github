@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Egypt Visa Checklist</title>
+    <title>France Visa Checklist</title>
     <link rel="stylesheet" href="document.css">
     <link rel="stylesheet" href="Country_page.css">
     <link rel="stylesheet" href="styles.css">
@@ -17,7 +17,7 @@
         <div class="container header-container">
             <div class="logo">
                 <a href="https://www.teyzeevisas.com/">
-                    <img src="../VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
+                    <img src="https://teyzeevisas.com/VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
                 </a>
 
             </div>
@@ -28,97 +28,152 @@
             </div>
         </div>
     </header>-->
-    <h1>Egypt Visa Checklist</h1>
+    <h1>France Schengen Visa Checklist</h1>
 
     <div class="tab-container">
         <div class="tab">
             <button class="tablinks active" onclick="openTab(event, 'tourist')">Tourist Visa</button>
             <button class="tablinks" onclick="openTab(event, 'business')">Business Visa</button>
+            <button class="tablinks" onclick="openTab(event, 'student')">Student Visa</button>
             <button class="tablinks" onclick="openTab(event, 'additional')">Additional Information</button>
         </div>
 
         <div id="tourist" class="tabcontent active">
-            <h2>Egypt Tourist Visa Checklist</h2>
+            <h2>France Tourist Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
                 <tr>
-                        <td>Visa Application</td>
-                        <td><strong>Visa Application Form:</strong>
-                            <ul>
-                                <li>Completed and signed Schengen visa application form</li>
-                                <li>For minors: signed by both parents/legal guardian + consent form + birth certificate (English translation)</li>
-                                
-                            </ul><br>
-                            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
-                            <?php if (isset($_SESSION['user_id'])): ?>
-                            <!-- Special links for logged-in users -->
-                            <a href="http://admin.mfa.gov.eg/arabic/embassies/Egyptian_Embassy_India/Pages/Default.aspx">Download Application Form</a>
-                            <a href="https://www.egyptembassy.org/travel/visa-requirements/">Download Document Checklist</a>
-                            <?php else: ?>
+                    <td>Original Passport</td>
+                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
+                        years</td>
+                </tr>
+                <tr>
+                    <td>Copy of Passport Pages</td>
+                    <td>
+                        <ul>
+                            <li>Clear photocopy of passport first and last page</li>
+                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Photograph</td>
+                    <td>35mm x 45mm, with about 80% of your head and the top of your shoulders covering the photo, white
+                        background, taken in the last 6 months, teeth should not be visible, ears should be visible</td>
+                </tr>
+                <tr>
+                    <td>Application form</td>
+                    <td>Put your signature and carry it on the day of appointment
+                        <br>
+                        
+                        <?php if (isset($_SESSION['user_id'])): ?>
+                        <!-- Special links for logged-in users -->
+                        <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf" class="doc-link-special">Download Application Form</a>
+                        <br><br>
+                        <a href="https://www.welcometofrance.com/app/uploads/List-of-documents-to-be-submitted-with-an-application-for-a-short-stay-visa-1.pdf" class="doc-link-special">Download Document Checklist</a>
+                        <?php else: ?>
                             <p>
+                                <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Egypt_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=France_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Egypt_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=France_Customer" class="doc-link-special">Login</a>
                             </p>
-                            <?php endif; ?>
+                        <?php endif; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Appointment slip</td>
+                    <td>This needs be carried on the day of appointment</td>
+                </tr>
+                <tr>
+                    <td>Flight tickets</td>
+                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
+                        states (flight, train itinerary or car rental)</td>
+                </tr>
+                <tr>
+                    <td>Hotel Tickets</td>
+                    <td>Hotel bookings for complete stay in Schengen</td>
+                </tr>
+                <tr>
+                    <td>Cover Letter</td>
+                    <td>Mentioning the purpose of the trip and itinerary <a href="/templates/cover_letter_template.doc"
+                            class="doc-link" target="_blank">Download Template</a></td>
+                </tr>
+                <tr>
+                    <td>Travel Insurance</td>
+                    <td>Travel insurance covering not less than 30,000 Euros</td>
+                </tr>
+                <tr>
+                    <td>Bank statement</td>
+                    <td>Bank statements last 3 months, available balance should be at least 50-150 Euros per person per
+                        day of the trip. Advisable to transfer the money to maintain the balance 15 days before the
+                        appointment. Does not need to be signed by the bank</td>
+                </tr>
+                <tr>
+                    <td>ITR</td>
+                    <td>Copy of income tax return + ITR V acknowledgment of last 02 financial year if available</td>
+                </tr>
+                <tr>
+                    <td>Sponsor Bank Statement and ITR</td>
+                    <td>If trip sponsored by someone else, copy of bank statements last 3 months and copy of income tax
+                        return + ITR V acknowledgment for previous financial year (signed by bank)</td>
+                </tr>
+                <tr>
+                    <td>Sponsorship Letter</td>
+                    <td>If sponsored, letter from sponsor stating the amount, relationship and source of funds 
+                        <!-- <a
+                            href="/templates/sponsorship_letter_template.doc" class="doc-link" target="_blank">Download
+                            Template</a> -->
                         </td>
-                    </tr>
-                    <tr>
-                        <td>Passport</td>
-                        <td>Original passport valid for at least 6 months from the date of entry with at least two blank visa pages.</td>
-                    </tr>
-                    <tr>
-                        <td>Passport Copies</td>
-                        <td>Two or more photocopies of passport information page and blank visa pages.</td>
-                    </tr>
-                    <tr>
-                        <td>Photograph</td>
-                        <td>One or two recent high-definition passport-size photos (2″×2″) on white background.</td>
-                    </tr>
-                    <tr>
-                        <td>Flight Itinerary</td>
-                        <td>Confirmed round‑trip ticket or full travel itinerary.</td>
-                    </tr>
-                    <tr>
-                        <td>Accommodation Proof</td>
-                        <td>Hotel reservation or invitation letter showing where you will stay.</td>
-                    </tr>
-                    <tr>
-                        <td>Cover Letter</td>
-                        <td>Personal letter explaining the purpose of travel, itinerary and stay details.</td>
-                    </tr>
-                    <tr>
-                        <td>Proof of Funds</td>
-                        <td>Bank statements for the last 6 months, stamped and signed as proof of financial capability.</td>
-                    </tr>
-                    <tr>
-                        <td>Travel Agency Guarantee</td>
-                        <td>For Indian citizens applying for e‑visa, signed letter from authorized Egyptian travel agency may be required.</td>
-                    </tr>
-                    <tr>
-                        <td>Visa Fee</td>
-                        <td>Payment of visa fee  in cash or by required payment method.</td>
-                    </tr>
-                    <tr>
-                        <td>Processing Time</td>
-                        <td>Approximately 7–12 working days if applied through embassy or consulate.</td>
-                    </tr>
-                    <tr>
-                        <td>Note</td>
-                        <td>Additional documents may be requested depending on individual circumstances; biometric data collection may be required.</td>
-                    </tr>
+                </tr>
+                <tr>
+                    <td>Proof of occupation (If employed)</td>
+                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16 
+                        <!-- <a
+                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
+                            Template</a> -->
+                        </td>
+                </tr>
+                <tr>
+                    <td>Proof of occupation (If self employed)</td>
+                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
+                </tr>
+                <tr>
+                    <td>Proof of occupation (If Retired)</td>
+                    <td>
+                        <ul>
+                            <li>Proof of Retirement</li>
+                            <li>Proof of regular income generated by ownership of property or business</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marital status</td>
+                    <td>
+                        <ul>
+                            <li>If married, Marriage certificate</li>
+                            <li>If divorced, Divorce papers</li>
+                            <li>If single, Nothing required</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Minor documents</td>
+                    <td>Birth certificate, marksheet, consent letter from parents if minor is travelling alone or with
+                        only one parent</td>
+                </tr>
             </table>
         </div>
 
         <div id="business" class="tabcontent">
-            <h2>Egypt Business Visa Checklist</h2>
+            <h2>France Business Visa Checklist</h2>
             <table>
                 <tr>
                     <th width="30%">Document</th>
@@ -129,76 +184,155 @@
                     <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="http://admin.mfa.gov.eg/arabic/embassies/Egyptian_Embassy_India/Pages/Default.aspx">Download Application Form</a>
-                        <a href="https://www.egyptembassy.org/travel/visa-requirements/">Download Document Checklist</a>
+                        <a href="https://france-visas.gouv.fr/en/india" class="doc-link-special">Download Application Form</a><br>
+                        <a href="https://france-visas.gouv.fr/documents/d/france-visas/fv_com_tutoriel_portugais" class="doc-link-special">Download Document Checklist</a>
                         <?php else: ?>
+                            <span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Egypt_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=France_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Egypt_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=France_Customer" class="doc-link">Login</a>
                             </p>
                         <?php endif; ?></td>
                 </tr>
                 <tr>
-                    <td>Passport</td>
-                    <td>Original passport valid for at least 6 months with at least two blank visa pages.</td>
+                    <td>Original Passport</td>
+                    <td>With at least 2 blank pages valid for at least three months after the trip, issued in last 10
+                        years</td>
                 </tr>
                 <tr>
-                    <td>Passport Copies</td>
-                    <td>Two or more copies of passport main page and blank page(s).</td>
+                    <td>Copy of Passport Pages</td>
+                    <td>
+                        <ul>
+                            <li>Clear photocopy of passport first and last page</li>
+                            <li>All pages of your travel document containing visas, entry and exit stamps</li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Visa Application Form</td>
-                    <td>Completed, printed and signed application form with a passport photo attached and a copy of the form.</td>
+                    <td>Passport size photo</td>
+                    <td>35*45mm, 80% face coverage, white background, taken in the last 6 months, teeth should not be
+                        visible, ears should be visible</td>
                 </tr>
                 <tr>
-                    <td>Photographs</td>
-                    <td>Two recent passport-size photos (2″×2″) on white background.</td>
+                    <td>Visa application form</td>
+                    <td>Put your signature and carry it on the day of appointment</td>
                 </tr>
                 <tr>
-                    <td>Invitation Letter</td>
-                    <td>Official invitation from Egyptian host company stating purpose, dates and financial guarantee (if applicable).</td>
+                    <td>Appointment letter</td>
+                    <td>This needs be carried on the day of appointment</td>
                 </tr>
                 <tr>
-                    <td>Cover Letter</td>
-                    <td>Letter from your company introducing the applicant and reason for business visit.</td>
+                    <td>Flight ticket</td>
+                    <td>Confirmed roundtrip ticket. Also includes, Reservations for internal transfer within Schengen
+                        states (flight, train itinerary or car rental)</td>
                 </tr>
                 <tr>
-                    <td>Proof of Funds</td>
-                    <td>Recent bank statements and/or company financial documents showing sufficient resources.</td>
+                    <td>Hotel booking</td>
+                    <td>Hotel bookings for complete stay in Schengen</td>
                 </tr>
                 <tr>
-                    <td>Flight Itinerary</td>
-                    <td>Confirmed round‑trip flight tickets for entry and exit from Egypt.</td>
+                    <td>Proof of occupation (If employed)</td>
+                    <td>Last 3 months salary slips, Employment contract, NOC from the employer and form 16
+                         <!-- <a
+                            href="/templates/noc_from_employer.doc" class="doc-link" target="_blank">Download NOC
+                            Template</a> -->
+                        </td>
                 </tr>
                 <tr>
-                    <td>Accommodation Proof</td>
-                    <td>Hotel booking confirmation or accommodation arrangement during business stay.</td>
+                    <td>Proof of occupation (If self employed)</td>
+                    <td>GST certificate, Company registration proof, Company bank statement and company ITR</td>
                 </tr>
                 <tr>
-                    <td>Business Documents</td>
-                    <td>Evidence of business ownership or employment, such as company registration or charter documents.</td>
+                    <td>Bank statement</td>
+                    <td>Recommended ~120 Euros per day of the trip. Should not be more than 4 days old on appointment
+                        day</td>
                 </tr>
                 <tr>
-                    <td>Visa Fee</td>
-                    <td>Payment of business visa fee.</td>
+                    <td>IT return</td>
+                    <td>
+                        <ul>
+                            <li>Copy of personal income tax return + ITR V acknowledgment of last 02 financial year if
+                                available</li>
+                            <li>If self employed, income tax return + ITR V acknowledgment of last 02 financial year if
+                                available</li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Processing Time</td>
-                    <td>Usually around 5–7 working days for business visas submitted through embassy or consulate.</td>
+                    <td>Travel insurance</td>
+                    <td>Minimum coverage of 30,000 Euros</td>
                 </tr>
                 <tr>
-                    <td>Note</td>
-                    <td>Embassy may request additional papers or an interview; business visa may allow stay up to 30 days per visit.</td>
+                    <td>Invitation letter</td>
+                    <td>
+                        <ul>
+                            <li>If applicable. With contact details of the host and address</li>
+                            <li>Invitation letter from the  company</li>
+                        </ul>
+                        <!-- <a href="/templates/business_invitation_letter.doc" class="doc-link" target="_blank">Download
+                            Template</a> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>Company Cover letter</td>
+                    <td>Introduction letter by Indian company on a company letterhead mentioning purpose of visit and
+                        relationship between the Indian and the French company 
+                        <!-- <a href="/templates/company_cover_letter.doc"
+                            class="doc-link" target="_blank">Download Template</a> -->
+                        </td>
+                </tr>
+                <tr>
+                    <td>Applicant Cover letter</td>
+                    <td>Cover letter by the applicant mentioning purpose of visit and other details of the trip 
+                        <!-- <a
+                            href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download
+                            Template</a> -->
+                        </td>
+                </tr>
+                <tr>
+                    <td>Company Sponsorship Letter (from Indian employer)</td>
+                    <td>If the trip is sponsored by the Indian company please mention the details too 
+                        <!-- <a
+                            href="/templates/company_sponsorship_letter.doc" class="doc-link" target="_blank">Download
+                            Template</a> -->
+                        </td>
                 </tr>
             </table>
         </div>
 
-        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>             <?php if (isset($_SESSION['user_id'])): ?>
+        <div id="student" class="tabcontent">
+            <h2>France Student Visa Checklist</h2>
+            <table>
+                <tr>
+                    <th width="30%">Document</th>
+                    <th width="70%">Description</th>
+                </tr>
+                <tr><td>Passport</td><td>Valid at least 6 months beyond intended stay; two blank pages recommended.</td></tr>
+                <tr><td>Campus France Registration</td><td>Online file number (IN) and interview confirmation from Campus France India.</td></tr>
+                <tr><td>Admission Letter</td><td>Official acceptance from a French educational institution.</td></tr>
+                <tr><td>Visa Application Form</td><td>Long‑Stay Student Visa form, printed, signed and dated.</td></tr>
+                <tr><td>Photos</td><td>Two recent passport-style colour photos (35×45 mm; biometric guidelines).</td></tr>
+                <tr><td>Academic Records</td><td>Transcripts and diplomas from previous studies (10th grade onward).</td></tr>
+                <tr><td>Curriculum Vitae</td><td>Résumé detailing education and experience.</td></tr>
+                <tr><td>Motivation Letter</td><td>Personal cover letter explaining your study goals and choice of program.</td></tr>
+                <tr><td>Proof of Funds</td><td>Bank statements, ITRs or sponsor documents showing ≥ €615/month plus tuition fee proof.</td></tr>
+                <tr><td>Accommodation Proof</td><td>Rental agreement, student housing confirmation, or host invitation with address.</td></tr>
+                <tr><td>Insurance</td><td>Medical/travel insurance covering at least €30,000 for emergencies and repatriation.</td></tr>
+                <tr><td>Flight & Travel Plan</td><td>Flight reservation for short stays or proposed travel itinerary.</td></tr>
+                <tr><td>Health Declaration (OFII)</td><td>Completed OFII form if required upon arrival in France.</td></tr>
+                <tr><td>Visa Fee</td><td>Paid at VFS/Consulate during submission.</td></tr>
+                <tr><td>Biometrics</td><td>Fingerprint scan and photo at Visa Application Centre (age ≥12).</td></tr>
+                <tr><td>Translations</td><td>Documents not in English or French translated and certified.</td></tr>
+            </table>
+         </div>
+
+        <div id="additional" class="tabcontent"><h2>This Information is available only to users who have logged in.</h2>            
+         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
             <h2>Additional Information Required</h2>
             <table>
@@ -208,16 +342,16 @@
                 </tr>
                 <tr>
                     <td>Are you visiting any other Schengen countries during your stay?</td>
-                    <td>Check list of Schengen countries: Hong Kong, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: Austria, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Hong Kong, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, and
                         Switzerland.</td>
                 </tr>
                 <tr>
                     <td>What is your first country of entry?</td>
-                    <td>Check list of Schengen countries: Hong Kong, Belgium, Czech Republic, Croatia, Denmark, Estonia,
+                    <td>Check list of Schengen countries: Austria, Belgium, Czech Republic, Croatia, Denmark, Estonia,
                         Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania,
-                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Hong Kong, and
+                        Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, and
                         Switzerland.</td>
                 </tr>
                 <tr>
@@ -268,15 +402,15 @@
             </table>
             <?php endif;?>
         </div>
-    </div>
+    </div> 
 
     <div class="note">
-        <strong>Note:</strong><p style="text-align:justify; text-indent: 5%">Above information is compiled by TeyZee Visas team on a best effort basis. While every attempt is made for accuracy, we are not responsible for any errors or delayed updates.   </p> <br>
-        <p style="text-align:justify; text-indent: 5%">This checklist is provided for informational purposes only. Requirements may change, so it's recommended to verify the current requirements with the Embassy of Hong Kong or consulate in your country before
-        applying.</p>
+        <strong>Note:</strong> This checklist is provided for informational purposes only. Requirements may change, so
+        it's recommended to verify the current requirements with the  embassy or consulate in your country before
+        applying.
     </div>
-
     <?php include 'footer.php'; ?>
+
     <!-- <footer>
         <div class="container">
             <div class="footer-grid">
@@ -304,7 +438,7 @@
                     </ul>
                 </div>
 
-                <!-- <div class="footer-col">
+                <div class="footer-col">
                     <h3>Refund policy</h3>
                     <ul>
                         <li><a href="#">Pricing</a></li>
@@ -319,7 +453,7 @@
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div> 
+                </div>
                 <div class="footer-col">
                     <h3>Support</h3>
                     <ul>
@@ -357,7 +491,7 @@
                     <a href="/html/france_customer.html">France</a> •
                     <a href="/html/italy_customer.html">Italy</a> •
                     <a href="/html/germany_customer.html">Germany</a> •
-                    <a href="/html/switzerland.html">Switzerland</a> •git 
+                    <a href="/html/switzerland.html">Switzerland</a> •
                     <a href="/html/greece_customer.html">Greece</a> •
                     <a href="/html/singapore_customer.html">Singapore</a> •
                     <a href="/html/turkey_customer.html">Turkey</a> •
@@ -446,7 +580,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Egypt- https://teyzee.com/egypt.php; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for France - https://teyzee.com/france.php; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);
