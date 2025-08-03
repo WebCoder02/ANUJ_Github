@@ -48,20 +48,21 @@
                     <td>1</td>
                     <td>Application form for a Schengen visa, fully filled in and signed by the applicant.
                         <br>
-                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                        
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://in-gr.gvcworld.eu/sites/default/files/paragraphs/quicklinks/202407/vaf-en_v8-240716.pdf">Download Application Form</a>
                         <a href="https://in-gr.gvcworld.eu/sites/default/files/paragraph/files/notice_from_the_embassy_of_greece_2022.pdf">Download Document Checklist</a>
                         <?php else: ?>
+                            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Greece_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Greece_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Greece_Customer" class="doc-link">Login</a>
+                                <a href="https://www.teyzeevisas.com/php/login.php?redirect_to=/php/Greece_Customer.php" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?>
                     </td>
@@ -281,20 +282,21 @@ event of repatriation) and ensure that he/ she boards the ship.<br/>
                 </tr>
                 <tr>
                     <td>Official Document Links </td>
-                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
+                    <td>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.mfa.gr/missionsabroad/en/india-en/visas">Download Application Form</a>
                         <a href="https://in-gr.gvcworld.eu/sites/default/files/paragraph/files/notice_from_the_embassy_of_greece_2022.pdf">Download Document Checklist</a>
                         <?php else: ?>
+                            <span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Greece_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Greece_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Greece_Customer" class="doc-link">Login</a>
+                                <a href="https://www.teyzeevisas.com/php/login.php?redirect_to=/php/Greece_Customer.php" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?></td>
                 </tr>

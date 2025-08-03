@@ -6,7 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeyZee Visas - France Visa Services</title>
-    <link rel="stylesheet" href="../Country_page.css">
+    <link rel="stylesheet" href="https://teyzeevisas.com/Country_page.css">
+        <link rel="stylesheet" href="https://teyzeevisas.com/styles.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Tag Manager -->
 
@@ -18,32 +20,6 @@
 
     
     <!-- End Google Tag Manager (noscript) -->
-    <!-- <header>
-        <div class="container header-container">
-            <div class="logo">
-                <a href="https://www.teyzeevisas.com/">
-                    <img src="../VisaImages/destinations/Teyzee_logo_240w_500h.jpeg" alt="TeyZee Visas Logo">
-                </a>
-
-            </div>
-            <div class="header-actions">
-                <a href="https://wa.me/919029027420" class="contact"><i class="fab fa-whatsapp"></i> Chat with us</a>
-                <a href="tel:919029027420" class="contact"><i class="fas fa-phone"></i> Call Us</a>
-                <a href="#" class="login-btn">Login</a>
-            </div>
-        </div>
-    </header> -->
-    <nav class="sticky-nav">
-        <div class="container nav-container">
-            <ul class="nav-links">
-                <li><a href="#tourist-visa">Tourist</a></li>
-                <li><a href="#business-visa">Business</a></li>
-                <li><a href="#visa-process">Process</a></li>
-                <li><a href="#document-checklist">Checklist</a></li>
-                <li><a href="#info-section">Q&A</a></li>
-            </ul>
-        </div>
-    </nav>
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -53,22 +29,13 @@
                 <div class="hero-text">
                     <h1>Get your France visa</h1>
                     <div class="recent-applications">
-                        <!-- <span class="avatars">
-                            <img src="https://via.placeholder.com/30" alt="User">
-                            <img src="https://via.placeholder.com/30" alt="User">
-                            <img src="https://via.placeholder.com/30" alt="User">
-                        </span> -->
                         <span class="recent-text">16+ applied recently</span>
                     </div>
                 </div>
-                <!-- <div class="signup-card">
-                    <h3>Sign up to talk to a visa expert</h3>
-                    <div class="phone-input">
-                        <span class="country-code">+91</span>
-                        <input type="text" placeholder="Enter mobile number">
-                        <button class="signup-btn">Sign up <i class="fas fa-arrow-right"></i></button>
-                    </div>
-                </div> -->
+                <!-- ✅ LOGIN REFERENCE 1: Hero Section Quick Login -->
+                <div class="quick-access">
+                    <p>Already have an account? <a href="/php/login.php?redirect_to=/php/france.php" class="quick-login">Login to continue</a></p>
+                </div>
                 <div class="stats">
                     <div class="stat">
                         <span class="percentage">99.99%</span>
@@ -91,7 +58,13 @@
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for Rs 500 only</h2>
                 <p>Upload your basic documents now.</p>
-                <a href="/payments/payment.php?country=france&amount=499"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <!-- ✅ FIXED: Eligibility Check Payment Link -->
+                <?php if (isset($_SESSION['user_id'])): ?>
+                    <a href="/payments/payment.php?country=france&visa_type=eligibility_check"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <?php else: ?>
+                    <p><small>Please <a href="/php/login.php?redirect_to=/php/france.php" class="login-link">login</a> to proceed with payment</small></p>
+                    <a href="/payments/payment.php?country=france&visa_type=eligibility_check&redirect_to=/php/france.php"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <?php endif; ?>
             </div>
         </div>
     </section>
@@ -99,15 +72,14 @@
         <div class="container">
             <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="/php/France_Customer.php" class="check-btn">Download Documents</a>
+                <!-- ✅ FIXED: Document Download Link -->
+                <?php if (isset($_SESSION['user_id'])): ?>
+                    <a href="../php/France_Customer.php" class="check-btn">Download Documents</a>
+                <?php else: ?>
+                    <a href="/payments/payment.php?country=france&visa_type=eligibility_check&redirect_to=/php/france.php" class="check-btn">Download Documents</a>
+                <?php endif; ?>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
-                <!-- <a href="France_Customer.php" target="_blank">Download Documents</a>
-                <h3>Get Access to Original Visa Form and Checklist</h3> -->
             </div>
-            <!-- <div class="label-container">
-                <h2 class="document-checklist">Document Checklist</h2>
-                <a href="France_Customer.html" target="_blank">Download the Documentation</a>
-            </div> -->
 
             <!-- Cascading dropdown -->
             <div class="dropdown-container">
@@ -214,7 +186,7 @@
                     </div>
                 </div>
 
-                <!-- Tourist - Spounser -->
+                <!-- Tourist - Sponsored -->
                 <div id="checklist-section3" class="checklist-section table-layout">
                     <div class="checklist-column">
                         <h4>Tourist - Sponsored</h4>
@@ -378,13 +350,16 @@
                     <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
-                        <strong><h5>₹3500 Plus Tax</h5></strong>
-                        <small>Visa fee payable at VFS</small>
+                        <small>+₹3500 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
-                        
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=france&amount=4130"><button class="start-btn">Apply Now</button></a>
+                    <!-- ✅ FIXED: Tourist Apply Button - Secure Payment Link -->
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=france&visa_type=tourist"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/payments/payment.php?country=france&visa_type=tourist&redirect_to=/php/france.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
                 </div>
             </div>
 
@@ -427,7 +402,12 @@
                         <small>+₹3500 Plus Tax</small>
                         <h3>90 Euros per adult</h3>
                     </div>
-                    <a href="/payments/payment.php?country=france&amount=4130"><button class="start-btn">Apply Now</button></a>
+                    <!-- ✅ FIXED: Business Apply Button - Secure Payment Link -->
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=france&visa_type=business"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/payments/payment.php?country=france&visa_type=business&redirect_to=/php/france.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
                 </div>
             </div>
 
@@ -546,7 +526,6 @@
                     <div class="card-content">
                         <h3>How do I prevent my France visa application from being denied?</h3>
                         <p>Check eligibility with TeyZee Visas before you apply. </p>
-                        <!-- <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
                 <div class="info-card">
@@ -589,139 +568,7 @@
         </div>
     </section>
     <?php include 'footer.php';?>
-      <!--<footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h3>Address</h3>
-                    <div class="address">
-                        <p><i class="fas fa-map-marker-alt"></i>
-                            </i> A-302, RG City Centre, DB Gupta Road, Delhi 110011</p>
-                    </div>
-                    <div class="address">
-                        <p><i class="fas fa-map-marker-alt"></i>
-                            </i> Mumbai - WeWSork Platinum, Marol, Mumbai, Maharashtra, 400059
-                        </p>
-                    </div>
-                    <a href="https://wa.me/919029027420" class="whatsapp-button"><i class="fab fa-whatsapp"></i> Chat
-                        with us</a>
-                </div>
-
-                <div class="footer-col">
-                    <h3>About us</h3>
-                    <ul>
-                        <li><a href="mailto:business.tours@kalltrip.com">Email us</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="/html/privacy.html">Privacy Policy</a></li>
-                    </ul>
-                </div>
-
-                <!-- <div class="footer-col">
-                    <h3>Refund policy</h3>
-                    <ul>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Terms & conditions</a></li>
-                    </ul>
-                </div> -->
-                <!-- <div class="footer-links"> -->
-                <!-- <div class="footer-col">
-                    <h3>Company</h3>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Support</h3>
-                    <ul>
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Refund Policy</a></li>
-                        <li><a href="/html/privacy.html">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Social</h3>
-                    <ul>
-                        <li><a href="https://www.facebook.com/profile.php?id=61575094024472"><i
-                                    class="fab fa-facebook"></i> Facebook</a></li>
-                        <li>
-                            <a href="https://x.com/TeyzeeVisas" target="_blank"
-                                style="text-decoration: none; display: inline-flex; align-items: center;">
-                                <span
-                                    style="font-weight: bold; font-size: 10px; background-color: rgb(255, 255, 255); color: rgb(160, 151, 151); padding: 0px 4px; border-radius: 8px;">
-                                    𝕏
-                                </span>
-                                <span style="margin-left: 6px; color: rgb(255, 255, 255);">X</span>
-                            </a>
-                        </li>
-                        <li><a href="https://www.instagram.com/teyzee_visas/"><i class="fab fa-instagram"></i>
-                                Instagram</a></li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="footer-countries">
-                <h3>Read more about visas</h3>
-                <div class="country-links">
-                     <a href="/html/france_customer.html">France</a> •
-                    <a href="/html/italy_customer.html">Italy</a> •
-                    <a href="/html/germany_customer.html">Germany</a> •
-                    <a href="/html/switzerland.html">Switzerland</a> •
-                    <a href="/html/greece_customer.html">Greece</a> •
-                    <a href="/html/singapore_customer.html">Singapore</a> •
-                    <a href="/html/turkey_customer.html">Turkey</a> •
-                    <a href="/html/china_customer.html">China</a> •
-                    <a href="#">Russia</a> •
-                    <a href="#">United Arab Emirates</a> •
-                    <a href="#">Indonesia</a> •
-                    <a href="#">Vietnam</a> •
-                    <a href="#">Azerbaijan</a> •
-                    <a href="#">United Kingdom</a> •
-                    <a href="#">Spain</a> •
-                    <a href="#">South Korea</a> •
-                    <a href="#">Georgia</a> •
-                    <a href="#">Hungary</a> •
-                    <a href="#">Finland</a> •
-                    <a href="#">Norway</a> •
-                    <a href="#">Egypt</a> •
-                    <a href="#">Oman</a> •
-                    <a href="#">Sweden</a> •
-                    <a href="#">Austria</a> •
-                    <a href="#">Denmark</a> •
-                    <a href="#">Uzbekistan</a> •
-                    <a href="#">Cambodia</a> •
-                    <a href="#">Morocco</a> •
-                    <a href="#">Netherlands</a> •
-                    <a href="#">Philippines</a> •
-                    <a href="#">Brazil</a> •
-                    <a href="#">Saudi Arabia</a> •
-                    <a href="#">Kenya</a> •
-                    <a href="#">Portugal</a> •
-                    <a href="#">Belgium</a> •
-                    <a href="#">Croatia</a> •
-                    <a href="#">Lithuania</a> •
-                    <a href="#">Ireland</a> •
-                    <a href="#">Luxembourg</a> •
-                    <a href="#">Hong Kong</a> •
-                    <a href="#">Malaysia</a> •
-                    <a href="#">Japan</a> •
-                    <a href="#">Bahrain</a> •
-                    <a href="#">Czech Republic</a> •
-                    <a href="#">Romania</a> •
-                    <a href="#">Bulgaria</a> •
-                    <a href="#">Slovakia</a> •
-                    <a href="#">Latvia</a> •
-                    <a href="#">Estonia</a>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>© 2025 TeyZee Visas. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>-->
+    
     <div id="custom-tooltip" style="
     position: absolute;
     background: #333;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>France Visa Checklist</title>
     <link rel="stylesheet" href="document.css">
-    <link rel="stylesheet" href="Country_page.css">
+    <link rel="stylesheet" href="../Country_page.css">
     <link rel="stylesheet" href="styles.css">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 </head>
@@ -74,9 +74,10 @@
                         <a href="https://www.vfsglobal.com/denmark/pdf/application-for-schengen-visa_7e5a8e972b5146cf7a47be87a5be6cc02379d75cdb43bbe0183533f93287a741.pdf" class="doc-link-special">Download Application Form</a>
                         <br><br>
                         <a href="https://www.welcometofrance.com/app/uploads/List-of-documents-to-be-submitted-with-an-application-for-a-short-stay-visa-1.pdf" class="doc-link-special">Download Document Checklist</a>
-                        <?php else: ?>
+                        <?php else: ?><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                        
                             <p>
-                                <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                                
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
                                 <a href="https://teyzeevisas.com/php/payment.php?country=France_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
@@ -186,16 +187,16 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://france-visas.gouv.fr/en/india" class="doc-link-special">Download Application Form</a><br>
                         <a href="https://france-visas.gouv.fr/documents/d/france-visas/fv_com_tutoriel_portugais" class="doc-link-special">Download Document Checklist</a>
-                        <?php else: ?>
+                        <?php else: ?><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=France_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=France_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=France_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=France_Customer" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?></td>
                 </tr>

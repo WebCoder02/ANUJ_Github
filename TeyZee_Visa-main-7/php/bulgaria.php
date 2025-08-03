@@ -381,7 +381,11 @@
                         
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=bulgaria&amount=4130"><button class="start-btn">Apply Now</button></a>
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=bulgaria&visa_type=business"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/payments/payment.php?country=bulgaria&visa_type=business&redirect_to=/php/bulgaria.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
                 </div>
             </div>
 
@@ -428,7 +432,11 @@
                         
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=bulgaria&amount=4130"><button class="start-btn">Apply Now</button></a>
+                     <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=bulgaria&visa_type=tourist"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/payments/payment.php?country=bulgaria&visa_type=tourist&redirect_to=/php/bulgaria.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
                 </div>
             </div>
 

@@ -113,7 +113,7 @@
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="/payments/payment.php?country=belgium&amp;amount=499" class="check-btn">Download Documents</a>
+                <a href="/php/Belgium_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
             <!-- <div class="label-container">
@@ -396,7 +396,11 @@
                         
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=belgium&amount=4130"><button class="start-btn">Apply Now</button></a>
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=belgium&visa_type=tourist"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/payments/payment.php?country=belgium&visa_type=tourist&redirect_to=/php/belgium.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
                 </div>
             </div>
 
@@ -443,7 +447,11 @@
                         
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=belgium&amount=4130"><button class="start-btn">Apply Now</button></a>
+                     <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=belgium&visa_type=business"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/payments/payment.php?country=belgium&visa_type=business&redirect_to=/php/belgium.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
                 </div>
             </div>
 

@@ -64,11 +64,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="action-banner">
                     <p>Start now and get your appointment booked in 2 days</p>
                 </div>
-                 <!-- ✅ LOGIN REFERENCE 1: Hero Section Quick Login -->
-                <div class="quick-access">
-                    <p>Already have an account? <a href="/php/login.php?redirect_to=/php/italy.php" class="quick-login" style="color:#5648ce"><strong>Login to continue</strong></a></p>
-                </div>
-
                 <div class="hero-text">
                     <h1>Get your Italy visa</h1>
                     <div class="recent-applications">
@@ -109,15 +104,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for 499 Rs only</h2>
                 <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
-                <!-- ✅ LOGIN REFERENCE 2: Before Payment - Check if User is Logged In -->
-                <?php if (isset($_SESSION['user_id'])): ?>
-                    <a href="/payments/payment.php?country=france&amount=499"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
-                <?php else: ?>
-                    <p><small>Please <a href="/php/login.php?redirect_to=/php/france.php" class="login-link">login</a> to proceed with payment</small></p>
-                    <a href="/php/login.php?redirect_to=/php/france.php"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
-                <?php endif; ?>
                 
-                <!-- <a href="/payments/payment.php?country=italy&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a> -->
+                <a href="/payments/payment.php?country=italy&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>
@@ -125,13 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <!-- ✅ LOGIN REFERENCE 3: Document Download - Login Required -->
-                <?php if (isset($_SESSION['user_id'])): ?>
-                    <a href="../php/France_Customer.php" class="check-btn">Download Documents</a>
-                <?php else: ?>
-                    <a href="/php/login.php?redirect_to=/php/france.php" class="check-btn">Download Documents</a>
-                <?php endif; ?>
-                <!-- <a href="/php/Italy_Customer.php" class="check-btn">Download Documents</a> -->
+                <a href="/php/Italy_Customer.php" class="check-btn">Download Documents</a>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
 
@@ -413,13 +395,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <!-- ✅ LOGIN REFERENCE 4: Main Apply Button - Login Check -->
                     <?php if (isset($_SESSION['user_id'])): ?>
-                        <a href="/payments/payment.php?country=france&amount=12599"><button class="start-btn">Apply Now</button></a>
+                        <a href="/payments/payment.php?country=italy&visa_type=tourist"><button class="start-btn">Apply Now</button></a>
                     <?php else: ?>
-                        <a href="/php/login.php?redirect_to=/php/france.php"><button class="start-btn">Apply Now</button></a>
+                        <a href="/payments/payment.php?country=italy&visa_type=tourist&redirect_to=/php/italy.php"><button class="start-btn">Apply Now</button></a>
                     <?php endif; ?>
-                    <!-- <a href="/payments/payment.php?country=italy&amount=4130"><button class="start-btn">Apply Now</button></a> -->
                 </div>
             </div>
     
@@ -466,13 +446,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <!-- ✅ LOGIN REFERENCE 5: Business Apply Button - Login Check -->
                     <?php if (isset($_SESSION['user_id'])): ?>
-                        <a href="/payments/payment.php?country=france&amount=12599"><button class="start-btn">Apply Now</button></a>
+                        <a href="/payments/payment.php?country=italy&visa_type=business"><button class="start-btn">Apply Now</button></a>
                     <?php else: ?>
-                        <a href="/php/login.php?redirect_to=/php/france.php"><button class="start-btn">Apply Now</button></a>
+                        <a href="/payments/payment.php?country=italy&visa_type=business&redirect_to=/php/italy.php"><button class="start-btn">Apply Now</button></a>
                     <?php endif; ?>
-                    <!-- <a href="/payments/payment.php?country=italy&amount=4130"><button class="start-btn">Apply Now</button></a> -->
                 </div>
             </div>
             

@@ -52,20 +52,21 @@
                                 <li>For minors: signed by both parents/legal guardian + consent form + birth certificate (English translation)</li>
                                 
                             </ul><br>
-                            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                            
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
                             <a href="http://admin.mfa.gov.eg/arabic/embassies/Egyptian_Embassy_India/Pages/Default.aspx">Download Application Form</a>
                             <a href="https://www.egyptembassy.org/travel/visa-requirements/">Download Document Checklist</a>
                             <?php else: ?>
+                                <span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Egypt_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Egypt_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Egypt_Customer" class="doc-link">Login</a>
+                                <a href="https://www.teyzeevisas.com/php/login.php?redirect_to=/php/Italy_Customer.php" class="doc-link-special">Login</a>
                             </p>
                             <?php endif; ?>
                         </td>
@@ -126,20 +127,21 @@
                 </tr>
                 <tr>
                     <td>Official Document Links </td>
-                    <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
+                    <td>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="http://admin.mfa.gov.eg/arabic/embassies/Egyptian_Embassy_India/Pages/Default.aspx">Download Application Form</a>
                         <a href="https://www.egyptembassy.org/travel/visa-requirements/">Download Document Checklist</a>
                         <?php else: ?>
+                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Egypt_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Egypt_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Egypt_Customer" class="doc-link">Login</a>
+                                <a href="https://www.teyzeevisas.com/php/login.php?redirect_to=/php/Italy_Customer.php" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?></td>
                 </tr>

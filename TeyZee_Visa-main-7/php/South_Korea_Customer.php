@@ -48,7 +48,7 @@
           </tr>
           <tr><td>1</td><td>Online visa application form: Completed, signed by applicant. If applying via a 3rd person, include authorization form. For minors: form must be signed by legal guardian, and authorization provided if applicable.
              <br>
-                        <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                        
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=717617&page=1">Download Application Form</a>
@@ -57,11 +57,11 @@
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=South_Korea_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=South_Korea_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=South_Korea_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=South_Korea_Customer" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?>
           </td></tr>
@@ -95,11 +95,11 @@
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=South_Korea_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=South_Korea_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=South_Korea_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=South_Korea_Customer" class="doc-link-special">Login</a>
                             </p>
                             <?php endif; ?></td>
                 </tr>

@@ -92,7 +92,7 @@
             <div class="eligibility-content">
                 <h2>Check Your Visa Eligibilty for Rs 499 only</h2>
                 <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day..</p>
-                <a href="/payments/payment.php?country=vietnam&amount=499"><button class="check-btn">Check Eligibility - Pay Rs 499</button></a>
+                <a href="/payments/payment.php?country=vietnam&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>

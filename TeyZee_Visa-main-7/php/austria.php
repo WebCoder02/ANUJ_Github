@@ -90,7 +90,7 @@
             <div class="eligibility-content">
                 <h2>Check your Visa Eligibility for 499 Rs only</h2>
                 <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
-                <a href="/payments/payment.php?country=austria&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <a href="/payments/payment.php?country=austria&visa_type=eligibility_check&redirect_to=/php/austria.php"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>
@@ -381,7 +381,11 @@
                         
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=austria&amount=4130"><button class="start-btn">Apply Now</button></a>
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=austria&visa_type=tourist"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/payments/payment.php?country=austria&visa_type=tourist&redirect_to=/php/austria.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
                 </div>
             </div>
 
@@ -419,7 +423,7 @@
                 </div>
 
                 <div class="visa-action">
-<div class="price">
+                    <div class="price">
                         <!-- add any tag -->
                         <p>Pay now</p>
                         <strong><h5>₹3500 Plus Tax</h5></strong>
@@ -428,7 +432,11 @@
                         
                         <!-- <a href="#">View details</a> -->
                     </div>
-                    <a href="/payments/payment.php?country=austria&amount=4130"><button class="start-btn">Apply Now</button></a>
+                    <?php if (isset($_SESSION['user_id'])): ?>
+                        <a href="/payments/payment.php?country=austria&visa_type=business"><button class="start-btn">Apply Now</button></a>
+                    <?php else: ?>
+                        <a href="/payments/payment.php?country=austria&visa_type=business&redirect_to=/php/austria.php"><button class="start-btn">Apply Now</button></a>
+                    <?php endif; ?>
                 </div>
             </div>
 

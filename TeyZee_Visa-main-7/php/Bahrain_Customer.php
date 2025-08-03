@@ -48,20 +48,20 @@
                         <td>1</td>
                         <td>Completed and signed application form.
                             <br><strong>Note:</strong> For applicants under 18, parents must sign and attach copies of both parents' passports.<br>
-                            <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                            
                             <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://www.npra.gov.bh/services/visa-and-residence-permit/visa-services/">Download Application Form</a>
                         <a href="https://visa.vfsglobal.com/one-pager/singapore/bahrain/english/pdf/tourism-checklist-nov-2021.pdf">Download Document Checklist</a>
-                        <?php else: ?>
+                        <?php else: ?><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Bahrain_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Bahrain_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Bahrain_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=Bahrain_Customer" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?>
                         </td>
@@ -174,15 +174,15 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://www.npra.gov.bh/services/visa-and-residence-permit/visa-services/">Download Application Form</a>
                         <a href="https://visa.vfsglobal.com/one-pager/singapore/bahrain/english/pdf/tourism-checklist-nov-2021.pdf">Download Document Checklist</a>
-                        <?php else: ?>
+                        <?php else: ?><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Bahrain_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Bahrain_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Bahrain_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=Bahrain_Customer" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?></td>
                 </tr>

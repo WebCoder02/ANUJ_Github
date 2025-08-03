@@ -49,21 +49,20 @@
           <tr>
             <td>Application Form</td>
             <td><strong>Application Form should fully filled & Ensure Passport Validity.</strong>
-            <br>
-                <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://india.mfa.am/u_files/file/India/visaappform%20NEW.pdf">Download Application Form</a>
                         <a href="https://india.mfa.am/en/visaforindians/">Download Document Checklist</a>
-                        <?php else: ?>
+                        <?php else: ?><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Armenia_customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Armenia_customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Armenia_customer_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=Armenia_customer_Customer" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?>
               
@@ -101,11 +100,11 @@
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Armenia_customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Armenia_customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Armenia_customer_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=Armenia_customer_Customer" class="doc-link-special">Login</a>
                             </p>
                             <?php endif; ?>
                         </td>

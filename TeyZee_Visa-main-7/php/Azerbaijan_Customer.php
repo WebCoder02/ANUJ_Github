@@ -46,20 +46,20 @@
                 </tr>
                  <tr><td>1</td>
                  <td>Completed visa application via visa portal with printed & signed cover letter.<br>
-                    <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
+                    
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
                         <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
                         <a href="https://www.mfa.gov.az/index.php/en/category/visa/documents-required-for-visa-issuance">Download Document Checklist</a>
-                        <?php else: ?>
+                        <?php else: ?><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Azerbaijan_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Azerbaijan_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Azerbaijan_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=Azerbaijan_Customer" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?>
                  </td>
@@ -116,15 +116,15 @@
                         <!-- Special links for logged-in users -->
                         <a href="https://losangeles.mfa.gov.az/files/shares/Application%20for%20Visa.pdf">Download Application Form</a>
                         <a href="https://www.mfa.gov.az/index.php/en/category/visa/documents-required-for-visa-issuance">Download Document Checklist</a>
-                        <?php else: ?>
+                        <?php else: ?><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Azerbaijan_Customer&amount=499" class="doc-link">Check Eligibility</a><br>
+                                <a href="https://teyzeevisas.com/php/payment.php?country=Azerbaijan_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Azerbaijan_Customer" class="doc-link">Login</a>
+                                <a href="https://teyzeevisas.com/php/login.php?country=Azerbaijan_Customer" class="doc-link-special">Login</a>
                             </p>
                         <?php endif; ?></td>
                 </tr>
