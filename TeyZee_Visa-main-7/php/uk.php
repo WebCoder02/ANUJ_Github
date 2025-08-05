@@ -92,7 +92,16 @@
             <div class="eligibility-content">
                 <h2>Check Your Visa Eligibilty for Rs 499 only</h2>
                 <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day..</p>
-                <a href="/payments/payment.php?country=uk&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <a href="/payments/payment.php?country=uk&amount=499"><!-- Eligibility Check -->
+<?php 
+$token = base64_encode(json_encode([
+    'country' => 'france',
+    'visa_type' => 'eligibility_check', 
+    'amount' => 499,
+    'timestamp' => time()
+]));  ?> <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
+    <button class="check-btn">Check Eligibility - Pay ₹499</button>
+</a><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>

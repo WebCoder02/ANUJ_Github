@@ -77,14 +77,25 @@
                         
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://www.sem.admin.ch/dam/sem/fr/data/einreise/visumantragsformulare/visumantrag-schen-en-fr.pdf.download.pdf/visumantrag-schen-en-fr.pdf">Download Application Form</a>
-                        <a href="https://55a780802dc18c444044a86ef69dab98.cdn.bubble.io/f1709896294291x443288081768162560/New_Teleport_Jan%2024%20%C2%B7%20Switzerland%20Documents%20Checklist.pdf">Download Document Checklist</a>
+                        <a href="https://www.sem.admin.ch/dam/sem/fr/data/einreise/visumantragsformulare/visumantrag-schen-en-fr.pdf.download.pdf/visumantrag-schen-en-fr.pdf" class="doc-link-special">Download Application Form</a>
+                        <a href="https://55a780802dc18c444044a86ef69dab98.cdn.bubble.io/f1709896294291x443288081768162560/New_Teleport_Jan%2024%20%C2%B7%20Switzerland%20Documents%20Checklist.pdf" class="doc-link-special">Download Document Checklist</a>
                         <?php else: ?>
                         <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Switzerland_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
+                                 <!-- Eligibility Check -->
+                                <?php 
+                                $token = base64_encode(json_encode([
+                                    'country' => 'france',
+                                    'visa_type' => 'eligibility_check', 
+                                    'amount' => 499,
+                                    'timestamp' => time()
+                                ]));
+                                ?>
+                                <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
+                                    <button class="doc-link-special">Check Eligibility - Pay ₹499</button>
+                                </a>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
@@ -108,8 +119,8 @@
                 </tr>
                 <tr>
                     <td>Cover Letter</td>
-                    <td>Mentioning the purpose of the trip and itinerary <a href="/templates/cover_letter_template.doc"
-                            class="doc-link" target="_blank">Download Template</a></td>
+                    <td>Mentioning the purpose of the trip and itinerary 
+                        <a href="/templates/cover_letter_template.doc" class="doc-link" target="_blank">Download Template</a></td>
                 </tr>
                 <tr>
                     <td>Travel Insurance</td>
@@ -189,14 +200,25 @@
                         <td>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
-                            <a href="https://www.sem.admin.ch/dam/sem/fr/data/einreise/visumantragsformulare/visumantrag-schen-en-fr.pdf.download.pdf/visumantrag-schen-en-fr.pdf">Download Application Form</a>
-                            <a href="https://55a780802dc18c444044a86ef69dab98.cdn.bubble.io/f1709896294291x443288081768162560/New_Teleport_Jan%2024%20%C2%B7%20Switzerland%20Documents%20Checklist.pdf">Download Document Checklist</a>
+                            <a href="https://www.sem.admin.ch/dam/sem/fr/data/einreise/visumantragsformulare/visumantrag-schen-en-fr.pdf.download.pdf/visumantrag-schen-en-fr.pdf" class="doc-link-special">Download Application Form</a>
+                            <a href="https://55a780802dc18c444044a86ef69dab98.cdn.bubble.io/f1709896294291x443288081768162560/New_Teleport_Jan%2024%20%C2%B7%20Switzerland%20Documents%20Checklist.pdf" class="doc-link-special">Download Document Checklist</a>
                             <?php else: ?>
                             <span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Switzerland_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
+                                 <!-- Eligibility Check -->
+                                <?php 
+                                $token = base64_encode(json_encode([
+                                    'country' => 'france',
+                                    'visa_type' => 'eligibility_check',
+                                    'amount' => 499,
+                                    'timestamp' => time()
+                                ]));
+                                ?>
+                                <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
+                                    <button class="doc-link-special">Check Eligibility - Pay ₹499</button>
+                                </a>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>

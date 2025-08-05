@@ -52,14 +52,25 @@
                         
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Documents/Impreso%20solicitud%20visado%20Schengen%20espa%c3%b1ol-ingl%c3%a9s.pdf">Download Application Form</a>
-                        <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visados-Schengen.aspx">Download Document Checklist</a>
+                        <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Documents/Impreso%20solicitud%20visado%20Schengen%20espa%c3%b1ol-ingl%c3%a9s.pdf" class="doc-link-special">Download Application Form</a>
+                        <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visados-Schengen.aspx" class="doc-link-special">Download Document Checklist</a>
                         <?php else: ?>
                             <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Spain_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
+                                 <!-- Eligibility Check -->
+                                <?php 
+                                $token = base64_encode(json_encode([
+                                    'country' => 'france',
+                                    'visa_type' => 'eligibility_check', 
+                                    'amount' => 499,
+                                    'timestamp' => time()
+                                ]));
+                                ?>
+                                <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
+                                    <button class="doc-link-special">Check Eligibility - Pay ₹499</button>
+                                </a>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
@@ -159,14 +170,25 @@
                         <td>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
-                            <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Documents/Impreso%20solicitud%20visado%20Schengen%20espa%c3%b1ol-ingl%c3%a9s.pdf">Download Application Form</a>
-                            <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visados-Schengen.aspx">Download Document Checklist</a>
+                            <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Documents/Impreso%20solicitud%20visado%20Schengen%20espa%c3%b1ol-ingl%c3%a9s.pdf" class="doc-link-special">Download Application Form</a>
+                            <a href="https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visados-Schengen.aspx" class="doc-link-special">Download Document Checklist</a>
                             <?php else: ?>
                             <span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Spain_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
+                                 <!-- Eligibility Check -->
+                                <?php 
+                                $token = base64_encode(json_encode([
+                                    'country' => 'france',
+                                    'visa_type' => 'eligibility_check', 
+                                    'amount' => 499,
+                                    'timestamp' => time()
+                                ]));
+                                ?>
+                                <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
+                                    <button class="doc-link-special">Check Eligibility - Pay ₹499</button>
+                                </a>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>

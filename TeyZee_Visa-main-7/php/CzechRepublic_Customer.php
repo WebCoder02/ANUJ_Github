@@ -50,14 +50,25 @@
                         
                         <?php if(isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://visa.vfsglobal.com/one-pager/czechrepublic/india/pdf/new-form.pdf">Download Application Form</a>
-                        <a href="https://www.vfsglobal.com/czechrepublic/india/pdf/Embassy-of-the-Czech-Republic-in-New-Delhi-checklist.pdf">Download Document Checklist</a>
+                        <a href="https://visa.vfsglobal.com/one-pager/czechrepublic/india/pdf/new-form.pdf" class="doc-link-special">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/czechrepublic/india/pdf/Embassy-of-the-Czech-Republic-in-New-Delhi-checklist.pdf" class="doc-link-special">Download Document Checklist</a>
                         <?php else: ?>
                             <span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=CzechRepublic_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
+                                 <!-- Eligibility Check -->
+                                <?php 
+                                $token = base64_encode(json_encode([
+                                    'country' => 'france',
+                                    'visa_type' => 'eligibility_check', 
+                                    'amount' => 499,
+                                    'timestamp' => time()
+                                ]));
+                                ?>
+                                <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
+                                    <button class="doc-link-special">Check Eligibility - Pay ₹499</button>
+                                </a>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
@@ -222,14 +233,25 @@
                     <td>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/index.html">Download Application Form</a>
-                        <a href="https://www.vfsglobal.com/czechrepublic/india/pdf/Embassy-of-the-Czech-Republic-in-New-Delhi-checklist.pdf">Download Document Checklist</a>
+                        <a href="https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/index.html" class="doc-link-special">Download Application Form</a>
+                        <a href="https://www.vfsglobal.com/czechrepublic/india/pdf/Embassy-of-the-Czech-Republic-in-New-Delhi-checklist.pdf" class="doc-link-special">Download Document Checklist</a>
                         <?php else: ?>
                             <span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=CzechRepublic_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
+                                 <!-- Eligibility Check -->
+                                <?php 
+                                $token = base64_encode(json_encode([
+                                    'country' => 'france',
+                                    'visa_type' => 'eligibility_check', 
+                                    'amount' => 499,
+                                    'timestamp' => time()
+                                ]));
+                                ?>
+                                <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
+                                    <button class="doc-link-special">Check Eligibility - Pay ₹499</button>
+                                </a>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>

@@ -106,7 +106,18 @@
             <div class="eligibility-content">
                 <h2>Check Your Visa Eligibilty for Rs 499 only</h2>
                 <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day..</p>
-                <a href="/payments/payment.php?country=armenia&amount=499"><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+                <!-- Eligibility Check -->
+<?php 
+$token = base64_encode(json_encode([
+    'country' => 'france',
+    'visa_type' => 'eligibility_check', 
+    'amount' => 499,
+    'timestamp' => time()
+]));
+?>
+<a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
+    <button class="check-btn">Check Eligibility - Pay ₹499</button>
+</a>
             </div>
         </div>
     </section>
@@ -368,7 +379,12 @@
         <div><strong>Length of Stay:</strong> Up to 21 days</div>
         
       </div>
-      <a href="/payments/payment.php?country=armenia&amount=1014"><button class="apply-button">Apply Now for $8 (₹515 + ₹499)</button></a>
+      <?php if (isset($_SESSION['user_id'])): ?>
+            <a href="/payments/payment.php?country=armenia&visa_type=tourist_standard"><button class="apply-button">Apply Now for $8 (₹515 + ₹499)</button></a>
+        <?php else: ?>
+            <a href="/payments/payment.php?country=armenia&visa_type=tourist_standard&redirect_to=/php/armenia.php"><button class="apply-button">Apply Now for $8 (₹515 + ₹499)</button></a>
+        <?php endif; ?>
+    
     </div>
 
     <div class="visa-cards">
@@ -380,7 +396,11 @@
         <div><strong>Length of Stay:</strong> Up to 120 days</div>
         
       </div>
-      <a href="/payments/payment.php?country=armenia&amount=3719"><button class="apply-button">Apply Now for $38 (3260 + ₹499)</button></a>
+      <?php if (isset($_SESSION['user_id'])): ?>
+            <a href="/payments/payment.php?country=armenia&visa_type=tourist_express"><button class="apply-button">Apply Now for $38 (₹3260 + ₹499)</button></a>
+        <?php else: ?>
+            <a href="/payments/payment.php?country=armenia&visa_type=tourist_express&redirect_to=/php/armenia.php"><button class="apply-button">Apply Now for $38 (₹3260 + ₹499)</button></a>
+        <?php endif; ?>
     </div>
 
   </div>
