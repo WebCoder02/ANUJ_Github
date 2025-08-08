@@ -112,9 +112,13 @@ $token = base64_encode(json_encode([
     'visa_type' => 'eligibility_check', 
     'amount' => 499,
     'timestamp' => time()
-]));  ?> <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
-    <button class="check-btn">Check Eligibility - Pay ₹499</button>
-</a><button class="check-btn">Check Eligibility - Pay ₹499</button></a>
+]));  ?> <?php if (isset($_SESSION['user_id'])): ?>
+    <a href="/payments/payment.php?country=france&visa_type=eligibility_check"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+<?php else: ?>
+    <p><small>Please <a href="/php/login.php?redirect_to=/php/france.php" class="login-link">login</a> to proceed with payment</small></p>
+    <a href="/payments/payment.php?country=france&visa_type=eligibility_check"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+<?php endif; ?>
+<button class="check-btn">Check Eligibility - Pay ₹499</button></a>
             </div>
         </div>
     </section>
