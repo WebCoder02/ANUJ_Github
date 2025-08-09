@@ -44,20 +44,28 @@
                     <th width="30%">Documents</th>
                     <th width="70%">Description</th>
                 </tr>
-                <tr><td>Application Form</td><td>
+                <tr><td>Application Form</td><td><span class="special-doc">Login to see the Visa Application form and the Document Checklist.</span>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <!-- Special links for logged-in users -->
-                        <a href="https://e-visa.gov.uz/application">Download Application Form</a>
-                        <a href="https://e-visa.gov.uz/main">Download Document Checklist</a>
+                        <a href="https://e-visa.gov.uz/application"class="doc-link-special">Download Application Form</a>
+                        <a href="https://e-visa.gov.uz/main"class="doc-link-special">Download Document Checklist</a>
                         <?php else: ?>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
-                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Uzbekistan_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br><!-- Eligibility Check -->
+                                <?php 
+                                $token = base64_encode(json_encode([
+                                    'country' => 'uzbekistan',
+                                    'visa_type' => 'eligibility_check', 
+                                    'amount' => 499,
+                                    'timestamp' => time()
+                                ]));
+                                ?>
+                                <a href="/payments/payment.php?country=uzbekistan&visa_type=eligibility_check"><button id="check-now" class="doc-link-special">Check Eligibility - Pay ₹499</button></a>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Uzbekistan_Customer" class="doc-link-special">Login</a>
+                                <a href="/php/login.php?country=Uzbekistan_Customer" class="doc-link">Login</a>
                             </p>
                         <?php endif; ?></td></tr>
                 <tr><td>Passport</td><td>Indian passport valid for at least 6 months beyond date of entry with at least one blank page.</td></tr>
@@ -86,17 +94,25 @@
                         <td><span class="special-doc">Login to see the Business Visa Application form and the Document Checklist.</span>
                             <?php if (isset($_SESSION['user_id'])): ?>
                             <!-- Special links for logged-in users -->
-                            <a href="https://e-visa.gov.uz/application">Download Application Form</a>
-                            <a href="https://e-visa.gov.uz/main">Download Document Checklist</a>
+                            <a href="https://e-visa.gov.uz/application"class="doc-link-special">Download Application Form</a>
+                            <a href="https://e-visa.gov.uz/main"class="doc-link-special">Download Document Checklist</a>
                             <?php else: ?>
                             <p>
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
-                                To <strong>Register</strong>, please click the Check Eligibility button:<br>
-                                <a href="https://teyzeevisas.com/php/payment.php?country=Uzbekistan_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
+                                To <strong>Register</strong>, please click the Check Eligibility button:<br><!-- Eligibility Check -->
+                                <?php 
+                                $token = base64_encode(json_encode([
+                                    'country' => 'uzbekistan',
+                                    'visa_type' => 'eligibility_check', 
+                                    'amount' => 499,
+                                    'timestamp' => time()
+                                ]));
+                                ?>
+                                <a href="/payments/payment.php?country=uzbekistan&visa_type=eligibility_check"><button id="check-now" class="doc-link-special">Check Eligibility - Pay ₹499</button></a>
                                 Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
-                                <a href="https://teyzeevisas.com/php/login.php?country=Uzbekistan_Customer" class="doc-link-special">Login</a>
+                                <a href="/php/login.php?country=Uzbekistan_Customer" class="doc-link">Login</a>
                             </p>
                             <?php endif; ?></td>
                     </tr>
@@ -361,7 +377,7 @@
                     const templateName = templatePath.replace('.doc', '').replace(/_/g, ' ');
 
 
-                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Uzbekistan- https://teyzee.com/uzbekistan.php; please type the 7 digit receipt no in your next whatsapp message to us`;
+                    const message = `Kindly provide the latest ${templateName} for my visa application. In case you have not paid TeyZee Visa Fees, please make the visa service fees payment and get the receipt number. Link to Visa Fees Page for Uzbekistan- https://teyzee.com/France-visa-fees; please type the 7 digit receipt no in your next whatsapp message to us`;
 
 
                     const encodedMessage = encodeURIComponent(message);
