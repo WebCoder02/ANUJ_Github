@@ -154,19 +154,19 @@ $registrationSuccess = isset($_GET['registration']) && $_GET['registration'] ===
                         • company, conference, cultural, sport events invitation letters, etc…<br>
                         • full address, postal code, phone number, email address of inviting entity<br>
                         • name of inviting person / signature and date of invitation<br>
-                        • expense and cost sponsor, if applicable<br><br>
+                        • expense and cost sponsor, if applicable<br>
         
                         Invitation from a family member/friend<br>
                         • preferably official invitation letter obtained from Directorate-General for Aliens Policing / OR the following:<br>
                         • ID/passport of the inviting family member or friend<br>
                         • copy of lease contract AND approval letter from the landlord AND passport/ID copy of landlord<br>
                         • copy of residency in Hungary / copy of address card<br>
-                        • copy of university ID / active student status / letter of acceptance / letter of award (Only required from students studying in Hungary)<br><br>
+                        • copy of university ID / active student status / letter of acceptance / letter of award (Only required from students studying in Hungary)<br>
         
                         Inviting person is a holder of a Hungarian Passport<br>
                         • official invitation letter obtained from Directorate-General for Aliens Policing<br>
                         • ID/passport of the inviting family member or friend<br>
-                        • proof of accommodation / copy of lease contract / approval letter from the landlord and passport/ID copy of landlord<br><br>
+                        • proof of accommodation / copy of lease contract / approval letter from the landlord and passport/ID copy of landlord<br>
         
                         Medical Invitation<br>
                         • medical report from Jordan<br>

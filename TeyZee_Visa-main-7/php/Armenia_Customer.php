@@ -69,7 +69,7 @@
                                 ]));
                                 ?>
                                 <a href="/payments/payment.php?country=armenia&visa_type=eligibility_check"><button id="check-now" class="doc-link-special">Check Eligibility - Pay ₹499</button></a>
-                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                <br>Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
                                 <a href="/php/login.php?country=Armenia_customer_Customer" class="doc-link">Login</a>
@@ -118,8 +118,8 @@
                                     'timestamp' => time()
                                 ]));
                                 ?>
-                                <a href="/payments/payment.php?country=armenia&visa_type=eligibility_check"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
-                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                <a href="/payments/payment.php?country=armenia&visa_type=eligibility_check"><button id="check-now" class="doc-link-special">Check Eligibility - Pay ₹499</button></a>
+                                <br>Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
                                 <a href="/php/login.php?country=Armenia_customer_Customer" class="doc-link">Login</a>

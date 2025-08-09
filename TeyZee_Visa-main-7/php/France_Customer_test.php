@@ -81,7 +81,7 @@
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
                                 <a href="https://teyzeevisas.com/php/payment.php?country=France_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
-                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                <br>Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
                                 <a href="https://teyzeevisas.com/php/login.php?country=France_Customer" class="doc-link-special">Login</a>
@@ -193,7 +193,7 @@
                                 If you have not registered on TeyzeeVisas, please <strong>Register Now</strong>.<br>
                                 To <strong>Register</strong>, please click the Check Eligibility button:<br>
                                 <a href="https://teyzeevisas.com/php/payment.php?country=France_Customer&amount=499" class="doc-link-special">Check Eligibility</a><br>
-                                Pay ₹499 to check your visa eligibility and get free registration.<br>
+                                <br>Pay ₹499 to check your visa eligibility and get free registration.<br>
                                 After registration, you will receive your User ID and password on your registered Email ID.<br>
                                 If you have already registered on TeyzeeVisas, please login:<br>
                                 <a href="https://teyzeevisas.com/php/login.php?country=France_Customer" class="doc-link-special">Login</a>

@@ -154,24 +154,24 @@
                         1. Invitation, signed, from family member/friend stating the purpose of the visit<br>
                         2. Copy of relevant pages of family member’s passport (showing personal information, Norwegian work or residence permit)<br>
                         3. Documentation to prove family relationship with reference in Norway (i.e. birth-, marriage, divorce certificates, photos etc.)<br>
-                        4. High quality copy of UDI sponsorship form signed by reference in Norway<br><br>
+                        4. High quality copy of UDI sponsorship form signed by reference in Norway<br>
         
                         <u>BUSINESS TRIP</u><br>
                         1. Invitation, naming the applicant, from a firm or an authority in Norway<br>
                         2. Introduction letter from applicant’s employer in home country<br>
                         3. Documentation of an established business relationship<br>
-                        4. Entry tickets for fair / congress / conference, if applicable<br><br>
+                        4. Entry tickets for fair / congress / conference, if applicable<br>
         
                         <u>OFFICIAL, GOVERNMENT DELEGATION</u><br>
-                        Note from the Consular Department of the Ministry of Foreign Affairs (compulsory only for Official- or Diplomatic passport holder)<br><br>
+                        Note from the Consular Department of the Ministry of Foreign Affairs (compulsory only for Official- or Diplomatic passport holder)<br>
         
                         <u>OTHER</u><br>
-                        1. Supporting letter explaining the purpose of your visit – if not clear from other documents<br><br>
+                        1. Supporting letter explaining the purpose of your visit – if not clear from other documents<br>
         
                         <u>SPORT TRIALS / FOOTBALL</u><br>
                         1. Letter of introduction from the national sports association in your home country<br>
                         2. Letter of introduction from your club<br>
-                        3. Invitation letter from tournament/event organizer/club in Norway<br><br>
+                        3. Invitation letter from tournament/event organizer/club in Norway<br>
         
                         <u>TOURISM</u><br>
                         1. Trip schedule / Detailed itinerary (sum up the duration, locations and transportation if travelling to different countries in Schengen area)

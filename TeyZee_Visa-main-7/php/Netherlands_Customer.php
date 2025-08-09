@@ -149,7 +149,7 @@
                         • Must declare rejection if rejected in any country in last 10 years and mention rejection year and category of visa of Rejected country.<br>
                         • All applicants have to pay visa fees, VFS charge & courier charge in cash at local VFS-centre.<br>
                         • If passenger is having passport with any observation regarding Data page then Affidavit and Paper advertisement in English are mandatory.<br>
-                        • All document must in A4 size and English.<br><br>
+                        • All document must in A4 size and English.<br>
                         In case of travel to more than one Schengen country, please submit your application to the Embassy / Consulate where you will be staying for the maximum number of days. In case of equal stay, one has to apply at the Schengen country which is the first port of entry.
                     </td>
                 </tr>
