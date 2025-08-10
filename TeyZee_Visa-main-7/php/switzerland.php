@@ -83,7 +83,7 @@
                 <img src="../VisaImages/destinations/switzerland.jpg" alt="Paris cityscape">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
-                    <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
+                    <p>"Teyzee Visas has been doing our corporate visas since decades, so naturally we asked them to do
                         our personal visas as well. Flawless service.👍"</p>
                 </div>
             </div>
@@ -95,17 +95,13 @@
                 <h2>Check your Visa Eligibility for 499 Rs only</h2>
                 <p>Upload Your Visa Documents after Payment & Get Visa Eligibilty report in 1 working day</p>
                 <!-- Eligibility Check -->
-                <?php 
-                $token = base64_encode(json_encode([
-                    'country' => 'france',
-                    'visa_type' => 'eligibility_check', 
-                    'amount' => 499,
-                    'timestamp' => time()
-                ]));
-                ?>
-                <a href="/payments/secure-checkout.php?token=<?php echo $token; ?>">
-                    <button class="check-btn">Check Eligibility - Pay ₹499</button>
-                </a>
+                 <?php if(isset($_SESSION['user_id'])): ?>
+    <a href="https://www.teyzeevisas.com/php/check_now.php"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+    <?php else: ?>
+    <p>Please proceed with payment and receive the login details on email</p>   
+    <a href="https://www.teyzeevisas.com/php/check_now.php"><button id="check-now" class="check-btn">Check Eligibility - Pay ₹499</button></a>
+
+                <?php endif; ?>
             </div>
         </div>
     </section>
@@ -113,7 +109,12 @@
         <div class="container">
              <div class="label-container">
                 <h2>Save time and hassle - Check Visa Eligibility @ ₹499</h2>
-                <a href="/php/Switzerland_Customer.php" class="check-btn">Download Documents</a>
+                 <!-- ✅ FIXED: Document Download Link -->
+               <?php if (isset($_SESSION['user_id'])): ?>
+    <a href="../php/Switzerland_Customer.php" class="check-btn">Download Documents</a>
+<?php else: ?>
+    <a href="https://www.teyzeevisas.com/php/check_now.php" class="check-btn">Download Documents</a>
+<?php endif; ?>
                 <h3>Get Access to Original Visa Form and Checklist</h3>
             </div>
 

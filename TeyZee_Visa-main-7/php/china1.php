@@ -70,7 +70,7 @@
                 <img src="../VisaImages/destinations/china.jpg" alt="China">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
-                    <p>"Teyzee Visas has been doing our coporate visas since decades, so naturally we asked them to do
+                    <p>"Teyzee Visas has been doing our corporate visas since decades, so naturally we asked them to do
                         our personal visas as well. Flawless service.👍"</p>
                 </div>
             </div>

@@ -94,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <img src="../VisaImages/destinations/italy.jpg" alt="Paris cityscape">
                 <div class="testimonial">
                     <img src="../VisaImages/destinations/singapore.jpg" alt="Eiffel Tower">
-                    <p>"Teyzee Visas has been doing our coporate visas since decades,  so naturally we asked them to do our personal visas as well.  Flawless service.👍"</p>
+                    <p>"Teyzee Visas has been doing our corporate visas since decades,  so naturally we asked them to do our personal visas as well.  Flawless service.👍"</p>
                 </div>
             </div>
         </div>
